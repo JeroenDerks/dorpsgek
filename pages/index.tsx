@@ -18,7 +18,7 @@ export default function IndexPage() {
 
     getPageData().then((data) => {
       if (data?.errorCode === 404) {
-        window.location = process.env.NEXT_PUBLIC_BASE_URL;
+        window.location = process.env.NEXT_PUBLIC_BASE_URL as string & Location;
       }
       if (data) {
         setTownData(data || null);
