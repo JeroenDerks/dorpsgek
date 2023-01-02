@@ -9,7 +9,6 @@ import { TownSearch } from '../components/TownSearch';
 import { Box, Stack } from '@mui/system';
 import { Typography } from '@mui/material';
 
-import image from './../public/richard-boyle-wu7oy6XhAoU-unsplash.jpg';
 export default function IndexPage() {
   const [townData, setTownData] = useState<TownData | null>();
   const [isLoading, setIsLoading] = useState(true);
