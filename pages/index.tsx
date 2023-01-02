@@ -15,9 +15,8 @@ export default function IndexPage() {
 
   useEffect(() => {
     setIsLoading(true);
-    let href = window.location.href;
 
-    getPageData(href).then((data) => {
+    getPageData().then((data) => {
       if (data?.errorCode === 404) {
         window.location = process.env.NEXT_PUBLIC_BASE_URL;
       }

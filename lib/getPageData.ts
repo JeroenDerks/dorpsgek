@@ -1,6 +1,6 @@
 import { townData } from '../data/townData';
 
-async function getPageData(href): Promise<any> {
+export async function getPageData(): Promise<any> {
   const { host } = window.location;
   let isDev = host.includes('localhost');
   let splitHost = host.split('.');
