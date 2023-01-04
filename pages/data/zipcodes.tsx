@@ -25,8 +25,9 @@ const AllZipCodes = () => {
     });
 
     const townsWithZipcodes = arr.reduce((acc, val) => {
-      if (acc[val.city]) acc[val.city].push(val.zipCode);
-      else acc[val.city] = [val.zipCode];
+      const key = `"${val.city}"`;
+      if (acc[key]) acc[key].push(val.zipCode);
+      else acc[key] = [val.zipCode];
 
       return acc;
     }, []);
@@ -34,7 +35,7 @@ const AllZipCodes = () => {
     return townsWithZipcodes;
   };
 
-  const handleData = () => {
+  const handleData = async () => {
     console.log(ref.current);
     const tableRows = ref.current.querySelectorAll('tr');
 
@@ -49,6 +50,17 @@ const AllZipCodes = () => {
 
     const townsWithZipcodes = matchTownsToZipcodes(map);
     console.log(townsWithZipcodes);
+
+    navigator.clipboard.writeText(JSON.stringify(townsWithZipcodes)).then(
+      () => {
+        console.log('Content copied to clipboard');
+        /* Resolved - text copied to clipboard successfully */
+      },
+      () => {
+        console.error('Failed to copy');
+        /* Rejected - text failed to copy to the clipboard */
+      }
+    );
   };
   return (
     <>

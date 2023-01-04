@@ -11,5 +11,5 @@ export type TownData = {
   name: string;
   slug: string;
   sportClubs: SportClub[];
-  zipCode: string;
+  zipCodes: string[];
 };

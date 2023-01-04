@@ -4,7 +4,7 @@ export const townData: TownData[] = [
   {
     name: 'Bennekom',
     slug: 'bennekom',
-    zipCode: '6721',
+    zipCodes: ['6721'],
     sportClubs: [
       {
         name: 'VV Bennekom',

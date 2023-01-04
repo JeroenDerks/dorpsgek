@@ -17,8 +17,10 @@ export const TownSearch = () => {
     else setResults(false);
   };
 
-  const createUrl = (zipCode: string) =>
-    `${process.env.NEXT_PUBLIC_BASE_URL_PREFIX}${zipCode}.${process.env.NEXT_PUBLIC_BASE_URL_SUFFIX}`;
+  const createUrl = (slug, zipCodes: string[]) => {
+    const townIndicator = zipCodes.length === 1 ? slug : zipCodes[0];
+    return `${process.env.NEXT_PUBLIC_BASE_URL_PREFIX}${townIndicator}.${process.env.NEXT_PUBLIC_BASE_URL_SUFFIX}`;
+  };
 
   return (
     <>
@@ -29,8 +31,8 @@ export const TownSearch = () => {
       <button onClick={handleSearch}>Zoek</button>
       <div>
         {results &&
-          results?.map(({ name, zipCode, slug }) => (
-            <a href={createUrl(zipCode)} key={slug}>
+          results?.map(({ name, zipCodes, slug }) => (
+            <a href={createUrl(slug, zipCodes)} key={slug}>
               {name}
             </a>
           ))}
