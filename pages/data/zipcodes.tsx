@@ -50,18 +50,8 @@ const AllZipCodes = () => {
 
     const townsWithZipcodes = matchTownsToZipcodes(map);
     console.log(townsWithZipcodes);
-
-    navigator.clipboard.writeText(JSON.stringify(townsWithZipcodes)).then(
-      () => {
-        console.log('Content copied to clipboard');
-        /* Resolved - text copied to clipboard successfully */
-      },
-      () => {
-        console.error('Failed to copy');
-        /* Rejected - text failed to copy to the clipboard */
-      }
-    );
   };
+
   return (
     <>
       <button onClick={handleData}>Handle data</button>

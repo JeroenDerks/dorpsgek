@@ -5,7 +5,7 @@ export async function getPageData(): Promise<any> {
   let isDev = host.includes('localhost');
   let splitHost = host.split('.');
 
-  if ((!isDev && splitHost.length === 3) || (isDev && splitHost.length === 2)) {
+  if ((!isDev && splitHost.length === 4) || (isDev && splitHost.length === 2)) {
     let subDomain = splitHost[0];
     if (subDomain === 'www' || subDomain.length === 0) {
       return null;
@@ -14,7 +14,7 @@ export async function getPageData(): Promise<any> {
     const matchingTown = townData.find(
       (town) =>
         subDomain.toLowerCase() === town.name.toLowerCase() ||
-        subDomain === town.zipCode
+        subDomain === town.zipCodes[0]
     );
 
     if (matchingTown) return matchingTown;

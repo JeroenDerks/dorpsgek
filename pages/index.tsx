@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
-
-import Spinner from '../components/spinner';
-import { getPageData } from '../lib/getPageData';
-import { TownOverview } from '../components/TownOverview';
-import { TownData } from '../types';
-import { PageLayout } from '../components/PageLayout';
-import { TownSearch } from '../components/TownSearch';
-import { Box, Stack } from '@mui/system';
+import { Stack } from '@mui/system';
 import { Typography } from '@mui/material';
+
+import { getPageData } from '../lib/getPageData';
+import { PageLayout } from '../components/PageLayout';
+import { titleFont } from '../theme';
+import { TownData } from '../types';
+import { TownOverview } from '../components/TownOverview';
+import { TownSearch } from '../components/TownSearch';
+import Spinner from '../components/spinner';
 
 export default function IndexPage() {
   const [townData, setTownData] = useState<TownData | null>();
@@ -39,40 +40,24 @@ export default function IndexPage() {
 
   return (
     <PageLayout noPadding>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        height="100%"
-        sx={{
-          minHeight: 'calc(100vh - 80px)',
-          background:
-            "url('../../public/richard-boyle-wu7oy6XhAoU-unsplash.jpg')"
-        }}
-      >
-        <Stack>
-          <Typography
-            variant="h1"
-            fontWeight={900}
-            fontStyle="italic"
-            fontSize={32}
-            letterSpacing={-2}
-            lineHeight={1}
-          >
+      <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
+        <Stack
+          width={300}
+          height="calc(40vh - 40px)"
+          justifyContent="flex-end"
+          mb={2}
+        >
+          <Typography variant="h1" {...titleFont} fontSize={32}>
             DORPSGEK
           </Typography>
-          <Typography
-            variant="h2"
-            fontWeight={900}
-            fontStyle="italic"
-            fontSize={20}
-            letterSpacing={-1}
-          >
+          <Typography variant="h2" {...titleFont} fontSize={20}>
             Uit liefde voor jouw dorp
           </Typography>
+        </Stack>
+        <Stack width={300} height="calc(60vh - 40px)">
           <TownSearch />
         </Stack>
-      </Box>
+      </Stack>
     </PageLayout>
   );
 }
