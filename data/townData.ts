@@ -14,16 +14,6 @@ export const townData: TownData[] = [
           [255, 0, 0],
           [255, 255, 255]
         ]
-      },
-      {
-        name: 'DVO',
-        slug: 'dvo',
-        type: 'Korfbal',
-        colors: [
-          [0, 200, 0],
-          [255, 255, 255],
-          [0, 200, 0]
-        ]
       }
     ]
   }

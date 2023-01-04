@@ -19,7 +19,7 @@ export const PageLayout: React.FC<PageLayoutProps> = ({
         px={!noPadding && 3}
         py={!noPadding && 5}
         width={1}
-        sx={{ backgroundColor: '#f4f4f4', maxWidth: 1024 }}
+        sx={{ backgroundColor: '#f4f4f4', maxWidth: 1200 }}
       >
         {children}
       </Box>

@@ -30,15 +30,14 @@ const AllClubs = () => {
     const name = clubName.trim();
     const location = zipCodeAndCity.trim();
     const zipCode = location.substring(0, 4);
-    const city = location.substring(7, location.length).trim();
+    // const city = location.substring(7, location.length).trim();
 
-    const colors = colorShirt
-      ?.replace(' met ', '/')
-      .trim()
-      .split('/')
-      .join(' ');
+    const colors = colorShirt?.replace(' met ', '/').trim().split('/');
+    const colorStrings = colors.map((col) => `"${col}" `).join(',');
 
-    console.log(`${name}, ${zipCode}, ${colors}`);
+    console.log(
+      `{name: "${name}" , zipCode: "${zipCode}", colors: [ ${colorStrings} ] } ,`
+    );
   };
 
   const handleData = () => {
@@ -46,7 +45,7 @@ const AllClubs = () => {
     const tableRows = ref.current.querySelectorAll('tr');
 
     tableRows.forEach((tableRow, i) => {
-      if (i > 100) return;
+      // if (i > 100) return;
       const clubName = getClubName(tableRow);
       const zipCodeAndCity = getZipCode(tableRow);
       const colorShirt = getClubColors(tableRow);
