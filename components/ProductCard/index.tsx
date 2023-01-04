@@ -30,7 +30,6 @@ export const ProductCard = ({ title, subTitle, colors }: ProductCardProps) => {
           <ClubColors colors={colors} height={8} />
           <ProductCardDetails subTitle={subTitle} />
         </Box>
-        <Select />
       </Grid>
       <Grid item xs={8}>
         <Box width={1} height={400} sx={{ background: 'white' }} />
