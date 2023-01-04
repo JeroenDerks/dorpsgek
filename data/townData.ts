@@ -670,7 +670,6 @@ export const townData: TownData[] = [
     ]
   },
   { name: 'Anloo', slug: 'anloo', zipCodes: ['9467'], sportClubs: [] },
-
   {
     name: 'Anna Paulowna',
     slug: 'anna-paulowna',
@@ -692,7 +691,6 @@ export const townData: TownData[] = [
     sportClubs: []
   },
   { name: 'Ansen', slug: 'ansen', zipCodes: ['7964'], sportClubs: [] },
-
   {
     name: 'Appelscha',
     slug: 'appelscha',
@@ -702,7 +700,6 @@ export const townData: TownData[] = [
     ]
   },
   { name: 'Appeltern', slug: 'appeltern', zipCodes: ['6629'], sportClubs: [] },
-
   {
     name: 'Arcen',
     slug: 'arcen',
@@ -840,30 +837,6 @@ export const townData: TownData[] = [
     slug: 'azewijn',
     zipCodes: ['7045'],
     sportClubs: [
-      {
-        name: 'vv Den Dam',
-        colors: [
-          [0, 0, 0],
-          [255, 255, 255]
-        ],
-        type: 'voetbal'
-      },
-      {
-        name: 'vv Den Dam',
-        colors: [
-          [0, 0, 0],
-          [255, 255, 255]
-        ],
-        type: 'voetbal'
-      },
-      {
-        name: 'vv Den Dam',
-        colors: [
-          [0, 0, 0],
-          [255, 255, 255]
-        ],
-        type: 'voetbal'
-      },
       {
         name: 'vv Den Dam',
         colors: [

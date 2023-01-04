@@ -1,9 +1,8 @@
-export type Color = [Number, Number, Number];
+export type Color = [Number, Number, Number] | [undefined];
 
 export type SportClub = {
   colors: Color[];
   name: string;
-  slug: string;
   type: string;
 };
 
