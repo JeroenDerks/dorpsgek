@@ -1,6 +1,7 @@
+import { color } from '@mui/system';
 import React, { useRef } from 'react';
 
-import { footbalClubsRaw } from '../data/footbalClubsRaw';
+import { footbalClubsRaw } from '../../data/footbalClubsRaw';
 
 const AllClubs = () => {
   const ref = useRef(null);
@@ -25,20 +26,32 @@ const AllClubs = () => {
     return colorShirt || clubDetails;
   };
 
+  const logDetails = (clubName, zipCodeAndCity, colorShirt) => {
+    const name = clubName.trim();
+    const location = zipCodeAndCity.trim();
+    const zipCode = location.substring(0, 4);
+    const city = location.substring(7, location.length).trim();
+
+    const colors = colorShirt
+      ?.replace(' met ', '/')
+      .trim()
+      .split('/')
+      .join(' ');
+
+    console.log(`${name}, ${zipCode}, ${colors}`);
+  };
+
   const handleData = () => {
     console.log(ref.current);
     const tableRows = ref.current.querySelectorAll('tr');
+
     tableRows.forEach((tableRow, i) => {
       if (i > 100) return;
-
       const clubName = getClubName(tableRow);
-      console.log(clubName.trim());
-
       const zipCodeAndCity = getZipCode(tableRow);
-      console.log(zipCodeAndCity.trim());
-
       const colorShirt = getClubColors(tableRow);
-      console.log(colorShirt.trim());
+
+      logDetails(clubName, zipCodeAndCity, colorShirt);
     });
   };
   return (
