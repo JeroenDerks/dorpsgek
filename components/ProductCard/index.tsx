@@ -1,19 +1,15 @@
-import {
-  Box,
-  Grid,
-  Typography,
-  List,
-  ListItem,
-  ListItemIcon,
-  Select
-} from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import { Color } from '../../types';
 import { ClubColors } from '../ClubColors';
 
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import { ProductCardDetails } from '../ProductCardDetails';
 
-export const ProductCard = ({ title, subTitle, colors }: ProductCardProps) => {
+export const ProductCard = ({
+  title,
+  subTitle,
+  colors,
+  zipCode
+}: ProductCardProps) => {
   return (
     <Grid container columnSpacing={4} my={6}>
       <Grid
@@ -28,7 +24,7 @@ export const ProductCard = ({ title, subTitle, colors }: ProductCardProps) => {
             {title}
           </Typography>
           <ClubColors colors={colors} height={8} />
-          <ProductCardDetails subTitle={subTitle} />
+          <ProductCardDetails {...{ subTitle, zipCode }} />
         </Box>
       </Grid>
       <Grid item xs={8}>
@@ -42,4 +38,5 @@ type ProductCardProps = {
   colors: Color[];
   title: string;
   subTitle?: string;
+  zipCode: string;
 };
