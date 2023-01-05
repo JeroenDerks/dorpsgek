@@ -18,7 +18,7 @@ const Generate = () => {
       (club) => club?.zipCode === townZipCode
     );
     return matches.map((club) => {
-      return `{ name: "${club.name}", 
+      return `{ name: "${club?.name}", 
                 colors: [${club.colors?.map(
                   (col) => `[${colors[col.toLowerCase()]}]`
                 )}],

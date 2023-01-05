@@ -25,7 +25,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
         />
 
         {town.sportClubs.map((club, index) => (
-          <React.Fragment key={club.name}>
+          <React.Fragment key={club.name || index}>
             <Divider />
             <ProductCard
               title="De voetbalclub editie"

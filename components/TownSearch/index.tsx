@@ -22,7 +22,7 @@ export const TownSearch = () => {
 
     const matches = townData.filter(
       (town) =>
-        town.name.toLowerCase() === searchValue.toLowerCase() ||
+        town?.name.toLowerCase() === searchValue.toLowerCase() ||
         town.zipCodes[0] === searchValue
     );
 

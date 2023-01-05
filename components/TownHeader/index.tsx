@@ -22,7 +22,7 @@ export const TownHeader = ({ town }: { town: TownData }) => {
             DORPSGEK
           </Typography>
           <Typography variant="h3" fontSize={36} {...titleFont}>
-            {town.name.toUpperCase()}
+            {town?.name?.toUpperCase()}
           </Typography>
         </Stack>
       </Box>
