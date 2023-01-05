@@ -1694,6 +1694,21 @@ export const townData: TownData[] = [
     sportClubs: []
   },
   {
+    name: 'Bilthoven',
+    slug: 'bilthoven',
+    zipCodes: ['3721'],
+    sportClubs: [
+      {
+        name: 'FC de Bilt',
+        colors: [
+          [255, 0, 0],
+          [255, 255, 255]
+        ],
+        type: 'voetbal'
+      }
+    ]
+  },
+  {
     name: 'Bingelrade',
     slug: 'bingelrade',
     zipCodes: ['6456'],
