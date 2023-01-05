@@ -9,8 +9,7 @@ export const ProductCardDetails = ({
   const USPs = [
     'Gemaakt van hoogwaardig katoen',
     `${zipCode} gedrukt op de borst`,
-    'Logo gedrukt op de achterkant',
-    'Kan in de machine gewassen worden'
+    'Gelimiteerde oplage'
   ];
   return (
     <List>
