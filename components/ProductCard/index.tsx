@@ -3,6 +3,7 @@ import { Color } from '../../types';
 import { ClubColors } from '../ClubColors';
 
 import { ProductCardDetails } from '../ProductCardDetails';
+import ProductGallery from '../ProductGallery';
 
 export const ProductCard = ({
   title,
@@ -28,7 +29,9 @@ export const ProductCard = ({
         </Box>
       </Grid>
       <Grid item xs={8}>
-        <Box width={1} height={400} sx={{ background: 'white' }} />
+        <Box width={1} height={400} sx={{ background: 'white' }} p={1}>
+          <ProductGallery />
+        </Box>
       </Grid>
     </Grid>
   );
