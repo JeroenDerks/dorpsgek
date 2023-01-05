@@ -11,11 +11,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-
-const Image = styled('img')({
-  width: '100%',
-  height: '100%'
-});
+import Front from '../ProductImage/front';
 
 const SwiperButton = styled(Button)({
   padding: 0,
@@ -24,9 +20,14 @@ const SwiperButton = styled(Button)({
   minWidth: 40
 });
 
-const ProductGallery = ({ id }: { id: string }) => {
+const Image = styled('img')({
+  width: '100%',
+  height: '100%'
+});
+
+const ProductGallery = ({ zipCode, id }: { id: string; zipCode: string }) => {
   return (
-    <Box display="flex">
+    <Box display="flex" height="100%">
       <SwiperButton className={`swiper-prev-${id}`}>
         <ChevronLeftIcon />
       </SwiperButton>
@@ -40,20 +41,13 @@ const ProductGallery = ({ id }: { id: string }) => {
           prevEl: `.swiper-prev-${id}`
         }}
         loop
-        autoplay={{ disableOnInteraction: true, delay: 5000 }}
       >
         <SwiperSlide>
-          <div>slide 1</div>
+          <Front zipCode={zipCode} />
         </SwiperSlide>
 
         <SwiperSlide>
-          <div>slide 2</div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image
-            src={`https://storage.googleapis.com/highlight_images/${id}_preview.jpg`}
-          />
+          <Image src="/back.webp" />
         </SwiperSlide>
       </Swiper>
 

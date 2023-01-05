@@ -2,27 +2,28 @@ import { Divider } from '@mui/material';
 import React from 'react';
 import { TownData } from '../../types';
 import { ProductCard } from '../ProductCard';
-import { PageLayout } from '../PageLayout';
+import { PageLayoutProduct } from '../PageLayout';
 import { TownHeader } from '../TownHeader';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
-    <PageLayout>
+    <PageLayoutProduct>
       <TownHeader town={town} />
       <Divider />
 
       <ProductCard
         title="De klassieker"
+        uniqueKey="klassieker"
         colors={[[255, 255, 255]]}
         zipCode={town.zipCodes[0]}
       />
 
-      {town.sportClubs.map((club) => (
+      {town.sportClubs.map((club, index) => (
         <React.Fragment key={club.name}>
           <Divider />
-
           <ProductCard
-            title={`De voetbalclub editie`}
+            title="De voetbalclub editie"
+            uniqueKey={'voetbal_' + index}
             zipCode={town.zipCodes[0]}
             subTitle={`10% van de opbrengst komt ten goede aan ${club.type.toLowerCase()}vereniging ${
               club.name
@@ -31,6 +32,6 @@ export const TownOverview = ({ town }: { town: TownData }) => {
           />
         </React.Fragment>
       ))}
-    </PageLayout>
+    </PageLayoutProduct>
   );
 };

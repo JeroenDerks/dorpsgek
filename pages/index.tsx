@@ -3,7 +3,7 @@ import { Stack } from '@mui/system';
 import { Typography } from '@mui/material';
 
 import { getPageData } from '../lib/getPageData';
-import { PageLayout } from '../components/PageLayout';
+import { PageLayoutHome } from '../components/PageLayout';
 import { titleFont } from '../theme';
 import { TownData } from '../types';
 import { TownOverview } from '../components/TownOverview';
@@ -38,28 +38,31 @@ export default function IndexPage() {
     return <TownOverview town={townData} />;
   }
 
-  console.log('hello');
-
   return (
-    <PageLayout noPadding>
+    <PageLayoutHome>
       <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
         <Stack
-          width={300}
-          height="calc(40vh - 40px)"
+          width={320}
+          height="calc(40vh - 60px)"
           justifyContent="flex-end"
           mb={2}
         >
           <Typography variant="h1" {...titleFont} fontSize={32}>
             DORPSGEK
           </Typography>
-          <Typography variant="h2" {...titleFont} fontSize={20}>
+          <Typography
+            variant="h2"
+            {...titleFont}
+            fontSize={20}
+            letterSpacing="-0.02em"
+          >
             Uit liefde voor mn dorp
           </Typography>
         </Stack>
-        <Stack width={300} height="calc(60vh - 40px)">
+        <Stack width={320} height="calc(60vh - 60px)">
           <TownSearch />
         </Stack>
       </Stack>
-    </PageLayout>
+    </PageLayoutHome>
   );
 }
