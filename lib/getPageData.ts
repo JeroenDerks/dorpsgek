@@ -10,7 +10,7 @@ export async function getPageData(): Promise<any> {
   console.log('splitHost.length ', splitHost.length);
   console.log('subDomain ', splitHost[0]);
 
-  if ((!isDev && splitHost.length === 4) || (isDev && splitHost.length === 2)) {
+  if ((!isDev && splitHost.length === 3) || (isDev && splitHost.length === 2)) {
     let subDomain = splitHost[0];
     if (subDomain === 'www' || subDomain.length === 0) {
       return null;
