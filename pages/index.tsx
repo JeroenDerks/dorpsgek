@@ -9,6 +9,7 @@ import { TownData } from '../types';
 import { TownOverview } from '../components/TownOverview';
 import { TownSearch } from '../components/TownSearch';
 import Spinner from '../components/spinner';
+import Head from 'next/head';
 
 export default function IndexPage() {
   const [townData, setTownData] = useState<TownData | null>();
@@ -40,7 +41,7 @@ export default function IndexPage() {
 
   return (
     <>
-      <Head>
+      <Head key="home">
         <title>Dorpsgek</title>
         <meta name="description" content="Uit liefde voor mn dorp" />
       </Head>

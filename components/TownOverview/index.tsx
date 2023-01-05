@@ -9,7 +9,7 @@ import { TownHeader } from '../TownHeader';
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
     <>
-      <Head>
+      <Head key="town">
         <title>{town.name} Dorpsgek</title>
         <meta name="description" content="Uit liefde voor mn dorp" />
       </Head>
