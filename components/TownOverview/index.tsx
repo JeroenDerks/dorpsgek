@@ -10,7 +10,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
   return (
     <>
       <Head>
-        <title>{town?.name} Dorpsgek</title>
+        <title>Dorpsgek</title>
         <meta name="description" content="Uit liefde voor mn dorp" />
       </Head>
       <PageLayoutProduct>
