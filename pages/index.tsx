@@ -38,6 +38,8 @@ export default function IndexPage() {
     return <TownOverview town={townData} />;
   }
 
+  console.log('hello');
+
   return (
     <PageLayout noPadding>
       <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
@@ -51,7 +53,7 @@ export default function IndexPage() {
             DORPSGEK
           </Typography>
           <Typography variant="h2" {...titleFont} fontSize={20}>
-            Uit liefde voor jouw dorp
+            Uit liefde voor mn dorp
           </Typography>
         </Stack>
         <Stack width={300} height="calc(60vh - 40px)">

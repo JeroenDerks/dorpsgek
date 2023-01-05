@@ -1,4 +1,6 @@
 import type { AppProps } from 'next/app';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from '../theme';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -26,7 +28,9 @@ export default function App({ Component, pageProps }: AppProps) {
           min-height: 100%;
         }
       `}</style>
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

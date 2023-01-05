@@ -18,8 +18,8 @@ import { useRouter } from 'next/router';
 export const TownSearch = () => {
   const [searchValue, setSearchValue] = useState('');
   const [results, setResults] = useState<TownData[] | false>();
-  const router = useRouter();
 
+  console.log('tes');
   const handleSearch = () => {
     if (searchValue.length < 1) return;
 
@@ -30,7 +30,7 @@ export const TownSearch = () => {
     );
 
     if (matches.length === 1) {
-      router.push(createUrl(matches[0].slug, matches[0].zipCodes));
+      window.location = createUrl(matches[0].slug, matches[0].zipCodes);
     } else setResults(false);
   };
 
