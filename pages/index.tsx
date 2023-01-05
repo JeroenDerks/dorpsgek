@@ -39,30 +39,36 @@ export default function IndexPage() {
   }
 
   return (
-    <PageLayoutHome>
-      <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
-        <Stack
-          width={320}
-          height="calc(40vh - 60px)"
-          justifyContent="flex-end"
-          mb={2}
-        >
-          <Typography variant="h1" {...titleFont} fontSize={32}>
-            DORPSGEK
-          </Typography>
-          <Typography
-            variant="h2"
-            {...titleFont}
-            fontSize={20}
-            letterSpacing="-0.02em"
+    <>
+      <Head>
+        <title>Dorpsgek</title>
+        <meta name="description" content="Uit liefde voor mn dorp" />
+      </Head>
+      <PageLayoutHome>
+        <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
+          <Stack
+            width={320}
+            height="calc(40vh - 60px)"
+            justifyContent="flex-end"
+            mb={2}
           >
-            Uit liefde voor mn dorp
-          </Typography>
+            <Typography variant="h1" {...titleFont} fontSize={32}>
+              DORPSGEK
+            </Typography>
+            <Typography
+              variant="h2"
+              {...titleFont}
+              fontSize={20}
+              letterSpacing="-0.02em"
+            >
+              Uit liefde voor mn dorp
+            </Typography>
+          </Stack>
+          <Stack width={320} height="calc(60vh - 60px)">
+            <TownSearch />
+          </Stack>
         </Stack>
-        <Stack width={320} height="calc(60vh - 60px)">
-          <TownSearch />
-        </Stack>
-      </Stack>
-    </PageLayoutHome>
+      </PageLayoutHome>
+    </>
   );
 }
