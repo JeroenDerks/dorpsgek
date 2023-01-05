@@ -3,7 +3,6 @@ import {
   Button,
   TextField,
   Typography,
-  FormControl,
   List,
   ListItem
 } from '@mui/material';
@@ -13,12 +12,10 @@ import { useState } from 'react';
 import { townData } from '../../data/townData';
 import { TownData } from '../../types';
 import SearchIcon from '@mui/icons-material/Search';
-import { useRouter } from 'next/router';
 
 export const TownSearch = () => {
   const [searchValue, setSearchValue] = useState('');
   const [results, setResults] = useState<TownData[] | false>();
-  const router = useRouter();
 
   const handleSearch = () => {
     if (searchValue.length < 1) return;
@@ -30,7 +27,7 @@ export const TownSearch = () => {
     );
 
     if (matches.length === 1) {
-      router.push(createUrl(matches[0].slug, matches[0].zipCodes));
+      window.location = createUrl(matches[0].slug, matches[0].zipCodes);
     } else setResults(false);
   };
 
@@ -53,16 +50,20 @@ export const TownSearch = () => {
           variant="outlined"
           size="small"
           fullWidth
-          sx={{
-            '& MuiInputBase-root': {
-              borderRadius: '4px 0px 0px 4px'
-            }
+          onKeyPress={({ key }) => {
+            key === 'Enter' && handleSearch();
           }}
+          sx={{ fieldset: { borderWidth: 2 } }}
         />
         <Button
           onClick={handleSearch}
           variant="contained"
-          sx={{ padding: '6px', minWidth: 40, borderRadius: '0px 4px 4px 0px' }}
+          disableElevation
+          sx={{
+            padding: '6px',
+            marginLeft: 1,
+            minWidth: 40
+          }}
         >
           <SearchIcon />
         </Button>
