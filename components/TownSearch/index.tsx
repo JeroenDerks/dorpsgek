@@ -53,7 +53,10 @@ export const TownSearch = () => {
           onKeyPress={({ key }) => {
             key === 'Enter' && handleSearch();
           }}
-          sx={{ fieldset: { borderWidth: 2 } }}
+          sx={{
+            fieldset: { borderWidth: 2 },
+            '& ::placeholder': { fontStyle: 'italic', letterSpacing: '-0.04em' }
+          }}
         />
         <Button
           onClick={handleSearch}
@@ -62,7 +65,9 @@ export const TownSearch = () => {
           sx={{
             padding: '6px',
             marginLeft: 1,
-            minWidth: 40
+            minWidth: 40,
+            height: 39,
+            borderRadius: '8px'
           }}
         >
           <SearchIcon />
@@ -85,7 +90,7 @@ export const TownSearch = () => {
         <Typography mt={2} fontSize={14}>
           Helaas! De gekte is nog niet aanwezig in{' '}
           <b style={{ textTransform: 'capitalize' }}>{searchValue}</b>. Stuur
-          een mail naar: suggestie@dorpsgek.shop en wij zullen je proberen te
+          een mail naar: suggestie@mndorp.nl en wij zullen je proberen te
           helpen.
         </Typography>
       )}

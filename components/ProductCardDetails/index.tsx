@@ -9,25 +9,24 @@ export const ProductCardDetails = ({
   const USPs = [
     'Gemaakt van hoogwaardig katoen',
     `${zipCode} gedrukt op de borst`,
-    'Logo gedrukt op de achterkant',
-    'Kan in de machine gewassen worden'
+    'Gelimiteerde oplage'
   ];
   return (
     <List>
       {subTitle && (
         <ListItem disableGutters>
-          <ListItemIcon sx={{ width: 8 }}>
-            <FiberManualRecordIcon />
+          <ListItemIcon>
+            <Typography fontSize={24}>•</Typography>
           </ListItemIcon>
-          <Typography variant="body1">{subTitle}</Typography>
+          <Typography>{subTitle}</Typography>
         </ListItem>
       )}
       {USPs.map((text) => (
-        <ListItem disableGutters>
+        <ListItem disableGutters dense>
           <ListItemIcon>
-            <FiberManualRecordIcon />
+            <Typography fontSize={24}>•</Typography>
           </ListItemIcon>
-          <Typography variant="body1">{text}</Typography>
+          <Typography>{text}</Typography>
         </ListItem>
       ))}
     </List>

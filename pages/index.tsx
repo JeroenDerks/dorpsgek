@@ -3,12 +3,13 @@ import { Stack } from '@mui/system';
 import { Typography } from '@mui/material';
 
 import { getPageData } from '../lib/getPageData';
-import { PageLayout } from '../components/PageLayout';
+import { PageLayoutHome } from '../components/PageLayout';
 import { titleFont } from '../theme';
 import { TownData } from '../types';
 import { TownOverview } from '../components/TownOverview';
 import { TownSearch } from '../components/TownSearch';
 import Spinner from '../components/spinner';
+import Head from 'next/head';
 
 export default function IndexPage() {
   const [townData, setTownData] = useState<TownData | null>();
@@ -38,28 +39,37 @@ export default function IndexPage() {
     return <TownOverview town={townData} />;
   }
 
-  console.log('hello');
-
   return (
-    <PageLayout noPadding>
-      <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
-        <Stack
-          width={300}
-          height="calc(40vh - 40px)"
-          justifyContent="flex-end"
-          mb={2}
-        >
-          <Typography variant="h1" {...titleFont} fontSize={32}>
-            DORPSGEK
-          </Typography>
-          <Typography variant="h2" {...titleFont} fontSize={20}>
-            Uit liefde voor mn dorp
-          </Typography>
+    <>
+      <Head>
+        <title>{townData.name}</title>
+      </Head>
+
+      <PageLayoutHome>
+        <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
+          <Stack
+            width={320}
+            height="calc(40vh - 60px)"
+            justifyContent="flex-end"
+            mb={2}
+          >
+            <Typography variant="h1" {...titleFont} fontSize={32}>
+              DORPSGEK
+            </Typography>
+            <Typography
+              variant="h2"
+              {...titleFont}
+              fontSize={20}
+              letterSpacing="-0.02em"
+            >
+              Uit liefde voor mn dorp
+            </Typography>
+          </Stack>
+          <Stack width={320} height="calc(60vh - 60px)">
+            <TownSearch />
+          </Stack>
         </Stack>
-        <Stack width={300} height="calc(60vh - 40px)">
-          <TownSearch />
-        </Stack>
-      </Stack>
-    </PageLayout>
+      </PageLayoutHome>
+    </>
   );
 }
