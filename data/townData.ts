@@ -11175,10 +11175,7 @@ export const townData: TownData[] = [
     name: 'Otterlo',
     slug: 'otterlo',
     zipCodes: ['6731'],
-    sportClubs: [
-      { name: 'sv Otterlo', colors: [[0, 0, 255]], type: 'voetbal' },
-      { name: 'sv Otterlo (bijveld)', colors: [[0, 0, 255]], type: 'voetbal' }
-    ]
+    sportClubs: [{ name: 'sv Otterlo', colors: [[0, 0, 255]], type: 'voetbal' }]
   },
   {
     name: 'Ottersum',
@@ -11519,15 +11516,7 @@ export const townData: TownData[] = [
     zipCodes: ['4441'],
     sportClubs: [
       {
-        name: "sv DwO'15 (locatie Ovezande)",
-        colors: [
-          [255, 0, 0],
-          [255, 255, 255]
-        ],
-        type: 'voetbal'
-      },
-      {
-        name: "sv DwO'15 (locatie Ovezande)",
+        name: "sv DwO'15",
         colors: [
           [255, 0, 0],
           [255, 255, 255]
@@ -11884,14 +11873,6 @@ export const townData: TownData[] = [
     slug: 'reijmerstok',
     zipCodes: ['6274'],
     sportClubs: [
-      {
-        name: 'vv BMR (locatie Reijmerstok)',
-        colors: [
-          [0, 0, 255],
-          [255, 0, 0]
-        ],
-        type: 'voetbal'
-      },
       {
         name: 'vv BMR (locatie Reijmerstok)',
         colors: [
@@ -13084,7 +13065,7 @@ export const townData: TownData[] = [
     sportClubs: [
       { name: 'vv Renado', colors: [[255, 255, 255]], type: 'voetbal' },
       {
-        name: 'sjo RVC (locatie vv Renado)',
+        name: 'sjo RVC',
         colors: [
           [255, 0, 0],
           [100, 150, 0]
@@ -13242,7 +13223,7 @@ export const townData: TownData[] = [
     zipCodes: ['6277'],
     sportClubs: [
       {
-        name: "SNC'14 (locatie Slenaken)",
+        name: "SNC'14",
         colors: [[100, 150, 0]],
         type: 'voetbal'
       }
@@ -13619,7 +13600,7 @@ export const townData: TownData[] = [
     zipCodes: ['7221'],
     sportClubs: [
       {
-        name: 'sv Basteom (locatie Steenderen)',
+        name: 'sv Basteom',
         colors: [[undefined], [undefined]],
         type: 'voetbal'
       }
@@ -14161,7 +14142,7 @@ export const townData: TownData[] = [
     sportClubs: [
       { name: 'vv Tijnje', colors: [[0, 200, 0]], type: 'voetbal' },
       {
-        name: 'sjo WTTC (locatie vv Tijnje)',
+        name: 'sjo WTTC',
         colors: [[0, 200, 0]],
         type: 'voetbal'
       }
@@ -14173,15 +14154,7 @@ export const townData: TownData[] = [
     zipCodes: ['7634'],
     sportClubs: [
       {
-        name: "DTC'07 (locatie Tilligte)",
-        colors: [
-          [100, 150, 0],
-          [0, 0, 255]
-        ],
-        type: 'voetbal'
-      },
-      {
-        name: "DTC'07 (locatie Tilligte)",
+        name: "DTC'07",
         colors: [
           [100, 150, 0],
           [0, 0, 255]
@@ -14703,7 +14676,7 @@ export const townData: TownData[] = [
         type: 'voetbal'
       },
       {
-        name: 'sjo VMC (locatie sv Vasse)',
+        name: 'sjo VMC',
         colors: [[undefined], [255, 255, 255]],
         type: 'voetbal'
       }
@@ -15012,7 +14985,7 @@ export const townData: TownData[] = [
     zipCodes: ['9541'],
     sportClubs: [
       {
-        name: 'vv Westerwolde (locatie Vlagtwedde)',
+        name: 'vv Westerwolde',
         colors: [[255, 0, 0]],
         type: 'voetbal'
       }
@@ -15401,15 +15374,7 @@ export const townData: TownData[] = [
     zipCodes: ['7983'],
     sportClubs: [
       {
-        name: 'vv Diever-Wapse (locatie Wapse)',
-        colors: [
-          [0, 200, 0],
-          [255, 0, 0]
-        ],
-        type: 'voetbal'
-      },
-      {
-        name: 'vv Diever-Wapse (locatie Wapse)',
+        name: 'vv Diever-Wapse',
         colors: [
           [0, 200, 0],
           [255, 0, 0]
