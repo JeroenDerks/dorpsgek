@@ -19,20 +19,22 @@ const ZipCode = styled('p')({
   background: '#252022',
   fontStyle: 'italic',
   fontSize: 12,
-  fontWeight: 900
+  fontWeight: 900,
+  zIndex: 0
 });
 
 const ZipCode1 = styled(ZipCode)(({ col, i }: { col: Color; i: number }) => ({
-  left: `calc(47% - ${i * 1}px)`,
+  left: `calc(47% + ${i * 1}px)`,
   color: `rgb(${col[0]}, ${col[1]}, ${col[2]})`,
-  background: 'none'
+  background: 'none',
+  zIndex: `${5 - i}`
 }));
 
 const ZipCode3 = styled(ZipCode)({
-  left: 'calc(47% + 1px)',
-  top: 'calc(33% + 1px)',
+  left: 'calc(47% - 1px)',
   background: 'none',
-  color: 'white'
+  color: 'white',
+  zIndex: 2
 });
 
 const ClubFront = ({
@@ -48,10 +50,8 @@ const ClubFront = ({
       <ZipCode>{zipCode}</ZipCode>
 
       {colors.length === 1 && <ZipCode3>{zipCode}</ZipCode3>}
-      {colors.map((col, i) => (
-        <>
-          <ZipCode1 {...{ col, i }}>{zipCode}</ZipCode1>
-        </>
+      {colors.reverse().map((col, i) => (
+        <ZipCode1 {...{ col, i }}>{zipCode}</ZipCode1>
       ))}
     </Container>
   );
