@@ -11,4 +11,7 @@ export type TownData = {
   slug: string;
   sportClubs: SportClub[];
   zipCodes: string[];
+  population: number;
+  perc_men: number;
+  perc_between_15_45: number;
 };

@@ -22,6 +22,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
           uniqueKey="klassieker"
           colors={[[255, 255, 255]]}
           zipCode={town.zipCodes[0]}
+          isClassicModel
         />
 
         {town.sportClubs.map((club, index) => (
@@ -31,6 +32,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
               title="De voetbalclub editie"
               uniqueKey={'voetbal_' + index}
               zipCode={town.zipCodes[0]}
+              isClassicModel={false}
               subTitle={`10% van de opbrengst komt ten goede aan ${club.type.toLowerCase()}vereniging ${
                 club.name
               }`}

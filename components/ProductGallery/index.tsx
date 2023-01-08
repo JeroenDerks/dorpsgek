@@ -5,6 +5,7 @@ import { Box, styled } from '@mui/material';
 import { Button } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Color } from '../../types';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -12,6 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import Front from '../ProductImage/front';
+import ClubFront from '../ProductImage/clubfront';
 
 const SwiperButton = styled(Button)({
   padding: 0,
@@ -25,7 +27,17 @@ const Image = styled('img')({
   height: '100%'
 });
 
-const ProductGallery = ({ zipCode, id }: { id: string; zipCode: string }) => {
+const ProductGallery = ({
+  colors,
+  id,
+  isClassicModel,
+  zipCode
+}: {
+  colors: Color[];
+  id: string;
+  isClassicModel: boolean;
+  zipCode: string;
+}) => {
   return (
     <Box display="flex" height="100%">
       <SwiperButton className={`swiper-prev-${id}`}>
@@ -43,7 +55,11 @@ const ProductGallery = ({ zipCode, id }: { id: string; zipCode: string }) => {
         loop
       >
         <SwiperSlide>
-          <Front zipCode={zipCode} />
+          {isClassicModel ? (
+            <Front {...{ zipCode }} />
+          ) : (
+            <ClubFront {...{ zipCode, colors }} />
+          )}
         </SwiperSlide>
 
         <SwiperSlide>

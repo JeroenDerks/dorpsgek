@@ -10,6 +10,7 @@ const sizes = ['Small', 'Medium', 'Large', 'X-Large', 'XX-Lage'];
 
 export const ProductCard = ({
   colors,
+  isClassicModel,
   subTitle,
   title,
   uniqueKey,
@@ -21,7 +22,10 @@ export const ProductCard = ({
     <Box display={['block', 'block', 'flex']} py={6}>
       <Box width={['100%', '100%', '70%']} pr={[0, 0, 5]}>
         <Box width={1} sx={{ background: 'white' }} p={1}>
-          <ProductGallery id={uniqueKey} zipCode={zipCode} />
+          <ProductGallery
+            id={uniqueKey}
+            {...{ colors, isClassicModel, zipCode }}
+          />
         </Box>
       </Box>
       <Box
@@ -32,7 +36,13 @@ export const ProductCard = ({
         width={['100%', '100%', '30%']}
       >
         <Box>
-          <Typography variant="h5" mb={2} fontWeight={900} fontStyle="italic">
+          <Typography
+            variant="h5"
+            mb={2}
+            mt={[3, 3, 0]}
+            fontWeight={900}
+            fontStyle="italic"
+          >
             {title.toUpperCase()}
           </Typography>
           <ClubColors colors={colors} height={8} />
@@ -75,4 +85,5 @@ type ProductCardProps = {
   subTitle?: string;
   zipCode: string;
   uniqueKey: string;
+  isClassicModel: boolean;
 };

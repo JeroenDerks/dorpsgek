@@ -9,7 +9,7 @@ export const TownHeader = ({ town }: { town: TownData }) => {
       <Box display="flex" alignItems="center" mb={5}>
         <Typography
           variant="h1"
-          fontSize={100}
+          fontSize={[50, 50, 100]}
           lineHeight={1}
           mr={3}
           {...titleFont}
@@ -18,10 +18,10 @@ export const TownHeader = ({ town }: { town: TownData }) => {
         </Typography>
 
         <Stack>
-          <Typography variant="h2" fontSize={36} {...titleFont}>
+          <Typography variant="h2" fontSize={[20, 20, 36]} {...titleFont}>
             DORPSGEK
           </Typography>
-          <Typography variant="h3" fontSize={36} {...titleFont}>
+          <Typography variant="h3" fontSize={[20, 20, 36]} {...titleFont}>
             {town?.name?.toUpperCase()}
           </Typography>
         </Stack>
