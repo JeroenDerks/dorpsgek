@@ -1,27 +1,6 @@
 import { TownData } from '../types';
 
-const bilthoven: TownData = {
-  name: 'Bilthoven',
-  slug: 'bilthoven',
-  zipCodes: ['3721'],
-  sportClubs: [
-    {
-      name: 'FC de Bild',
-      colors: [
-        [255, 255, 255],
-        [255, 0, 0]
-      ],
-      type: 'voetbal'
-    }
-  ],
-  population: 1,
-  perc_men: 1,
-  perc_between_15_45: 1
-};
-
 export const townData: TownData[] = [
-  bilthoven,
-
   {
     name: '1e Exloërmond',
     slug: '1e-exloermond',

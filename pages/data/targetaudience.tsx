@@ -93,6 +93,9 @@ const SortPage = () => {
           <td>
             <b>Age 15-45</b>
           </td>
+          <td>
+            <b>Voetbalclub</b>
+          </td>
         </tr>
         <tr></tr>
         <tr>
@@ -113,6 +116,7 @@ const SortPage = () => {
             perc_between_15_25,
             perc_between_15_45,
             perc_men,
+            sportClubs,
             ta1,
             ta2,
             zipCodes
@@ -126,6 +130,7 @@ const SortPage = () => {
               <td>{perc_men}</td>
               <td>{perc_between_15_25} %</td>
               <td>{perc_between_15_45} %</td>
+              <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
             </tr>
           )
         )}
