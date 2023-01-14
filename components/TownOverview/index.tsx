@@ -5,6 +5,7 @@ import { TownData } from '../../types';
 import { ProductCard } from '../ProductCard';
 import { PageLayoutProduct } from '../PageLayout';
 import { TownHeader } from '../TownHeader';
+import TownHeader2 from '../TownHeader/TownHeader2';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
@@ -13,6 +14,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
         <title>{town.name} Dorpsgek</title>
         <meta name="description" content="Uit liefde voor mn dorp" />
       </Head>
+      {/* <TownHeader2 zipCode={town.zipCodes[0]} townName={town.name} /> */}
       <PageLayoutProduct>
         <TownHeader town={town} />
         <Divider />

@@ -29,18 +29,23 @@ export default function App({ Component, pageProps }: AppProps) {
           min-height: 100%;
         }
       `}</style>
-      <Script></Script>
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-6154FGNHYC"
-      ></Script>
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());gtag('config', 'G-6154FGNHYC', { page_path: window.location.pathname, }); `
-        }}
-      />
+
+      {process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && (
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=6154FGNHYC`}
+          strategy="afterInteractive"
+        />
+      )}
+      {process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && (
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '6154FGNHYC');
+            `}
+        </Script>
+      )}
+
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
       </ThemeProvider>

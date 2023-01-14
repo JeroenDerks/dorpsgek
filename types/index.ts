@@ -14,4 +14,5 @@ export type TownData = {
   population: number;
   perc_men: number;
   perc_between_15_45: number;
+  perc_between_15_25: number;
 };
