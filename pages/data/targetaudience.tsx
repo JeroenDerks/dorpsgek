@@ -54,7 +54,7 @@ const SortPage = () => {
           letter A:
           <br />
           <i>Aalten</i>, <i>Achterveld</i>, <i>Alblasserdam</i>,{' '}
-          <i>Alphen aan den Rijn</i>, <i>Alphen</i>, <i>Alteveer</i>{' '}
+          <i>Alphen aan den Rijn</i>, <i>Alphen</i>, <i>Alteveer</i>,{' '}
           <i>Appingedam</i>, <i>Assen</i>, <i>Assendelft</i>
           <br />
           <br />
