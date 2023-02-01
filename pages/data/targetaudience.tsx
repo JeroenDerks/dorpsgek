@@ -1,7 +1,19 @@
 import React from 'react';
 import { townData } from '../../data/townData';
+import { Color } from '../../types';
 
-const SortPage = () => {
+const tableHeader = [
+  'Naam',
+  'Postcode',
+  'Inwoners',
+  'Man 15-25 jaar',
+  'Man 15-45 jaar',
+  '% NLer',
+  'Voetbalclubs'
+];
+
+const TargetAudiencePage = () => {
+  // Filters for towns with missing data (represented by negative values)
   const postiveTowndata = townData.filter((t) => {
     if (
       t.perc_between_15_25 >= 1 &&
@@ -11,6 +23,7 @@ const SortPage = () => {
       return t;
   });
 
+  // Calculate target audience (ta1, ta2)
   const targetAudience = postiveTowndata.map((t) => {
     return {
       ...t,
@@ -19,24 +32,102 @@ const SortPage = () => {
     };
   });
 
+  // Sum the total target audiences and population
   const totaalAudience = targetAudience.reduce(
     (acc, val) => {
-      acc.population += val.population >= 1 ? val.population : 0;
-      acc.ta1 += val.ta1 >= 1 ? val.ta1 : 0;
-      acc.ta2 += val.ta2 >= 1 ? val.ta2 : 0;
+      acc.population += val.population;
+      acc.ta1 += val.ta1;
+      acc.ta2 += val.ta2;
       return acc;
     },
-    {
-      population: 0,
-      ta1: 0,
-      ta2: 0
-    }
+    { population: 0, ta1: 0, ta2: 0 }
   );
 
-  const sorted = targetAudience.sort((a, b) => (a.ta1 > b.ta1 ? -1 : 1));
+  // Sort by specified property
+  const sortKey = 'ta1';
+  const sorted = targetAudience.sort((a, b) =>
+    a[sortKey] > b[sortKey] ? -1 : 1
+  );
+
+  const kleineDorpen = ['2865', '5853', '6655'];
+  const middelDorpen = ['7261', '7475', '1619', '8096'];
+  const groteDorpen = ['1611', '4251', '3931'];
+  const validZipcodes = [...kleineDorpen, ...middelDorpen, ...groteDorpen];
+
+  const selectedTowns = sorted.filter((town) =>
+    validZipcodes.includes(town.zipCodes[0])
+  );
+
+  const convertRgbToText = (col: Color) => {
+    const colors = {
+      blauw: [0, 0, 255],
+      geel: [255, 255, 0],
+      groen: [0, 200, 0],
+      oranje: [100, 150, 0],
+      rood: [255, 0, 0],
+      wit: [255, 255, 255],
+      zwart: [0, 0, 0],
+      paars: [255, 0, 255],
+      grijs: [100, 100, 100]
+    };
+
+    const result = Object.keys(colors).filter((obj) => {
+      const currCol = colors[obj];
+      if (
+        currCol[0] === col[0] &&
+        currCol[1] === col[1] &&
+        currCol[2] === col[2]
+      )
+        return obj;
+    });
+
+    return result;
+  };
 
   return (
     <div style={{ padding: '16px' }}>
+      <div style={{ padding: '8px', maxWidth: 880 }}>
+        <h1>Gekozen dorpen:</h1>
+        <table cellSpacing={8}>
+          <tr>
+            {tableHeader.map((title) => (
+              <td>
+                <b>{title}</b>
+              </td>
+            ))}
+            <td>
+              <b>Voetbal kleuren</b>
+            </td>
+          </tr>
+          <tr></tr>
+          {selectedTowns.map(
+            ({
+              name,
+              population,
+              perc_nederlands,
+              sportClubs,
+              ta1,
+              ta2,
+              zipCodes
+            }) => (
+              <tr>
+                <td>{name}</td>
+                <td>{zipCodes[0]}</td>
+                <td>{population.toLocaleString()}</td>
+                <td>{Math.round(ta1).toLocaleString()}</td>
+                <td>{Math.round(ta2).toLocaleString()}</td>
+                <td>{perc_nederlands}</td>
+                <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
+                <td>
+                  {sportClubs?.map(({ colors }) =>
+                    colors.map((col) => convertRgbToText(col)).join(', ')
+                  )}
+                </td>
+              </tr>
+            )
+          )}
+        </table>
+      </div>
       <div style={{ padding: '8px', maxWidth: 880 }}>
         <h2>Dorpen met 1 postcode gerangschikt op doelgroep grote</h2>
         <p>
@@ -65,37 +156,11 @@ const SortPage = () => {
       </div>
       <table cellSpacing={8}>
         <tr>
-          <td>
-            <b>Naam</b>
-          </td>
-          <td>
-            <b>Postcode</b>
-          </td>
-          <td>
-            <b>Inwoners</b>
-          </td>
-          <td>
-            <b>
-              <u>Man 15-25 jaar</u>
-            </b>
-          </td>
-          <td>
-            <b>
-              <u>Man 15-45 jaar</u>
-            </b>
-          </td>
-          <td>
-            <b>Man</b>
-          </td>
-          <td>
-            <b>Age 15-25</b>
-          </td>
-          <td>
-            <b>Age 15-45</b>
-          </td>
-          <td>
-            <b>Voetbalclub</b>
-          </td>
+          {tableHeader.map((title) => (
+            <td>
+              <b>{title}</b>
+            </td>
+          ))}
         </tr>
         <tr></tr>
         <tr>
@@ -113,9 +178,7 @@ const SortPage = () => {
           ({
             name,
             population,
-            perc_between_15_25,
-            perc_between_15_45,
-            perc_men,
+            perc_nederlands,
             sportClubs,
             ta1,
             ta2,
@@ -127,9 +190,7 @@ const SortPage = () => {
               <td>{population.toLocaleString()}</td>
               <td>{Math.round(ta1).toLocaleString()}</td>
               <td>{Math.round(ta2).toLocaleString()}</td>
-              <td>{perc_men}</td>
-              <td>{perc_between_15_25} %</td>
-              <td>{perc_between_15_45} %</td>
+              <td>{perc_nederlands}</td>
               <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
             </tr>
           )
@@ -139,4 +200,4 @@ const SortPage = () => {
   );
 };
 
-export default SortPage;
+export default TargetAudiencePage;

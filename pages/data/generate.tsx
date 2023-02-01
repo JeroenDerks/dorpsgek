@@ -55,6 +55,7 @@ const Generate = () => {
     if (!total) return null;
     const targetGroup = town['15 tot 25 jaar'] + town['25 tot 45 jaar'];
     return `population: ${total},
+            perc_nederlands: ${town['Nederlandse achtergond']},
             perc_men: ${Math.round((town['Man'] / total) * 100)} ,
             perc_between_15_45: ${Math.round((targetGroup / total) * 100)} ,
             perc_between_15_25: ${Math.round(

@@ -7,6 +7,7 @@ export const townData: TownData[] = [
     zipCodes: ['9573'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 31,
     perc_between_15_25: 16
@@ -26,6 +27,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2320,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -36,6 +38,7 @@ export const townData: TownData[] = [
     zipCodes: ['7877'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -55,6 +58,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2285,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -74,6 +78,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1340,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -86,6 +91,7 @@ export const townData: TownData[] = [
       { name: "vv 's-Gravendeel", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 8905,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -105,6 +111,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4680,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -115,6 +122,7 @@ export const townData: TownData[] = [
     zipCodes: ['4444'],
     sportClubs: [],
     population: 525,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -134,6 +142,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1645,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -144,6 +153,7 @@ export const townData: TownData[] = [
     zipCodes: ['4472'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -163,6 +173,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8380,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -175,6 +186,7 @@ export const townData: TownData[] = [
       { name: "vv 's Heerenbroek", colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 670,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -194,6 +206,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1960,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -206,6 +219,7 @@ export const townData: TownData[] = [
       { name: "vv 't Goy", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 630,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 16
@@ -216,6 +230,7 @@ export const townData: TownData[] = [
     zipCodes: ['7847'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -228,6 +243,7 @@ export const townData: TownData[] = [
       { name: "sv 't Harde", colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 6905,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -238,6 +254,7 @@ export const townData: TownData[] = [
     zipCodes: ['8095'],
     sportClubs: [],
     population: 1285,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -257,6 +274,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2165,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -267,6 +285,7 @@ export const townData: TownData[] = [
     zipCodes: ['9942'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -279,6 +298,7 @@ export const townData: TownData[] = [
       { name: "vv Geel Zwart'30", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2425,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -289,6 +309,7 @@ export const townData: TownData[] = [
     zipCodes: ['9915'],
     sportClubs: [],
     population: 675,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -301,6 +322,7 @@ export const townData: TownData[] = [
       { name: "ASV'57", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1525,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -311,6 +333,7 @@ export const townData: TownData[] = [
     zipCodes: ['4363'],
     sportClubs: [],
     population: 1510,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 16
@@ -321,6 +344,7 @@ export const townData: TownData[] = [
     zipCodes: ['7854'],
     sportClubs: [],
     population: 1905,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -331,6 +355,7 @@ export const townData: TownData[] = [
     zipCodes: ['1436'],
     sportClubs: [],
     population: 500,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -350,6 +375,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2140,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -360,6 +386,7 @@ export const townData: TownData[] = [
     zipCodes: ['9121'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -379,6 +406,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2355,
+    perc_nederlands: 60,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -398,6 +426,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1205,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -417,6 +446,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5720,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -427,6 +457,7 @@ export const townData: TownData[] = [
     zipCodes: ['1719'],
     sportClubs: [{ name: 'AGSV', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 480,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -437,6 +468,7 @@ export const townData: TownData[] = [
     zipCodes: ['8617'],
     sportClubs: [],
     population: 250,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -447,6 +479,7 @@ export const townData: TownData[] = [
     zipCodes: ['1657'],
     sportClubs: [{ name: 'vv ALC', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2075,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -466,6 +499,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -485,6 +519,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1190,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -504,6 +539,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8105,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -516,6 +552,7 @@ export const townData: TownData[] = [
       { name: "vv Stormvogels'64", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 590,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -528,6 +565,7 @@ export const townData: TownData[] = [
       { name: 'rkvv FIOS', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1085,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -540,6 +578,7 @@ export const townData: TownData[] = [
       { name: 'vv Achtmaal', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1695,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -550,6 +589,7 @@ export const townData: TownData[] = [
     zipCodes: ['4151'],
     sportClubs: [],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -560,6 +600,7 @@ export const townData: TownData[] = [
     zipCodes: ['9774'],
     sportClubs: [],
     population: 670,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -572,6 +613,7 @@ export const townData: TownData[] = [
       { name: 'vv Aduard 2000', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 2185,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -582,6 +624,7 @@ export const townData: TownData[] = [
     zipCodes: ['2111'],
     sportClubs: [],
     population: 4830,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -594,6 +637,7 @@ export const townData: TownData[] = [
       { name: 'sv Gelders Eiland', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 865,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -604,6 +648,7 @@ export const townData: TownData[] = [
     zipCodes: ['5851'],
     sportClubs: [{ name: "vv HRC'27", colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2125,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -622,6 +667,7 @@ export const townData: TownData[] = [
       { name: "vv Victoria'25", colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1670,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -632,6 +678,7 @@ export const townData: TownData[] = [
     zipCodes: ['7636'],
     sportClubs: [],
     population: 570,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -651,6 +698,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5075,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -661,6 +709,7 @@ export const townData: TownData[] = [
     zipCodes: ['8491'],
     sportClubs: [{ name: 'vv Akkrum', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 3335,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -671,6 +720,7 @@ export const townData: TownData[] = [
     zipCodes: ['8541'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -690,6 +740,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3575,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 16
@@ -700,6 +751,7 @@ export const townData: TownData[] = [
     zipCodes: ['9071'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -712,6 +764,7 @@ export const townData: TownData[] = [
       { name: 'vv Oldeboorn', colors: [[0, 0, 0]], type: 'voetbal' }
     ],
     population: 1545,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 9
@@ -722,6 +775,7 @@ export const townData: TownData[] = [
     zipCodes: ['9064'],
     sportClubs: [],
     population: 635,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -732,6 +786,7 @@ export const townData: TownData[] = [
     zipCodes: ['9294'],
     sportClubs: [{ name: 'vv WTOC', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 830,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -742,6 +797,7 @@ export const townData: TownData[] = [
     zipCodes: ['5335'],
     sportClubs: [{ name: 'vv Alem', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 655,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -752,6 +808,7 @@ export const townData: TownData[] = [
     zipCodes: ['8758'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 16
@@ -762,6 +819,7 @@ export const townData: TownData[] = [
     zipCodes: ['7218'],
     sportClubs: [{ name: 'sv Almen', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1210,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -781,6 +839,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3700,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -791,6 +850,7 @@ export const townData: TownData[] = [
     zipCodes: ['7915'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 90,
     perc_men: 69,
     perc_between_15_45: -153818,
     perc_between_15_25: -153842
@@ -816,6 +876,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -826,6 +887,7 @@ export const townData: TownData[] = [
     zipCodes: ['7495'],
     sportClubs: [],
     population: 1865,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -836,6 +898,7 @@ export const townData: TownData[] = [
     zipCodes: ['4233'],
     sportClubs: [],
     population: 3070,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -846,6 +909,7 @@ export const townData: TownData[] = [
     zipCodes: ['9446'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -858,6 +922,7 @@ export const townData: TownData[] = [
       { name: 'avv America', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2040,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -872,6 +937,7 @@ export const townData: TownData[] = [
       { name: 'vv DVSA', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 5370,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -891,6 +957,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1705,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -905,6 +972,7 @@ export const townData: TownData[] = [
       { name: 'vv Jan van Arckel', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3670,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -915,6 +983,7 @@ export const townData: TownData[] = [
     zipCodes: ['1427'],
     sportClubs: [],
     population: 1020,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -934,6 +1003,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2680,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -944,6 +1014,7 @@ export const townData: TownData[] = [
     zipCodes: ['1114'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 60,
     perc_men: 54,
     perc_between_15_45: 38,
     perc_between_15_25: 15
@@ -956,6 +1027,7 @@ export const townData: TownData[] = [
       { name: "vv Sparta'30", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2465,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -966,6 +1038,7 @@ export const townData: TownData[] = [
     zipCodes: ['6673'],
     sportClubs: [],
     population: 1600,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -976,6 +1049,7 @@ export const townData: TownData[] = [
     zipCodes: ['9465'],
     sportClubs: [],
     population: 250,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 24,
     perc_between_15_25: 14
@@ -995,6 +1069,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6880,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -1005,6 +1080,7 @@ export const townData: TownData[] = [
     zipCodes: ['7784'],
     sportClubs: [],
     population: 555,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -1015,6 +1091,7 @@ export const townData: TownData[] = [
     zipCodes: ['7788'],
     sportClubs: [],
     population: 145,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -1025,6 +1102,7 @@ export const townData: TownData[] = [
     zipCodes: ['7785'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: 22,
     perc_between_15_25: 11
@@ -1037,6 +1115,7 @@ export const townData: TownData[] = [
       { name: 'sv Angeren', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2855,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -1056,6 +1135,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1315,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -1075,6 +1155,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1530,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -1085,6 +1166,7 @@ export const townData: TownData[] = [
     zipCodes: ['9467'],
     sportClubs: [],
     population: 430,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -1097,6 +1179,7 @@ export const townData: TownData[] = [
       { name: 'sv Kleine Sluis', colors: [[100, 100, 100]], type: 'voetbal' }
     ],
     population: 8355,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -1107,6 +1190,7 @@ export const townData: TownData[] = [
     zipCodes: ['9468'],
     sportClubs: [{ name: 'vv Annen', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 3610,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -1117,6 +1201,7 @@ export const townData: TownData[] = [
     zipCodes: ['9654'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -1127,6 +1212,7 @@ export const townData: TownData[] = [
     zipCodes: ['7964'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -1139,6 +1225,7 @@ export const townData: TownData[] = [
       { name: 'vv Stanfries', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4735,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -1149,6 +1236,7 @@ export const townData: TownData[] = [
     zipCodes: ['6629'],
     sportClubs: [],
     population: 830,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -1177,6 +1265,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2630,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -1189,6 +1278,7 @@ export const townData: TownData[] = [
       { name: 'asv Arkel', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3405,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -1201,6 +1291,7 @@ export const townData: TownData[] = [
       { name: 'vv Arnemuiden', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5380,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -1211,6 +1302,7 @@ export const townData: TownData[] = [
     zipCodes: ['7735'],
     sportClubs: [],
     population: 355,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -1230,6 +1322,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1030,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -1240,6 +1333,7 @@ export const townData: TownData[] = [
     zipCodes: ['4115'],
     sportClubs: [],
     population: 375,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -1259,6 +1353,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3215,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -1269,6 +1364,7 @@ export const townData: TownData[] = [
     zipCodes: ['5721'],
     sportClubs: [{ name: 'vv NWC', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 13155,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -1279,6 +1375,7 @@ export const townData: TownData[] = [
     zipCodes: ['9292'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -1291,6 +1388,7 @@ export const townData: TownData[] = [
       { name: "sv ASC'75", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1215,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 14
@@ -1310,6 +1408,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1650,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -1324,6 +1423,7 @@ export const townData: TownData[] = [
       { name: 'RKEDO sv', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3475,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -1343,6 +1443,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7785,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -1389,6 +1490,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 765,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -1399,6 +1501,7 @@ export const townData: TownData[] = [
     zipCodes: ['8884'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -1409,6 +1512,7 @@ export const townData: TownData[] = [
     zipCodes: ['8841'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 17
@@ -1431,6 +1535,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1085,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -1441,6 +1546,7 @@ export const townData: TownData[] = [
     zipCodes: ['1396'],
     sportClubs: [],
     population: 1430,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -1451,6 +1557,7 @@ export const townData: TownData[] = [
     zipCodes: ['8834'],
     sportClubs: [],
     population: 200,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -1461,6 +1568,7 @@ export const townData: TownData[] = [
     zipCodes: ['4435'],
     sportClubs: [],
     population: 605,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -1473,6 +1581,7 @@ export const townData: TownData[] = [
       { name: 'vv Gloria-UC', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 5655,
+    perc_nederlands: 70,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -1483,6 +1592,7 @@ export const townData: TownData[] = [
     zipCodes: ['8336'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 24,
     perc_between_15_25: 6
@@ -1499,6 +1609,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1855,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -1509,6 +1620,7 @@ export const townData: TownData[] = [
     zipCodes: ['4269'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -1534,6 +1646,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1350,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -1562,6 +1675,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12930,
+    perc_nederlands: 70,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -1581,6 +1695,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2500,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -1600,6 +1715,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1815,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -1610,6 +1726,7 @@ export const townData: TownData[] = [
     zipCodes: ['5761'],
     sportClubs: [{ name: 'vv Bavos', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 5970,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 10
@@ -1629,6 +1746,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1050,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -1648,6 +1766,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1875,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -1662,6 +1781,7 @@ export const townData: TownData[] = [
       { name: 'sc Diosa', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 720,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -1672,6 +1792,7 @@ export const townData: TownData[] = [
     zipCodes: ['9437'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 45,
     perc_between_15_45: 30,
     perc_between_15_25: 20
@@ -1684,6 +1805,7 @@ export const townData: TownData[] = [
       { name: 'vv Balk', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4070,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -1712,6 +1834,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3830,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -1722,6 +1845,7 @@ export const townData: TownData[] = [
     zipCodes: ['9458'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 19
@@ -1732,6 +1856,7 @@ export const townData: TownData[] = [
     zipCodes: ['9459'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -1742,6 +1867,7 @@ export const townData: TownData[] = [
     zipCodes: ['9162'],
     sportClubs: [],
     population: 455,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -1752,6 +1878,7 @@ export const townData: TownData[] = [
     zipCodes: ['6353'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 90,
     perc_men: 44,
     perc_between_15_45: -222193,
     perc_between_15_25: -222216
@@ -1771,6 +1898,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1010,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -1790,6 +1918,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1430,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -1800,6 +1929,7 @@ export const townData: TownData[] = [
     zipCodes: ['8538'],
     sportClubs: [],
     population: 660,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -1819,6 +1949,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1760,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -1829,6 +1960,7 @@ export const townData: TownData[] = [
     zipCodes: ['7884'],
     sportClubs: [{ name: 'SVBC', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 1740,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -1839,6 +1971,7 @@ export const townData: TownData[] = [
     zipCodes: ['1768'],
     sportClubs: [],
     population: 920,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -1849,6 +1982,7 @@ export const townData: TownData[] = [
     zipCodes: ['8342'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 16
@@ -1867,6 +2001,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 655,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -1886,6 +2021,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5660,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -1896,6 +2032,7 @@ export const townData: TownData[] = [
     zipCodes: ['4859'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 90,
     perc_men: 67,
     perc_between_15_45: 33,
     perc_between_15_25: 22
@@ -1925,6 +2062,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8330,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -1935,6 +2073,7 @@ export const townData: TownData[] = [
     zipCodes: ['9025'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -1947,6 +2086,7 @@ export const townData: TownData[] = [
       { name: 'sv Bedum', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 8640,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -1957,6 +2097,7 @@ export const townData: TownData[] = [
     zipCodes: ['6099'],
     sportClubs: [{ name: 'vv Hebes', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1790,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -1976,6 +2117,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -1995,6 +2137,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4960,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -2005,6 +2148,7 @@ export const townData: TownData[] = [
     zipCodes: ['7341'],
     sportClubs: [],
     population: 1040,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -2024,6 +2168,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1675,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -2049,6 +2194,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2090,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -2059,6 +2205,7 @@ export const townData: TownData[] = [
     zipCodes: ['7736'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 18
@@ -2071,6 +2218,7 @@ export const townData: TownData[] = [
       { name: 'vv Marienberg', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1050,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -2090,6 +2238,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3325,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -2109,6 +2258,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2485,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -2119,6 +2269,7 @@ export const townData: TownData[] = [
     zipCodes: ['1475'],
     sportClubs: [],
     population: 535,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -2138,6 +2289,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3590,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -2148,6 +2300,7 @@ export const townData: TownData[] = [
     zipCodes: ['2144'],
     sportClubs: [],
     population: 985,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -2167,6 +2320,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5525,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -2181,6 +2335,7 @@ export const townData: TownData[] = [
       { name: 'vv SGV', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 3215,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -2199,6 +2354,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 565,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -2218,6 +2374,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2835,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -2230,6 +2387,7 @@ export const townData: TownData[] = [
       { name: 'fc Bemelen', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 575,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -2240,6 +2398,7 @@ export const townData: TownData[] = [
     zipCodes: ['6681'],
     sportClubs: [],
     population: 12150,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -2259,6 +2418,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6700,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -2269,6 +2429,7 @@ export const townData: TownData[] = [
     zipCodes: ['2121'],
     sportClubs: [{ name: 'sv BSM', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 5335,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -2288,6 +2449,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 15150,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -2298,6 +2460,7 @@ export const townData: TownData[] = [
     zipCodes: ['7856'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -2326,6 +2489,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 720,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -2345,6 +2509,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3630,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -2357,6 +2522,7 @@ export const townData: TownData[] = [
       { name: 'vv Bentelo', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1580,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -2376,6 +2542,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3570,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -2386,6 +2553,7 @@ export const townData: TownData[] = [
     zipCodes: ['2116'],
     sportClubs: [],
     population: 1030,
+    perc_nederlands: 80,
     perc_men: 45,
     perc_between_15_45: 19,
     perc_between_15_25: 8
@@ -2407,6 +2575,7 @@ export const townData: TownData[] = [
       { name: 'sv Vilt', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 4315,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -2426,6 +2595,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6970,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -2449,6 +2619,7 @@ export const townData: TownData[] = [
       { name: 'rksv De Weebosch', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 10970,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -2461,6 +2632,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Montagnards', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5260,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -2471,6 +2643,7 @@ export const townData: TownData[] = [
     zipCodes: ['1865'],
     sportClubs: [],
     population: 335,
+    perc_nederlands: 80,
     perc_men: 43,
     perc_between_15_45: 16,
     perc_between_15_25: 6
@@ -2483,6 +2656,7 @@ export const townData: TownData[] = [
       { name: 'vv Bergentheim', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 3440,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 39,
     perc_between_15_25: 15
@@ -2493,6 +2667,7 @@ export const townData: TownData[] = [
     zipCodes: ['6617'],
     sportClubs: [],
     population: 1770,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -2512,6 +2687,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10370,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 11
@@ -2522,6 +2698,7 @@ export const townData: TownData[] = [
     zipCodes: ['5986'],
     sportClubs: [{ name: 'rkvv BEVO', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2125,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -2532,6 +2709,7 @@ export const townData: TownData[] = [
     zipCodes: ['5057'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 47,
     perc_between_15_25: 6
@@ -2544,6 +2722,7 @@ export const townData: TownData[] = [
       { name: 'fc Perkouw', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1760,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -2563,6 +2742,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2575,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -2582,6 +2762,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10025,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -2594,6 +2775,7 @@ export const townData: TownData[] = [
       { name: 'sc Berlikum', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2550,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -2604,6 +2786,7 @@ export const townData: TownData[] = [
     zipCodes: ['5318'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 100,
     perc_men: 71,
     perc_between_15_45: 43,
     perc_between_15_25: 14
@@ -2623,6 +2806,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1885,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -2633,6 +2817,7 @@ export const townData: TownData[] = [
     zipCodes: ['7588'],
     sportClubs: [],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 16
@@ -2643,6 +2828,7 @@ export const townData: TownData[] = [
     zipCodes: ['4112'],
     sportClubs: [{ name: 'vv BZS', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 3265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -2653,6 +2839,7 @@ export const townData: TownData[] = [
     zipCodes: ['6278'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 80,
     perc_men: 54,
     perc_between_15_45: -153834,
     perc_between_15_25: -153842
@@ -2663,6 +2850,7 @@ export const townData: TownData[] = [
     zipCodes: ['8256'],
     sportClubs: [{ name: 'vv BAS', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 6460,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -2673,6 +2861,7 @@ export const townData: TownData[] = [
     zipCodes: ['9906'],
     sportClubs: [],
     population: 655,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -2683,6 +2872,7 @@ export const townData: TownData[] = [
     zipCodes: ['5084'],
     sportClubs: [{ name: 'SVSOS', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1010,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -2693,6 +2883,7 @@ export const townData: TownData[] = [
     zipCodes: ['5074'],
     sportClubs: [{ name: 'VCB', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 1465,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -2703,6 +2894,7 @@ export const townData: TownData[] = [
     zipCodes: ['4373'],
     sportClubs: [],
     population: 875,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -2713,6 +2905,7 @@ export const townData: TownData[] = [
     zipCodes: ['6456'],
     sportClubs: [],
     population: 820,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -2723,6 +2916,7 @@ export const townData: TownData[] = [
     zipCodes: ['9044'],
     sportClubs: [],
     population: 795,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -2735,6 +2929,7 @@ export const townData: TownData[] = [
       { name: 'vv Beetgum', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 925,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -2754,6 +2949,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10480,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -2773,6 +2969,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 325,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -2783,6 +2980,7 @@ export const townData: TownData[] = [
     zipCodes: ['9685'],
     sportClubs: [],
     population: 680,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -2795,6 +2993,7 @@ export const townData: TownData[] = [
       { name: 'vv Blauwhuis', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 615,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -2807,6 +3006,7 @@ export const townData: TownData[] = [
       { name: 'sv Soccer Boys', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 12015,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -2817,6 +3017,7 @@ export const townData: TownData[] = [
     zipCodes: ['2971'],
     sportClubs: [],
     population: 2865,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -2827,6 +3028,7 @@ export const townData: TownData[] = [
     zipCodes: ['9032'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 44,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -2839,6 +3041,7 @@ export const townData: TownData[] = [
       { name: 'vv Blija', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 850,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -2857,6 +3060,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2630,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -2876,6 +3080,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1135,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -2888,6 +3093,7 @@ export const townData: TownData[] = [
       { name: 'bvc Bloemendaal', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 6675,
+    perc_nederlands: 80,
     perc_men: 47,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -2907,6 +3113,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4200,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -2926,6 +3133,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1385,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -2936,6 +3144,7 @@ export const townData: TownData[] = [
     zipCodes: ['9156'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 33,
     perc_between_15_25: 21
@@ -2946,6 +3155,7 @@ export const townData: TownData[] = [
     zipCodes: ['8635'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -2976,6 +3186,7 @@ export const townData: TownData[] = [
       { name: 'rkvv WDZ', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 5055,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -2988,6 +3199,7 @@ export const townData: TownData[] = [
       { name: 'vv Boekel Sport', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 9060,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -2998,6 +3210,7 @@ export const townData: TownData[] = [
     zipCodes: ['9233'],
     sportClubs: [],
     population: 1195,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -3008,6 +3221,7 @@ export const townData: TownData[] = [
     zipCodes: ['8809'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 90,
     perc_men: 67,
     perc_between_15_45: 22,
     perc_between_15_25: 11
@@ -3018,6 +3232,7 @@ export const townData: TownData[] = [
     zipCodes: ['2143'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 70,
     perc_men: 61,
     perc_between_15_45: 36,
     perc_between_15_25: 7
@@ -3037,6 +3252,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 890,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -3047,6 +3263,7 @@ export const townData: TownData[] = [
     zipCodes: ['9031'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -3057,6 +3274,7 @@ export const townData: TownData[] = [
     zipCodes: ['8415'],
     sportClubs: [],
     population: 425,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -3069,6 +3287,7 @@ export const townData: TownData[] = [
       { name: "sc Boornbergum'80", colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1770,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -3079,6 +3298,7 @@ export const townData: TownData[] = [
     zipCodes: ['8526'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -3111,6 +3331,7 @@ export const townData: TownData[] = [
       { name: 'vv Reunie', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 7730,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -3130,6 +3351,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4830,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -3140,6 +3362,7 @@ export const townData: TownData[] = [
     zipCodes: ['9949'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 33,
     perc_between_15_25: 17
@@ -3159,6 +3382,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5975,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -3171,6 +3395,7 @@ export const townData: TownData[] = [
       { name: 'rksv Bornerbroek', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1925,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -3190,6 +3415,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1440,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -3200,6 +3426,7 @@ export const townData: TownData[] = [
     zipCodes: ['3735'],
     sportClubs: [],
     population: 1740,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 15
@@ -3210,6 +3437,7 @@ export const townData: TownData[] = [
     zipCodes: ['8387'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 60,
     perc_men: 77,
     perc_between_15_45: 66,
     perc_between_15_25: 11
@@ -3222,6 +3450,7 @@ export const townData: TownData[] = [
       { name: 'vv Floreant', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 16130,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -3250,6 +3479,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2445,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -3260,6 +3490,7 @@ export const townData: TownData[] = [
     zipCodes: ['3197'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -3276,6 +3507,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 685,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -3290,6 +3522,7 @@ export const townData: TownData[] = [
       { name: 'sv DSZ', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2260,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -3309,6 +3542,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10210,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -3328,6 +3562,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3325,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -3340,6 +3575,7 @@ export const townData: TownData[] = [
       { name: "vv Olympia'18", colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 12560,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -3359,6 +3595,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1065,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -3378,6 +3615,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3130,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -3388,6 +3626,7 @@ export const townData: TownData[] = [
     zipCodes: ['2974'],
     sportClubs: [],
     population: 1305,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -3398,6 +3637,7 @@ export const townData: TownData[] = [
     zipCodes: ['9153'],
     sportClubs: [],
     population: 235,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -3410,6 +3650,7 @@ export const townData: TownData[] = [
       { name: 'vv Bredevoort', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1460,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -3422,6 +3663,7 @@ export const townData: TownData[] = [
       { name: 'vv Ajax B', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 930,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -3434,6 +3676,7 @@ export const townData: TownData[] = [
       { name: 'sf ZAP', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3775,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -3444,6 +3687,7 @@ export const townData: TownData[] = [
     zipCodes: ['8766'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -3463,6 +3707,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4560,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -3475,6 +3720,7 @@ export const townData: TownData[] = [
       { name: 'fc Breukelen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 10620,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -3485,6 +3731,7 @@ export const townData: TownData[] = [
     zipCodes: ['3625'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 80,
     perc_men: 55,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -3495,6 +3742,7 @@ export const townData: TownData[] = [
     zipCodes: ['9805'],
     sportClubs: [],
     population: 455,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -3505,6 +3753,7 @@ export const townData: TownData[] = [
     zipCodes: ['9055'],
     sportClubs: [],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -3515,6 +3764,7 @@ export const townData: TownData[] = [
     zipCodes: ['8636'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -3525,6 +3775,7 @@ export const townData: TownData[] = [
     zipCodes: ['1151'],
     sportClubs: [{ name: 'vv SDOB', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 2770,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -3535,6 +3786,7 @@ export const townData: TownData[] = [
     zipCodes: ['1721'],
     sportClubs: [{ name: 'csv BOL', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 6135,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -3545,6 +3797,7 @@ export const townData: TownData[] = [
     zipCodes: ['8512'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 24,
     perc_between_15_25: 12
@@ -3564,6 +3817,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1045,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -3576,6 +3830,7 @@ export const townData: TownData[] = [
       { name: 'sv Broekland', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1165,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -3586,6 +3841,7 @@ export const townData: TownData[] = [
     zipCodes: ['9108'],
     sportClubs: [],
     population: 1190,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -3596,6 +3852,7 @@ export const townData: TownData[] = [
     zipCodes: ['7226'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 16,
     perc_between_15_25: 4
@@ -3606,6 +3863,7 @@ export const townData: TownData[] = [
     zipCodes: ['9527'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 23,
     perc_between_15_25: 9
@@ -3616,6 +3874,7 @@ export const townData: TownData[] = [
     zipCodes: ['9526'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -3628,6 +3887,7 @@ export const townData: TownData[] = [
       { name: 'asv Brouwershaven', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1255,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -3638,6 +3898,7 @@ export const townData: TownData[] = [
     zipCodes: ['5314'],
     sportClubs: [],
     population: 1685,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -3648,6 +3909,7 @@ export const townData: TownData[] = [
     zipCodes: ['7696'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -3660,6 +3922,7 @@ export const townData: TownData[] = [
       { name: 'vv Bruchterveld', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1105,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -3670,6 +3933,7 @@ export const townData: TownData[] = [
     zipCodes: ['7675'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 39,
     perc_between_15_25: 18
@@ -3682,6 +3946,7 @@ export const townData: TownData[] = [
       { name: 'vv Bruse Boys', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 3795,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -3710,6 +3975,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8555,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -3720,6 +3986,7 @@ export const townData: TownData[] = [
     zipCodes: ['9435'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 20
@@ -3745,6 +4012,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1995,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -3757,6 +4025,7 @@ export const townData: TownData[] = [
       { name: 'sv Budel', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 9800,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -3776,6 +4045,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1435,
+    perc_nederlands: 80,
     perc_men: 54,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -3786,6 +4056,7 @@ export const townData: TownData[] = [
     zipCodes: ['6023'],
     sportClubs: [],
     population: 2145,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -3796,6 +4067,7 @@ export const townData: TownData[] = [
     zipCodes: ['6082'],
     sportClubs: [],
     population: 950,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -3814,6 +4086,7 @@ export const townData: TownData[] = [
       { name: 'vv Buinen', colors: [[undefined], [undefined]], type: 'voetbal' }
     ],
     population: 785,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -3832,6 +4105,7 @@ export const townData: TownData[] = [
       { name: 'vv Buinerveen', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -3842,6 +4116,7 @@ export const townData: TownData[] = [
     zipCodes: ['2158'],
     sportClubs: [],
     population: 475,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 7
@@ -3861,6 +4136,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5710,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -3880,6 +4156,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5600,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -3890,6 +4167,7 @@ export const townData: TownData[] = [
     zipCodes: ['9496'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -3909,6 +4187,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7045,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -3919,6 +4198,7 @@ export const townData: TownData[] = [
     zipCodes: ['1754'],
     sportClubs: [],
     population: 835,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -3929,6 +4209,7 @@ export const townData: TownData[] = [
     zipCodes: ['2154'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -3941,6 +4222,7 @@ export const townData: TownData[] = [
       { name: 'fc De Westhoek (B)', colors: [[undefined]], type: 'voetbal' }
     ],
     population: 4285,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 19,
     perc_between_15_25: 7
@@ -3972,6 +4254,7 @@ export const townData: TownData[] = [
       { name: 'vv Bergum', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 9750,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -3982,6 +4265,7 @@ export const townData: TownData[] = [
     zipCodes: ['8742'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -3992,6 +4276,7 @@ export const townData: TownData[] = [
     zipCodes: ['9851'],
     sportClubs: [],
     population: 605,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -4002,6 +4287,7 @@ export const townData: TownData[] = [
     zipCodes: ['4197'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -4021,6 +4307,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3470,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -4033,6 +4320,7 @@ export const townData: TownData[] = [
       { name: 'vv Cadzand', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 715,
+    perc_nederlands: 70,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -4052,6 +4340,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2380,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -4062,6 +4351,7 @@ export const townData: TownData[] = [
     zipCodes: ['5114'],
     sportClubs: [],
     population: 130,
+    perc_nederlands: 60,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -4072,6 +4362,7 @@ export const townData: TownData[] = [
     zipCodes: ['5811'],
     sportClubs: [],
     population: 815,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -4091,6 +4382,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1095,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -4103,6 +4395,7 @@ export const townData: TownData[] = [
       { name: 'vv Chaam', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 4200,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -4113,6 +4406,7 @@ export const townData: TownData[] = [
     zipCodes: ['4567'],
     sportClubs: [{ name: 'vv Clinge', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2345,
+    perc_nederlands: 60,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -4129,6 +4423,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -4139,6 +4434,7 @@ export const townData: TownData[] = [
     zipCodes: ['7798'],
     sportClubs: [],
     population: 365,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -4151,6 +4447,7 @@ export const townData: TownData[] = [
       { name: "sv Colmschate'33", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1075,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 18,
     perc_between_15_25: 6
@@ -4161,6 +4458,7 @@ export const townData: TownData[] = [
     zipCodes: ['8753'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -4171,6 +4469,7 @@ export const townData: TownData[] = [
     zipCodes: ['3945'],
     sportClubs: [{ name: 'SVF', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 3270,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -4183,6 +4482,7 @@ export const townData: TownData[] = [
       { name: 'sc Creil', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1670,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 39,
     perc_between_15_25: 13
@@ -4193,6 +4493,7 @@ export const townData: TownData[] = [
     zipCodes: ['5266'],
     sportClubs: [],
     population: 780,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -4203,6 +4504,7 @@ export const townData: TownData[] = [
     zipCodes: ['2142'],
     sportClubs: [],
     population: 1035,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -4231,6 +4533,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1450,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -4259,6 +4562,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1215,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -4269,6 +4573,7 @@ export const townData: TownData[] = [
     zipCodes: ['4213'],
     sportClubs: [],
     population: 875,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -4283,6 +4588,7 @@ export const townData: TownData[] = [
       { name: 'vv Dalen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3875,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -4301,6 +4607,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 670,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -4315,6 +4622,7 @@ export const townData: TownData[] = [
       { name: "DSC'65", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 370,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -4325,6 +4633,7 @@ export const townData: TownData[] = [
     zipCodes: ['8146'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 16
@@ -4371,6 +4680,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5615,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -4399,6 +4709,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 740,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -4409,6 +4720,7 @@ export const townData: TownData[] = [
     zipCodes: ['8397'],
     sportClubs: [],
     population: 805,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -4419,6 +4731,7 @@ export const townData: TownData[] = [
     zipCodes: ['8346'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -4429,6 +4742,7 @@ export const townData: TownData[] = [
     zipCodes: ['1795'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -4439,6 +4753,7 @@ export const townData: TownData[] = [
     zipCodes: ['9109'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -4449,6 +4764,7 @@ export const townData: TownData[] = [
     zipCodes: ['3794'],
     sportClubs: [],
     population: 610,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 20
@@ -4459,6 +4775,7 @@ export const townData: TownData[] = [
     zipCodes: ['1648'],
     sportClubs: [],
     population: 3475,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 40,
     perc_between_15_25: 12
@@ -4469,6 +4786,7 @@ export const townData: TownData[] = [
     zipCodes: ['9473'],
     sportClubs: [],
     population: 465,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 14
@@ -4479,6 +4797,7 @@ export const townData: TownData[] = [
     zipCodes: ['4655'],
     sportClubs: [],
     population: 745,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -4489,6 +4808,7 @@ export const townData: TownData[] = [
     zipCodes: ['7095'],
     sportClubs: [],
     population: 1070,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -4499,6 +4819,7 @@ export const townData: TownData[] = [
     zipCodes: ['8394'],
     sportClubs: [],
     population: 405,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -4509,6 +4830,7 @@ export const townData: TownData[] = [
     zipCodes: ['7849'],
     sportClubs: [],
     population: 385,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 22,
     perc_between_15_25: 10
@@ -4519,6 +4841,7 @@ export const townData: TownData[] = [
     zipCodes: ['6745'],
     sportClubs: [],
     population: 460,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 43,
     perc_between_15_25: 20
@@ -4538,6 +4861,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1320,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -4554,6 +4878,7 @@ export const townData: TownData[] = [
       { name: 'sv De Koog', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1365,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -4564,6 +4889,7 @@ export const townData: TownData[] = [
     zipCodes: ['1424'],
     sportClubs: [{ name: 'sv KDO', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4490,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -4583,6 +4909,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12520,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -4595,6 +4922,7 @@ export const townData: TownData[] = [
       { name: "vv Blauw Wit'81", colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 590,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -4605,6 +4933,7 @@ export const townData: TownData[] = [
     zipCodes: ['5425'],
     sportClubs: [{ name: 'vv MVC', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 1650,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -4615,6 +4944,7 @@ export const townData: TownData[] = [
     zipCodes: ['8337'],
     sportClubs: [],
     population: 235,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -4625,6 +4955,7 @@ export const townData: TownData[] = [
     zipCodes: ['9493'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -4641,6 +4972,7 @@ export const townData: TownData[] = [
       { name: 'sv De Rijp', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4050,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -4660,6 +4992,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -4670,6 +5003,7 @@ export const townData: TownData[] = [
     zipCodes: ['7966'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -4680,6 +5014,7 @@ export const townData: TownData[] = [
     zipCodes: ['6994'],
     sportClubs: [],
     population: 1090,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -4690,6 +5025,7 @@ export const townData: TownData[] = [
     zipCodes: ['9219'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -4700,6 +5036,7 @@ export const townData: TownData[] = [
     zipCodes: ['9296'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 16
@@ -4710,6 +5047,7 @@ export const townData: TownData[] = [
     zipCodes: ['9215'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -4720,6 +5058,7 @@ export const townData: TownData[] = [
     zipCodes: ['1793'],
     sportClubs: [],
     population: 365,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 14
@@ -4732,6 +5071,7 @@ export const townData: TownData[] = [
       { name: 'vv Zwaagwesteinde', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4975,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -4742,6 +5082,7 @@ export const townData: TownData[] = [
     zipCodes: ['9213'],
     sportClubs: [],
     population: 665,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 19,
     perc_between_15_25: 10
@@ -4754,6 +5095,7 @@ export const townData: TownData[] = [
       { name: 'vv De Wilper Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1640,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -4768,6 +5110,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Van Nispen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -4778,6 +5121,7 @@ export const townData: TownData[] = [
     zipCodes: ['8644'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -4788,6 +5132,7 @@ export const townData: TownData[] = [
     zipCodes: ['8764'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -4798,6 +5143,7 @@ export const townData: TownData[] = [
     zipCodes: ['6877'],
     sportClubs: [],
     population: 60,
+    perc_nederlands: 70,
     perc_men: 67,
     perc_between_15_45: -166612,
     perc_between_15_25: 50
@@ -4810,6 +5156,7 @@ export const townData: TownData[] = [
       { name: "vv SCD'33", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1775,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -4820,6 +5167,7 @@ export const townData: TownData[] = [
     zipCodes: ['4158'],
     sportClubs: [],
     population: 2095,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -4834,6 +5182,7 @@ export const townData: TownData[] = [
       { name: 'sf Deinum', colors: [[undefined]], type: 'voetbal' }
     ],
     population: 1055,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 16
@@ -4871,6 +5220,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7435,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -4881,6 +5231,7 @@ export const townData: TownData[] = [
     zipCodes: ['2645'],
     sportClubs: [],
     population: 9140,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 16
@@ -4895,6 +5246,7 @@ export const townData: TownData[] = [
       { name: 'vv Delfstrahuizen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 425,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -4905,6 +5257,7 @@ export const townData: TownData[] = [
     zipCodes: ['5316'],
     sportClubs: [],
     population: 390,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -4915,6 +5268,7 @@ export const townData: TownData[] = [
     zipCodes: ['5354'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -4925,6 +5279,7 @@ export const townData: TownData[] = [
     zipCodes: ['9956'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -4941,6 +5296,7 @@ export const townData: TownData[] = [
       { name: 'vv Den Bommel', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1745,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -4960,6 +5316,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7045,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -4974,6 +5331,7 @@ export const townData: TownData[] = [
       { name: 'dsc DOSC', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4530,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -5020,6 +5378,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4575,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -5030,6 +5389,7 @@ export const townData: TownData[] = [
     zipCodes: ['9832'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -5042,6 +5402,7 @@ export const townData: TownData[] = [
       { name: "vv Irene'58", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1295,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -5052,6 +5413,7 @@ export const townData: TownData[] = [
     zipCodes: ['1127'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -5062,6 +5424,7 @@ export const townData: TownData[] = [
     zipCodes: ['1779'],
     sportClubs: [{ name: 'vv Wiron', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2455,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -5072,6 +5435,7 @@ export const townData: TownData[] = [
     zipCodes: ['7786'],
     sportClubs: [],
     population: 195,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 38,
     perc_between_15_25: 21
@@ -5092,6 +5456,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10130,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -5102,6 +5467,7 @@ export const townData: TownData[] = [
     zipCodes: ['5352'],
     sportClubs: [],
     population: 690,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 16
@@ -5112,6 +5478,7 @@ export const townData: TownData[] = [
     zipCodes: ['9457'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 39,
     perc_between_15_25: 22
@@ -5122,6 +5489,7 @@ export const townData: TownData[] = [
     zipCodes: ['5353'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -5154,6 +5522,7 @@ export const townData: TownData[] = [
       { name: 'vv Diepenheim', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2605,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -5164,6 +5533,7 @@ export const townData: TownData[] = [
     zipCodes: ['7431'],
     sportClubs: [],
     population: 4745,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -5174,6 +5544,7 @@ export const townData: TownData[] = [
     zipCodes: ['5087'],
     sportClubs: [{ name: 'RKDSV', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 3755,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -5202,6 +5573,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2495,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -5212,6 +5584,7 @@ export const townData: TownData[] = [
     zipCodes: ['7984'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -5222,6 +5595,7 @@ export const townData: TownData[] = [
     zipCodes: ['7795'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 46,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -5232,6 +5606,7 @@ export const townData: TownData[] = [
     zipCodes: ['8528'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 20,
     perc_between_15_25: 10
@@ -5251,6 +5626,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5690,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -5297,6 +5673,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7175,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -5307,6 +5684,7 @@ export const townData: TownData[] = [
     zipCodes: ['7842'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -142831,
     perc_between_15_25: -142853
@@ -5335,6 +5713,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1640,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -5349,6 +5728,7 @@ export const townData: TownData[] = [
       { name: "DVV'09", colors: [[undefined]], type: 'voetbal' }
     ],
     population: 5840,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -5363,6 +5743,7 @@ export const townData: TownData[] = [
       { name: 'vv Dodewaard', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4390,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -5411,6 +5792,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1110,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -5439,6 +5821,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1115,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -5449,6 +5832,7 @@ export const townData: TownData[] = [
     zipCodes: ['8386'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 90,
     perc_men: 45,
     perc_between_15_45: 14,
     perc_between_15_25: 5
@@ -5477,6 +5861,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1485,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -5487,6 +5872,7 @@ export const townData: TownData[] = [
     zipCodes: ['9497'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 25,
     perc_between_15_25: 8
@@ -5497,6 +5883,7 @@ export const townData: TownData[] = [
     zipCodes: ['8808'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -5507,6 +5894,7 @@ export const townData: TownData[] = [
     zipCodes: ['8516'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 17
@@ -5535,6 +5923,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1900,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -5563,6 +5952,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10185,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -5573,6 +5963,7 @@ export const townData: TownData[] = [
     zipCodes: ['6686'],
     sportClubs: [{ name: 'vv GVA', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2755,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -5587,6 +5978,7 @@ export const townData: TownData[] = [
       { name: "DSV'61", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 4200,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -5601,6 +5993,7 @@ export const townData: TownData[] = [
       { name: 'vv DUNO D', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 4975,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 7
@@ -5620,6 +6013,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3000,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 10
@@ -5630,6 +6024,7 @@ export const townData: TownData[] = [
     zipCodes: ['9222'],
     sportClubs: [{ name: 'vv TFS', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1195,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -5644,6 +6039,7 @@ export const townData: TownData[] = [
       { name: "vv DZC'09", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 975,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -5663,6 +6059,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1630,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 13
@@ -5673,6 +6070,7 @@ export const townData: TownData[] = [
     zipCodes: ['6621'],
     sportClubs: [{ name: 'vv Aquila', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 3495,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -5687,6 +6085,7 @@ export const townData: TownData[] = [
       { name: 'vv Drieborg', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 415,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -5699,6 +6098,7 @@ export const townData: TownData[] = [
       { name: 'vv WDS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1925,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -5720,6 +6120,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3140,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 12
@@ -5730,6 +6131,7 @@ export const townData: TownData[] = [
     zipCodes: ['1844'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -5758,6 +6160,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4325,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -5786,6 +6189,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 560,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -5796,6 +6200,7 @@ export const townData: TownData[] = [
     zipCodes: ['9114'],
     sportClubs: [{ name: 'vv VIOD', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 935,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -5806,6 +6211,7 @@ export const townData: TownData[] = [
     zipCodes: ['9419'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -5816,6 +6222,7 @@ export const townData: TownData[] = [
     zipCodes: ['4924'],
     sportClubs: [],
     population: 570,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -5844,6 +6251,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1725,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 15
@@ -5854,6 +6262,7 @@ export const townData: TownData[] = [
     zipCodes: ['7705'],
     sportClubs: [],
     population: 350,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 16
@@ -5864,6 +6273,7 @@ export const townData: TownData[] = [
     zipCodes: ['4267'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -5886,6 +6296,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3240,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -5896,6 +6307,7 @@ export const townData: TownData[] = [
     zipCodes: ['9533'],
     sportClubs: [],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -5906,6 +6318,7 @@ export const townData: TownData[] = [
     zipCodes: ['9523'],
     sportClubs: [],
     population: 585,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -5916,6 +6329,7 @@ export const townData: TownData[] = [
     zipCodes: ['9525'],
     sportClubs: [],
     population: 280,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -5928,6 +6342,7 @@ export const townData: TownData[] = [
       { name: "sv CTO'70", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 5050,
+    perc_nederlands: 60,
     perc_men: 49,
     perc_between_15_45: 40,
     perc_between_15_25: 12
@@ -5956,6 +6371,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2020,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -5970,6 +6386,7 @@ export const townData: TownData[] = [
       { name: 'sv Dussense Boys', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2470,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -5984,6 +6401,7 @@ export const townData: TownData[] = [
       { name: 'vv Dwingeloo', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4115,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -5994,6 +6412,7 @@ export const townData: TownData[] = [
     zipCodes: ['9006'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 25
@@ -6006,6 +6425,7 @@ export const townData: TownData[] = [
       { name: 'vv Anjum', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1145,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -6016,6 +6436,7 @@ export const townData: TownData[] = [
     zipCodes: ['9264'],
     sportClubs: [],
     population: 390,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -6028,6 +6449,7 @@ export const townData: TownData[] = [
       { name: 'vv SDS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 920,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -6040,6 +6462,7 @@ export const townData: TownData[] = [
       { name: 'vv Oosterlittens', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 410,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -6050,6 +6473,7 @@ export const townData: TownData[] = [
     zipCodes: ['9261'],
     sportClubs: [],
     population: 1600,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -6069,6 +6493,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 945,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -6079,6 +6504,7 @@ export const townData: TownData[] = [
     zipCodes: ['9021'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -6089,6 +6515,7 @@ export const townData: TownData[] = [
     zipCodes: ['9125'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -6099,6 +6526,7 @@ export const townData: TownData[] = [
     zipCodes: ['4054'],
     sportClubs: [],
     population: 1035,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -6109,6 +6537,7 @@ export const townData: TownData[] = [
     zipCodes: ['8539'],
     sportClubs: [],
     population: 1010,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -6119,6 +6548,7 @@ export const townData: TownData[] = [
     zipCodes: ['4024'],
     sportClubs: [],
     population: 1660,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -6129,6 +6559,7 @@ export const townData: TownData[] = [
     zipCodes: ['1135'],
     sportClubs: [],
     population: 7240,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -6141,6 +6572,7 @@ export const townData: TownData[] = [
       { name: "vv Advendo'57", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 3665,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 40,
     perc_between_15_25: 16
@@ -6151,6 +6583,7 @@ export const townData: TownData[] = [
     zipCodes: ['4529'],
     sportClubs: [],
     population: 905,
+    perc_nederlands: 40,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -6161,6 +6594,7 @@ export const townData: TownData[] = [
     zipCodes: ['7211'],
     sportClubs: [],
     population: 4375,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -6180,6 +6614,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7050,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -6190,6 +6625,7 @@ export const townData: TownData[] = [
     zipCodes: ['9766'],
     sportClubs: [],
     population: 2780,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -6200,6 +6636,7 @@ export const townData: TownData[] = [
     zipCodes: ['3754'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -6210,6 +6647,7 @@ export const townData: TownData[] = [
     zipCodes: ['3755'],
     sportClubs: [],
     population: 9245,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -6220,6 +6658,7 @@ export const townData: TownData[] = [
     zipCodes: ['9979'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -6230,6 +6669,7 @@ export const townData: TownData[] = [
     zipCodes: ['9342'],
     sportClubs: [],
     population: 815,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -6240,6 +6680,7 @@ export const townData: TownData[] = [
     zipCodes: ['9343'],
     sportClubs: [],
     population: 225,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -6250,6 +6691,7 @@ export const townData: TownData[] = [
     zipCodes: ['9967'],
     sportClubs: [],
     population: 1495,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -6260,6 +6702,7 @@ export const townData: TownData[] = [
     zipCodes: ['9913'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 22,
     perc_between_15_25: 9
@@ -6279,6 +6722,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9640,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -6289,6 +6733,7 @@ export const townData: TownData[] = [
     zipCodes: ['5521'],
     sportClubs: [],
     population: 10305,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -6299,6 +6744,7 @@ export const townData: TownData[] = [
     zipCodes: ['9536'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 21,
     perc_between_15_25: 11
@@ -6309,6 +6755,7 @@ export const townData: TownData[] = [
     zipCodes: ['9537'],
     sportClubs: [],
     population: 155,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 23,
     perc_between_15_25: 6
@@ -6319,6 +6766,7 @@ export const townData: TownData[] = [
     zipCodes: ['8534'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: -222193,
     perc_between_15_25: 22
@@ -6329,6 +6777,7 @@ export const townData: TownData[] = [
     zipCodes: ['8347'],
     sportClubs: [],
     population: 580,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -6339,6 +6788,7 @@ export const townData: TownData[] = [
     zipCodes: ['4266'],
     sportClubs: [{ name: 'vv GDC', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 835,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -6349,6 +6799,7 @@ export const townData: TownData[] = [
     zipCodes: ['9463'],
     sportClubs: [],
     population: 1415,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -6359,6 +6810,7 @@ export const townData: TownData[] = [
     zipCodes: ['9658'],
     sportClubs: [],
     population: 470,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -6369,6 +6821,7 @@ export const townData: TownData[] = [
     zipCodes: ['9659'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 7
@@ -6379,6 +6832,7 @@ export const townData: TownData[] = [
     zipCodes: ['9464'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 14
@@ -6389,6 +6843,7 @@ export const townData: TownData[] = [
     zipCodes: ['5987'],
     sportClubs: [],
     population: 1290,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 9
@@ -6399,6 +6854,7 @@ export const townData: TownData[] = [
     zipCodes: ['1931'],
     sportClubs: [],
     population: 4560,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 8
@@ -6409,6 +6865,7 @@ export const townData: TownData[] = [
     zipCodes: ['1934'],
     sportClubs: [],
     population: 3665,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -6439,6 +6896,7 @@ export const townData: TownData[] = [
       { name: 'vv Zeevogels', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2590,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -6449,6 +6907,7 @@ export const townData: TownData[] = [
     zipCodes: ['6245'],
     sportClubs: [{ name: 'SVME', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 9595,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -6459,6 +6918,7 @@ export const townData: TownData[] = [
     zipCodes: ['6142'],
     sportClubs: [{ name: 'SVE', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1300,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -6469,6 +6929,7 @@ export const townData: TownData[] = [
     zipCodes: ['9454'],
     sportClubs: [{ name: 'SVDB', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 305,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -6479,6 +6940,7 @@ export const townData: TownData[] = [
     zipCodes: ['8581'],
     sportClubs: [],
     population: 355,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -6489,6 +6951,7 @@ export const townData: TownData[] = [
     zipCodes: ['9453'],
     sportClubs: [],
     population: 55,
+    perc_nederlands: 100,
     perc_men: 45,
     perc_between_15_45: 36,
     perc_between_15_25: 18
@@ -6499,6 +6962,7 @@ export const townData: TownData[] = [
     zipCodes: ['9456'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 100,
     perc_men: 40,
     perc_between_15_45: -799976,
     perc_between_15_25: -399988
@@ -6509,6 +6973,7 @@ export const townData: TownData[] = [
     zipCodes: ['7916'],
     sportClubs: [],
     population: 2430,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -6519,6 +6984,7 @@ export const townData: TownData[] = [
     zipCodes: ['6289'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 19,
     perc_between_15_25: 6
@@ -6529,6 +6995,7 @@ export const townData: TownData[] = [
     zipCodes: ['6011'],
     sportClubs: [{ name: 'RKESV', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 1395,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 15
@@ -6539,6 +7006,7 @@ export const townData: TownData[] = [
     zipCodes: ['6955'],
     sportClubs: [],
     population: 1105,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -6549,6 +7017,7 @@ export const townData: TownData[] = [
     zipCodes: ['4323'],
     sportClubs: [],
     population: 350,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -6559,6 +7028,7 @@ export const townData: TownData[] = [
     zipCodes: ['9535'],
     sportClubs: [],
     population: 30,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -666647,
     perc_between_15_25: -333323
@@ -6569,6 +7039,7 @@ export const townData: TownData[] = [
     zipCodes: ['4437'],
     sportClubs: [],
     population: 390,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -6579,6 +7050,7 @@ export const townData: TownData[] = [
     zipCodes: ['9442'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 7
@@ -6589,6 +7061,7 @@ export const townData: TownData[] = [
     zipCodes: ['5424'],
     sportClubs: [],
     population: 1105,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -6599,6 +7072,7 @@ export const townData: TownData[] = [
     zipCodes: ['5154'],
     sportClubs: [],
     population: 1785,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -6609,6 +7083,7 @@ export const townData: TownData[] = [
     zipCodes: ['8075'],
     sportClubs: [],
     population: 4665,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 16
@@ -6619,6 +7094,7 @@ export const townData: TownData[] = [
     zipCodes: ['7881'],
     sportClubs: [{ name: 'vv CEC', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 7735,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -6629,6 +7105,7 @@ export const townData: TownData[] = [
     zipCodes: ['7399'],
     sportClubs: [],
     population: 660,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -6639,6 +7116,7 @@ export const townData: TownData[] = [
     zipCodes: ['8166'],
     sportClubs: [],
     population: 3225,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -6649,6 +7127,7 @@ export const townData: TownData[] = [
     zipCodes: ['8307'],
     sportClubs: [],
     population: 3105,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -6659,6 +7138,7 @@ export const townData: TownData[] = [
     zipCodes: ['4157'],
     sportClubs: [],
     population: 570,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -6669,6 +7149,7 @@ export const townData: TownData[] = [
     zipCodes: ['7468'],
     sportClubs: [],
     population: 7220,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -6679,6 +7160,7 @@ export const townData: TownData[] = [
     zipCodes: ['6285'],
     sportClubs: [],
     population: 1010,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -6689,6 +7171,7 @@ export const townData: TownData[] = [
     zipCodes: ['9996'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 90,
     perc_men: 62,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -6699,6 +7182,7 @@ export const townData: TownData[] = [
     zipCodes: ['7214'],
     sportClubs: [],
     population: 2055,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -6709,6 +7193,7 @@ export const townData: TownData[] = [
     zipCodes: ['7887'],
     sportClubs: [],
     population: 4765,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -6719,6 +7204,7 @@ export const townData: TownData[] = [
     zipCodes: ['4117'],
     sportClubs: [],
     population: 505,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -6729,6 +7215,7 @@ export const townData: TownData[] = [
     zipCodes: ['6577'],
     sportClubs: [],
     population: 155,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -6739,6 +7226,7 @@ export const townData: TownData[] = [
     zipCodes: ['7843'],
     sportClubs: [],
     population: 840,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -6753,6 +7241,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Keldonk', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 6945,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -6765,6 +7254,7 @@ export const townData: TownData[] = [
       { name: 'sv Tuldania', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1215,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -6775,6 +7265,7 @@ export const townData: TownData[] = [
     zipCodes: ['5296'],
     sportClubs: [],
     population: 2155,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -6785,6 +7276,7 @@ export const townData: TownData[] = [
     zipCodes: ['5364'],
     sportClubs: [],
     population: 1185,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -6795,6 +7287,7 @@ export const townData: TownData[] = [
     zipCodes: ['8311'],
     sportClubs: [],
     population: 1475,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 42,
     perc_between_15_25: 12
@@ -6805,6 +7298,7 @@ export const townData: TownData[] = [
     zipCodes: ['4185'],
     sportClubs: [],
     population: 580,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 16
@@ -6815,6 +7309,7 @@ export const townData: TownData[] = [
     zipCodes: ['7075'],
     sportClubs: [],
     population: 1880,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -6825,6 +7320,7 @@ export const townData: TownData[] = [
     zipCodes: ['3198'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -6835,6 +7331,7 @@ export const townData: TownData[] = [
     zipCodes: ['4121'],
     sportClubs: [],
     population: 1190,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -6845,6 +7342,7 @@ export const townData: TownData[] = [
     zipCodes: ['5977'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 40,
     perc_between_15_25: 15
@@ -6855,6 +7353,7 @@ export const townData: TownData[] = [
     zipCodes: ['6644'],
     sportClubs: [],
     population: 4040,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -6874,6 +7373,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1640,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 21,
     perc_between_15_25: 10
@@ -6884,6 +7384,7 @@ export const townData: TownData[] = [
     zipCodes: ['9574'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 16,
     perc_between_15_25: 5
@@ -6894,6 +7395,7 @@ export const townData: TownData[] = [
     zipCodes: ['8759'],
     sportClubs: [],
     population: 455,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -6922,6 +7424,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5815,
+    perc_nederlands: 70,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -6941,6 +7444,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1675,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -6951,6 +7455,7 @@ export const townData: TownData[] = [
     zipCodes: ['9891'],
     sportClubs: [],
     population: 795,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -6961,6 +7466,7 @@ export const townData: TownData[] = [
     zipCodes: ['9936'],
     sportClubs: [],
     population: 1625,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -6971,6 +7477,7 @@ export const townData: TownData[] = [
     zipCodes: ['9297'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 40,
     perc_between_15_25: 25
@@ -6990,6 +7497,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3605,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -7000,6 +7508,7 @@ export const townData: TownData[] = [
     zipCodes: ['9892'],
     sportClubs: [],
     population: 315,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 22,
     perc_between_15_25: 6
@@ -7010,6 +7519,7 @@ export const townData: TownData[] = [
     zipCodes: ['9053'],
     sportClubs: [],
     population: 165,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 21,
     perc_between_15_25: 12
@@ -7020,6 +7530,7 @@ export const townData: TownData[] = [
     zipCodes: ['9172'],
     sportClubs: [{ name: 'vv Wardy', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1780,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -7030,6 +7541,7 @@ export const townData: TownData[] = [
     zipCodes: ['8761'],
     sportClubs: [],
     population: 225,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 36,
     perc_between_15_25: 16
@@ -7049,6 +7561,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5510,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -7059,6 +7572,7 @@ export const townData: TownData[] = [
     zipCodes: ['9684'],
     sportClubs: [{ name: 'vv BNC', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2095,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -7069,6 +7583,7 @@ export const townData: TownData[] = [
     zipCodes: ['8852'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: -142824,
     perc_between_15_25: -142853
@@ -7088,6 +7603,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 895,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 18
@@ -7098,6 +7614,7 @@ export const townData: TownData[] = [
     zipCodes: ['7931'],
     sportClubs: [],
     population: 720,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -7110,6 +7627,7 @@ export const townData: TownData[] = [
       { name: 'fc Fochteloo', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 360,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -7120,6 +7638,7 @@ export const townData: TownData[] = [
     zipCodes: ['8535'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -7130,6 +7649,7 @@ export const townData: TownData[] = [
     zipCodes: ['8773'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -7140,6 +7660,7 @@ export const townData: TownData[] = [
     zipCodes: ['8894'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -7150,6 +7671,7 @@ export const townData: TownData[] = [
     zipCodes: ['9154'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 20,
     perc_between_15_25: 13
@@ -7160,6 +7682,7 @@ export const townData: TownData[] = [
     zipCodes: ['9607'],
     sportClubs: [],
     population: 925,
+    perc_nederlands: 80,
     perc_men: 54,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -7170,6 +7693,7 @@ export const townData: TownData[] = [
     zipCodes: ['9314'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 19,
     perc_between_15_25: 5
@@ -7180,6 +7704,7 @@ export const townData: TownData[] = [
     zipCodes: ['8382'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 24,
     perc_between_15_25: 10
@@ -7190,6 +7715,7 @@ export const townData: TownData[] = [
     zipCodes: ['9009'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 39,
     perc_between_15_25: 17
@@ -7200,6 +7726,7 @@ export const townData: TownData[] = [
     zipCodes: ['9249'],
     sportClubs: [{ name: 'sv RWF', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1025,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -7212,6 +7739,7 @@ export const townData: TownData[] = [
       { name: 'vv Froombosch', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 845,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -7222,6 +7750,7 @@ export const townData: TownData[] = [
     zipCodes: ['8757'],
     sportClubs: [],
     population: 200,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -7232,6 +7761,7 @@ export const townData: TownData[] = [
     zipCodes: ['8611'],
     sportClubs: [],
     population: 280,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -7242,6 +7772,7 @@ export const townData: TownData[] = [
     zipCodes: ['4855'],
     sportClubs: [{ name: 'vv Gesta', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1050,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -7252,6 +7783,7 @@ export const townData: TownData[] = [
     zipCodes: ['5311'],
     sportClubs: [{ name: "GVV'63", colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 2635,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -7271,6 +7803,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5575,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -7281,6 +7814,7 @@ export const townData: TownData[] = [
     zipCodes: ['4352'],
     sportClubs: [],
     population: 475,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -7300,6 +7834,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2130,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -7319,6 +7854,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 490,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -7329,6 +7865,7 @@ export const townData: TownData[] = [
     zipCodes: ['9438'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -7339,6 +7876,7 @@ export const townData: TownData[] = [
     zipCodes: ['9893'],
     sportClubs: [],
     population: 440,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -7349,6 +7887,7 @@ export const townData: TownData[] = [
     zipCodes: ['9918'],
     sportClubs: [],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -7359,6 +7898,7 @@ export const townData: TownData[] = [
     zipCodes: ['9923'],
     sportClubs: [],
     population: 200,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 5
@@ -7371,6 +7911,7 @@ export const townData: TownData[] = [
       { name: "vv V en V '68", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1895,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -7383,6 +7924,7 @@ export const townData: TownData[] = [
       { name: 'vv Gassel', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1185,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -7395,6 +7937,7 @@ export const townData: TownData[] = [
       { name: 'vv GKC (Dr)', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1865,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -7409,6 +7952,7 @@ export const townData: TownData[] = [
       { name: "sjo ZVC'14", colors: [[0, 0, 0]], type: 'voetbal' }
     ],
     population: 1895,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -7419,6 +7963,7 @@ export const townData: TownData[] = [
     zipCodes: ['9515'],
     sportClubs: [],
     population: 655,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -7429,6 +7974,7 @@ export const townData: TownData[] = [
     zipCodes: ['6028'],
     sportClubs: [],
     population: 745,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -7439,6 +7985,7 @@ export const townData: TownData[] = [
     zipCodes: ['9466'],
     sportClubs: [],
     population: 400,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 11
@@ -7449,6 +7996,7 @@ export const townData: TownData[] = [
     zipCodes: ['8627'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -7459,6 +8007,7 @@ export const townData: TownData[] = [
     zipCodes: ['9455'],
     sportClubs: [],
     population: 5,
+    perc_nederlands: -99997,
     perc_men: -1999940,
     perc_between_15_45: -3999880,
     perc_between_15_25: -1999940
@@ -7469,6 +8018,7 @@ export const townData: TownData[] = [
     zipCodes: ['7686'],
     sportClubs: [],
     population: 585,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -7479,6 +8029,7 @@ export const townData: TownData[] = [
     zipCodes: ['4494'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 7
@@ -7491,6 +8042,7 @@ export const townData: TownData[] = [
       { name: "fc Right'Oh", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 6950,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -7503,6 +8055,7 @@ export const townData: TownData[] = [
       { name: "GHVV'13 (G)", colors: [[undefined], [0, 0, 0]], type: 'voetbal' }
     ],
     population: 1620,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -7513,6 +8066,7 @@ export const townData: TownData[] = [
     zipCodes: ['7863'],
     sportClubs: [],
     population: 610,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 21,
     perc_between_15_25: 9
@@ -7523,6 +8077,7 @@ export const townData: TownData[] = [
     zipCodes: ['7917'],
     sportClubs: [{ name: 'VCG', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1345,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -7533,6 +8088,7 @@ export const townData: TownData[] = [
     zipCodes: ['7985'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 90,
     perc_men: 63,
     perc_between_15_45: 38,
     perc_between_15_25: 25
@@ -7552,6 +8108,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4975,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -7562,6 +8119,7 @@ export const townData: TownData[] = [
     zipCodes: ['5862'],
     sportClubs: [],
     population: 420,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -7581,6 +8139,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10880,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -7591,6 +8150,7 @@ export const townData: TownData[] = [
     zipCodes: ['2735'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 38,
     perc_between_15_25: 19
@@ -7601,6 +8161,7 @@ export const townData: TownData[] = [
     zipCodes: ['4155'],
     sportClubs: [],
     population: 340,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -7629,6 +8190,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 630,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -7639,6 +8201,7 @@ export const townData: TownData[] = [
     zipCodes: ['4265'],
     sportClubs: [],
     population: 1725,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -7649,6 +8212,7 @@ export const townData: TownData[] = [
     zipCodes: ['7081'],
     sportClubs: [],
     population: 4300,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -7661,6 +8225,7 @@ export const townData: TownData[] = [
       { name: 'vv De Bataven', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 7225,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -7680,6 +8245,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10320,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 40,
     perc_between_15_25: 16
@@ -7692,6 +8258,7 @@ export const townData: TownData[] = [
       { name: "sv Vitesse'08", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 9075,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -7702,6 +8269,7 @@ export const townData: TownData[] = [
     zipCodes: ['9873'],
     sportClubs: [{ name: 'GSVV', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 800,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -7721,6 +8289,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 305,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 16
@@ -7733,6 +8302,7 @@ export const townData: TownData[] = [
       { name: 'Geulsche Boys', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2575,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 9
@@ -7743,6 +8313,7 @@ export const townData: TownData[] = [
     zipCodes: ['6987'],
     sportClubs: [{ name: "GSV'38", colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2780,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -7762,6 +8333,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1625,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -7774,6 +8346,7 @@ export const townData: TownData[] = [
       { name: 'vv Peursum', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4855,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -7793,6 +8366,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5050,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -7805,6 +8379,7 @@ export const townData: TownData[] = [
       { name: 'vv Gieterveen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 975,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -7815,6 +8390,7 @@ export const townData: TownData[] = [
     zipCodes: ['8147'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -7827,6 +8403,7 @@ export const townData: TownData[] = [
       { name: 'sv Giethoorn', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2785,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -7839,6 +8416,7 @@ export const townData: TownData[] = [
       { name: 'vv Gilze', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 7955,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -7849,6 +8427,7 @@ export const townData: TownData[] = [
     zipCodes: ['9174'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 24,
     perc_between_15_25: 6
@@ -7859,6 +8438,7 @@ export const townData: TownData[] = [
     zipCodes: ['7585'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 80,
     perc_men: 56,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -7871,6 +8451,7 @@ export const townData: TownData[] = [
       { name: 'vv Glimmen', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1330,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 23,
     perc_between_15_25: 11
@@ -7883,6 +8464,7 @@ export const townData: TownData[] = [
       { name: 'vv Godlinze', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 300,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -7893,6 +8475,7 @@ export const townData: TownData[] = [
     zipCodes: ['3252'],
     sportClubs: [],
     population: 2295,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -7903,6 +8486,7 @@ export const townData: TownData[] = [
     zipCodes: ['8511'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 21,
     perc_between_15_25: 6
@@ -7922,6 +8506,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7420,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -7941,6 +8526,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4010,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 22,
     perc_between_15_25: 9
@@ -7953,6 +8539,7 @@ export const townData: TownData[] = [
       { name: 'vv Gouderak', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2595,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -7963,6 +8550,7 @@ export const townData: TownData[] = [
     zipCodes: ['2977'],
     sportClubs: [],
     population: 925,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -7988,6 +8576,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2040,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -7998,6 +8587,7 @@ export const townData: TownData[] = [
     zipCodes: ['9084'],
     sportClubs: [],
     population: 3275,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -8008,6 +8598,7 @@ export const townData: TownData[] = [
     zipCodes: ['8628'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 15
@@ -8018,6 +8609,7 @@ export const townData: TownData[] = [
     zipCodes: ['8497'],
     sportClubs: [],
     population: 60,
+    perc_nederlands: 100,
     perc_men: 67,
     perc_between_15_45: 33,
     perc_between_15_25: 25
@@ -8037,6 +8629,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 930,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -8047,6 +8640,7 @@ export const townData: TownData[] = [
     zipCodes: ['8277'],
     sportClubs: [],
     population: 1030,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 43,
     perc_between_15_25: 22
@@ -8057,6 +8651,7 @@ export const townData: TownData[] = [
     zipCodes: ['1484'],
     sportClubs: [],
     population: 890,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -8076,6 +8671,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3195,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -8095,6 +8691,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1650,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -8114,6 +8711,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1665,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -8126,6 +8724,7 @@ export const townData: TownData[] = [
       { name: "GVV'57", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 8680,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -8136,6 +8735,7 @@ export const townData: TownData[] = [
     zipCodes: ['8658'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: -133303,
     perc_between_15_25: -133329
@@ -8148,6 +8748,7 @@ export const townData: TownData[] = [
       { name: 'vv Armada', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2280,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -8158,6 +8759,7 @@ export const townData: TownData[] = [
     zipCodes: ['5766'],
     sportClubs: [],
     population: 545,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -8170,6 +8772,7 @@ export const townData: TownData[] = [
       { name: 'vv Grijpskerk', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2720,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -8180,6 +8783,7 @@ export const townData: TownData[] = [
     zipCodes: ['4364'],
     sportClubs: [],
     population: 1415,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -8190,6 +8794,7 @@ export const townData: TownData[] = [
     zipCodes: ['4503'],
     sportClubs: [{ name: 'vv Groede', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1000,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -8200,6 +8805,7 @@ export const townData: TownData[] = [
     zipCodes: ['3737'],
     sportClubs: [],
     population: 1890,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -8210,6 +8816,7 @@ export const townData: TownData[] = [
     zipCodes: ['5826'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -8222,6 +8829,7 @@ export const townData: TownData[] = [
       { name: 'sc Groessen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 2010,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -8232,6 +8840,7 @@ export const townData: TownData[] = [
     zipCodes: ['1873'],
     sportClubs: [],
     population: 1465,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -8251,6 +8860,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 755,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -8261,6 +8871,7 @@ export const townData: TownData[] = [
     zipCodes: ['6247'],
     sportClubs: [{ name: 'vv SCG', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 2950,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -8273,6 +8884,7 @@ export const townData: TownData[] = [
       { name: 'vv Groot-Ammers', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 4245,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 11
@@ -8292,6 +8904,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9320,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -8302,6 +8915,7 @@ export const townData: TownData[] = [
     zipCodes: ['9861'],
     sportClubs: [],
     population: 3465,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -8312,6 +8926,7 @@ export const townData: TownData[] = [
     zipCodes: ['1843'],
     sportClubs: [{ name: 'GSV', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 690,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -8326,6 +8941,7 @@ export const townData: TownData[] = [
       { name: 'GAVC', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5760,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -8338,6 +8954,7 @@ export const townData: TownData[] = [
       { name: "GFC'33", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4735,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -8350,6 +8967,7 @@ export const townData: TownData[] = [
       { name: 'fc Gulpen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3905,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -8360,6 +8978,7 @@ export const townData: TownData[] = [
     zipCodes: ['6143'],
     sportClubs: [],
     population: 1195,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -8370,6 +8989,7 @@ export const townData: TownData[] = [
     zipCodes: ['9061'],
     sportClubs: [],
     population: 2315,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -8389,6 +9009,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2830,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -8408,6 +9029,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2065,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -8427,6 +9049,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5880,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -8437,6 +9060,7 @@ export const townData: TownData[] = [
     zipCodes: ['2065'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -8449,6 +9073,7 @@ export const townData: TownData[] = [
       { name: 'sp Haarlo', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 705,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -8459,6 +9084,7 @@ export const townData: TownData[] = [
     zipCodes: ['5254'],
     sportClubs: [],
     population: 2255,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -8469,6 +9095,7 @@ export const townData: TownData[] = [
     zipCodes: ['3455'],
     sportClubs: [],
     population: 430,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -8488,6 +9115,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4340,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -8507,6 +9135,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4425,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -8517,6 +9146,7 @@ export const townData: TownData[] = [
     zipCodes: ['4124'],
     sportClubs: [],
     population: 1440,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -8527,6 +9157,7 @@ export const townData: TownData[] = [
     zipCodes: ['5089'],
     sportClubs: [],
     population: 830,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -8537,6 +9168,7 @@ export const townData: TownData[] = [
     zipCodes: ['6012'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -8547,6 +9179,7 @@ export const townData: TownData[] = [
     zipCodes: ['1165'],
     sportClubs: [],
     population: 2610,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -8557,6 +9190,7 @@ export const townData: TownData[] = [
     zipCodes: ['6964'],
     sportClubs: [{ name: 'vv SHE', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 820,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 15
@@ -8576,6 +9210,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2255,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -8595,6 +9230,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2665,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -8632,6 +9268,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12445,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -8642,6 +9279,7 @@ export const townData: TownData[] = [
     zipCodes: ['5423'],
     sportClubs: [{ name: 'vv Handel', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1785,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -8654,6 +9292,7 @@ export const townData: TownData[] = [
       { name: 'vv Be Ready', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 4305,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -8673,6 +9312,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1685,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -8683,6 +9323,7 @@ export const townData: TownData[] = [
     zipCodes: ['9147'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 10
@@ -8693,6 +9334,7 @@ export const townData: TownData[] = [
     zipCodes: ['9146'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 100,
     perc_men: 62,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -8703,6 +9345,7 @@ export const townData: TownData[] = [
     zipCodes: ['9144'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -8722,6 +9365,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5620,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -8741,6 +9385,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2850,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -8760,6 +9405,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1605,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -8779,6 +9425,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1780,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -8789,6 +9436,7 @@ export const townData: TownData[] = [
     zipCodes: ['8571'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -8799,6 +9447,7 @@ export const townData: TownData[] = [
     zipCodes: ['1769'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 24,
     perc_between_15_25: 8
@@ -8820,6 +9469,7 @@ export const townData: TownData[] = [
       { name: 'vv Harkemase Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4310,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -8830,6 +9480,7 @@ export const townData: TownData[] = [
     zipCodes: ['9614'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -8849,6 +9500,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3045,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -8868,6 +9520,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8190,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -8887,6 +9540,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1435,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 40,
     perc_between_15_25: 21
@@ -8906,6 +9560,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3525,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 39,
     perc_between_15_25: 17
@@ -8916,6 +9571,7 @@ export const townData: TownData[] = [
     zipCodes: ['8741'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 35,
     perc_between_15_25: 17
@@ -8926,6 +9582,7 @@ export const townData: TownData[] = [
     zipCodes: ['8468'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -8936,6 +9593,7 @@ export const townData: TownData[] = [
     zipCodes: ['8506'],
     sportClubs: [],
     population: 560,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 36,
     perc_between_15_25: 17
@@ -8948,6 +9606,7 @@ export const townData: TownData[] = [
       { name: "vv Olympia'28", colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 7330,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -8967,6 +9626,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1500,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -8977,6 +9637,7 @@ export const townData: TownData[] = [
     zipCodes: ['8432'],
     sportClubs: [],
     population: 575,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 27,
     perc_between_15_25: 14
@@ -8989,6 +9650,7 @@ export const townData: TownData[] = [
       { name: 'sv Haulerwijk', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 3245,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -9001,6 +9663,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Havelte', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3645,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -9013,6 +9676,7 @@ export const townData: TownData[] = [
       { name: 'vv FDS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 195,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -9032,6 +9696,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5970,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -9051,6 +9716,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5415,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -9061,6 +9727,7 @@ export const townData: TownData[] = [
     zipCodes: ['5321'],
     sportClubs: [{ name: 'vv Hedel', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 5030,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -9071,6 +9738,7 @@ export const townData: TownData[] = [
     zipCodes: ['8882'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -9096,6 +9764,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2230,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -9106,6 +9775,7 @@ export const townData: TownData[] = [
     zipCodes: ['6097'],
     sportClubs: [],
     population: 4480,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -9129,6 +9799,7 @@ export const townData: TownData[] = [
       { name: 'vv RVW', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 3515,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -9139,6 +9810,7 @@ export const townData: TownData[] = [
     zipCodes: ['7055'],
     sportClubs: [],
     population: 1015,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -9149,6 +9821,7 @@ export const townData: TownData[] = [
     zipCodes: ['7796'],
     sportClubs: [],
     population: 570,
+    perc_nederlands: 50,
     perc_men: 54,
     perc_between_15_45: 46,
     perc_between_15_25: 15
@@ -9168,6 +9841,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2510,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -9189,6 +9863,7 @@ export const townData: TownData[] = [
       { name: 'vv SEH', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 11585,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -9201,6 +9876,7 @@ export const townData: TownData[] = [
       { name: 'sv Heerewaarden', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1365,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -9213,6 +9889,7 @@ export const townData: TownData[] = [
       { name: 'vv Heerjansdam', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 3785,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -9232,6 +9909,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1805,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -9251,6 +9929,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 13390,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -9279,6 +9958,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 430,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -9293,6 +9973,7 @@ export const townData: TownData[] = [
       { name: 'vv Heeswijk', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 8435,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -9303,6 +9984,7 @@ export const townData: TownData[] = [
     zipCodes: ['8111'],
     sportClubs: [{ name: 'sv Heeten', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 3670,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -9315,6 +9997,7 @@ export const townData: TownData[] = [
       { name: 'rksv Heeze', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 9905,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -9325,6 +10008,7 @@ export const townData: TownData[] = [
     zipCodes: ['9173'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -9337,6 +10021,7 @@ export const townData: TownData[] = [
       { name: 'vv Hegelsom', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1955,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -9347,6 +10032,7 @@ export const townData: TownData[] = [
     zipCodes: ['4126'],
     sportClubs: [{ name: "HSSC'61", colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 1010,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 12
@@ -9366,6 +10052,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 755,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -9376,6 +10063,7 @@ export const townData: TownData[] = [
     zipCodes: ['5812'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -9395,6 +10083,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2005,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -9405,6 +10094,7 @@ export const townData: TownData[] = [
     zipCodes: ['6276'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -9424,6 +10114,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 940,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -9434,6 +10125,7 @@ export const townData: TownData[] = [
     zipCodes: ['4566'],
     sportClubs: [],
     population: 1100,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -9444,6 +10136,7 @@ export const townData: TownData[] = [
     zipCodes: ['6564'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 12
@@ -9456,6 +10149,7 @@ export const townData: TownData[] = [
       { name: 'vv Heiligerlee', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1450,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -9475,6 +10169,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3580,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -9494,6 +10189,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5505,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -9504,6 +10200,7 @@ export const townData: TownData[] = [
     zipCodes: ['8141'],
     sportClubs: [{ name: 'vv Heino', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 7120,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -9514,6 +10211,7 @@ export const townData: TownData[] = [
     zipCodes: ['3209'],
     sportClubs: [],
     population: 1565,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -9524,6 +10222,7 @@ export const townData: TownData[] = [
     zipCodes: ['3467'],
     sportClubs: [],
     population: 720,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -9534,6 +10233,7 @@ export const townData: TownData[] = [
     zipCodes: ['5988'],
     sportClubs: [{ name: 'vv Helden', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 6205,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -9550,6 +10250,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 910,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -9571,6 +10272,7 @@ export const townData: TownData[] = [
       { name: "MVV'69", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 6335,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -9590,6 +10292,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1005,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -9600,6 +10303,7 @@ export const townData: TownData[] = [
     zipCodes: ['9627'],
     sportClubs: [],
     population: 540,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -9619,6 +10323,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4870,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -9638,6 +10343,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1515,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -9648,6 +10354,7 @@ export const townData: TownData[] = [
     zipCodes: ['8584'],
     sportClubs: [],
     population: 600,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -9658,6 +10365,7 @@ export const townData: TownData[] = [
     zipCodes: ['6672'],
     sportClubs: [],
     population: 165,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 24,
     perc_between_15_25: 6
@@ -9668,6 +10376,7 @@ export const townData: TownData[] = [
     zipCodes: ['9086'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -9678,6 +10387,7 @@ export const townData: TownData[] = [
     zipCodes: ['8409'],
     sportClubs: [],
     population: 755,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -9697,6 +10407,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6580,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -9716,6 +10427,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2080,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -9726,6 +10438,7 @@ export const townData: TownData[] = [
     zipCodes: ['4585'],
     sportClubs: [],
     population: 720,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -9738,6 +10451,7 @@ export const townData: TownData[] = [
       { name: "vv Apollo'68", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1595,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -9748,6 +10462,7 @@ export const townData: TownData[] = [
     zipCodes: ['8807'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 6
@@ -9758,6 +10473,7 @@ export const townData: TownData[] = [
     zipCodes: ['6075'],
     sportClubs: [{ name: "SVH'39", colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4215,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -9770,6 +10486,7 @@ export const townData: TownData[] = [
       { name: "vv Herkingen'55", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1220,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -9789,6 +10506,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 950,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -9808,6 +10526,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2900,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -9827,6 +10546,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7875,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 10
@@ -9837,6 +10557,7 @@ export const townData: TownData[] = [
     zipCodes: ['7626'],
     sportClubs: [],
     population: 530,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -9847,6 +10568,7 @@ export const townData: TownData[] = [
     zipCodes: ['6674'],
     sportClubs: [{ name: 'SVHA', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 3110,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -9857,6 +10579,7 @@ export const townData: TownData[] = [
     zipCodes: ['6914'],
     sportClubs: [],
     population: 1015,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -9876,6 +10599,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2690,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -9895,6 +10619,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5025,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -9905,6 +10630,7 @@ export const townData: TownData[] = [
     zipCodes: ['5059'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -9917,6 +10643,7 @@ export const townData: TownData[] = [
       { name: 'vv Heukelum', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2370,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -9936,6 +10663,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1825,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -9950,6 +10678,7 @@ export const townData: TownData[] = [
       { name: 'sv ONDO', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2450,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -9960,6 +10689,7 @@ export const townData: TownData[] = [
     zipCodes: ['6869'],
     sportClubs: [],
     population: 710,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -9979,6 +10709,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6595,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -9989,6 +10720,7 @@ export const townData: TownData[] = [
     zipCodes: ['7662'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -9999,6 +10731,7 @@ export const townData: TownData[] = [
     zipCodes: ['9148'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 38,
     perc_between_15_25: 23
@@ -10009,6 +10742,7 @@ export const townData: TownData[] = [
     zipCodes: ['8743'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 19
@@ -10019,6 +10753,7 @@ export const townData: TownData[] = [
     zipCodes: ['8737'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 25
@@ -10031,6 +10766,7 @@ export const townData: TownData[] = [
       { name: 'vv Hierden', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 3185,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -10041,6 +10777,7 @@ export const townData: TownData[] = [
     zipCodes: ['8762'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 29,
     perc_between_15_25: 18
@@ -10060,6 +10797,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 890,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -10070,6 +10808,7 @@ export const townData: TownData[] = [
     zipCodes: ['9054'],
     sportClubs: [],
     population: 400,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -10080,6 +10819,7 @@ export const townData: TownData[] = [
     zipCodes: ['9027'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -10099,6 +10839,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8705,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -10111,6 +10852,7 @@ export const townData: TownData[] = [
       { name: 'sv Hielpen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 865,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -10121,6 +10863,7 @@ export const townData: TownData[] = [
     zipCodes: ['8844'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 100,
     perc_men: 60,
     perc_between_15_45: -199964,
     perc_between_15_25: -199994
@@ -10140,6 +10883,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5145,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -10150,6 +10894,7 @@ export const townData: TownData[] = [
     zipCodes: ['8805'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -10160,6 +10905,7 @@ export const townData: TownData[] = [
     zipCodes: ['1477'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -10172,6 +10918,7 @@ export const townData: TownData[] = [
       { name: 'sv Hoedekenskerke', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -10182,6 +10929,7 @@ export const townData: TownData[] = [
     zipCodes: ['4125'],
     sportClubs: [],
     population: 1230,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 54,
     perc_between_15_25: 6
@@ -10201,6 +10949,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10370,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -10220,6 +10969,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2935,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -10230,6 +10980,7 @@ export const townData: TownData[] = [
     zipCodes: ['5333'],
     sportClubs: [],
     population: 275,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -10242,6 +10993,7 @@ export const townData: TownData[] = [
       { name: 'sc Hoevelaken', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 9570,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -10252,6 +11004,7 @@ export const townData: TownData[] = [
     zipCodes: ['4741'],
     sportClubs: [{ name: 'vv Hoeven', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 6765,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -10262,6 +11015,7 @@ export const townData: TownData[] = [
     zipCodes: ['7645'],
     sportClubs: [],
     population: 1065,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -10272,6 +11026,7 @@ export const townData: TownData[] = [
     zipCodes: ['3739'],
     sportClubs: [],
     population: 1555,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -10311,6 +11066,7 @@ export const townData: TownData[] = [
       { name: 'vv Hollandscheveld', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 5180,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -10330,6 +11086,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1275,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 30,
     perc_between_15_25: 8
@@ -10340,6 +11097,7 @@ export const townData: TownData[] = [
     zipCodes: ['7845'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -10361,6 +11119,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9380,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -10373,6 +11132,7 @@ export const townData: TownData[] = [
       { name: 'vv Holthees Smakt', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 545,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -10383,6 +11143,7 @@ export const townData: TownData[] = [
     zipCodes: ['7787'],
     sportClubs: [],
     population: 185,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 32,
     perc_between_15_25: 19
@@ -10393,6 +11154,7 @@ export const townData: TownData[] = [
     zipCodes: ['7779'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 21
@@ -10403,6 +11165,7 @@ export const townData: TownData[] = [
     zipCodes: ['6123'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 8
@@ -10415,6 +11178,7 @@ export const townData: TownData[] = [
       { name: 'vv Holwerd', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1585,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -10434,6 +11198,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1070,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -10452,6 +11217,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 650,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -10462,6 +11228,7 @@ export const townData: TownData[] = [
     zipCodes: ['6676'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -10474,6 +11241,7 @@ export const townData: TownData[] = [
       { name: 'sv Honselersdijk', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 7595,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 14
@@ -10493,6 +11261,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 715,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -10503,6 +11272,7 @@ export const townData: TownData[] = [
     zipCodes: ['7346'],
     sportClubs: [],
     population: 235,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 15,
     perc_between_15_25: 6
@@ -10522,6 +11292,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 455,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 19,
     perc_between_15_25: 7
@@ -10532,6 +11303,7 @@ export const townData: TownData[] = [
     zipCodes: ['4221'],
     sportClubs: [],
     population: 1380,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -10542,6 +11314,7 @@ export const townData: TownData[] = [
     zipCodes: ['5095'],
     sportClubs: [{ name: 'HMVV', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1790,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 8
@@ -10554,6 +11327,7 @@ export const townData: TownData[] = [
       { name: "vv HZ'75", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1730,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -10566,6 +11340,7 @@ export const townData: TownData[] = [
       { name: 'vv Hoogeloon', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2195,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -10576,6 +11351,7 @@ export const townData: TownData[] = [
     zipCodes: ['7793'],
     sportClubs: [],
     population: 445,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 17
@@ -10588,6 +11364,7 @@ export const townData: TownData[] = [
       { name: 'sv Hoogersmilde', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1320,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -10607,6 +11384,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1440,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -10619,6 +11397,7 @@ export const townData: TownData[] = [
       { name: "sc Spirit'30", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 8255,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -10638,6 +11417,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10270,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -10650,6 +11430,7 @@ export const townData: TownData[] = [
       { name: 'vv Hooglanderveen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 4925,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 39,
     perc_between_15_25: 12
@@ -10669,6 +11450,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1700,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -10681,6 +11463,7 @@ export const townData: TownData[] = [
       { name: 'vv Grasshoppers', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 3975,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -10691,6 +11474,7 @@ export const townData: TownData[] = [
     zipCodes: ['4223'],
     sportClubs: [{ name: 'vv SteDoCo', colors: [[0, 0, 0]], type: 'voetbal' }],
     population: 1880,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -10701,6 +11485,7 @@ export const townData: TownData[] = [
     zipCodes: ['8412'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -10720,6 +11505,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3740,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -10730,6 +11516,7 @@ export const townData: TownData[] = [
     zipCodes: ['9978'],
     sportClubs: [],
     population: 185,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -10755,6 +11542,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1630,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -10767,6 +11555,7 @@ export const townData: TownData[] = [
       { name: 'rksv Wittenhorst', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 13085,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -10786,6 +11575,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 915,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -10796,6 +11586,7 @@ export const townData: TownData[] = [
     zipCodes: ['9973'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -10806,6 +11597,7 @@ export const townData: TownData[] = [
     zipCodes: ['4635'],
     sportClubs: [{ name: 'vv VIVOO', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2100,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -10816,6 +11608,7 @@ export const townData: TownData[] = [
     zipCodes: ['9336'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 41,
     perc_between_15_25: 15
@@ -10828,6 +11621,7 @@ export const townData: TownData[] = [
       { name: "vv 't Vliegdorp", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3090,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 8
@@ -10838,6 +11632,7 @@ export const townData: TownData[] = [
     zipCodes: ['1789'],
     sportClubs: [],
     population: 580,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -10848,6 +11643,7 @@ export const townData: TownData[] = [
     zipCodes: ['5358'],
     sportClubs: [],
     population: 340,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -10858,6 +11654,7 @@ export const townData: TownData[] = [
     zipCodes: ['9992'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 25,
     perc_between_15_25: 14
@@ -10870,6 +11667,7 @@ export const townData: TownData[] = [
       { name: 'sv Hulsberg', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3955,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -10882,6 +11680,7 @@ export const townData: TownData[] = [
       { name: 'vv Hulsel', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 810,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 9
@@ -10901,6 +11700,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2100,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -10911,6 +11711,7 @@ export const townData: TownData[] = [
     zipCodes: ['5125'],
     sportClubs: [],
     population: 425,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -10921,6 +11722,7 @@ export const townData: TownData[] = [
     zipCodes: ['6999'],
     sportClubs: [],
     population: 1610,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -10931,6 +11733,7 @@ export const townData: TownData[] = [
     zipCodes: ['6013'],
     sportClubs: [{ name: 'RKHVC', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 970,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -10950,6 +11753,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5035,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -10969,6 +11773,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 880,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 15
@@ -10979,6 +11784,7 @@ export const townData: TownData[] = [
     zipCodes: ['8832'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 24,
     perc_between_15_25: 10
@@ -11000,6 +11806,7 @@ export const townData: TownData[] = [
       { name: 'vv IJhorst', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1335,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -11010,6 +11817,7 @@ export const townData: TownData[] = [
     zipCodes: ['8651'],
     sportClubs: [{ name: 'IJVC', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 3010,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -11020,6 +11828,7 @@ export const townData: TownData[] = [
     zipCodes: ['8361'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 63,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -11039,6 +11848,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12495,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -11058,6 +11868,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2280,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -11070,6 +11881,7 @@ export const townData: TownData[] = [
       { name: 'vv Uchta', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1175,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -11080,6 +11892,7 @@ export const townData: TownData[] = [
     zipCodes: ['9007'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 19
@@ -11090,6 +11903,7 @@ export const townData: TownData[] = [
     zipCodes: ['8755'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 100,
     perc_men: 59,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -11111,6 +11925,7 @@ export const townData: TownData[] = [
       { name: 'VVI', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 470,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -11121,6 +11936,7 @@ export const townData: TownData[] = [
     zipCodes: ['8612'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 90,
     perc_men: 40,
     perc_between_15_45: -399948,
     perc_between_15_25: 40
@@ -11140,6 +11956,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 855,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -11150,6 +11967,7 @@ export const townData: TownData[] = [
     zipCodes: ['8733'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: -222193,
     perc_between_15_25: -222216
@@ -11169,6 +11987,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1815,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -11179,6 +11998,7 @@ export const townData: TownData[] = [
     zipCodes: ['8553'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 14,
     perc_between_15_25: 10
@@ -11189,6 +12009,7 @@ export const townData: TownData[] = [
     zipCodes: ['6273'],
     sportClubs: [{ name: 'RKIVV', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 210,
+    perc_nederlands: 90,
     perc_men: 45,
     perc_between_15_45: 26,
     perc_between_15_25: 17
@@ -11199,6 +12020,7 @@ export const townData: TownData[] = [
     zipCodes: ['9038'],
     sportClubs: [],
     population: 375,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -11218,6 +12040,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2170,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -11228,6 +12051,7 @@ export const townData: TownData[] = [
     zipCodes: ['9132'],
     sportClubs: [],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -11238,6 +12062,7 @@ export const townData: TownData[] = [
     zipCodes: ['8724'],
     sportClubs: [],
     population: 340,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 16
@@ -11248,6 +12073,7 @@ export const townData: TownData[] = [
     zipCodes: ['8735'],
     sportClubs: [],
     population: 235,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -11258,6 +12084,7 @@ export const townData: TownData[] = [
     zipCodes: ['6014'],
     sportClubs: [],
     population: 1675,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -11268,6 +12095,7 @@ export const townData: TownData[] = [
     zipCodes: ['3413'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -11307,6 +12135,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 715,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 8
@@ -11317,6 +12146,7 @@ export const townData: TownData[] = [
     zipCodes: ['9107'],
     sportClubs: [],
     population: 55,
+    perc_nederlands: 90,
     perc_men: 45,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -11327,6 +12157,7 @@ export const townData: TownData[] = [
     zipCodes: ['9026'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 17
@@ -11337,6 +12168,7 @@ export const townData: TownData[] = [
     zipCodes: ['9057'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -11349,6 +12181,7 @@ export const townData: TownData[] = [
       { name: 'vv Irnsum', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1340,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -11359,6 +12192,7 @@ export const townData: TownData[] = [
     zipCodes: ['9177'],
     sportClubs: [],
     population: 55,
+    perc_nederlands: 90,
     perc_men: 64,
     perc_between_15_45: -181785,
     perc_between_15_25: -181813
@@ -11378,6 +12212,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 13
@@ -11397,6 +12232,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 925,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -11407,6 +12243,7 @@ export const townData: TownData[] = [
     zipCodes: ['8403'],
     sportClubs: [],
     population: 285,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -11417,6 +12254,7 @@ export const townData: TownData[] = [
     zipCodes: ['9366'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -11427,6 +12265,7 @@ export const townData: TownData[] = [
     zipCodes: ['7215'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 23,
     perc_between_15_25: 9
@@ -11437,6 +12276,7 @@ export const townData: TownData[] = [
     zipCodes: ['9023'],
     sportClubs: [],
     population: 315,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -11447,6 +12287,7 @@ export const townData: TownData[] = [
     zipCodes: ['9124'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: 33,
     perc_between_15_25: 22
@@ -11466,6 +12307,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3250,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -11476,6 +12318,7 @@ export const townData: TownData[] = [
     zipCodes: ['8623'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -11486,6 +12329,7 @@ export const townData: TownData[] = [
     zipCodes: ['2159'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -11496,6 +12340,7 @@ export const townData: TownData[] = [
     zipCodes: ['8883'],
     sportClubs: [],
     population: 15,
+    perc_nederlands: 100,
     perc_men: 67,
     perc_between_15_45: -1333293,
     perc_between_15_25: -666647
@@ -11506,6 +12351,7 @@ export const townData: TownData[] = [
     zipCodes: ['8377'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 11
@@ -11516,6 +12362,7 @@ export const townData: TownData[] = [
     zipCodes: ['8345'],
     sportClubs: [],
     population: 315,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -11535,6 +12382,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3865,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -11554,6 +12402,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2070,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -11564,6 +12413,7 @@ export const townData: TownData[] = [
     zipCodes: ['8278'],
     sportClubs: [],
     population: 890,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -11583,6 +12433,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 670,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -11593,6 +12444,7 @@ export const townData: TownData[] = [
     zipCodes: ['4013'],
     sportClubs: [],
     population: 720,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -11603,6 +12455,7 @@ export const townData: TownData[] = [
     zipCodes: ['4016'],
     sportClubs: [],
     population: 185,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -11622,6 +12475,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9205,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -11632,6 +12486,7 @@ export const townData: TownData[] = [
     zipCodes: ['4565'],
     sportClubs: [],
     population: 365,
+    perc_nederlands: 60,
     perc_men: 56,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -11642,6 +12497,7 @@ export const townData: TownData[] = [
     zipCodes: ['8455'],
     sportClubs: [],
     population: 600,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 16
@@ -11652,6 +12508,7 @@ export const townData: TownData[] = [
     zipCodes: ['4485'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -11662,6 +12519,7 @@ export const townData: TownData[] = [
     zipCodes: ['4474'],
     sportClubs: [],
     population: 535,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 8
@@ -11672,6 +12530,7 @@ export const townData: TownData[] = [
     zipCodes: ['5433'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -11682,6 +12541,7 @@ export const townData: TownData[] = [
     zipCodes: ['1145'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -11692,6 +12552,7 @@ export const townData: TownData[] = [
     zipCodes: ['4247'],
     sportClubs: [],
     population: 850,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 15
@@ -11702,6 +12563,7 @@ export const townData: TownData[] = [
     zipCodes: ['5359'],
     sportClubs: [],
     population: 60,
+    perc_nederlands: 100,
     perc_men: 58,
     perc_between_15_45: 33,
     perc_between_15_25: 17
@@ -11714,6 +12576,7 @@ export const townData: TownData[] = [
       { name: 'vv Keijenburgse Boys', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1410,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -11724,6 +12587,7 @@ export const townData: TownData[] = [
     zipCodes: ['6579'],
     sportClubs: [],
     population: 490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 24,
     perc_between_15_25: 10
@@ -11743,6 +12607,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1145,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -11753,6 +12618,7 @@ export const townData: TownData[] = [
     zipCodes: ['4017'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 80,
     perc_men: 54,
     perc_between_15_45: 43,
     perc_between_15_25: 14
@@ -11765,6 +12631,7 @@ export const townData: TownData[] = [
       { name: 'vv Teisterbanders', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1375,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -11779,6 +12646,7 @@ export const townData: TownData[] = [
       { name: 'vv DSC', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 7830,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 10
@@ -11798,6 +12666,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 945,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -11808,6 +12677,7 @@ export const townData: TownData[] = [
     zipCodes: ['4321'],
     sportClubs: [{ name: "sv WIK'57", colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 985,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -11827,6 +12697,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 655,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -11837,6 +12708,7 @@ export const townData: TownData[] = [
     zipCodes: ['5995'],
     sportClubs: [{ name: 'vv Kessel', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4210,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -11849,6 +12721,7 @@ export const townData: TownData[] = [
       { name: 'vv Kesteren', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 6395,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 39,
     perc_between_15_25: 15
@@ -11868,6 +12741,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 865,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -11878,6 +12752,7 @@ export const townData: TownData[] = [
     zipCodes: ['7035'],
     sportClubs: [{ name: 'sv Kilder', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1520,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -11888,6 +12763,7 @@ export const townData: TownData[] = [
     zipCodes: ['8821'],
     sportClubs: [],
     population: 555,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -11900,6 +12776,7 @@ export const townData: TownData[] = [
       { name: 'vv De Zwerver', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 820,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -11910,6 +12787,7 @@ export const townData: TownData[] = [
     zipCodes: ['8885'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -11920,6 +12798,7 @@ export const townData: TownData[] = [
     zipCodes: ['3286'],
     sportClubs: [{ name: 'vv SSS', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4150,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -11930,6 +12809,7 @@ export const townData: TownData[] = [
     zipCodes: ['7889'],
     sportClubs: [{ name: 'vv VEV', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 165,
+    perc_nederlands: 100,
     perc_men: 58,
     perc_between_15_45: 21,
     perc_between_15_25: 12
@@ -11940,6 +12820,7 @@ export const townData: TownData[] = [
     zipCodes: ['4882'],
     sportClubs: [],
     population: 2430,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -11950,6 +12831,7 @@ export const townData: TownData[] = [
     zipCodes: ['7871'],
     sportClubs: [],
     population: 735,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -11966,6 +12848,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3225,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -11976,6 +12859,7 @@ export const townData: TownData[] = [
     zipCodes: ['8853'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 63,
     perc_between_15_45: -249968,
     perc_between_15_25: -249993
@@ -11988,6 +12872,7 @@ export const townData: TownData[] = [
       { name: 'vv Kloosterburen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1255,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -12007,6 +12892,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1520,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -12019,6 +12905,7 @@ export const townData: TownData[] = [
       { name: 'vv Hontenisse', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 3150,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -12039,6 +12926,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5860,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -12051,6 +12939,7 @@ export const townData: TownData[] = [
       { name: 'vv Knegselse Boys', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1410,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -12065,6 +12954,7 @@ export const townData: TownData[] = [
       { name: 'vv DTD', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 430,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -12077,6 +12967,7 @@ export const townData: TownData[] = [
       { name: 'vv Kockengen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3440,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -12096,6 +12987,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2465,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -12115,6 +13007,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2500,
+    perc_nederlands: 60,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -12125,6 +13018,7 @@ export const townData: TownData[] = [
     zipCodes: ['8583'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 20
@@ -12135,6 +13029,7 @@ export const townData: TownData[] = [
     zipCodes: ['9615'],
     sportClubs: [],
     population: 1340,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -12147,6 +13042,7 @@ export const townData: TownData[] = [
       { name: 'vv Kaagvogels', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1030,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -12159,6 +13055,7 @@ export const townData: TownData[] = [
       { name: 'vv Kollum', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 5635,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -12169,6 +13066,7 @@ export const townData: TownData[] = [
     zipCodes: ['9293'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 8
@@ -12188,6 +13086,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2920,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -12207,6 +13106,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1645,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -12226,6 +13126,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1235,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -12245,6 +13146,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 11275,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -12257,6 +13159,7 @@ export const townData: TownData[] = [
       { name: 'sc Kootstertille', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2425,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -12267,6 +13170,7 @@ export const townData: TownData[] = [
     zipCodes: ['3775'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -12277,6 +13181,7 @@ export const townData: TownData[] = [
     zipCodes: ['3774'],
     sportClubs: [],
     population: 5635,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 39,
     perc_between_15_25: 17
@@ -12287,6 +13192,7 @@ export const townData: TownData[] = [
     zipCodes: ['9864'],
     sportClubs: [],
     population: 635,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -12297,6 +13203,7 @@ export const townData: TownData[] = [
     zipCodes: ['8752'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 100,
     perc_men: 60,
     perc_between_15_45: -799976,
     perc_between_15_25: -399988
@@ -12307,6 +13214,7 @@ export const townData: TownData[] = [
     zipCodes: ['9211'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 39,
     perc_between_15_25: 27
@@ -12317,6 +13225,7 @@ export const townData: TownData[] = [
     zipCodes: ['1241'],
     sportClubs: [],
     population: 6760,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -12336,6 +13245,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1825,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -12348,6 +13258,7 @@ export const townData: TownData[] = [
       { name: 'vv Koudekerk', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4115,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -12358,6 +13269,7 @@ export const townData: TownData[] = [
     zipCodes: ['4371'],
     sportClubs: [{ name: 'VCK', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 3365,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -12370,6 +13282,7 @@ export const townData: TownData[] = [
       { name: 'sv Oeverzwaluwen', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2650,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -12380,6 +13293,7 @@ export const townData: TownData[] = [
     zipCodes: ['8529'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 18
@@ -12400,6 +13314,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4345,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -12412,6 +13327,7 @@ export const townData: TownData[] = [
       { name: 'fc Kraggenburg', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1410,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -12431,6 +13347,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 590,
+    perc_nederlands: 70,
     perc_men: 52,
     perc_between_15_45: 45,
     perc_between_15_25: 14
@@ -12441,6 +13358,7 @@ export const townData: TownData[] = [
     zipCodes: ['9904'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 19,
     perc_between_15_25: 5
@@ -12469,6 +13387,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6480,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -12479,6 +13398,7 @@ export const townData: TownData[] = [
     zipCodes: ['7216'],
     sportClubs: [],
     population: 275,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -12491,6 +13411,7 @@ export const townData: TownData[] = [
       { name: 'vv Kronenberg', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1115,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -12501,6 +13422,7 @@ export const townData: TownData[] = [
     zipCodes: ['9606'],
     sportClubs: [],
     population: 1615,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 24,
     perc_between_15_25: 12
@@ -12520,6 +13442,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4665,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -12532,6 +13455,7 @@ export const townData: TownData[] = [
       { name: 'sc Kruisland', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2290,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -12542,6 +13466,7 @@ export const townData: TownData[] = [
     zipCodes: ['1433'],
     sportClubs: [{ name: 'vv RKDES', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 9270,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -12552,6 +13477,7 @@ export const townData: TownData[] = [
     zipCodes: ['8374'],
     sportClubs: [{ name: 'vv Kuinre', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 935,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -12562,6 +13488,7 @@ export const townData: TownData[] = [
     zipCodes: ['4584'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 80,
     perc_men: 56,
     perc_between_15_45: 30,
     perc_between_15_25: 7
@@ -12574,6 +13501,7 @@ export const townData: TownData[] = [
       { name: 'vv Kwadendamme', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 925,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -12593,6 +13521,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 740,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 14
@@ -12612,6 +13541,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3815,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -12622,6 +13552,7 @@ export const townData: TownData[] = [
     zipCodes: ['8732'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -12632,6 +13563,7 @@ export const townData: TownData[] = [
     zipCodes: ['8055'],
     sportClubs: [],
     population: 630,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 18
@@ -12642,6 +13574,7 @@ export const townData: TownData[] = [
     zipCodes: ['6998'],
     sportClubs: [],
     population: 590,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 22,
     perc_between_15_25: 11
@@ -12661,6 +13594,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 985,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -12673,6 +13607,7 @@ export const townData: TownData[] = [
       { name: "vv SDO'39", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1810,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -12683,6 +13618,7 @@ export const townData: TownData[] = [
     zipCodes: ['3749'],
     sportClubs: [],
     population: 285,
+    perc_nederlands: 80,
     perc_men: 44,
     perc_between_15_45: 23,
     perc_between_15_25: 7
@@ -12702,6 +13638,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4060,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -12712,6 +13649,7 @@ export const townData: TownData[] = [
     zipCodes: ['9622'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -12722,6 +13660,7 @@ export const townData: TownData[] = [
     zipCodes: ['9623'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -12732,6 +13671,7 @@ export const townData: TownData[] = [
     zipCodes: ['1658'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -12744,6 +13684,7 @@ export const townData: TownData[] = [
       { name: "vv SDO'63", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 570,
+    perc_nederlands: 70,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 6
@@ -12754,6 +13695,7 @@ export const townData: TownData[] = [
     zipCodes: ['8893'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 90,
     perc_men: 39,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -12766,6 +13708,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Menos', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 705,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 16
@@ -12785,6 +13728,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10245,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -12804,6 +13748,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2385,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -12814,6 +13759,7 @@ export const townData: TownData[] = [
     zipCodes: ['8425'],
     sportClubs: [],
     population: 300,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -12824,6 +13770,7 @@ export const townData: TownData[] = [
     zipCodes: ['8484'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -12834,6 +13781,7 @@ export const townData: TownData[] = [
     zipCodes: ['9333'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 14
@@ -12844,6 +13792,7 @@ export const townData: TownData[] = [
     zipCodes: ['5453'],
     sportClubs: [{ name: 'vv SES', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 2260,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -12854,6 +13803,7 @@ export const townData: TownData[] = [
     zipCodes: ['2967'],
     sportClubs: [],
     population: 1660,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -12873,6 +13823,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1285,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -12892,6 +13843,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1035,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -12911,6 +13863,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1050,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -12921,6 +13874,7 @@ export const townData: TownData[] = [
     zipCodes: ['6988'],
     sportClubs: [],
     population: 1410,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -12949,6 +13903,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 995,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 36,
     perc_between_15_25: 19
@@ -12959,6 +13914,7 @@ export const townData: TownData[] = [
     zipCodes: ['9976'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 13,
     perc_between_15_25: 3
@@ -12969,6 +13925,7 @@ export const townData: TownData[] = [
     zipCodes: ['9885'],
     sportClubs: [],
     population: 205,
+    perc_nederlands: 90,
     perc_men: 59,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -12997,6 +13954,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 725,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -13018,6 +13976,7 @@ export const townData: TownData[] = [
       { name: "vv VEV'67", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 11185,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -13046,6 +14005,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4510,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -13056,6 +14016,7 @@ export const townData: TownData[] = [
     zipCodes: ['9965'],
     sportClubs: [{ name: 'fc LEO', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 1735,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -13066,6 +14027,7 @@ export const townData: TownData[] = [
     zipCodes: ['4245'],
     sportClubs: [],
     population: 1600,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 17
@@ -13076,6 +14038,7 @@ export const townData: TownData[] = [
     zipCodes: ['9912'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -13086,6 +14049,7 @@ export const townData: TownData[] = [
     zipCodes: ['3956'],
     sportClubs: [{ name: 'vv HDS', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 7585,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -13096,6 +14060,7 @@ export const townData: TownData[] = [
     zipCodes: ['8527'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 43,
     perc_between_15_25: 29
@@ -13115,6 +14080,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4640,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -13125,6 +14091,7 @@ export const townData: TownData[] = [
     zipCodes: ['2155'],
     sportClubs: [],
     population: 55,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -13137,6 +14104,7 @@ export const townData: TownData[] = [
       { name: 'vv Lekkerkerk', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 7700,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -13147,6 +14115,7 @@ export const townData: TownData[] = [
     zipCodes: ['9081'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -13157,6 +14126,7 @@ export const townData: TownData[] = [
     zipCodes: ['9794'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -13176,6 +14146,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1355,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -13186,6 +14157,7 @@ export const townData: TownData[] = [
     zipCodes: ['6295'],
     sportClubs: [],
     population: 870,
+    perc_nederlands: 60,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -13205,6 +14177,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 460,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -13233,6 +14206,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 11195,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 41,
     perc_between_15_25: 9
@@ -13243,6 +14217,7 @@ export const townData: TownData[] = [
     zipCodes: ['8833'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 100,
     perc_men: 40,
     perc_between_15_45: -399948,
     perc_between_15_25: 40
@@ -13264,6 +14239,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1915,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -13274,6 +14250,7 @@ export const townData: TownData[] = [
     zipCodes: ['9827'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -13293,6 +14270,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1480,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 15
@@ -13305,6 +14283,7 @@ export const townData: TownData[] = [
       { name: 'sv Leunen', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2285,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -13315,6 +14294,7 @@ export const townData: TownData[] = [
     zipCodes: ['6615'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 15
@@ -13334,6 +14314,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1715,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -13344,6 +14325,7 @@ export const townData: TownData[] = [
     zipCodes: ['9313'],
     sportClubs: [],
     population: 155,
+    perc_nederlands: 80,
     perc_men: 55,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -13354,6 +14336,7 @@ export const townData: TownData[] = [
     zipCodes: ['6974'],
     sportClubs: [],
     population: 705,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -13366,6 +14349,7 @@ export const townData: TownData[] = [
       { name: 'vv Lewedorpse Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1735,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -13378,6 +14362,7 @@ export const townData: TownData[] = [
       { name: 'vv Lekvogels', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2835,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -13388,6 +14373,7 @@ export const townData: TownData[] = [
     zipCodes: ['9176'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 33,
     perc_between_15_25: 20
@@ -13416,6 +14402,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4810,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -13435,6 +14422,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5835,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -13445,6 +14433,7 @@ export const townData: TownData[] = [
     zipCodes: ['8144'],
     sportClubs: [],
     population: 445,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -13455,6 +14444,7 @@ export const townData: TownData[] = [
     zipCodes: ['7364'],
     sportClubs: [],
     population: 1220,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -13474,6 +14464,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2250,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -13484,6 +14475,7 @@ export const townData: TownData[] = [
     zipCodes: ['8895'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -13494,6 +14486,7 @@ export const townData: TownData[] = [
     zipCodes: ['5737'],
     sportClubs: [],
     population: 4275,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -13513,6 +14506,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3315,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -13523,6 +14517,7 @@ export const townData: TownData[] = [
     zipCodes: ['7137'],
     sportClubs: [],
     population: 1400,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -13533,6 +14528,7 @@ export const townData: TownData[] = [
     zipCodes: ['9304'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -13543,6 +14539,7 @@ export const townData: TownData[] = [
     zipCodes: ['1175'],
     sportClubs: [],
     population: 835,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -13555,6 +14552,7 @@ export const townData: TownData[] = [
       { name: 'vv Zwentibold', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 2565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -13574,6 +14572,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7445,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -13588,6 +14587,7 @@ export const townData: TownData[] = [
       { name: "vv DOS'63", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 575,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -13598,6 +14598,7 @@ export const townData: TownData[] = [
     zipCodes: ['5439'],
     sportClubs: [],
     population: 270,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -13617,6 +14618,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3630,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -13629,6 +14631,7 @@ export const townData: TownData[] = [
       { name: 'vv Linschoten', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3970,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -13657,6 +14660,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1290,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -13669,6 +14673,7 @@ export const townData: TownData[] = [
       { name: 'vv Kagia', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 3420,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -13688,6 +14693,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3130,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -13698,6 +14704,7 @@ export const townData: TownData[] = [
     zipCodes: ['5396'],
     sportClubs: [],
     population: 900,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -13708,6 +14715,7 @@ export const townData: TownData[] = [
     zipCodes: ['9134'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 8
@@ -13718,6 +14726,7 @@ export const townData: TownData[] = [
     zipCodes: ['6915'],
     sportClubs: [],
     population: 3075,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -13737,6 +14746,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4460,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -13749,6 +14759,7 @@ export const townData: TownData[] = [
       { name: 'vv Loenermark', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 3300,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -13759,6 +14770,7 @@ export const townData: TownData[] = [
     zipCodes: ['3634'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 24,
     perc_between_15_25: 10
@@ -13769,6 +14781,7 @@ export const townData: TownData[] = [
     zipCodes: ['7036'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -13779,6 +14792,7 @@ export const townData: TownData[] = [
     zipCodes: ['8823'],
     sportClubs: [],
     population: 335,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -13798,6 +14812,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1035,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -13808,6 +14823,7 @@ export const townData: TownData[] = [
     zipCodes: ['8745'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: -222193,
     perc_between_15_25: -222216
@@ -13827,6 +14843,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1135,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -13847,6 +14864,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6210,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -13857,6 +14875,7 @@ export const townData: TownData[] = [
     zipCodes: ['9409'],
     sportClubs: [{ name: 'vv LEO', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 280,
+    perc_nederlands: 90,
     perc_men: 46,
     perc_between_15_45: 21,
     perc_between_15_25: 11
@@ -13889,6 +14908,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9020,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -13899,6 +14919,7 @@ export const townData: TownData[] = [
     zipCodes: ['7778'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -13920,6 +14941,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8115,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -13930,6 +14952,7 @@ export const townData: TownData[] = [
     zipCodes: ['3412'],
     sportClubs: [],
     population: 1165,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -13949,6 +14972,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2375,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -13959,6 +14983,7 @@ export const townData: TownData[] = [
     zipCodes: ['9907'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 26,
     perc_between_15_25: 12
@@ -13971,6 +14996,7 @@ export const townData: TownData[] = [
       { name: 'sv Lottum', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1950,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -13981,6 +15007,7 @@ export const townData: TownData[] = [
     zipCodes: ['8631'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 22,
     perc_between_15_25: 11
@@ -13991,6 +15018,7 @@ export const townData: TownData[] = [
     zipCodes: ['9825'],
     sportClubs: [],
     population: 195,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -14001,6 +15029,7 @@ export const townData: TownData[] = [
     zipCodes: ['9624'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 60,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -14011,6 +15040,7 @@ export const townData: TownData[] = [
     zipCodes: ['8459'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -14030,6 +15060,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 13680,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -14040,6 +15071,7 @@ export const townData: TownData[] = [
     zipCodes: ['1614'],
     sportClubs: [],
     population: 2200,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -14050,6 +15082,7 @@ export const townData: TownData[] = [
     zipCodes: ['9866'],
     sportClubs: [],
     population: 915,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 38,
     perc_between_15_25: 14
@@ -14060,6 +15093,7 @@ export const townData: TownData[] = [
     zipCodes: ['1732'],
     sportClubs: [],
     population: 775,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -14079,6 +15113,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2255,
+    perc_nederlands: 60,
     perc_men: 57,
     perc_between_15_45: 46,
     perc_between_15_25: 12
@@ -14089,6 +15124,7 @@ export const townData: TownData[] = [
     zipCodes: ['7775'],
     sportClubs: [],
     population: 2030,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -14099,6 +15135,7 @@ export const townData: TownData[] = [
     zipCodes: ['8105'],
     sportClubs: [{ name: 'sv SDOL', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2235,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -14109,6 +15146,7 @@ export const townData: TownData[] = [
     zipCodes: ['8405'],
     sportClubs: [],
     population: 440,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -14128,6 +15166,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3130,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -14138,6 +15177,7 @@ export const townData: TownData[] = [
     zipCodes: ['8642'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 8
@@ -14150,6 +15190,7 @@ export const townData: TownData[] = [
       { name: 'vv Maarheeze', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 5205,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -14160,6 +15201,7 @@ export const townData: TownData[] = [
     zipCodes: ['3951'],
     sportClubs: [{ name: 'SVMM', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 4655,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -14170,6 +15212,7 @@ export const townData: TownData[] = [
     zipCodes: ['3953'],
     sportClubs: [],
     population: 1330,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -14184,6 +15227,7 @@ export const townData: TownData[] = [
       { name: 'SVM futsal', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 4890,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -14194,6 +15238,7 @@ export const townData: TownData[] = [
     zipCodes: ['6627'],
     sportClubs: [],
     population: 1350,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -14213,6 +15258,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7005,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -14232,6 +15278,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6515,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -14251,6 +15298,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3250,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -14270,6 +15318,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4335,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 41,
     perc_between_15_25: 13
@@ -14280,6 +15329,7 @@ export const townData: TownData[] = [
     zipCodes: ['5823'],
     sportClubs: [],
     population: 880,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -14308,6 +15358,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6625,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -14318,6 +15369,7 @@ export const townData: TownData[] = [
     zipCodes: ['6199'],
     sportClubs: [],
     population: 5,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: -3999880,
     perc_between_15_25: -1999940
@@ -14328,6 +15380,7 @@ export const townData: TownData[] = [
     zipCodes: ['3199'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -14338,6 +15391,7 @@ export const townData: TownData[] = [
     zipCodes: ['5367'],
     sportClubs: [],
     population: 740,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -14357,6 +15411,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12450,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -14369,6 +15424,7 @@ export const townData: TownData[] = [
       { name: 'sc Makkinga', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1020,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -14388,6 +15444,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3505,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -14409,6 +15466,7 @@ export const townData: TownData[] = [
       { name: 'vv Union', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 11205,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -14419,6 +15477,7 @@ export const townData: TownData[] = [
     zipCodes: ['7663'],
     sportClubs: [],
     population: 385,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -14437,6 +15496,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 620,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -14447,6 +15507,7 @@ export const townData: TownData[] = [
     zipCodes: ['9022'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -14457,6 +15518,7 @@ export const townData: TownData[] = [
     zipCodes: ['9436'],
     sportClubs: [],
     population: 290,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -14469,6 +15531,7 @@ export const townData: TownData[] = [
       { name: 'vv Maaskantse Boys', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1370,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -14479,6 +15542,7 @@ export const townData: TownData[] = [
     zipCodes: ['6269'],
     sportClubs: [{ name: 'RKVVM', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 3860,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -14489,6 +15553,7 @@ export const townData: TownData[] = [
     zipCodes: ['6105'],
     sportClubs: [],
     population: 1300,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 7
@@ -14501,6 +15566,7 @@ export const townData: TownData[] = [
       { name: 'vv Mariahout', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2035,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -14511,6 +15577,7 @@ export const townData: TownData[] = [
     zipCodes: ['7614'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -14521,6 +15588,7 @@ export const townData: TownData[] = [
     zipCodes: ['8339'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -14531,6 +15599,7 @@ export const townData: TownData[] = [
     zipCodes: ['7692'],
     sportClubs: [],
     population: 935,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 40,
     perc_between_15_25: 16
@@ -14543,6 +15612,7 @@ export const townData: TownData[] = [
       { name: 'sv Marienheem', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1480,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -14555,6 +15625,7 @@ export const townData: TownData[] = [
       { name: 'vv Marienveld', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 900,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -14574,6 +15645,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -14586,6 +15658,7 @@ export const townData: TownData[] = [
       { name: 'sv Marken', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1770,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -14596,6 +15669,7 @@ export const townData: TownData[] = [
     zipCodes: ['1536'],
     sportClubs: [],
     population: 325,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -14615,6 +15689,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3780,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -14625,6 +15700,7 @@ export const townData: TownData[] = [
     zipCodes: ['8198'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 29,
     perc_between_15_25: 21
@@ -14644,6 +15720,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1400,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -14663,6 +15740,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1045,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -14675,6 +15753,7 @@ export const townData: TownData[] = [
       { name: 'sv Marum', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5885,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -14685,6 +15764,7 @@ export const townData: TownData[] = [
     zipCodes: ['9448'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 18
@@ -14695,6 +15775,7 @@ export const townData: TownData[] = [
     zipCodes: ['9749'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -14714,6 +15795,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4510,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -14733,6 +15815,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1775,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -14752,6 +15835,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8590,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -14764,6 +15848,7 @@ export const townData: TownData[] = [
       { name: 'vv Meeden', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1680,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -14776,6 +15861,7 @@ export const townData: TownData[] = [
       { name: 'vv Meedhuizen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 590,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -14795,6 +15881,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3900,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -14814,6 +15901,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1885,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -14828,6 +15916,7 @@ export const townData: TownData[] = [
       { name: 'vv RVU', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 7490,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -14838,6 +15927,7 @@ export const townData: TownData[] = [
     zipCodes: ['9613'],
     sportClubs: [],
     population: 1720,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 48,
     perc_between_15_25: 6
@@ -14848,6 +15938,7 @@ export const townData: TownData[] = [
     zipCodes: ['4268'],
     sportClubs: [],
     population: 710,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -14858,6 +15949,7 @@ export const townData: TownData[] = [
     zipCodes: ['7078'],
     sportClubs: [{ name: 'SVGG', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1020,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -14877,6 +15969,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1685,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -14896,6 +15989,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6160,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -14915,6 +16009,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2125,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -14943,6 +16038,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3615,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -14953,6 +16049,7 @@ export const townData: TownData[] = [
     zipCodes: ['4365'],
     sportClubs: [],
     population: 1500,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -14972,6 +16069,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2155,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -15006,6 +16104,7 @@ export const townData: TownData[] = [
       { name: 'vv Foarut', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2630,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -15016,6 +16115,7 @@ export const townData: TownData[] = [
     zipCodes: ['9961'],
     sportClubs: [],
     population: 195,
+    perc_nederlands: 90,
     perc_men: 46,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -15026,6 +16126,7 @@ export const townData: TownData[] = [
     zipCodes: ['7855'],
     sportClubs: [],
     population: 385,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -15058,6 +16159,7 @@ export const townData: TownData[] = [
       { name: 'RKDFC', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1605,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -15070,6 +16172,7 @@ export const townData: TownData[] = [
       { name: 'sv Merselo', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1070,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -15080,6 +16183,7 @@ export const townData: TownData[] = [
     zipCodes: ['4194'],
     sportClubs: [{ name: "MVV'58", colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 4565,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 40,
     perc_between_15_25: 13
@@ -15099,6 +16203,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1675,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -15109,6 +16214,7 @@ export const townData: TownData[] = [
     zipCodes: ['6261'],
     sportClubs: [],
     population: 870,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 9
@@ -15128,6 +16234,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 875,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -15156,6 +16263,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7460,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -15166,6 +16274,7 @@ export const townData: TownData[] = [
     zipCodes: ['1472'],
     sportClubs: [],
     population: 715,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -15178,6 +16287,7 @@ export const townData: TownData[] = [
       { name: 'vv Middelstum', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -15190,6 +16300,7 @@ export const townData: TownData[] = [
       { name: 'sv Beemster', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 5000,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -15200,6 +16311,7 @@ export const townData: TownData[] = [
     zipCodes: ['1775'],
     sportClubs: [{ name: 'vv Flevo', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 4250,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 39,
     perc_between_15_25: 14
@@ -15210,6 +16322,7 @@ export const townData: TownData[] = [
     zipCodes: ['9475'],
     sportClubs: [],
     population: 335,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 21,
     perc_between_15_25: 7
@@ -15229,6 +16342,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1030,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -15239,6 +16353,7 @@ export const townData: TownData[] = [
     zipCodes: ['9681'],
     sportClubs: [{ name: 'MOVV', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2090,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -15249,6 +16364,7 @@ export const townData: TownData[] = [
     zipCodes: ['9355'],
     sportClubs: [],
     population: 380,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -15259,6 +16375,7 @@ export const townData: TownData[] = [
     zipCodes: ['1679'],
     sportClubs: [{ name: 'vv MOC', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 2320,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -15269,6 +16386,7 @@ export const townData: TownData[] = [
     zipCodes: ['9082'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 100,
     perc_men: 60,
     perc_between_15_45: -799976,
     perc_between_15_25: -399988
@@ -15279,6 +16397,7 @@ export const townData: TownData[] = [
     zipCodes: ['5731'],
     sportClubs: [{ name: 'vv Mifano', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 10880,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -15289,6 +16408,7 @@ export const townData: TownData[] = [
     zipCodes: ['3271'],
     sportClubs: [{ name: 'vv GOZ', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 4680,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -15301,6 +16421,7 @@ export const townData: TownData[] = [
       { name: 'vv Mildam', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 670,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -15313,6 +16434,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Milheezer Boys', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 2215,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -15325,6 +16447,7 @@ export const townData: TownData[] = [
       { name: 'rksv Juliana Mill', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 6180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -15344,6 +16467,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5850,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -15356,6 +16480,7 @@ export const townData: TownData[] = [
       { name: 'sv Milsbeek', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2765,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -15375,6 +16500,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1730,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -15385,6 +16511,7 @@ export const townData: TownData[] = [
     zipCodes: ['8573'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 17
@@ -15395,6 +16522,7 @@ export const townData: TownData[] = [
     zipCodes: ['9123'],
     sportClubs: [],
     population: 910,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -15405,6 +16533,7 @@ export const townData: TownData[] = [
     zipCodes: ['9135'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -15415,6 +16544,7 @@ export const townData: TownData[] = [
     zipCodes: ['9142'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 7
@@ -15427,6 +16557,7 @@ export const townData: TownData[] = [
       { name: 'sv Audacia', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5975,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -15439,6 +16570,7 @@ export const townData: TownData[] = [
       { name: 'fc Moerstraten', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 610,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -15449,6 +16581,7 @@ export const townData: TownData[] = [
     zipCodes: ['2973'],
     sportClubs: [],
     population: 1205,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -15459,6 +16592,7 @@ export const townData: TownData[] = [
     zipCodes: ['6584'],
     sportClubs: [],
     population: 3690,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -15478,6 +16612,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1285,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -15488,6 +16623,7 @@ export const townData: TownData[] = [
     zipCodes: ['8722'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -15507,6 +16643,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9585,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -15526,6 +16663,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 13980,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -15542,6 +16680,7 @@ export const townData: TownData[] = [
       { name: "vv MSV'19", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 9945,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -15561,6 +16700,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3075,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -15571,6 +16711,7 @@ export const townData: TownData[] = [
     zipCodes: ['6585'],
     sportClubs: [],
     population: 2985,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -15581,6 +16722,7 @@ export const townData: TownData[] = [
     zipCodes: ['3293'],
     sportClubs: [],
     population: 455,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 10
@@ -15600,6 +16742,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8740,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -15610,6 +16753,7 @@ export const townData: TownData[] = [
     zipCodes: ['6237'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -15631,6 +16775,7 @@ export const townData: TownData[] = [
       { name: 'sc Muiderberg', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3585,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -15641,6 +16786,7 @@ export const townData: TownData[] = [
     zipCodes: ['1399'],
     sportClubs: [],
     population: 3075,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -15660,6 +16806,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 455,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -15670,6 +16817,7 @@ export const townData: TownData[] = [
     zipCodes: ['9853'],
     sportClubs: [],
     population: 475,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 39,
     perc_between_15_25: 11
@@ -15689,6 +16837,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4530,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -15708,6 +16857,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4670,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -15718,6 +16868,7 @@ export const townData: TownData[] = [
     zipCodes: ['9584'],
     sportClubs: [{ name: 'sv Mussel', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1240,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -15739,6 +16890,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6990,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -15749,6 +16901,7 @@ export const townData: TownData[] = [
     zipCodes: ['9063'],
     sportClubs: [],
     population: 730,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -15768,6 +16921,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1925,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -15778,6 +16932,7 @@ export const townData: TownData[] = [
     zipCodes: ['6612'],
     sportClubs: [],
     population: 810,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -15788,6 +16943,7 @@ export const townData: TownData[] = [
     zipCodes: ['5317'],
     sportClubs: [],
     population: 1730,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -15807,6 +16963,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5500,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -15817,6 +16974,7 @@ export const townData: TownData[] = [
     zipCodes: ['8362'],
     sportClubs: [],
     population: 15,
+    perc_nederlands: 100,
     perc_men: 33,
     perc_between_15_45: -1333293,
     perc_between_15_25: -666647
@@ -15845,6 +17003,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10355,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -15855,6 +17014,7 @@ export const townData: TownData[] = [
     zipCodes: ['6034'],
     sportClubs: [],
     population: 1540,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -15878,6 +17038,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9325,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -15888,6 +17049,7 @@ export const townData: TownData[] = [
     zipCodes: ['6086'],
     sportClubs: [{ name: 'RKSVN', colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 3370,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -15898,6 +17060,7 @@ export const townData: TownData[] = [
     zipCodes: ['4182'],
     sportClubs: [],
     population: 440,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 15
@@ -15910,6 +17073,7 @@ export const townData: TownData[] = [
       { name: 'vv Veritas', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1285,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -15929,6 +17093,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1865,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -15939,6 +17104,7 @@ export const townData: TownData[] = [
     zipCodes: ['5355'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 14,
     perc_between_15_25: 7
@@ -15949,6 +17115,7 @@ export const townData: TownData[] = [
     zipCodes: ['5356'],
     sportClubs: [],
     population: 205,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 17
@@ -15968,6 +17135,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1005,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -15987,6 +17155,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 505,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -15997,6 +17166,7 @@ export const townData: TownData[] = [
     zipCodes: ['1688'],
     sportClubs: [{ name: 'vv SEW', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2455,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -16025,6 +17195,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 655,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -16035,6 +17206,7 @@ export const townData: TownData[] = [
     zipCodes: ['9884'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -16045,6 +17217,7 @@ export const townData: TownData[] = [
     zipCodes: ['9312'],
     sportClubs: [],
     population: 1040,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -16055,6 +17228,7 @@ export const townData: TownData[] = [
     zipCodes: ['9657'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -16065,6 +17239,7 @@ export const townData: TownData[] = [
     zipCodes: ['9687'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -16084,6 +17259,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1155,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -16096,6 +17272,7 @@ export const townData: TownData[] = [
       { name: 'vv Hulsterloo', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 945,
+    perc_nederlands: 30,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -16108,6 +17285,7 @@ export const townData: TownData[] = [
       { name: 'vv Oldambtster Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -16120,6 +17298,7 @@ export const townData: TownData[] = [
       { name: 'vv Nieuwland', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1365,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -16130,6 +17309,7 @@ export const townData: TownData[] = [
     zipCodes: ['7833'],
     sportClubs: [],
     population: 4785,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -16155,6 +17335,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 935,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -16174,6 +17355,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4100,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -16186,6 +17368,7 @@ export const townData: TownData[] = [
       { name: 'vv Nieuw Buinen', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 4890,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -16214,6 +17397,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2075,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -16226,6 +17410,7 @@ export const townData: TownData[] = [
       { name: 'vv Nieuw Lekkerland', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 8400,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -16238,6 +17423,7 @@ export const townData: TownData[] = [
       { name: 'vv Nieuw Roden', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1450,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -16257,6 +17443,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1260,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -16276,6 +17463,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2255,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -16307,6 +17495,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3385,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -16317,6 +17506,7 @@ export const townData: TownData[] = [
     zipCodes: ['5313'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 42,
     perc_between_15_25: 15
@@ -16329,6 +17519,7 @@ export const townData: TownData[] = [
       { name: 'sv Nieuwdorp', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1215,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -16341,6 +17532,7 @@ export const townData: TownData[] = [
       { name: 'vv Nieuwe Niedorp', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3330,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -16375,6 +17567,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4560,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -16385,6 +17578,7 @@ export const townData: TownData[] = [
     zipCodes: ['2376'],
     sportClubs: [],
     population: 660,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -16404,6 +17598,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2415,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -16414,6 +17609,7 @@ export const townData: TownData[] = [
     zipCodes: ['8469'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 38,
     perc_between_15_25: 12
@@ -16426,6 +17622,7 @@ export const townData: TownData[] = [
       { name: 'vv Bareveld', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 275,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -16436,6 +17633,7 @@ export const townData: TownData[] = [
     zipCodes: ['8414'],
     sportClubs: [{ name: 'sv Udiros', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1470,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -16448,6 +17646,7 @@ export const townData: TownData[] = [
       { name: 'vv Altena', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 3670,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -16467,6 +17666,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 725,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -16479,6 +17679,7 @@ export const townData: TownData[] = [
       { name: 'vv De Rijnstreek', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1790,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -16498,6 +17699,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2675,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -16508,6 +17710,7 @@ export const townData: TownData[] = [
     zipCodes: ['3631'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 80,
     perc_men: 47,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -16518,6 +17721,7 @@ export const townData: TownData[] = [
     zipCodes: ['8452'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -16530,6 +17734,7 @@ export const townData: TownData[] = [
       { name: 'sv Nieuwkoop', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 9405,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -16549,6 +17754,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2105,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -16559,6 +17765,7 @@ export const townData: TownData[] = [
     zipCodes: ['4243'],
     sportClubs: [],
     population: 1015,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 14
@@ -16569,6 +17776,7 @@ export const townData: TownData[] = [
     zipCodes: ['7929'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -249968,
     perc_between_15_25: -249993
@@ -16579,6 +17787,7 @@ export const townData: TownData[] = [
     zipCodes: ['7918'],
     sportClubs: [{ name: 'SCN', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 1380,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -16600,6 +17809,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9215,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -16618,6 +17828,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1350,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -16628,6 +17839,7 @@ export const townData: TownData[] = [
     zipCodes: ['2965'],
     sportClubs: [],
     population: 1415,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -16647,6 +17859,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3255,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -16666,6 +17879,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4285,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -16676,6 +17890,7 @@ export const townData: TownData[] = [
     zipCodes: ['4504'],
     sportClubs: [],
     population: 405,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -16688,6 +17903,7 @@ export const townData: TownData[] = [
       { name: 'vv Niftrik', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 415,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -16702,6 +17918,7 @@ export const townData: TownData[] = [
       { name: 'vv DOB', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1565,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -16712,6 +17929,7 @@ export const townData: TownData[] = [
     zipCodes: ['9072'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -16724,6 +17942,7 @@ export const townData: TownData[] = [
       { name: 'vv Blue Boys', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1685,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -16734,6 +17953,7 @@ export const townData: TownData[] = [
     zipCodes: ['7397'],
     sportClubs: [],
     population: 700,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -16744,6 +17964,7 @@ export const townData: TownData[] = [
     zipCodes: ['8422'],
     sportClubs: [],
     population: 270,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -16754,6 +17975,7 @@ export const townData: TownData[] = [
     zipCodes: ['9217'],
     sportClubs: [],
     population: 465,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 16
@@ -16764,6 +17986,7 @@ export const townData: TownData[] = [
     zipCodes: ['8466'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -199964,
     perc_between_15_25: -199994
@@ -16774,6 +17997,7 @@ export const townData: TownData[] = [
     zipCodes: ['8475'],
     sportClubs: [],
     population: 505,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 15
@@ -16784,6 +18008,7 @@ export const townData: TownData[] = [
     zipCodes: ['8488'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -16794,6 +18019,7 @@ export const townData: TownData[] = [
     zipCodes: ['8487'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 46,
     perc_between_15_45: 32,
     perc_between_15_25: 18
@@ -16804,6 +18030,7 @@ export const townData: TownData[] = [
     zipCodes: ['8566'],
     sportClubs: [],
     population: 540,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -16814,6 +18041,7 @@ export const townData: TownData[] = [
     zipCodes: ['8383'],
     sportClubs: [],
     population: 550,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -16833,6 +18061,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3815,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -16843,6 +18072,7 @@ export const townData: TownData[] = [
     zipCodes: ['9138'],
     sportClubs: [],
     population: 360,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -16853,6 +18083,7 @@ export const townData: TownData[] = [
     zipCodes: ['8775'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -249955,
     perc_between_15_25: -249993
@@ -16865,6 +18096,7 @@ export const townData: TownData[] = [
       { name: 'sv Veensche Boys', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 3935,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -16877,6 +18109,7 @@ export const townData: TownData[] = [
       { name: 'vv Nijland', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 990,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -16887,6 +18120,7 @@ export const townData: TownData[] = [
     zipCodes: ['9452'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 24,
     perc_between_15_25: 6
@@ -16906,6 +18140,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1710,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -16916,6 +18151,7 @@ export const townData: TownData[] = [
     zipCodes: ['4443'],
     sportClubs: [],
     population: 625,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -16944,6 +18180,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6335,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -16956,6 +18193,7 @@ export const townData: TownData[] = [
       { name: 'vv Noordbergum', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2300,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -16966,6 +18204,7 @@ export const townData: TownData[] = [
     zipCodes: ['9449'],
     sportClubs: [],
     population: 570,
+    perc_nederlands: 90,
     perc_men: 62,
     perc_between_15_45: 32,
     perc_between_15_25: 8
@@ -16982,6 +18221,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1115,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -16992,6 +18232,7 @@ export const townData: TownData[] = [
     zipCodes: ['1723'],
     sportClubs: [],
     population: 5750,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -17002,6 +18243,7 @@ export const townData: TownData[] = [
     zipCodes: ['7846'],
     sportClubs: [],
     population: 580,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -17012,6 +18254,7 @@ export const townData: TownData[] = [
     zipCodes: ['1463'],
     sportClubs: [],
     population: 620,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -17022,6 +18265,7 @@ export const townData: TownData[] = [
     zipCodes: ['9635'],
     sportClubs: [],
     population: 1870,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -17032,6 +18276,7 @@ export const townData: TownData[] = [
     zipCodes: ['8079'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 10
@@ -17042,6 +18287,7 @@ export const townData: TownData[] = [
     zipCodes: ['1485'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 17
@@ -17054,6 +18300,7 @@ export const townData: TownData[] = [
       { name: 'sv Noordeloos', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1750,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -17064,6 +18311,7 @@ export const townData: TownData[] = [
     zipCodes: ['4317'],
     sportClubs: [],
     population: 775,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 23,
     perc_between_15_25: 9
@@ -17083,6 +18331,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1070,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -17093,6 +18342,7 @@ export const townData: TownData[] = [
     zipCodes: ['9804'],
     sportClubs: [],
     population: 1460,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -17103,6 +18353,7 @@ export const townData: TownData[] = [
     zipCodes: ['9479'],
     sportClubs: [],
     population: 540,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 21,
     perc_between_15_25: 10
@@ -17122,6 +18373,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1920,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -17132,6 +18384,7 @@ export const townData: TownData[] = [
     zipCodes: ['4326'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -17151,6 +18404,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3715,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 8
@@ -17161,6 +18415,7 @@ export const townData: TownData[] = [
     zipCodes: ['7467'],
     sportClubs: [],
     population: 425,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -17171,6 +18426,7 @@ export const townData: TownData[] = [
     zipCodes: ['9364'],
     sportClubs: [],
     population: 740,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -17181,6 +18437,7 @@ export const townData: TownData[] = [
     zipCodes: ['3281'],
     sportClubs: [{ name: 'NSVV', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 8890,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -17200,6 +18457,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 680,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -17214,6 +18472,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Vaesrade', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 6460,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -17224,6 +18483,7 @@ export const townData: TownData[] = [
     zipCodes: ['7638'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 19
@@ -17243,6 +18503,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1715,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -17255,6 +18516,7 @@ export const townData: TownData[] = [
       { name: 'sv Victoria O', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 5910,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -17265,6 +18527,7 @@ export const townData: TownData[] = [
     zipCodes: ['4051'],
     sportClubs: [],
     population: 4990,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -17277,6 +18540,7 @@ export const townData: TownData[] = [
       { name: 'sv Odijk', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5660,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -17296,6 +18560,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2045,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -17315,6 +18580,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1920,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -17325,6 +18591,7 @@ export const townData: TownData[] = [
     zipCodes: ['7874'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -17344,6 +18611,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2350,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -17363,6 +18631,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1605,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -17379,6 +18648,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1870,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -17389,6 +18659,7 @@ export const townData: TownData[] = [
     zipCodes: ['8626'],
     sportClubs: [],
     population: 145,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 21
@@ -17408,6 +18679,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 840,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -17427,6 +18699,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1275,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -17447,6 +18720,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1185,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -17475,6 +18749,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3735,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -17485,6 +18760,7 @@ export const townData: TownData[] = [
     zipCodes: ['7435'],
     sportClubs: [],
     population: 425,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -17495,6 +18771,7 @@ export const townData: TownData[] = [
     zipCodes: ['7225'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -17507,6 +18784,7 @@ export const townData: TownData[] = [
       { name: 'vv Sport Vereent', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1560,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -17517,6 +18795,7 @@ export const townData: TownData[] = [
     zipCodes: ['8096'],
     sportClubs: [{ name: 'vv Owios', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 6280,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -17536,6 +18815,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1040,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -17546,6 +18826,7 @@ export const townData: TownData[] = [
     zipCodes: ['8477'],
     sportClubs: [],
     population: 145,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 34,
     perc_between_15_25: 21
@@ -17558,6 +18839,7 @@ export const townData: TownData[] = [
       { name: 'vv OKVC', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1545,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -17568,6 +18850,7 @@ export const townData: TownData[] = [
     zipCodes: ['9821'],
     sportClubs: [],
     population: 1315,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 40,
     perc_between_15_25: 14
@@ -17578,6 +18861,7 @@ export const townData: TownData[] = [
     zipCodes: ['8486'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -17597,6 +18881,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2560,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -17607,6 +18892,7 @@ export const townData: TownData[] = [
     zipCodes: ['9986'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -17617,6 +18903,7 @@ export const townData: TownData[] = [
     zipCodes: ['8515'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -17627,6 +18914,7 @@ export const townData: TownData[] = [
     zipCodes: ['8479'],
     sportClubs: [],
     population: 205,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -17646,6 +18934,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8235,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -17656,6 +18945,7 @@ export const townData: TownData[] = [
     zipCodes: ['9246'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: 25,
     perc_between_15_25: 19
@@ -17675,6 +18965,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1115,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -17685,6 +18976,7 @@ export const townData: TownData[] = [
     zipCodes: ['4032'],
     sportClubs: [],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -17697,6 +18989,7 @@ export const townData: TownData[] = [
       { name: 'sv Onderdendam', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 580,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -17707,6 +19000,7 @@ export const townData: TownData[] = [
     zipCodes: ['8344'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -17717,6 +19011,7 @@ export const townData: TownData[] = [
     zipCodes: ['9755'],
     sportClubs: [],
     population: 720,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 14
@@ -17729,6 +19024,7 @@ export const townData: TownData[] = [
       { name: 'vv Onstwedder Boys', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2870,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -17741,6 +19037,7 @@ export const townData: TownData[] = [
       { name: "SVO'68", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2495,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -17751,6 +19048,7 @@ export const townData: TownData[] = [
     zipCodes: ['3257'],
     sportClubs: [{ name: 'vv OFB', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2665,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -17763,6 +19061,7 @@ export const townData: TownData[] = [
       { name: 'vv Beerse Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 5920,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -17773,6 +19072,7 @@ export const townData: TownData[] = [
     zipCodes: ['1487'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -17792,6 +19092,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10160,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -17804,6 +19105,7 @@ export const townData: TownData[] = [
       { name: 'sv Oostburg', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4560,
+    perc_nederlands: 70,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -17814,6 +19116,7 @@ export const townData: TownData[] = [
     zipCodes: ['4415'],
     sportClubs: [],
     population: 600,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 43,
     perc_between_15_25: 14
@@ -17833,6 +19136,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1225,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -17843,6 +19147,7 @@ export const townData: TownData[] = [
     zipCodes: ['8854'],
     sportClubs: [],
     population: 550,
+    perc_nederlands: 80,
     perc_men: 54,
     perc_between_15_45: 44,
     perc_between_15_25: 12
@@ -17853,6 +19158,7 @@ export const townData: TownData[] = [
     zipCodes: ['1696'],
     sportClubs: [],
     population: 1505,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -17863,6 +19169,7 @@ export const townData: TownData[] = [
     zipCodes: ['7861'],
     sportClubs: [{ name: 'vv VIOS O', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1855,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -17891,6 +19198,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2320,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -17901,6 +19209,7 @@ export const townData: TownData[] = [
     zipCodes: ['1609'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 19,
     perc_between_15_25: 14
@@ -17911,6 +19220,7 @@ export const townData: TownData[] = [
     zipCodes: ['9985'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 7
@@ -17930,6 +19240,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 540,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -17940,6 +19251,7 @@ export const townData: TownData[] = [
     zipCodes: ['4163'],
     sportClubs: [],
     population: 225,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -17950,6 +19262,7 @@ export const townData: TownData[] = [
     zipCodes: ['9911'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -17960,6 +19273,7 @@ export const townData: TownData[] = [
     zipCodes: ['8536'],
     sportClubs: [],
     population: 910,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -17970,6 +19284,7 @@ export const townData: TownData[] = [
     zipCodes: ['8618'],
     sportClubs: [],
     population: 440,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -17982,6 +19297,7 @@ export const townData: TownData[] = [
       { name: 'vv Oosthuizen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3340,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -17994,6 +19310,7 @@ export const townData: TownData[] = [
       { name: 'vv Oostkapelle', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2495,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -18013,6 +19330,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 495,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 14
@@ -18025,6 +19343,7 @@ export const townData: TownData[] = [
       { name: 'sv Oostrum', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2410,
+    perc_nederlands: 80,
     perc_men: 57,
     perc_between_15_45: 37,
     perc_between_15_25: 10
@@ -18044,6 +19363,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7765,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -18054,6 +19374,7 @@ export const townData: TownData[] = [
     zipCodes: ['1678'],
     sportClubs: [],
     population: 865,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -18073,6 +19394,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9735,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -18083,6 +19405,7 @@ export const townData: TownData[] = [
     zipCodes: ['7631'],
     sportClubs: [{ name: 'vv KOSC', colors: [[0, 0, 0]], type: 'voetbal' }],
     population: 4460,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -18102,6 +19425,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1730,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -18112,6 +19436,7 @@ export const townData: TownData[] = [
     zipCodes: ['9865'],
     sportClubs: [{ name: 'vv Opende', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2505,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -18124,6 +19449,7 @@ export const townData: TownData[] = [
       { name: 'vv Ophemert', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1645,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -18152,6 +19478,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6335,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 15
@@ -18162,6 +19489,7 @@ export const townData: TownData[] = [
     zipCodes: ['4184'],
     sportClubs: [],
     population: 1175,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -18172,6 +19500,7 @@ export const townData: TownData[] = [
     zipCodes: ['5841'],
     sportClubs: [],
     population: 1870,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -18182,6 +19511,7 @@ export const townData: TownData[] = [
     zipCodes: ['1716'],
     sportClubs: [],
     population: 2200,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -18194,6 +19524,7 @@ export const townData: TownData[] = [
       { name: "vv TOP'63", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1070,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -18213,6 +19544,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1955,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -18223,6 +19555,7 @@ export const townData: TownData[] = [
     zipCodes: ['9416'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -18233,6 +19566,7 @@ export const townData: TownData[] = [
     zipCodes: ['8453'],
     sportClubs: [],
     population: 1020,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 25,
     perc_between_15_25: 12
@@ -18243,6 +19577,7 @@ export const townData: TownData[] = [
     zipCodes: ['9441'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -18262,6 +19597,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4085,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -18281,6 +19617,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5145,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -18291,6 +19628,7 @@ export const townData: TownData[] = [
     zipCodes: ['4589'],
     sportClubs: [],
     population: 310,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -18301,6 +19639,7 @@ export const townData: TownData[] = [
     zipCodes: ['3989'],
     sportClubs: [],
     population: 15,
+    perc_nederlands: 100,
     perc_men: 67,
     perc_between_15_45: -666613,
     perc_between_15_25: -666647
@@ -18311,6 +19650,7 @@ export const townData: TownData[] = [
     zipCodes: ['8376'],
     sportClubs: [],
     population: 560,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -18321,6 +19661,7 @@ export const townData: TownData[] = [
     zipCodes: ['1842'],
     sportClubs: [],
     population: 630,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 13
@@ -18335,6 +19676,7 @@ export const townData: TownData[] = [
       { name: 'sv Otterlo (bijveld)', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2230,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -18347,6 +19689,7 @@ export const townData: TownData[] = [
       { name: 'rkosv Achates', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2270,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -18357,6 +19700,7 @@ export const townData: TownData[] = [
     zipCodes: ['2975'],
     sportClubs: [{ name: 'VVAC', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 960,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 36,
     perc_between_15_25: 16
@@ -18367,6 +19711,7 @@ export const townData: TownData[] = [
     zipCodes: ['2374'],
     sportClubs: [],
     population: 730,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 16
@@ -18377,6 +19722,7 @@ export const townData: TownData[] = [
     zipCodes: ['9655'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 24,
     perc_between_15_25: 12
@@ -18387,6 +19733,7 @@ export const townData: TownData[] = [
     zipCodes: ['4751'],
     sportClubs: [{ name: 'sc Gastel', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 7245,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -18397,6 +19744,7 @@ export const townData: TownData[] = [
     zipCodes: ['7637'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -18407,6 +19755,7 @@ export const townData: TownData[] = [
     zipCodes: ['3611'],
     sportClubs: [],
     population: 610,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -18417,6 +19766,7 @@ export const townData: TownData[] = [
     zipCodes: ['2969'],
     sportClubs: [],
     population: 2230,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 17
@@ -18429,6 +19779,7 @@ export const townData: TownData[] = [
       { name: 'vv Vosmeer', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2705,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -18448,6 +19799,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6170,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -18458,6 +19810,7 @@ export const townData: TownData[] = [
     zipCodes: ['1438'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -18468,6 +19821,7 @@ export const townData: TownData[] = [
     zipCodes: ['1734'],
     sportClubs: [],
     population: 400,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -18487,6 +19841,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7640,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -18497,6 +19852,7 @@ export const townData: TownData[] = [
     zipCodes: ['2377'],
     sportClubs: [],
     population: 3785,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -18507,6 +19863,7 @@ export const townData: TownData[] = [
     zipCodes: ['8439'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 90,
     perc_men: 46,
     perc_between_15_45: -153826,
     perc_between_15_25: -153842
@@ -18535,6 +19892,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4860,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -18547,6 +19905,7 @@ export const townData: TownData[] = [
       { name: 'vv Ouwe Syl', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -18559,6 +19918,7 @@ export const townData: TownData[] = [
       { name: 'vv Oudehaske', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1945,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -18569,6 +19929,7 @@ export const townData: TownData[] = [
     zipCodes: ['8413'],
     sportClubs: [],
     population: 825,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -18579,6 +19940,7 @@ export const townData: TownData[] = [
     zipCodes: ['4436'],
     sportClubs: [],
     population: 705,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -18598,6 +19960,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1345,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -18610,6 +19973,7 @@ export const townData: TownData[] = [
       { name: "vv Victoria'03", colors: [[undefined]], type: 'voetbal' }
     ],
     population: 12640,
+    perc_nederlands: 70,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -18620,6 +19984,7 @@ export const townData: TownData[] = [
     zipCodes: ['1631'],
     sportClubs: [],
     population: 445,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -18630,6 +19995,7 @@ export const townData: TownData[] = [
     zipCodes: ['3227'],
     sportClubs: [{ name: 'OHVV', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 1225,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -18649,6 +20015,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8915,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -18661,6 +20028,7 @@ export const townData: TownData[] = [
       { name: 'vv Spirit', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 5785,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -18671,6 +20039,7 @@ export const townData: TownData[] = [
     zipCodes: ['9696'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 44,
     perc_between_15_45: 21,
     perc_between_15_25: 9
@@ -18681,6 +20050,7 @@ export const townData: TownData[] = [
     zipCodes: ['1792'],
     sportClubs: [],
     population: 1330,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -18691,6 +20061,7 @@ export const townData: TownData[] = [
     zipCodes: ['9984'],
     sportClubs: [],
     population: 230,
+    perc_nederlands: 90,
     perc_men: 59,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -18701,6 +20072,7 @@ export const townData: TownData[] = [
     zipCodes: ['8451'],
     sportClubs: [],
     population: 1445,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -18713,6 +20085,7 @@ export const townData: TownData[] = [
       { name: 'vv Oudesluis', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -18732,6 +20105,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8310,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -18742,6 +20116,7 @@ export const townData: TownData[] = [
     zipCodes: ['9691'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: -285691,
     perc_between_15_25: -285706
@@ -18756,6 +20131,7 @@ export const townData: TownData[] = [
       { name: 'sv DTS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3925,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -18766,6 +20142,7 @@ export const townData: TownData[] = [
     zipCodes: ['1829'],
     sportClubs: [],
     population: 4045,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -18778,6 +20155,7 @@ export const townData: TownData[] = [
       { name: 'sv Ouwerkerk', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 565,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -18788,6 +20166,7 @@ export const townData: TownData[] = [
     zipCodes: ['8514'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 100,
     perc_men: 60,
     perc_between_15_45: 20,
     perc_between_15_25: 7
@@ -18798,6 +20177,7 @@ export const townData: TownData[] = [
     zipCodes: ['8513'],
     sportClubs: [],
     population: 340,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 41,
     perc_between_15_25: 13
@@ -18817,6 +20197,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2615,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -18827,6 +20208,7 @@ export const townData: TownData[] = [
     zipCodes: ['3959'],
     sportClubs: [],
     population: 1580,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -18846,6 +20228,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4085,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -18856,6 +20239,7 @@ export const townData: TownData[] = [
     zipCodes: ['5357'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -18868,6 +20252,7 @@ export const townData: TownData[] = [
       { name: "vv SSS'18", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3990,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -18878,6 +20263,7 @@ export const townData: TownData[] = [
     zipCodes: ['9625'],
     sportClubs: [],
     population: 510,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -18888,6 +20274,7 @@ export const townData: TownData[] = [
     zipCodes: ['4575'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 50,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 6
@@ -18898,6 +20285,7 @@ export const townData: TownData[] = [
     zipCodes: ['2051'],
     sportClubs: [],
     population: 4560,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -18926,6 +20314,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1175,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 8
@@ -18936,6 +20325,7 @@ export const townData: TownData[] = [
     zipCodes: ['8378'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -18946,6 +20336,7 @@ export const townData: TownData[] = [
     zipCodes: ['6911'],
     sportClubs: [{ name: 'RKPSC', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 2420,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -18965,6 +20356,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7525,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -18975,6 +20367,7 @@ export const townData: TownData[] = [
     zipCodes: ['3464'],
     sportClubs: [],
     population: 400,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -18985,6 +20378,7 @@ export const townData: TownData[] = [
     zipCodes: ['6124'],
     sportClubs: [],
     population: 755,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -18995,6 +20389,7 @@ export const townData: TownData[] = [
     zipCodes: ['9447'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: -133296,
     perc_between_15_25: -133329
@@ -19005,6 +20400,7 @@ export const townData: TownData[] = [
     zipCodes: ['8763'],
     sportClubs: [],
     population: 485,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -19015,6 +20411,7 @@ export const townData: TownData[] = [
     zipCodes: ['9765'],
     sportClubs: [],
     population: 3740,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 8
@@ -19025,6 +20422,7 @@ export const townData: TownData[] = [
     zipCodes: ['9136'],
     sportClubs: [],
     population: 225,
+    perc_nederlands: 100,
     perc_men: 58,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -19035,6 +20433,7 @@ export const townData: TownData[] = [
     zipCodes: ['9334'],
     sportClubs: [],
     population: 145,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 17
@@ -19045,6 +20444,7 @@ export const townData: TownData[] = [
     zipCodes: ['8812'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -19064,6 +20464,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5520,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -19074,6 +20475,7 @@ export const townData: TownData[] = [
     zipCodes: ['8396'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -19094,6 +20496,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4885,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -19104,6 +20507,7 @@ export const townData: TownData[] = [
     zipCodes: ['6575'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 32,
     perc_between_15_25: 21
@@ -19123,6 +20527,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1630,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -19133,6 +20538,7 @@ export const townData: TownData[] = [
     zipCodes: ['1755'],
     sportClubs: [{ name: 'sv Petten', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1655,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -19152,6 +20558,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2085,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -19162,6 +20569,7 @@ export const townData: TownData[] = [
     zipCodes: ['8756'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 90,
     perc_men: 44,
     perc_between_15_45: -222193,
     perc_between_15_25: -222216
@@ -19174,6 +20582,7 @@ export const townData: TownData[] = [
       { name: 'sv Piershil', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1725,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -19184,6 +20593,7 @@ export const townData: TownData[] = [
     zipCodes: ['9968'],
     sportClubs: [],
     population: 435,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 25,
     perc_between_15_25: 8
@@ -19194,6 +20604,7 @@ export const townData: TownData[] = [
     zipCodes: ['8856'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -19204,6 +20615,7 @@ export const townData: TownData[] = [
     zipCodes: ['9844'],
     sportClubs: [],
     population: 245,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 8
@@ -19214,6 +20626,7 @@ export const townData: TownData[] = [
     zipCodes: ['8749'],
     sportClubs: [],
     population: 585,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -19224,6 +20637,7 @@ export const townData: TownData[] = [
     zipCodes: ['6586'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 20,
     perc_between_15_25: 8
@@ -19234,6 +20648,7 @@ export const townData: TownData[] = [
     zipCodes: ['5307'],
     sportClubs: [],
     population: 1135,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 18
@@ -19246,6 +20661,7 @@ export const townData: TownData[] = [
       { name: 'vv Verburch', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 6950,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 11
@@ -19265,6 +20681,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -19275,6 +20692,7 @@ export const townData: TownData[] = [
     zipCodes: ['4693'],
     sportClubs: [{ name: 'SPS', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1675,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -19285,6 +20703,7 @@ export const townData: TownData[] = [
     zipCodes: ['9013'],
     sportClubs: [],
     population: 165,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -19295,6 +20714,7 @@ export const townData: TownData[] = [
     zipCodes: ['6061'],
     sportClubs: [],
     population: 3975,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -19307,6 +20727,7 @@ export const townData: TownData[] = [
       { name: 'vv Beek Vooruit', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 11915,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -19317,6 +20738,7 @@ export const townData: TownData[] = [
     zipCodes: ['6655'],
     sportClubs: [{ name: 'vv SCP', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1310,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -19327,6 +20749,7 @@ export const townData: TownData[] = [
     zipCodes: ['7715'],
     sportClubs: [],
     population: 945,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -19346,6 +20769,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 410,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -19356,6 +20780,7 @@ export const townData: TownData[] = [
     zipCodes: ['6155'],
     sportClubs: [],
     population: 1995,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -19368,6 +20793,7 @@ export const townData: TownData[] = [
       { name: 'vv Grenswachters', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3760,
+    perc_nederlands: 50,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -19378,6 +20804,7 @@ export const townData: TownData[] = [
     zipCodes: ['3297'],
     sportClubs: [],
     population: 7115,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -19390,6 +20817,7 @@ export const townData: TownData[] = [
       { name: 'vv Raamsdonk', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2135,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -19400,6 +20828,7 @@ export const townData: TownData[] = [
     zipCodes: ['9155'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 40,
     perc_between_15_25: 16
@@ -19410,6 +20839,7 @@ export const townData: TownData[] = [
     zipCodes: ['7791'],
     sportClubs: [],
     population: 610,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -19420,6 +20850,7 @@ export const townData: TownData[] = [
     zipCodes: ['7348'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 19,
     perc_between_15_25: 5
@@ -19430,6 +20861,7 @@ export const townData: TownData[] = [
     zipCodes: ['9012'],
     sportClubs: [],
     population: 655,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 9
@@ -19440,6 +20872,7 @@ export const townData: TownData[] = [
     zipCodes: ['6668'],
     sportClubs: [],
     population: 1465,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -19450,6 +20883,7 @@ export const townData: TownData[] = [
     zipCodes: ['9955'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -19482,6 +20916,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3075,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -19492,6 +20927,7 @@ export const townData: TownData[] = [
     zipCodes: ['4119'],
     sportClubs: [],
     population: 460,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -19502,6 +20938,7 @@ export const townData: TownData[] = [
     zipCodes: ['8427'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -19512,6 +20949,7 @@ export const townData: TownData[] = [
     zipCodes: ['9067'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 100,
     perc_men: 45,
     perc_between_15_45: 24,
     perc_between_15_25: 5
@@ -19522,6 +20960,7 @@ export const townData: TownData[] = [
     zipCodes: ['8736'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 100,
     perc_men: 47,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -19532,6 +20971,7 @@ export const townData: TownData[] = [
     zipCodes: ['9008'],
     sportClubs: [],
     population: 1095,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -19544,6 +20984,7 @@ export const townData: TownData[] = [
       { name: 'rksv Achilles Reek', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1740,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -19565,6 +21006,7 @@ export const townData: TownData[] = [
       { name: "RVC'33", colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 10540,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -19593,6 +21035,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 555,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -19603,6 +21046,7 @@ export const townData: TownData[] = [
     zipCodes: ['9175'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 32,
     perc_between_15_25: 16
@@ -19613,6 +21057,7 @@ export const townData: TownData[] = [
     zipCodes: ['7157'],
     sportClubs: [{ name: 'sp Rekken', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1335,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -19625,6 +21070,7 @@ export const townData: TownData[] = [
       { name: 'fc De Westhoek (R)', colors: [[undefined]], type: 'voetbal' }
     ],
     population: 1480,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 22,
     perc_between_15_25: 8
@@ -19635,6 +21081,7 @@ export const townData: TownData[] = [
     zipCodes: ['6871'],
     sportClubs: [],
     population: 9125,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -19647,6 +21094,7 @@ export const townData: TownData[] = [
       { name: 'vv Renswoude', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 5445,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 39,
     perc_between_15_25: 14
@@ -19657,6 +21105,7 @@ export const townData: TownData[] = [
     zipCodes: ['6684'],
     sportClubs: [{ name: 'sc Bemmel', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 135,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 41,
     perc_between_15_25: 19
@@ -19667,6 +21116,7 @@ export const townData: TownData[] = [
     zipCodes: ['4525'],
     sportClubs: [],
     population: 300,
+    perc_nederlands: 70,
     perc_men: 52,
     perc_between_15_45: 20,
     perc_between_15_25: 10
@@ -19688,6 +21138,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8705,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 10
@@ -19707,6 +21158,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1225,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -19719,6 +21171,7 @@ export const townData: TownData[] = [
       { name: 'vv Reuver', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 11000,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -19729,6 +21182,7 @@ export const townData: TownData[] = [
     zipCodes: ['7224'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -19739,6 +21193,7 @@ export const townData: TownData[] = [
     zipCodes: ['6991'],
     sportClubs: [{ name: 'sc Rheden', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 7675,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -19749,6 +21204,7 @@ export const townData: TownData[] = [
     zipCodes: ['9486'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -249980,
     perc_between_15_25: -249993
@@ -19759,6 +21215,7 @@ export const townData: TownData[] = [
     zipCodes: ['7794'],
     sportClubs: [],
     population: 290,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -19769,6 +21226,7 @@ export const townData: TownData[] = [
     zipCodes: ['7797'],
     sportClubs: [],
     population: 615,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -19779,6 +21237,7 @@ export const townData: TownData[] = [
     zipCodes: ['4152'],
     sportClubs: [],
     population: 895,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 10
@@ -19789,6 +21248,7 @@ export const townData: TownData[] = [
     zipCodes: ['8811'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -19808,6 +21268,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2905,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -19818,6 +21279,7 @@ export const townData: TownData[] = [
     zipCodes: ['8641'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 100,
     perc_men: 58,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -19837,6 +21299,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2420,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -19856,6 +21319,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1025,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -19875,6 +21339,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1660,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -19885,6 +21350,7 @@ export const townData: TownData[] = [
     zipCodes: ['5449'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -19895,6 +21361,7 @@ export const townData: TownData[] = [
     zipCodes: ['2465'],
     sportClubs: [],
     population: 1230,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -19914,6 +21381,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 16340,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 37,
     perc_between_15_25: 13
@@ -19933,6 +21401,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1670,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -19943,6 +21412,7 @@ export const townData: TownData[] = [
     zipCodes: ['8572'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -19953,6 +21423,7 @@ export const townData: TownData[] = [
     zipCodes: ['4891'],
     sportClubs: [{ name: 'VVR', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 6635,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -19963,6 +21434,7 @@ export const townData: TownData[] = [
     zipCodes: ['1435'],
     sportClubs: [{ name: 'SCW', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4230,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -19973,6 +21445,7 @@ export const townData: TownData[] = [
     zipCodes: ['4023'],
     sportClubs: [{ name: 'SCR', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 670,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -19983,6 +21456,7 @@ export const townData: TownData[] = [
     zipCodes: ['4284'],
     sportClubs: [],
     population: 1830,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -20002,6 +21476,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3045,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 11
@@ -20021,6 +21496,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1125,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -20031,6 +21507,7 @@ export const townData: TownData[] = [
     zipCodes: ['4389'],
     sportClubs: [],
     population: 535,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -20043,6 +21520,7 @@ export const townData: TownData[] = [
       { name: 'vv Rockanje', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 6400,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -20053,6 +21531,7 @@ export const townData: TownData[] = [
     zipCodes: ['9305'],
     sportClubs: [],
     population: 325,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 8
@@ -20063,6 +21542,7 @@ export const townData: TownData[] = [
     zipCodes: ['9315'],
     sportClubs: [],
     population: 355,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -20100,6 +21580,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8760,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -20110,6 +21591,7 @@ export const townData: TownData[] = [
     zipCodes: ['7949'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -20129,6 +21611,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4250,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -20139,6 +21622,7 @@ export const townData: TownData[] = [
     zipCodes: ['8507'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -20158,6 +21642,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3800,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 9
@@ -20170,6 +21655,7 @@ export const townData: TownData[] = [
       { name: 'vv Corenos', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1195,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -20189,6 +21675,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1430,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -20201,6 +21688,7 @@ export const townData: TownData[] = [
       { name: 'sc Roswinkel', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 805,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -20211,6 +21699,7 @@ export const townData: TownData[] = [
     zipCodes: ['8462'],
     sportClubs: [],
     population: 185,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 30,
     perc_between_15_25: 16
@@ -20221,6 +21710,7 @@ export const townData: TownData[] = [
     zipCodes: ['8463'],
     sportClubs: [],
     population: 560,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -20231,6 +21721,7 @@ export const townData: TownData[] = [
     zipCodes: ['3165'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -20250,6 +21741,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1365,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -20262,6 +21754,7 @@ export const townData: TownData[] = [
       { name: 'sc Rouveen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 4090,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 41,
     perc_between_15_25: 14
@@ -20294,6 +21787,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1695,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -20304,6 +21798,7 @@ export const townData: TownData[] = [
     zipCodes: ['4715'],
     sportClubs: [{ name: 'vv RSV', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 4710,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -20314,6 +21809,7 @@ export const townData: TownData[] = [
     zipCodes: ['8564'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 14
@@ -20333,6 +21829,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3670,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -20352,6 +21849,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3965,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -20364,6 +21862,7 @@ export const townData: TownData[] = [
       { name: 'vv Rhelico', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 900,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -20383,6 +21882,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1680,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -20395,6 +21895,7 @@ export const townData: TownData[] = [
       { name: 'vv Ruurlo', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 7680,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -20414,6 +21915,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 775,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -20424,6 +21926,7 @@ export const townData: TownData[] = [
     zipCodes: ['9886'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 90,
     perc_men: 58,
     perc_between_15_45: 21,
     perc_between_15_25: 5
@@ -20443,6 +21946,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1675,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -20453,6 +21957,7 @@ export const townData: TownData[] = [
     zipCodes: ['9957'],
     sportClubs: [],
     population: 45,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: -222204,
     perc_between_15_25: -222216
@@ -20465,6 +21970,7 @@ export const townData: TownData[] = [
       { name: 'vv Sambeek', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1740,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -20475,6 +21981,7 @@ export const townData: TownData[] = [
     zipCodes: ['8613'],
     sportClubs: [],
     population: 30,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -333307,
     perc_between_15_25: -333323
@@ -20485,6 +21992,7 @@ export const townData: TownData[] = [
     zipCodes: ['2071'],
     sportClubs: [],
     population: 7240,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -20497,6 +22005,7 @@ export const townData: TownData[] = [
       { name: 'sv Terrasvogels', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 3330,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -20516,6 +22025,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8095,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -20528,6 +22038,7 @@ export const townData: TownData[] = [
       { name: 'vv Corn Boys', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 3855,
+    perc_nederlands: 60,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -20547,6 +22058,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1145,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -20566,6 +22078,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2080,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -20580,6 +22093,7 @@ export const townData: TownData[] = [
       { name: 'rksv DAW', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 7245,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -20600,6 +22114,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5940,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -20612,6 +22127,7 @@ export const townData: TownData[] = [
       { name: 'vv Schalkwijk', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2060,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -20622,6 +22138,7 @@ export const townData: TownData[] = [
     zipCodes: ['8813'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 25,
     perc_between_15_25: 7
@@ -20632,6 +22149,7 @@ export const townData: TownData[] = [
     zipCodes: ['1476'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -20644,6 +22162,7 @@ export const townData: TownData[] = [
       { name: 'fc De Westhoek (S)', colors: [[undefined]], type: 'voetbal' }
     ],
     population: 1260,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 26,
     perc_between_15_25: 7
@@ -20654,6 +22173,7 @@ export const townData: TownData[] = [
     zipCodes: ['9616'],
     sportClubs: [],
     population: 470,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -20670,6 +22190,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1660,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -20680,6 +22201,7 @@ export const townData: TownData[] = [
     zipCodes: ['8517'],
     sportClubs: [],
     population: 800,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -20690,6 +22212,7 @@ export const townData: TownData[] = [
     zipCodes: ['1634'],
     sportClubs: [],
     population: 440,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -20709,6 +22232,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4920,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -20728,6 +22252,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 500,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -20740,6 +22265,7 @@ export const townData: TownData[] = [
       { name: 'ov Schellinkhout', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 835,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -20759,6 +22285,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1290,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -20771,6 +22298,7 @@ export const townData: TownData[] = [
       { name: 'sv Sporting S', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1260,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -20781,6 +22309,7 @@ export const townData: TownData[] = [
     zipCodes: ['4694'],
     sportClubs: [],
     population: 1830,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -20791,6 +22320,7 @@ export const townData: TownData[] = [
     zipCodes: ['8744'],
     sportClubs: [],
     population: 255,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 20
@@ -20801,6 +22331,7 @@ export const townData: TownData[] = [
     zipCodes: ['6307'],
     sportClubs: [],
     population: 325,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 8
@@ -20813,6 +22344,7 @@ export const townData: TownData[] = [
       { name: 'vv De Monnik', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 945,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -20823,6 +22355,7 @@ export const townData: TownData[] = [
     zipCodes: ['9626'],
     sportClubs: [{ name: 'vv SGV', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1690,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -20842,6 +22375,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -20861,6 +22395,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1450,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -20871,6 +22406,7 @@ export const townData: TownData[] = [
     zipCodes: ['6365'],
     sportClubs: [],
     population: 2660,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -20883,6 +22419,7 @@ export const townData: TownData[] = [
       { name: 'rksv Olympia Schinveld', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4645,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -20893,6 +22430,7 @@ export const townData: TownData[] = [
     zipCodes: ['9469'],
     sportClubs: [],
     population: 590,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 19,
     perc_between_15_25: 8
@@ -20903,6 +22441,7 @@ export const townData: TownData[] = [
     zipCodes: ['1119'],
     sportClubs: [],
     population: 25,
+    perc_nederlands: 20,
     perc_men: 60,
     perc_between_15_45: 80,
     perc_between_15_25: 20
@@ -20915,6 +22454,7 @@ export const townData: TownData[] = [
       { name: 'vv Schipluiden', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 4475,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -20925,6 +22465,7 @@ export const townData: TownData[] = [
     zipCodes: ['8319'],
     sportClubs: [],
     population: 5,
+    perc_nederlands: -99997,
     perc_men: -1999940,
     perc_between_15_45: -3999880,
     perc_between_15_25: -1999940
@@ -20944,6 +22485,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1435,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -20963,6 +22505,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4380,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -20973,6 +22516,7 @@ export const townData: TownData[] = [
     zipCodes: ['9443'],
     sportClubs: [],
     population: 275,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -20992,6 +22536,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2180,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -21002,6 +22547,7 @@ export const townData: TownData[] = [
     zipCodes: ['4145'],
     sportClubs: [],
     population: 1635,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -21030,6 +22576,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4650,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -21040,6 +22587,7 @@ export const townData: TownData[] = [
     zipCodes: ['4423'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -21050,6 +22598,7 @@ export const townData: TownData[] = [
     zipCodes: ['9962'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 40,
     perc_between_15_45: 20,
     perc_between_15_25: 10
@@ -21060,6 +22609,7 @@ export const townData: TownData[] = [
     zipCodes: ['8746'],
     sportClubs: [],
     population: 155,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 32,
     perc_between_15_25: 19
@@ -21070,6 +22620,7 @@ export const townData: TownData[] = [
     zipCodes: ['7777'],
     sportClubs: [],
     population: 955,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 16
@@ -21080,6 +22631,7 @@ export const townData: TownData[] = [
     zipCodes: ['9862'],
     sportClubs: [],
     population: 665,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -21108,6 +22660,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2360,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 25,
     perc_between_15_25: 9
@@ -21127,6 +22680,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6715,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -21137,6 +22691,7 @@ export const townData: TownData[] = [
     zipCodes: ['8855'],
     sportClubs: [{ name: 'AVC', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 1695,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -21147,6 +22702,7 @@ export const townData: TownData[] = [
     zipCodes: ['7693'],
     sportClubs: [{ name: "SVV'56", colors: [[100, 150, 0]], type: 'voetbal' }],
     population: 1450,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -21157,6 +22713,7 @@ export const townData: TownData[] = [
     zipCodes: ['8647'],
     sportClubs: [],
     population: 365,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -21167,6 +22724,7 @@ export const townData: TownData[] = [
     zipCodes: ['9106'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -249980,
     perc_between_15_25: 13
@@ -21186,6 +22744,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3215,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -21198,6 +22757,7 @@ export const townData: TownData[] = [
       { name: "vv Stormvogels'28", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2040,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -21208,6 +22768,7 @@ export const townData: TownData[] = [
     zipCodes: ['9248'],
     sportClubs: [],
     population: 835,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -21218,6 +22779,7 @@ export const townData: TownData[] = [
     zipCodes: ['1655'],
     sportClubs: [],
     population: 945,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -21237,6 +22799,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5500,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -21249,6 +22812,7 @@ export const townData: TownData[] = [
       { name: 'sv Simonshaven', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 535,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -21268,6 +22832,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5455,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -21278,6 +22843,7 @@ export const townData: TownData[] = [
     zipCodes: ['7065'],
     sportClubs: [],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -21288,6 +22854,7 @@ export const townData: TownData[] = [
     zipCodes: ['5435'],
     sportClubs: [{ name: 'VCA', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 490,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 16
@@ -21298,6 +22865,7 @@ export const townData: TownData[] = [
     zipCodes: ['9796'],
     sportClubs: [],
     population: 195,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -21308,6 +22876,7 @@ export const townData: TownData[] = [
     zipCodes: ['5845'],
     sportClubs: [],
     population: 4075,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -21327,6 +22896,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1420,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -21355,6 +22925,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1415,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -21367,6 +22938,7 @@ export const townData: TownData[] = [
       { name: 'sv VHK', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -21379,6 +22951,7 @@ export const townData: TownData[] = [
       { name: 'vv Steen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3155,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -21389,6 +22962,7 @@ export const townData: TownData[] = [
     zipCodes: ['4528'],
     sportClubs: [],
     population: 335,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -21408,6 +22982,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1875,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -21418,6 +22993,7 @@ export const townData: TownData[] = [
     zipCodes: ['1752'],
     sportClubs: [],
     population: 735,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -21428,6 +23004,7 @@ export const townData: TownData[] = [
     zipCodes: ['1753'],
     sportClubs: [],
     population: 620,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -21449,6 +23026,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3335,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -21477,6 +23055,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3335,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -21496,6 +23075,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6025,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -21508,6 +23088,7 @@ export const townData: TownData[] = [
       { name: "vv NOAD'67", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2620,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -21527,6 +23108,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3725,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -21546,6 +23128,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3455,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -21574,6 +23157,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1265,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -21584,6 +23168,7 @@ export const townData: TownData[] = [
     zipCodes: ['4308'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -21594,6 +23179,7 @@ export const townData: TownData[] = [
     zipCodes: ['8816'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 19,
     perc_between_15_25: 10
@@ -21615,6 +23201,7 @@ export const townData: TownData[] = [
       { name: 'sc Lutten', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 3125,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -21625,6 +23212,7 @@ export const townData: TownData[] = [
     zipCodes: ['9037'],
     sportClubs: [],
     population: 90,
+    perc_nederlands: 100,
     perc_men: 44,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -21635,6 +23223,7 @@ export const townData: TownData[] = [
     zipCodes: ['7841'],
     sportClubs: [{ name: 'vv Sleen', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2180,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -21647,6 +23236,7 @@ export const townData: TownData[] = [
       { name: 'vv Sleeuwijk', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 5750,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -21663,6 +23253,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 395,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 22,
     perc_between_15_25: 6
@@ -21673,6 +23264,7 @@ export const townData: TownData[] = [
     zipCodes: ['6677'],
     sportClubs: [],
     population: 480,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -21683,6 +23275,7 @@ export const townData: TownData[] = [
     zipCodes: ['8489'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 90,
     perc_men: 43,
     perc_between_15_45: -285677,
     perc_between_15_25: -285706
@@ -21693,6 +23286,7 @@ export const townData: TownData[] = [
     zipCodes: ['9621'],
     sportClubs: [],
     population: 2120,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -21705,6 +23299,7 @@ export const townData: TownData[] = [
       { name: 'cv Wieringermeer', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2130,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -21717,6 +23312,7 @@ export const townData: TownData[] = [
       { name: 'vv Sleat', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 700,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -21736,6 +23332,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2365,
+    perc_nederlands: 60,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -21748,6 +23345,7 @@ export const townData: TownData[] = [
       { name: 'vv Sluiskil', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 2245,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -21758,6 +23356,7 @@ export const townData: TownData[] = [
     zipCodes: ['5817'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -21768,6 +23367,7 @@ export const townData: TownData[] = [
     zipCodes: ['9214'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -249980,
     perc_between_15_25: 13
@@ -21778,6 +23378,7 @@ export const townData: TownData[] = [
     zipCodes: ['8552'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -21797,6 +23398,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4910,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -21807,6 +23409,7 @@ export const townData: TownData[] = [
     zipCodes: ['9083'],
     sportClubs: [],
     population: 205,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 7
@@ -21817,6 +23420,7 @@ export const townData: TownData[] = [
     zipCodes: ['3425'],
     sportClubs: [],
     population: 800,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 15
@@ -21827,6 +23431,7 @@ export const townData: TownData[] = [
     zipCodes: ['8505'],
     sportClubs: [],
     population: 55,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 36,
     perc_between_15_25: 18
@@ -21846,6 +23451,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1810,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -21856,6 +23462,7 @@ export const townData: TownData[] = [
     zipCodes: ['3769'],
     sportClubs: [],
     population: 6995,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 11
@@ -21866,6 +23473,7 @@ export const townData: TownData[] = [
     zipCodes: ['3245'],
     sportClubs: [],
     population: 7215,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -21876,6 +23484,7 @@ export const townData: TownData[] = [
     zipCodes: ['8565'],
     sportClubs: [],
     population: 405,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -21886,6 +23495,7 @@ export const townData: TownData[] = [
     zipCodes: ['8478'],
     sportClubs: [],
     population: 240,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 15
@@ -21896,6 +23506,7 @@ export const townData: TownData[] = [
     zipCodes: ['2063'],
     sportClubs: [],
     population: 630,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -21908,6 +23519,7 @@ export const townData: TownData[] = [
       { name: 'sv Spaarnwoude', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 3325,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -21922,6 +23534,7 @@ export const townData: TownData[] = [
       { name: "VVS'46", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 4305,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -21932,6 +23545,7 @@ export const townData: TownData[] = [
     zipCodes: ['8482'],
     sportClubs: [],
     population: 195,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -21942,6 +23556,7 @@ export const townData: TownData[] = [
     zipCodes: ['6956'],
     sportClubs: [],
     population: 915,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -21952,6 +23567,7 @@ export const townData: TownData[] = [
     zipCodes: ['8843'],
     sportClubs: [],
     population: 270,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -21964,6 +23580,7 @@ export const townData: TownData[] = [
       { name: 'vv Spaubeek', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 3335,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -21974,6 +23591,7 @@ export const townData: TownData[] = [
     zipCodes: ['9417'],
     sportClubs: [],
     population: 360,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -21993,6 +23611,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1340,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -22021,6 +23640,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9825,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -22033,6 +23653,7 @@ export const townData: TownData[] = [
       { name: 'sv Sprundel', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 5185,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -22052,6 +23673,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 185,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -22064,6 +23686,7 @@ export const townData: TownData[] = [
       { name: 'vv Rood-Wit W', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 9280,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -22092,6 +23715,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4890,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -22120,6 +23744,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1725,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -22132,6 +23757,7 @@ export const townData: TownData[] = [
       { name: 'vv SNS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1435,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 10
@@ -22151,6 +23777,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1190,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -22161,6 +23788,7 @@ export const townData: TownData[] = [
     zipCodes: ['4758'],
     sportClubs: [{ name: 'vv SVC', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 2265,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -22173,6 +23801,7 @@ export const townData: TownData[] = [
       { name: 'vv Staphorst', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 10680,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 16
@@ -22183,6 +23812,7 @@ export const townData: TownData[] = [
     zipCodes: ['1488'],
     sportClubs: [],
     population: 210,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -22202,6 +23832,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1695,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -22221,6 +23852,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -22240,6 +23872,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 970,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -22250,6 +23883,7 @@ export const townData: TownData[] = [
     zipCodes: ['9629'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 22,
     perc_between_15_25: 11
@@ -22266,6 +23900,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2235,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -22276,6 +23911,7 @@ export const townData: TownData[] = [
     zipCodes: ['7439'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -22288,6 +23924,7 @@ export const townData: TownData[] = [
       { name: 'vv Steensel', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1460,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -22307,6 +23944,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1885,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -22317,6 +23955,7 @@ export const townData: TownData[] = [
     zipCodes: ['7737'],
     sportClubs: [],
     population: 490,
+    perc_nederlands: 80,
     perc_men: 56,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -22327,6 +23966,7 @@ export const townData: TownData[] = [
     zipCodes: ['8395'],
     sportClubs: [],
     population: 1065,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -22346,6 +23986,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10945,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -22358,6 +23999,7 @@ export const townData: TownData[] = [
       { name: 'vv Stellendam', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 3495,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -22370,6 +24012,7 @@ export const townData: TownData[] = [
       { name: 'rksv Sterksel', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1740,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -22389,6 +24032,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 725,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 17
@@ -22401,6 +24045,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Stevensweert', colors: [[255, 0, 255]], type: 'voetbal' }
     ],
     population: 1650,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -22411,6 +24056,7 @@ export const townData: TownData[] = [
     zipCodes: ['5935'],
     sportClubs: [],
     population: 3715,
+    perc_nederlands: 70,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -22421,6 +24067,7 @@ export const townData: TownData[] = [
     zipCodes: ['7756'],
     sportClubs: [],
     population: 250,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -22441,6 +24088,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7660,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -22451,6 +24099,7 @@ export const townData: TownData[] = [
     zipCodes: ['9999'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 15
@@ -22470,6 +24119,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1160,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 13
@@ -22482,6 +24132,7 @@ export const townData: TownData[] = [
       { name: 'vv Stolwijk', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 5270,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -22501,6 +24152,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1995,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 11
@@ -22511,6 +24163,7 @@ export const townData: TownData[] = [
     zipCodes: ['3836'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 46,
     perc_between_15_45: 32,
     perc_between_15_25: 21
@@ -22521,6 +24174,7 @@ export const townData: TownData[] = [
     zipCodes: ['3835'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -22533,6 +24187,7 @@ export const townData: TownData[] = [
       { name: 'vv Brevendia', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 5100,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -22552,6 +24207,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2490,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 17
@@ -22562,6 +24218,7 @@ export const townData: TownData[] = [
     zipCodes: ['8892'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -22572,6 +24229,7 @@ export const townData: TownData[] = [
     zipCodes: ['4856'],
     sportClubs: [],
     population: 340,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -22584,6 +24242,7 @@ export const townData: TownData[] = [
       { name: 'vv Strijen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 7840,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -22594,6 +24253,7 @@ export const townData: TownData[] = [
     zipCodes: ['3292'],
     sportClubs: [],
     population: 460,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -22613,6 +24273,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1650,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -22632,6 +24293,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1365,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -22648,6 +24310,7 @@ export const townData: TownData[] = [
       { name: 'vv Surhuisterveen', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 6005,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -22658,6 +24321,7 @@ export const townData: TownData[] = [
     zipCodes: ['9283'],
     sportClubs: [],
     population: 1265,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -22672,6 +24336,7 @@ export const townData: TownData[] = [
       { name: 'vv Susterse Boys', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 8015,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -22691,6 +24356,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 635,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -22705,6 +24371,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Swalmen', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 8725,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -22715,6 +24382,7 @@ export const townData: TownData[] = [
     zipCodes: ['9299'],
     sportClubs: [],
     population: 615,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -22725,6 +24393,7 @@ export const townData: TownData[] = [
     zipCodes: ['6174'],
     sportClubs: [],
     population: 765,
+    perc_nederlands: 70,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -22735,6 +24404,7 @@ export const townData: TownData[] = [
     zipCodes: ['9087'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -199974,
     perc_between_15_25: -199994
@@ -22754,6 +24424,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6285,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -22774,6 +24445,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1260,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -22784,6 +24456,7 @@ export const townData: TownData[] = [
     zipCodes: ['9485'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 19,
     perc_between_15_25: 5
@@ -22794,6 +24467,7 @@ export const townData: TownData[] = [
     zipCodes: ['5395'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -22804,6 +24478,7 @@ export const townData: TownData[] = [
     zipCodes: ['9085'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -22816,6 +24491,7 @@ export const townData: TownData[] = [
       { name: 'vv Omlandia', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4670,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -22835,6 +24511,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 785,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -22856,6 +24533,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 9425,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -22866,6 +24544,7 @@ export const townData: TownData[] = [
     zipCodes: ['9487'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -22878,6 +24557,7 @@ export const townData: TownData[] = [
       { name: "fc Ter Apel'96", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 9515,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -22888,6 +24568,7 @@ export const townData: TownData[] = [
     zipCodes: ['9563'],
     sportClubs: [],
     population: 990,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -22898,6 +24579,7 @@ export const townData: TownData[] = [
     zipCodes: ['2684'],
     sportClubs: [],
     population: 690,
+    perc_nederlands: 80,
     perc_men: 47,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -22908,6 +24590,7 @@ export const townData: TownData[] = [
     zipCodes: ['8476'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -22918,6 +24601,7 @@ export const townData: TownData[] = [
     zipCodes: ['8449'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 13
@@ -22937,6 +24621,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4630,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -22956,6 +24641,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6260,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -22966,6 +24652,7 @@ export const townData: TownData[] = [
     zipCodes: ['8493'],
     sportClubs: [],
     population: 750,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -22985,6 +24672,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 450,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -22995,6 +24683,7 @@ export const townData: TownData[] = [
     zipCodes: ['8542'],
     sportClubs: [],
     population: 220,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -23005,6 +24694,7 @@ export const townData: TownData[] = [
     zipCodes: ['9947'],
     sportClubs: [],
     population: 390,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -23015,6 +24705,7 @@ export const townData: TownData[] = [
     zipCodes: ['9948'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 8
@@ -23027,6 +24718,7 @@ export const townData: TownData[] = [
       { name: 'vv Ternaard', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1250,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -23037,6 +24729,7 @@ export const townData: TownData[] = [
     zipCodes: ['8524'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -499960,
     perc_between_15_25: 25
@@ -23049,6 +24742,7 @@ export const townData: TownData[] = [
       { name: 'vv Terschuurse Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1520,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -23059,6 +24753,7 @@ export const townData: TownData[] = [
     zipCodes: ['9014'],
     sportClubs: [],
     population: 350,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -23078,6 +24773,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1020,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 16
@@ -23092,6 +24788,7 @@ export const townData: TownData[] = [
       { name: 'sv V en L', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2485,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -23106,6 +24803,7 @@ export const townData: TownData[] = [
       { name: 'rkvv DIA', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 8245,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -23116,6 +24814,7 @@ export const townData: TownData[] = [
     zipCodes: ['7395'],
     sportClubs: [{ name: '', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 760,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -23126,6 +24825,7 @@ export const townData: TownData[] = [
     zipCodes: ['9797'],
     sportClubs: [],
     population: 555,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 24,
     perc_between_15_25: 10
@@ -23138,6 +24838,7 @@ export const townData: TownData[] = [
       { name: 'vv Tholense Boys', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 8050,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -23148,6 +24849,7 @@ export const townData: TownData[] = [
     zipCodes: ['6017'],
     sportClubs: [],
     population: 2480,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -23158,6 +24860,7 @@ export const townData: TownData[] = [
     zipCodes: ['5865'],
     sportClubs: [],
     population: 1280,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 10
@@ -23176,6 +24879,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1550,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -23204,6 +24908,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 760,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -23214,6 +24919,7 @@ export const townData: TownData[] = [
     zipCodes: ['9954'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 24,
     perc_between_15_25: 14
@@ -23224,6 +24930,7 @@ export const townData: TownData[] = [
     zipCodes: ['3234'],
     sportClubs: [],
     population: 560,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -23234,6 +24941,7 @@ export const townData: TownData[] = [
     zipCodes: ['8632'],
     sportClubs: [],
     population: 185,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -23244,6 +24952,7 @@ export const townData: TownData[] = [
     zipCodes: ['8772'],
     sportClubs: [],
     population: 20,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: -999970,
     perc_between_15_25: -499985
@@ -23256,6 +24965,7 @@ export const townData: TownData[] = [
       { name: 'vv Aengwirden', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 840,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -23266,6 +24976,7 @@ export const townData: TownData[] = [
     zipCodes: ['8522'],
     sportClubs: [],
     population: 355,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 37,
     perc_between_15_25: 18
@@ -23276,6 +24987,7 @@ export const townData: TownData[] = [
     zipCodes: ['8765'],
     sportClubs: [],
     population: 455,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 18
@@ -23286,6 +24998,7 @@ export const townData: TownData[] = [
     zipCodes: ['9939'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -23296,6 +25009,7 @@ export const townData: TownData[] = [
     zipCodes: ['9356'],
     sportClubs: [],
     population: 4440,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -23306,6 +25020,7 @@ export const townData: TownData[] = [
     zipCodes: ['7227'],
     sportClubs: [],
     population: 885,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -23325,6 +25040,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2765,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -23345,6 +25061,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2465,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 40,
     perc_between_15_25: 15
@@ -23355,6 +25072,7 @@ export const townData: TownData[] = [
     zipCodes: ['6975'],
     sportClubs: [],
     population: 355,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -23365,6 +25083,7 @@ export const townData: TownData[] = [
     zipCodes: ['9994'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -23384,6 +25103,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2100,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -23394,6 +25114,7 @@ export const townData: TownData[] = [
     zipCodes: ['9633'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 35,
     perc_between_15_25: 22
@@ -23404,6 +25125,7 @@ export const townData: TownData[] = [
     zipCodes: ['7651'],
     sportClubs: [{ name: "TVC'28", colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 5755,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -23414,6 +25136,7 @@ export const townData: TownData[] = [
     zipCodes: ['4176'],
     sportClubs: [],
     population: 1025,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 41,
     perc_between_15_25: 11
@@ -23433,6 +25156,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3775,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -23443,6 +25167,7 @@ export const townData: TownData[] = [
     zipCodes: ['8334'],
     sportClubs: [],
     population: 2150,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 9
@@ -23453,6 +25178,7 @@ export const townData: TownData[] = [
     zipCodes: ['3999'],
     sportClubs: [],
     population: 685,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -23472,6 +25198,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1095,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -23482,6 +25209,7 @@ export const townData: TownData[] = [
     zipCodes: ['9287'],
     sportClubs: [{ name: 'VVT', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1785,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -23494,6 +25222,7 @@ export const townData: TownData[] = [
       { name: 'TSV Twisk', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1105,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -23513,6 +25242,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1805,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -23523,6 +25253,7 @@ export const townData: TownData[] = [
     zipCodes: ['9255'],
     sportClubs: [],
     population: 1615,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -23542,6 +25273,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1080,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -23561,6 +25293,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1375,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -23571,6 +25304,7 @@ export const townData: TownData[] = [
     zipCodes: ['9492'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 15
@@ -23581,6 +25315,7 @@ export const townData: TownData[] = [
     zipCodes: ['6574'],
     sportClubs: [],
     population: 495,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -23595,6 +25330,7 @@ export const townData: TownData[] = [
       { name: 'sv Prins Bernhard', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 3255,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 16
@@ -23605,6 +25341,7 @@ export const townData: TownData[] = [
     zipCodes: ['5071'],
     sportClubs: [{ name: 'SVSSS', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 8025,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -23617,6 +25354,7 @@ export const townData: TownData[] = [
       { name: 'vv Uffelte', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1440,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -23636,6 +25374,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6215,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -23646,6 +25385,7 @@ export const townData: TownData[] = [
     zipCodes: ['1154'],
     sportClubs: [],
     population: 135,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 22,
     perc_between_15_25: 7
@@ -23658,6 +25398,7 @@ export const townData: TownData[] = [
       { name: 'fc Uitgeest', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 13665,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -23677,6 +25418,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5400,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -23696,6 +25438,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3160,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -23706,6 +25449,7 @@ export const townData: TownData[] = [
     zipCodes: ['8624'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -23716,6 +25460,7 @@ export const townData: TownData[] = [
     zipCodes: ['4288'],
     sportClubs: [],
     population: 345,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -23726,6 +25471,7 @@ export const townData: TownData[] = [
     zipCodes: ['6235'],
     sportClubs: [{ name: 'RKUVC', colors: [[255, 255, 255]], type: 'voetbal' }],
     population: 2815,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -23764,6 +25510,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 10525,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -23774,6 +25521,7 @@ export const townData: TownData[] = [
     zipCodes: ['5113'],
     sportClubs: [],
     population: 1075,
+    perc_nederlands: 70,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -23784,6 +25532,7 @@ export const townData: TownData[] = [
     zipCodes: ['9971'],
     sportClubs: [{ name: "VVSV'09", colors: [[undefined]], type: 'voetbal' }],
     population: 1355,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -23794,6 +25543,7 @@ export const townData: TownData[] = [
     zipCodes: ['4858'],
     sportClubs: [],
     population: 315,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -23813,6 +25563,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5025,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -23832,6 +25583,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4815,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -23853,6 +25605,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5630,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -23863,6 +25616,7 @@ export const townData: TownData[] = [
     zipCodes: ['1646'],
     sportClubs: [],
     population: 65,
+    perc_nederlands: 90,
     perc_men: 46,
     perc_between_15_45: 23,
     perc_between_15_25: 8
@@ -23891,6 +25645,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2845,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -23910,6 +25665,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1345,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -23930,6 +25686,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7830,
+    perc_nederlands: 40,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -23942,6 +25699,7 @@ export const townData: TownData[] = [
       { name: 'sc Valburg', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1825,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -23961,6 +25719,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1225,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 24,
     perc_between_15_25: 9
@@ -23980,6 +25739,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3350,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -23990,6 +25750,7 @@ export const townData: TownData[] = [
     zipCodes: ['4064'],
     sportClubs: [],
     population: 1060,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -24000,6 +25761,7 @@ export const townData: TownData[] = [
     zipCodes: ['7076'],
     sportClubs: [{ name: 'vv GWVV', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 825,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -24012,6 +25774,7 @@ export const townData: TownData[] = [
       { name: 'sc Varsseveld', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 5875,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -24037,6 +25800,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 970,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -24049,6 +25813,7 @@ export const townData: TownData[] = [
       { name: 'vv Veelerveen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 560,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -24068,6 +25833,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2915,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 40,
     perc_between_15_25: 13
@@ -24080,6 +25846,7 @@ export const townData: TownData[] = [
       { name: 'vv Veenhuizen', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1290,
+    perc_nederlands: 80,
     perc_men: 59,
     perc_between_15_45: 37,
     perc_between_15_25: 10
@@ -24090,6 +25857,7 @@ export const townData: TownData[] = [
     zipCodes: ['7924'],
     sportClubs: [],
     population: 1035,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -24109,6 +25877,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2155,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -24128,6 +25897,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1610,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 9
@@ -24147,6 +25917,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 665,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -24159,6 +25930,7 @@ export const townData: TownData[] = [
       { name: 'vv FFS', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 400,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -24169,6 +25941,7 @@ export const townData: TownData[] = [
     zipCodes: ['5334'],
     sportClubs: [{ name: 'RKVSC', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1595,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 15
@@ -24188,6 +25961,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5310,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -24207,6 +25981,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5315,
+    perc_nederlands: 60,
     perc_men: 51,
     perc_between_15_45: 40,
     perc_between_15_25: 11
@@ -24232,6 +26007,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2040,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 23,
     perc_between_15_25: 10
@@ -24242,6 +26018,7 @@ export const townData: TownData[] = [
     zipCodes: ['6599'],
     sportClubs: [],
     population: 810,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -24252,6 +26029,7 @@ export const townData: TownData[] = [
     zipCodes: ['7792'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 14
@@ -24264,6 +26042,7 @@ export const townData: TownData[] = [
       { name: 'vv Venhorst', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1725,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -24283,6 +26062,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4320,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -24293,6 +26073,7 @@ export const townData: TownData[] = [
     zipCodes: ['5512'],
     sportClubs: [{ name: 'vv Vessem', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 2105,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -24303,6 +26084,7 @@ export const townData: TownData[] = [
     zipCodes: ['7046'],
     sportClubs: [],
     population: 85,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 6
@@ -24313,6 +26095,7 @@ export const townData: TownData[] = [
     zipCodes: ['5814'],
     sportClubs: [],
     population: 560,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 39,
     perc_between_15_25: 21
@@ -24332,6 +26115,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1280,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 13
@@ -24342,6 +26126,7 @@ export const townData: TownData[] = [
     zipCodes: ['7233'],
     sportClubs: [],
     population: 320,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -24354,6 +26139,7 @@ export const townData: TownData[] = [
       { name: "vv Vierhouten'82", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -24364,6 +26150,7 @@ export const townData: TownData[] = [
     zipCodes: ['9975'],
     sportClubs: [],
     population: 180,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 22,
     perc_between_15_25: 8
@@ -24376,6 +26163,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Volharding', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2560,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -24397,6 +26185,7 @@ export const townData: TownData[] = [
       { name: 'vv Vierpolders', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1805,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -24425,6 +26214,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4865,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -24437,6 +26227,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Vijlen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1400,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -24449,6 +26240,7 @@ export const townData: TownData[] = [
       { name: 'vv Vilsteren', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 355,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 25,
     perc_between_15_25: 10
@@ -24459,6 +26251,7 @@ export const townData: TownData[] = [
     zipCodes: ['8393'],
     sportClubs: [],
     population: 200,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -24469,6 +26262,7 @@ export const townData: TownData[] = [
     zipCodes: ['7739'],
     sportClubs: [],
     population: 425,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -24481,6 +26275,7 @@ export const townData: TownData[] = [
       { name: 'sv Hertha', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 9330,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -24491,6 +26286,7 @@ export const townData: TownData[] = [
     zipCodes: ['9845'],
     sportClubs: [],
     population: 300,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -24507,6 +26303,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3355,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 8
@@ -24526,6 +26323,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1940,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 24,
     perc_between_15_25: 9
@@ -24536,6 +26334,7 @@ export const townData: TownData[] = [
     zipCodes: ['8899'],
     sportClubs: [],
     population: 1155,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 14
@@ -24548,6 +26347,7 @@ export const townData: TownData[] = [
       { name: 'vv SPV', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1430,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -24558,6 +26358,7 @@ export const townData: TownData[] = [
     zipCodes: ['2855'],
     sportClubs: [],
     population: 640,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -24568,6 +26369,7 @@ export const townData: TownData[] = [
     zipCodes: ['6063'],
     sportClubs: [],
     population: 2360,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -24582,6 +26384,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Voerendaal', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 8300,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -24594,6 +26397,7 @@ export const townData: TownData[] = [
       { name: 'sv Vogelenzang', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2175,
+    perc_nederlands: 80,
     perc_men: 48,
     perc_between_15_45: 25,
     perc_between_15_25: 11
@@ -24606,6 +26410,7 @@ export const townData: TownData[] = [
       { name: 'vv Vogelwaarde', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1870,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -24625,6 +26430,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3540,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -24635,6 +26441,7 @@ export const townData: TownData[] = [
     zipCodes: ['8325'],
     sportClubs: [{ name: 'sv VENO', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4270,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -24645,6 +26452,7 @@ export const townData: TownData[] = [
     zipCodes: ['3196'],
     sportClubs: [],
     population: -99997,
+    perc_nederlands: -99997,
     perc_men: 100,
     perc_between_15_45: 200,
     perc_between_15_25: 100
@@ -24666,6 +26474,7 @@ export const townData: TownData[] = [
       { name: 'vv VVOP', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 10920,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -24676,6 +26485,7 @@ export const townData: TownData[] = [
     zipCodes: ['8193'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -24690,6 +26500,7 @@ export const townData: TownData[] = [
       { name: 'vv Vorden', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 7210,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 11
@@ -24706,6 +26517,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1710,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -24716,6 +26528,7 @@ export const townData: TownData[] = [
     zipCodes: ['5827'],
     sportClubs: [],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 35,
     perc_between_15_25: 17
@@ -24735,6 +26548,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1130,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 38,
     perc_between_15_25: 16
@@ -24745,6 +26559,7 @@ export const townData: TownData[] = [
     zipCodes: ['9445'],
     sportClubs: [],
     population: 30,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: -333307,
     perc_between_15_25: 17
@@ -24755,6 +26570,7 @@ export const townData: TownData[] = [
     zipCodes: ['5816'],
     sportClubs: [],
     population: 235,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -24765,6 +26581,7 @@ export const townData: TownData[] = [
     zipCodes: ['3633'],
     sportClubs: [],
     population: 1880,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -24784,6 +26601,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4060,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -24794,6 +26612,7 @@ export const townData: TownData[] = [
     zipCodes: ['9699'],
     sportClubs: [],
     population: 955,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 26,
     perc_between_15_25: 8
@@ -24819,6 +26638,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8830,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -24829,6 +26649,7 @@ export const townData: TownData[] = [
     zipCodes: ['1428'],
     sportClubs: [],
     population: 110,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -24839,6 +26660,7 @@ export const townData: TownData[] = [
     zipCodes: ['9077'],
     sportClubs: [{ name: 'vv CVO', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 710,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 14
@@ -24849,6 +26671,7 @@ export const townData: TownData[] = [
     zipCodes: ['4354'],
     sportClubs: [],
     population: 1055,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -24861,6 +26684,7 @@ export const townData: TownData[] = [
       { name: 'vv Vuren', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2065,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -24871,6 +26695,7 @@ export const townData: TownData[] = [
     zipCodes: ['8845'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -24881,6 +26706,7 @@ export const townData: TownData[] = [
     zipCodes: ['2968'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 40,
     perc_between_15_25: 20
@@ -24893,6 +26719,7 @@ export const townData: TownData[] = [
       { name: 'sc Waarde', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1410,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 40,
     perc_between_15_25: 17
@@ -24912,6 +26739,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2405,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -24922,6 +26750,7 @@ export const townData: TownData[] = [
     zipCodes: ['3466'],
     sportClubs: [],
     population: 1665,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -24932,6 +26761,7 @@ export const townData: TownData[] = [
     zipCodes: ['4287'],
     sportClubs: [],
     population: 275,
+    perc_nederlands: 100,
     perc_men: 49,
     perc_between_15_45: 38,
     perc_between_15_25: 11
@@ -24951,6 +26781,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2665,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -24961,6 +26792,7 @@ export const townData: TownData[] = [
     zipCodes: ['9152'],
     sportClubs: [],
     population: 40,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -24971,6 +26803,7 @@ export const townData: TownData[] = [
     zipCodes: ['7754'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -24983,6 +26816,7 @@ export const townData: TownData[] = [
       { name: 'vv Wadenoijen', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1120,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -24993,6 +26827,7 @@ export const townData: TownData[] = [
     zipCodes: ['4845'],
     sportClubs: [{ name: 'VCW', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 2180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -25011,6 +26846,7 @@ export const townData: TownData[] = [
       { name: 'vv Wagenborger Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1740,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -25021,6 +26857,7 @@ export const townData: TownData[] = [
     zipCodes: ['4588'],
     sportClubs: [],
     population: 350,
+    perc_nederlands: 80,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -25040,6 +26877,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2455,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25058,6 +26896,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1720,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -25077,6 +26916,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2815,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25096,6 +26936,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1890,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -25117,6 +26958,7 @@ export const townData: TownData[] = [
       { name: 'vv WZC', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 6150,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25145,6 +26987,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 645,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -25157,6 +27000,7 @@ export const townData: TownData[] = [
       { name: 'vv Wapserveen', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 785,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -25167,6 +27011,7 @@ export const townData: TownData[] = [
     zipCodes: ['1473'],
     sportClubs: [],
     population: 805,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 14
@@ -25179,6 +27024,7 @@ export const townData: TownData[] = [
       { name: 'vv Warffum', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2135,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -25189,6 +27035,7 @@ export const townData: TownData[] = [
     zipCodes: ['9963'],
     sportClubs: [],
     population: 265,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 26,
     perc_between_15_25: 8
@@ -25208,6 +27055,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 205,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -25227,6 +27075,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6100,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -25237,6 +27086,7 @@ export const townData: TownData[] = [
     zipCodes: ['8721'],
     sportClubs: [],
     population: 780,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -25247,6 +27097,7 @@ export const townData: TownData[] = [
     zipCodes: ['9004'],
     sportClubs: [],
     population: 30,
+    perc_nederlands: 100,
     perc_men: 67,
     perc_between_15_45: -333307,
     perc_between_15_25: -333323
@@ -25257,6 +27108,7 @@ export const townData: TownData[] = [
     zipCodes: ['9003'],
     sportClubs: [],
     population: 900,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -25269,6 +27121,7 @@ export const townData: TownData[] = [
       { name: 'vv Waskemeer', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 840,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -25287,6 +27140,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5110,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -25297,6 +27151,7 @@ export const townData: TownData[] = [
     zipCodes: ['8438'],
     sportClubs: [],
     population: 150,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 17,
     perc_between_15_25: 10
@@ -25307,6 +27162,7 @@ export const townData: TownData[] = [
     zipCodes: ['1454'],
     sportClubs: [],
     population: 540,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 9
@@ -25317,6 +27173,7 @@ export const townData: TownData[] = [
     zipCodes: ['9609'],
     sportClubs: [],
     population: 30,
+    perc_nederlands: 70,
     perc_men: 67,
     perc_between_15_45: -333290,
     perc_between_15_25: -333323
@@ -25327,6 +27184,7 @@ export const townData: TownData[] = [
     zipCodes: ['4508'],
     sportClubs: [],
     population: 520,
+    perc_nederlands: 70,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -25337,6 +27195,7 @@ export const townData: TownData[] = [
     zipCodes: ['3646'],
     sportClubs: [],
     population: 805,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25355,6 +27214,7 @@ export const townData: TownData[] = [
       { name: 'vv Wedde', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1300,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -25374,6 +27234,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3020,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -25384,6 +27245,7 @@ export const townData: TownData[] = [
     zipCodes: ['9964'],
     sportClubs: [],
     population: 740,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -25400,6 +27262,7 @@ export const townData: TownData[] = [
       { name: 'fc Gelre', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 6990,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -25410,6 +27273,7 @@ export const townData: TownData[] = [
     zipCodes: ['9024'],
     sportClubs: [],
     population: 555,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -25422,6 +27286,7 @@ export const townData: TownData[] = [
       { name: 'vv Weiteveense Boys', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 1675,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -25432,6 +27297,7 @@ export const townData: TownData[] = [
     zipCodes: ['6733'],
     sportClubs: [{ name: "vv SDS'55", colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 2750,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 38,
     perc_between_15_25: 15
@@ -25442,6 +27308,7 @@ export const townData: TownData[] = [
     zipCodes: ['5855'],
     sportClubs: [],
     population: 2480,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -25461,6 +27328,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1060,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 10
@@ -25473,6 +27341,7 @@ export const townData: TownData[] = [
       { name: "vv Resia'42", colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1180,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25492,6 +27361,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 615,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -25504,6 +27374,7 @@ export const townData: TownData[] = [
       { name: 'vv Wemeldinge', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2985,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -25523,6 +27394,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2190,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -25551,6 +27423,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1795,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -25563,6 +27436,7 @@ export const townData: TownData[] = [
       { name: 'vv Kozakken Boys', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 11295,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -25582,6 +27456,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2505,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -25594,6 +27469,7 @@ export const townData: TownData[] = [
       { name: 'vv Wernhout', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2975,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -25622,6 +27498,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8175,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -25641,6 +27518,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1200,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25660,6 +27538,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2060,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -25670,6 +27549,7 @@ export const townData: TownData[] = [
     zipCodes: ['8881'],
     sportClubs: [],
     population: 2570,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 41,
     perc_between_15_25: 20
@@ -25680,6 +27560,7 @@ export const townData: TownData[] = [
     zipCodes: ['1464'],
     sportClubs: [{ name: 'vv WBSV', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 770,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -25690,6 +27571,7 @@ export const townData: TownData[] = [
     zipCodes: ['3615'],
     sportClubs: [],
     population: 1145,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -25709,6 +27591,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1890,
+    perc_nederlands: 60,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -25728,6 +27611,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1180,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -25740,6 +27624,7 @@ export const townData: TownData[] = [
       { name: 'vv Westerbeekse Boys', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 670,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -25750,6 +27635,7 @@ export const townData: TownData[] = [
     zipCodes: ['9431'],
     sportClubs: [{ name: 'vv VKW', colors: [[0, 0, 255]], type: 'voetbal' }],
     population: 4615,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -25769,6 +27655,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 895,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -25779,6 +27666,7 @@ export const townData: TownData[] = [
     zipCodes: ['9922'],
     sportClubs: [],
     population: 415,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 30,
     perc_between_15_25: 8
@@ -25789,6 +27677,7 @@ export const townData: TownData[] = [
     zipCodes: ['9295'],
     sportClubs: [],
     population: 600,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 36,
     perc_between_15_25: 13
@@ -25801,6 +27690,7 @@ export const townData: TownData[] = [
       { name: 'vv Voorwaarts V', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 4490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -25820,6 +27710,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2115,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -25830,6 +27721,7 @@ export const townData: TownData[] = [
     zipCodes: ['1778'],
     sportClubs: [],
     population: 920,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -25842,6 +27734,7 @@ export const townData: TownData[] = [
       { name: 'vv Westerlee', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1485,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -25854,6 +27747,7 @@ export const townData: TownData[] = [
       { name: 'vv PWC', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 245,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 22,
     perc_between_15_25: 8
@@ -25864,6 +27758,7 @@ export const townData: TownData[] = [
     zipCodes: ['9337'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 90,
     perc_men: 56,
     perc_between_15_45: 31,
     perc_between_15_25: 16
@@ -25874,6 +27769,7 @@ export const townData: TownData[] = [
     zipCodes: ['9993'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -25886,6 +27782,7 @@ export const townData: TownData[] = [
       { name: 'vv Graftdijk', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 755,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 10
@@ -25896,6 +27793,7 @@ export const townData: TownData[] = [
     zipCodes: ['8616'],
     sportClubs: [],
     population: 80,
+    perc_nederlands: 100,
     perc_men: 56,
     perc_between_15_45: 25,
     perc_between_15_25: 13
@@ -25906,6 +27804,7 @@ export const townData: TownData[] = [
     zipCodes: ['9075'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 27,
     perc_between_15_25: 12
@@ -25918,6 +27817,7 @@ export const townData: TownData[] = [
       { name: 'vv De Noormannen', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2615,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -25930,6 +27830,7 @@ export const townData: TownData[] = [
       { name: 'cvv Blauw Wit W', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 590,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -25940,6 +27841,7 @@ export const townData: TownData[] = [
     zipCodes: ['3273'],
     sportClubs: [],
     population: 2065,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 11
@@ -25952,6 +27854,7 @@ export const townData: TownData[] = [
       { name: 'vv Woudia', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1815,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -25971,6 +27874,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 4865,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -25981,6 +27885,7 @@ export const townData: TownData[] = [
     zipCodes: ['8363'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 19,
     perc_between_15_25: 9
@@ -25991,6 +27896,7 @@ export const townData: TownData[] = [
     zipCodes: ['2156'],
     sportClubs: [],
     population: 370,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 11
@@ -26001,6 +27907,7 @@ export const townData: TownData[] = [
     zipCodes: ['9122'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -26011,6 +27918,7 @@ export const townData: TownData[] = [
     zipCodes: ['9773'],
     sportClubs: [],
     population: 115,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -26030,6 +27938,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -26049,6 +27958,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 12120,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 11
@@ -26059,6 +27969,7 @@ export const townData: TownData[] = [
     zipCodes: ['7852'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 21,
     perc_between_15_25: 11
@@ -26069,6 +27980,7 @@ export const townData: TownData[] = [
     zipCodes: ['7853'],
     sportClubs: [],
     population: 165,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 21,
     perc_between_15_25: 9
@@ -26087,6 +27999,7 @@ export const townData: TownData[] = [
       { name: 'sv Socii', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 645,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -26097,6 +28010,7 @@ export const townData: TownData[] = [
     zipCodes: ['9043'],
     sportClubs: [],
     population: 190,
+    perc_nederlands: 100,
     perc_men: 55,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -26109,6 +28023,7 @@ export const townData: TownData[] = [
       { name: 'vv Wieringerwaard', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2270,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 12
@@ -26137,6 +28052,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 5930,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 11
@@ -26147,6 +28063,7 @@ export const townData: TownData[] = [
     zipCodes: ['9141'],
     sportClubs: [],
     population: 305,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 21,
     perc_between_15_25: 8
@@ -26157,6 +28074,7 @@ export const townData: TownData[] = [
     zipCodes: ['8563'],
     sportClubs: [],
     population: 620,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -26169,6 +28087,7 @@ export const townData: TownData[] = [
       { name: 'vv WSW', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1370,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -26185,6 +28104,7 @@ export const townData: TownData[] = [
       { name: 'ZCFC', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 1830,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -26197,6 +28117,7 @@ export const townData: TownData[] = [
       { name: "vv Wijhe'92", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 8135,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -26216,6 +28137,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2170,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 10
@@ -26230,6 +28152,7 @@ export const townData: TownData[] = [
       { name: "vv Wilhelmina'26", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 6545,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -26249,6 +28172,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2430,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 9
@@ -26259,6 +28183,7 @@ export const townData: TownData[] = [
     zipCodes: ['8857'],
     sportClubs: [],
     population: 470,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -26271,6 +28196,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Wijnandia', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 1610,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -26281,6 +28207,7 @@ export const townData: TownData[] = [
     zipCodes: ['7048'],
     sportClubs: [],
     population: 155,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -26291,6 +28218,7 @@ export const townData: TownData[] = [
     zipCodes: ['3366'],
     sportClubs: [],
     population: 710,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 16
@@ -26310,6 +28238,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2035,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -26322,6 +28251,7 @@ export const townData: TownData[] = [
       { name: 'vv Wijster', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1050,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -26332,6 +28262,7 @@ export const townData: TownData[] = [
     zipCodes: ['5455'],
     sportClubs: [],
     population: 1085,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -26344,6 +28275,7 @@ export const townData: TownData[] = [
       { name: 'vv Wildervank', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 5415,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -26354,6 +28286,7 @@ export const townData: TownData[] = [
     zipCodes: ['4475'],
     sportClubs: [],
     population: 810,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -26375,6 +28308,7 @@ export const townData: TownData[] = [
       { name: 'vv Old Forward', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 905,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 28,
     perc_between_15_25: 8
@@ -26387,6 +28321,7 @@ export const townData: TownData[] = [
       { name: 'vv Willemsoord', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 865,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -26399,6 +28334,7 @@ export const townData: TownData[] = [
       { name: 'vv Kogelvangers', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 3160,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -26418,6 +28354,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6840,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -26437,6 +28374,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2980,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -26449,6 +28387,7 @@ export const townData: TownData[] = [
       { name: 'vv Wilsum', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 890,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -26459,6 +28398,7 @@ export const townData: TownData[] = [
     zipCodes: ['9495'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 100,
     perc_men: 48,
     perc_between_15_45: 29,
     perc_between_15_25: 19
@@ -26469,6 +28409,7 @@ export const townData: TownData[] = [
     zipCodes: ['6153'],
     sportClubs: [],
     population: 95,
+    perc_nederlands: 80,
     perc_men: 42,
     perc_between_15_45: 32,
     perc_between_15_25: 16
@@ -26488,6 +28429,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3400,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 37,
     perc_between_15_25: 12
@@ -26498,6 +28440,7 @@ export const townData: TownData[] = [
     zipCodes: ['9793'],
     sportClubs: [],
     population: 105,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 33,
     perc_between_15_25: 5
@@ -26510,6 +28453,7 @@ export const townData: TownData[] = [
       { name: "vv RODA'28", colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 2015,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -26532,6 +28476,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2015,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -26542,6 +28487,7 @@ export const townData: TownData[] = [
     zipCodes: ['7115'],
     sportClubs: [],
     population: 300,
+    perc_nederlands: 90,
     perc_men: 57,
     perc_between_15_45: 35,
     perc_between_15_25: 18
@@ -26552,6 +28498,7 @@ export const townData: TownData[] = [
     zipCodes: ['7119'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 27,
     perc_between_15_25: 13
@@ -26562,6 +28509,7 @@ export const townData: TownData[] = [
     zipCodes: ['7113'],
     sportClubs: [],
     population: 310,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -26572,6 +28520,7 @@ export const townData: TownData[] = [
     zipCodes: ['7105'],
     sportClubs: [],
     population: 410,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -26582,6 +28531,7 @@ export const townData: TownData[] = [
     zipCodes: ['7107'],
     sportClubs: [],
     population: 715,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 24,
     perc_between_15_25: 11
@@ -26592,6 +28542,7 @@ export const townData: TownData[] = [
     zipCodes: ['7104'],
     sportClubs: [{ name: 'sc Meddo', colors: [[0, 200, 0]], type: 'voetbal' }],
     population: 1435,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 29,
     perc_between_15_25: 13
@@ -26611,6 +28562,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 655,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 15
@@ -26621,6 +28573,7 @@ export const townData: TownData[] = [
     zipCodes: ['7106'],
     sportClubs: [],
     population: 360,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 26,
     perc_between_15_25: 14
@@ -26631,6 +28584,7 @@ export const townData: TownData[] = [
     zipCodes: ['7108'],
     sportClubs: [],
     population: 875,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -26641,6 +28595,7 @@ export const townData: TownData[] = [
     zipCodes: ['9917'],
     sportClubs: [],
     population: 490,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -26659,6 +28614,7 @@ export const townData: TownData[] = [
       { name: 'vv WWS', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 1140,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 11
@@ -26669,6 +28625,7 @@ export const townData: TownData[] = [
     zipCodes: ['4491'],
     sportClubs: [],
     population: 1135,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 7
@@ -26679,6 +28636,7 @@ export const townData: TownData[] = [
     zipCodes: ['7738'],
     sportClubs: [],
     population: 605,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -26689,6 +28647,7 @@ export const townData: TownData[] = [
     zipCodes: ['8748'],
     sportClubs: [{ name: 'sv Mulier', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 1760,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -26699,6 +28658,7 @@ export const townData: TownData[] = [
     zipCodes: ['8335'],
     sportClubs: [],
     population: 200,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 8
@@ -26709,6 +28669,7 @@ export const townData: TownData[] = [
     zipCodes: ['7986'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 12
@@ -26737,6 +28698,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1885,
+    perc_nederlands: 80,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -26762,6 +28724,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 555,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -26772,6 +28735,7 @@ export const townData: TownData[] = [
     zipCodes: ['8637'],
     sportClubs: [],
     population: 285,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 9
@@ -26782,6 +28746,7 @@ export const townData: TownData[] = [
     zipCodes: ['8842'],
     sportClubs: [],
     population: 450,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -26801,6 +28766,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 6330,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -26820,6 +28786,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 940,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -26832,6 +28799,7 @@ export const townData: TownData[] = [
       { name: 'sv Wodanseck', colors: [[undefined]], type: 'voetbal' }
     ],
     population: 1765,
+    perc_nederlands: 80,
     perc_men: 52,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -26844,6 +28812,7 @@ export const townData: TownData[] = [
       { name: 'vv Wolfaartsdijk', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 2200,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -26854,6 +28823,7 @@ export const townData: TownData[] = [
     zipCodes: ['8774'],
     sportClubs: [],
     population: 140,
+    perc_nederlands: 100,
     perc_men: 54,
     perc_between_15_45: 21,
     perc_between_15_25: 11
@@ -26866,6 +28836,7 @@ export const townData: TownData[] = [
       { name: 'sv Woltersum', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 365,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -26876,6 +28847,7 @@ export const townData: TownData[] = [
     zipCodes: ['8731'],
     sportClubs: [],
     population: 2320,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -26886,6 +28858,7 @@ export const townData: TownData[] = [
     zipCodes: ['8747'],
     sportClubs: [],
     population: 295,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -26896,6 +28869,7 @@ export const townData: TownData[] = [
     zipCodes: ['8711'],
     sportClubs: [{ name: 'vv Workum', colors: [[255, 0, 0]], type: 'voetbal' }],
     population: 4445,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 10
@@ -26915,6 +28889,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 13055,
+    perc_nederlands: 80,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -26940,6 +28915,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 11305,
+    perc_nederlands: 70,
     perc_men: 49,
     perc_between_15_45: 37,
     perc_between_15_25: 11
@@ -26959,6 +28935,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3640,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 13
@@ -26969,6 +28946,7 @@ export const townData: TownData[] = [
     zipCodes: ['9618'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 25,
     perc_between_15_25: 5
@@ -26981,6 +28959,7 @@ export const townData: TownData[] = [
       { name: 'vv Woudenberg', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 13360,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -26993,6 +28972,7 @@ export const townData: TownData[] = [
       { name: 'vv Woudrichem', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4675,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -27012,6 +28992,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1405,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -27024,6 +29005,7 @@ export const townData: TownData[] = [
       { name: 'rksv Cluzona', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 4745,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -27036,6 +29018,7 @@ export const townData: TownData[] = [
       { name: 'rkvv Rimboe', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1195,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 28,
     perc_between_15_25: 11
@@ -27046,6 +29029,7 @@ export const townData: TownData[] = [
     zipCodes: ['9534'],
     sportClubs: [],
     population: 125,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 12
@@ -27056,6 +29040,7 @@ export const townData: TownData[] = [
     zipCodes: ['9091'],
     sportClubs: [],
     population: 225,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 27,
     perc_between_15_25: 7
@@ -27066,6 +29051,7 @@ export const townData: TownData[] = [
     zipCodes: ['9089'],
     sportClubs: [],
     population: 575,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -27076,6 +29062,7 @@ export const townData: TownData[] = [
     zipCodes: ['9113'],
     sportClubs: [],
     population: 980,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 15
@@ -27086,6 +29073,7 @@ export const townData: TownData[] = [
     zipCodes: ['9178'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 90,
     perc_men: 47,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -27098,6 +29086,7 @@ export const townData: TownData[] = [
       { name: 'sv Yde De Punt', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 835,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -27110,6 +29099,7 @@ export const townData: TownData[] = [
       { name: 'vv Yerseke', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 6970,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 38,
     perc_between_15_25: 13
@@ -27120,6 +29110,7 @@ export const townData: TownData[] = [
     zipCodes: ['8554'],
     sportClubs: [],
     population: 70,
+    perc_nederlands: 100,
     perc_men: 57,
     perc_between_15_45: 36,
     perc_between_15_25: 7
@@ -27130,6 +29121,7 @@ export const townData: TownData[] = [
     zipCodes: ['8633'],
     sportClubs: [],
     population: 640,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 25,
     perc_between_15_25: 8
@@ -27142,6 +29134,7 @@ export const townData: TownData[] = [
       { name: 'sv Ysselsteyn', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 2245,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 37,
     perc_between_15_25: 15
@@ -27154,6 +29147,7 @@ export const townData: TownData[] = [
       { name: 'vv Zaamslag', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 2785,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -27164,6 +29158,7 @@ export const townData: TownData[] = [
     zipCodes: ['1544'],
     sportClubs: [],
     population: 8645,
+    perc_nederlands: 70,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -27174,6 +29169,7 @@ export const townData: TownData[] = [
     zipCodes: ['8276'],
     sportClubs: [{ name: 'sv Zalk', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 755,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -27184,6 +29180,7 @@ export const townData: TownData[] = [
     zipCodes: ['9564'],
     sportClubs: [],
     population: 50,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -27203,6 +29200,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 610,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 11
@@ -27215,6 +29213,7 @@ export const townData: TownData[] = [
       { name: 'vv Zandhuizen', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 315,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 24,
     perc_between_15_25: 8
@@ -27227,6 +29226,7 @@ export const townData: TownData[] = [
       { name: 'vv Zandpol', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 475,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 28,
     perc_between_15_25: 9
@@ -27243,6 +29243,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2665,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 28,
     perc_between_15_25: 10
@@ -27253,6 +29254,7 @@ export const townData: TownData[] = [
     zipCodes: ['9483'],
     sportClubs: [],
     population: 360,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 22,
     perc_between_15_25: 8
@@ -27267,6 +29269,7 @@ export const townData: TownData[] = [
       { name: 'vv VCO', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 6745,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -27279,6 +29282,7 @@ export const townData: TownData[] = [
       { name: 'vv De Fivel', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 525,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 35,
     perc_between_15_25: 14
@@ -27307,6 +29311,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2050,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -27319,6 +29324,7 @@ export const townData: TownData[] = [
       { name: "sv Siveo'60", colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2300,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -27329,6 +29335,7 @@ export const townData: TownData[] = [
     zipCodes: ['9491'],
     sportClubs: [{ name: 'SVZ', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 735,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -27339,6 +29346,7 @@ export const townData: TownData[] = [
     zipCodes: ['9489'],
     sportClubs: [],
     population: 35,
+    perc_nederlands: 100,
     perc_men: 43,
     perc_between_15_45: -285691,
     perc_between_15_25: 14
@@ -27349,6 +29357,7 @@ export const townData: TownData[] = [
     zipCodes: ['9488'],
     sportClubs: [],
     population: 100,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 15
@@ -27379,6 +29388,7 @@ export const townData: TownData[] = [
       { name: 'zsv Zelos', colors: [[100, 150, 0]], type: 'voetbal' }
     ],
     population: 8690,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -27398,6 +29408,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1395,
+    perc_nederlands: 90,
     perc_men: 54,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -27408,6 +29419,7 @@ export const townData: TownData[] = [
     zipCodes: ['4062'],
     sportClubs: [],
     population: 165,
+    perc_nederlands: 90,
     perc_men: 55,
     perc_between_15_45: 27,
     perc_between_15_25: 15
@@ -27418,6 +29430,7 @@ export const townData: TownData[] = [
     zipCodes: ['6671'],
     sportClubs: [],
     population: 4960,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 33,
     perc_between_15_25: 14
@@ -27430,6 +29443,7 @@ export const townData: TownData[] = [
       { name: 'sv Zevenhoven', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 2930,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 33,
     perc_between_15_25: 12
@@ -27449,6 +29463,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1995,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 15
@@ -27459,6 +29474,7 @@ export const townData: TownData[] = [
     zipCodes: ['4122'],
     sportClubs: [],
     population: 830,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 14
@@ -27469,6 +29485,7 @@ export const townData: TownData[] = [
     zipCodes: ['1736'],
     sportClubs: [],
     population: 395,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 15
@@ -27479,6 +29496,7 @@ export const townData: TownData[] = [
     zipCodes: ['9987'],
     sportClubs: [],
     population: 215,
+    perc_nederlands: 100,
     perc_men: 53,
     perc_between_15_45: 30,
     perc_between_15_25: 9
@@ -27498,6 +29516,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1640,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -27508,6 +29527,7 @@ export const townData: TownData[] = [
     zipCodes: ['4111'],
     sportClubs: [],
     population: 670,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 13
@@ -27518,6 +29538,7 @@ export const townData: TownData[] = [
     zipCodes: ['4316'],
     sportClubs: [],
     population: 765,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -27528,6 +29549,7 @@ export const townData: TownData[] = [
     zipCodes: ['8437'],
     sportClubs: [],
     population: 260,
+    perc_nederlands: 90,
     perc_men: 48,
     perc_between_15_45: 23,
     perc_between_15_25: 6
@@ -27540,6 +29562,7 @@ export const townData: TownData[] = [
       { name: 'vv De Meeuwen', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1665,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -27552,6 +29575,7 @@ export const townData: TownData[] = [
       { name: 'vv Zeester', colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 1190,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 35,
     perc_between_15_25: 13
@@ -27571,6 +29595,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3580,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 31,
     perc_between_15_25: 10
@@ -27581,6 +29606,7 @@ export const townData: TownData[] = [
     zipCodes: ['1722'],
     sportClubs: [{ name: 'vv LSVV', colors: [[255, 255, 0]], type: 'voetbal' }],
     population: 6085,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -27600,6 +29626,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3595,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -27610,6 +29637,7 @@ export const townData: TownData[] = [
     zipCodes: ['4574'],
     sportClubs: [],
     population: 900,
+    perc_nederlands: 70,
     perc_men: 52,
     perc_between_15_45: 29,
     perc_between_15_25: 9
@@ -27622,6 +29650,7 @@ export const townData: TownData[] = [
       { name: 'sv Zuidermeer', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 535,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -27632,6 +29661,7 @@ export const townData: TownData[] = [
     zipCodes: ['1153'],
     sportClubs: [],
     population: 315,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 27,
     perc_between_15_25: 13
@@ -27644,6 +29674,7 @@ export const townData: TownData[] = [
       { name: 'vv Zuidhorn', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 8050,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 10
@@ -27663,6 +29694,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 330,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 27,
     perc_between_15_25: 9
@@ -27675,6 +29707,7 @@ export const townData: TownData[] = [
       { name: 'vv Zuidland', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 5740,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -27694,6 +29727,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 3630,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 11
@@ -27704,6 +29738,7 @@ export const townData: TownData[] = [
     zipCodes: ['8343'],
     sportClubs: [],
     population: 620,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 30,
     perc_between_15_25: 10
@@ -27714,6 +29749,7 @@ export const townData: TownData[] = [
     zipCodes: ['9432'],
     sportClubs: [],
     population: 75,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 33,
     perc_between_15_25: 13
@@ -27724,6 +29760,7 @@ export const townData: TownData[] = [
     zipCodes: ['9335'],
     sportClubs: [],
     population: 175,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 14
@@ -27734,6 +29771,7 @@ export const townData: TownData[] = [
     zipCodes: ['4505'],
     sportClubs: [],
     population: 535,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 8
@@ -27753,6 +29791,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1770,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 41,
     perc_between_15_25: 15
@@ -27763,6 +29802,7 @@ export const townData: TownData[] = [
     zipCodes: ['7466'],
     sportClubs: [],
     population: 330,
+    perc_nederlands: 100,
     perc_men: 52,
     perc_between_15_45: 30,
     perc_between_15_25: 15
@@ -27784,6 +29824,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 8075,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 33,
     perc_between_15_25: 9
@@ -27794,6 +29835,7 @@ export const townData: TownData[] = [
     zipCodes: ['8751'],
     sportClubs: [],
     population: 170,
+    perc_nederlands: 90,
     perc_men: 59,
     perc_between_15_45: 26,
     perc_between_15_25: 9
@@ -27804,6 +29846,7 @@ export const townData: TownData[] = [
     zipCodes: ['9966'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 100,
     perc_men: 50,
     perc_between_15_45: 25,
     perc_between_15_25: 6
@@ -27818,6 +29861,7 @@ export const townData: TownData[] = [
       { name: 'sv Westfriezen', colors: [[255, 255, 0]], type: 'voetbal' }
     ],
     population: 17345,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 41,
     perc_between_15_25: 10
@@ -27828,6 +29872,7 @@ export const townData: TownData[] = [
     zipCodes: ['2136'],
     sportClubs: [],
     population: 1990,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 34,
     perc_between_15_25: 13
@@ -27840,6 +29885,7 @@ export const townData: TownData[] = [
       { name: 'vv Zwammerdam', colors: [[0, 200, 0]], type: 'voetbal' }
     ],
     population: 1855,
+    perc_nederlands: 90,
     perc_men: 53,
     perc_between_15_45: 36,
     perc_between_15_25: 12
@@ -27860,6 +29906,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 7890,
+    perc_nederlands: 80,
     perc_men: 50,
     perc_between_15_45: 35,
     perc_between_15_25: 11
@@ -27870,6 +29917,7 @@ export const townData: TownData[] = [
     zipCodes: ['3785'],
     sportClubs: [],
     population: 1420,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 36,
     perc_between_15_25: 14
@@ -27889,6 +29937,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2990,
+    perc_nederlands: 90,
     perc_men: 52,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -27908,6 +29957,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 1875,
+    perc_nederlands: 90,
     perc_men: 49,
     perc_between_15_45: 32,
     perc_between_15_25: 12
@@ -27922,6 +29972,7 @@ export const townData: TownData[] = [
       { name: 'sv DESZ', colors: [[255, 0, 0]], type: 'voetbal' }
     ],
     population: 4835,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 34,
     perc_between_15_25: 12
@@ -27941,6 +29992,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 385,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 29,
     perc_between_15_25: 16
@@ -27951,6 +30003,7 @@ export const townData: TownData[] = [
     zipCodes: ['8814'],
     sportClubs: [],
     population: 120,
+    perc_nederlands: 100,
     perc_men: 58,
     perc_between_15_45: 42,
     perc_between_15_25: 17
@@ -27961,6 +30014,7 @@ export const townData: TownData[] = [
     zipCodes: ['9433'],
     sportClubs: [],
     population: 445,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 12
@@ -27971,6 +30025,7 @@ export const townData: TownData[] = [
     zipCodes: ['7864'],
     sportClubs: [],
     population: 420,
+    perc_nederlands: 100,
     perc_men: 51,
     perc_between_15_45: 30,
     perc_between_15_25: 14
@@ -27983,6 +30038,7 @@ export const townData: TownData[] = [
       { name: "HSV'69", colors: [[255, 255, 255]], type: 'voetbal' }
     ],
     population: 865,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 27,
     perc_between_15_25: 10
@@ -27999,6 +30055,7 @@ export const townData: TownData[] = [
       { name: 'sv De Lutte', colors: [[0, 0, 255]], type: 'voetbal' }
     ],
     population: 3865,
+    perc_nederlands: 90,
     perc_men: 51,
     perc_between_15_45: 31,
     perc_between_15_25: 12
@@ -28020,6 +30077,7 @@ export const townData: TownData[] = [
       }
     ],
     population: 2995,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 29,
     perc_between_15_25: 12
@@ -28030,6 +30088,7 @@ export const townData: TownData[] = [
     zipCodes: ['1489'],
     sportClubs: [],
     population: 160,
+    perc_nederlands: 90,
     perc_men: 50,
     perc_between_15_45: 31,
     perc_between_15_25: 19

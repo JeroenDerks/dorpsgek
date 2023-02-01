@@ -43,7 +43,7 @@ export const TownSearch = () => {
 
   return (
     <Stack>
-      <Box display="flex">
+      {/* <Box display="flex">
         <TextField
           onChange={handleSearchValueChange}
           placeholder="Zoek op naam of postcode"
@@ -93,7 +93,7 @@ export const TownSearch = () => {
           een mail naar: suggestie@mndorp.nl en wij zullen je proberen te
           helpen.
         </Typography>
-      )}
+      )} */}
     </Stack>
   );
 };
