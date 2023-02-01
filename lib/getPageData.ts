@@ -14,9 +14,9 @@ export async function getPageData(): Promise<any> {
     const matchingTown = townData.find(
       (town) =>
         subDomain.toLowerCase() === town?.name.toLowerCase() ||
-        subDomain === town.zipCodes[0]
+        subDomain === town?.zipCodes?.[0]
     );
-
+    console.log(matchingTown);
     if (matchingTown) return matchingTown;
     else return { errorCode: 404, message: 'Town not found' };
   }

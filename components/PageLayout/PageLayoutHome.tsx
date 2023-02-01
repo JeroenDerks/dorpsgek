@@ -4,7 +4,7 @@ export const PageLayoutHome = ({ children }) => {
   return (
     <Box
       display="flex"
-      height="100%"
+      height="100vh"
       justifyContent="center"
       p={[2, 3, 5]}
       width={1}

@@ -19,6 +19,7 @@ export default function IndexPage() {
     setIsLoading(true);
 
     getPageData().then((data) => {
+      console.log(data);
       if (data?.errorCode === 404) {
         window.location = process.env.NEXT_PUBLIC_BASE_URL as string & Location;
       }
@@ -46,7 +47,7 @@ export default function IndexPage() {
         <meta name="description" content="Uit liefde voor mn dorp" />
       </Head>
       <PageLayoutHome>
-        <Stack alignItems="center" sx={{ minHeight: 'calc(100vh - 80px)' }}>
+        <Stack alignItems="center">
           <Stack
             width={320}
             height="calc(40vh - 60px)"
