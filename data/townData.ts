@@ -25530,7 +25530,7 @@ export const townData: TownData[] = [
     name: 'Ulrum',
     slug: 'ulrum',
     zipCodes: ['9971'],
-    sportClubs: [{ name: "VVSV'09", colors: [[undefined]], type: 'voetbal' }],
+    sportClubs: [{ name: "VVSV'09", colors: [[0, 153, 255]], type: 'voetbal' }],
     population: 1355,
     perc_nederlands: 90,
     perc_men: 51,

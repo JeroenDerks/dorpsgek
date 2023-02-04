@@ -1,4 +1,5 @@
 import { townData } from '../data/townData';
+import { chosenVillages } from '../data/chosenVillages';
 
 export async function getPageData(): Promise<any> {
   const { host } = window.location;
@@ -13,10 +14,11 @@ export async function getPageData(): Promise<any> {
 
     const matchingTown = townData.find(
       (town) =>
-        subDomain.toLowerCase() === town?.name.toLowerCase() ||
-        subDomain === town?.zipCodes?.[0]
+        (subDomain.toLowerCase() === town?.name.toLowerCase() ||
+          subDomain === town?.zipCodes?.[0]) &&
+        chosenVillages.includes(town.zipCodes[0])
     );
-    console.log(matchingTown);
+
     if (matchingTown) return matchingTown;
     else return { errorCode: 404, message: 'Town not found' };
   }

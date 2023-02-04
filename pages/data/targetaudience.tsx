@@ -1,6 +1,8 @@
 import React from 'react';
 import { townData } from '../../data/townData';
 import { Color } from '../../types';
+import { chosenVillages } from '../../data/chosenVillages';
+import { colorNamesToRgb } from './../../data/colorMap';
 
 const tableHeader = [
   'Naam',
@@ -49,30 +51,13 @@ const TargetAudiencePage = () => {
     a[sortKey] > b[sortKey] ? -1 : 1
   );
 
-  const kleineDorpen = ['2865', '5853', '6655'];
-  const middelDorpen = ['7261', '7475', '1619', '8096'];
-  const groteDorpen = ['1611', '4251', '3931'];
-  const validZipcodes = [...kleineDorpen, ...middelDorpen, ...groteDorpen];
-
   const selectedTowns = sorted.filter((town) =>
-    validZipcodes.includes(town.zipCodes[0])
+    chosenVillages.includes(town.zipCodes[0])
   );
 
   const convertRgbToText = (col: Color) => {
-    const colors = {
-      blauw: [0, 0, 255],
-      geel: [255, 255, 0],
-      groen: [0, 200, 0],
-      oranje: [100, 150, 0],
-      rood: [255, 0, 0],
-      wit: [255, 255, 255],
-      zwart: [0, 0, 0],
-      paars: [255, 0, 255],
-      grijs: [100, 100, 100]
-    };
-
-    const result = Object.keys(colors).filter((obj) => {
-      const currCol = colors[obj];
+    const result = Object.keys(colorNamesToRgb).filter((obj) => {
+      const currCol = colorNamesToRgb[obj];
       if (
         currCol[0] === col[0] &&
         currCol[1] === col[1] &&
