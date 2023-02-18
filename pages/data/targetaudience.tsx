@@ -14,6 +14,19 @@ const tableHeader = [
   'Voetbalclubs'
 ];
 
+const zipCodeClubColorMapping = {
+  '3931': 't_244', // woudenberg
+  '4251': 't_41', // werkendam, kozakken boys
+  '1611': 't_1224', // bevenkarspel, vv KGB
+  '7261': 't_444', // Ruurlo
+  '8096': 't_22', // Oldebroek, OWIOS (green is different than in image)
+  '6093': 't_23', // Heythuyaen
+  '5853': 't_25', // Siebengewald, Stormvoges 28
+  '4456': 't_21', // Lewedorp
+  '6655': 't_22', // Puiflijk, VV SCP (green is different than in image)
+  '9971': 't_243' // Ulrum, VVSV
+};
+
 const TargetAudiencePage = () => {
   // Filters for towns with missing data (represented by negative values)
   const postiveTowndata = townData.filter((t) => {
@@ -71,7 +84,7 @@ const TargetAudiencePage = () => {
 
   return (
     <div style={{ padding: '16px' }}>
-      <div style={{ padding: '8px', maxWidth: 880 }}>
+      <div style={{ padding: '8px', maxWidth: 1000 }}>
         <h1>Gekozen dorpen:</h1>
         <table cellSpacing={8}>
           <tr>
@@ -103,10 +116,10 @@ const TargetAudiencePage = () => {
                 <td>{Math.round(ta2).toLocaleString()}</td>
                 <td>{perc_nederlands}</td>
                 <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
-                <td>
-                  {sportClubs?.map(({ colors }) =>
-                    colors.map((col) => convertRgbToText(col)).join(', ')
-                  )}
+                <td style={{ textAlign: 'center' }}>
+                  <img
+                    src={`/tenues/${zipCodeClubColorMapping[zipCodes[0]]}.png`}
+                  />
                 </td>
               </tr>
             )
