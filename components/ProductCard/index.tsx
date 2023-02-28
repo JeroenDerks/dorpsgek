@@ -8,24 +8,14 @@ import ProductGallery from '../ProductGallery';
 
 const sizes = ['Small', 'Medium', 'Large', 'X-Large', 'XX-Lage'];
 
-export const ProductCard = ({
-  colors,
-  isClassicModel,
-  subTitle,
-  title,
-  uniqueKey,
-  zipCode
-}: ProductCardProps) => {
+export const ProductCard = ({ colors, zipCode }: ProductCardProps) => {
   const [size, setSize] = React.useState('');
 
   return (
     <Box display={['block', 'block', 'flex']} py={6}>
       <Box width={['100%', '100%', '70%']} pr={[0, 0, 5]}>
         <Box width={1} sx={{ background: 'white' }} p={1}>
-          <ProductGallery
-            id={uniqueKey}
-            {...{ colors, isClassicModel, zipCode }}
-          />
+          <ProductGallery {...{ zipCode }} />
         </Box>
       </Box>
       <Box
@@ -43,10 +33,10 @@ export const ProductCard = ({
             fontWeight={900}
             fontStyle="italic"
           >
-            {title.toUpperCase()}
+            DE KLASSIEKER
           </Typography>
           <ClubColors colors={colors} height={8} />
-          <ProductCardDetails {...{ subTitle, zipCode }} />
+          <ProductCardDetails {...{ zipCode }} />
         </Box>
         <Box mt={[2, 3, 5]} mb={[4, 4, 0]} display="flex" width={1}>
           <Select
@@ -81,9 +71,5 @@ export const ProductCard = ({
 
 type ProductCardProps = {
   colors: Color[];
-  title: string;
-  subTitle?: string;
   zipCode: string;
-  uniqueKey: string;
-  isClassicModel: boolean;
 };

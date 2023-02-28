@@ -1,26 +1,14 @@
 import { Typography, List, ListItem, ListItemIcon } from '@mui/material';
 
-import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-
-export const ProductCardDetails = ({
-  subTitle,
-  zipCode
-}: ProductCardDetailsProps) => {
+export const ProductCardDetails = ({ zipCode }: ProductCardDetailsProps) => {
   const USPs = [
     'Gemaakt van hoogwaardig katoen',
     `${zipCode} gedrukt op de borst`,
     'Gelimiteerde oplage'
   ];
+
   return (
     <List>
-      {subTitle && (
-        <ListItem disableGutters>
-          <ListItemIcon>
-            <Typography fontSize={24}>•</Typography>
-          </ListItemIcon>
-          <Typography>{subTitle}</Typography>
-        </ListItem>
-      )}
       {USPs.map((text) => (
         <ListItem disableGutters dense>
           <ListItemIcon>
@@ -34,6 +22,5 @@ export const ProductCardDetails = ({
 };
 
 type ProductCardDetailsProps = {
-  subTitle?: string;
   zipCode: string;
 };

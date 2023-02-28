@@ -5,7 +5,7 @@ import { TownData } from '../../types';
 import { ProductCard } from '../ProductCard';
 import { PageLayoutProduct } from '../PageLayout';
 import { TownHeader } from '../TownHeader';
-import TownHeader2 from '../TownHeader/TownHeader2';
+// import TownHeader2 from '../TownHeader/TownHeader2';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
@@ -18,30 +18,10 @@ export const TownOverview = ({ town }: { town: TownData }) => {
       <PageLayoutProduct>
         <TownHeader town={town} />
         <Divider />
-
         <ProductCard
-          title="De klassieker"
-          uniqueKey="klassieker"
-          colors={[[255, 255, 255]]}
           zipCode={town.zipCodes[0]}
-          isClassicModel
+          colors={town.sportClubs[0].colors}
         />
-
-        {town.sportClubs.map((club, index) => (
-          <React.Fragment key={club.name || index}>
-            <Divider />
-            <ProductCard
-              title="De voetbalclub editie"
-              uniqueKey={'voetbal_' + index}
-              zipCode={town.zipCodes[0]}
-              isClassicModel={false}
-              subTitle={`10% van de opbrengst komt ten goede aan ${club.type.toLowerCase()}vereniging ${
-                club.name
-              }`}
-              colors={club.colors}
-            />
-          </React.Fragment>
-        ))}
       </PageLayoutProduct>
     </>
   );
