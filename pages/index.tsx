@@ -18,7 +18,8 @@ export default function IndexPage() {
   useEffect(() => {
     setIsLoading(true);
 
-    getPageData().then((data) => {
+    const getData = async () => {
+      const data = await getPageData();
       console.log(data);
       if (data?.errorCode === 404) {
         window.location = process.env.NEXT_PUBLIC_BASE_URL as string & Location;
@@ -27,7 +28,9 @@ export default function IndexPage() {
         setTownData(data || null);
       }
       setIsLoading(false);
-    });
+    };
+
+    getData();
 
     return () => {};
   }, []);

@@ -5,7 +5,8 @@ import { TownData } from '../../types';
 import { ProductCard } from '../ProductCard';
 import { PageLayoutProduct } from '../PageLayout';
 import { TownHeader } from '../TownHeader';
-// import TownHeader2 from '../TownHeader/TownHeader2';
+import { CityBanner } from '../CityBanner';
+import { UniqueSellingPoints } from '../UniqueSellingPoints';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
@@ -23,6 +24,8 @@ export const TownOverview = ({ town }: { town: TownData }) => {
           colors={town.sportClubs[0].colors}
         />
       </PageLayoutProduct>
+      <CityBanner zipCode={town.zipCodes[0]} />
+      <UniqueSellingPoints />
     </>
   );
 };
