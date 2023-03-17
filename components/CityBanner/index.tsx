@@ -5,11 +5,11 @@ import { PageLayoutProduct } from '../PageLayout';
 
 const Container = styled('div')({
   width: '100vw',
-  height: 200,
+  height: 220,
   overflow: 'hidden',
   zIndex: 0,
   position: 'relative',
-  border: '2px solid white'
+  borderTop: '2px solid white'
 });
 
 export const CityBanner = ({ zipCode }: { zipCode }) => {

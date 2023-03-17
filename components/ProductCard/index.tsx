@@ -26,13 +26,7 @@ export const ProductCard = ({ colors, zipCode }: ProductCardProps) => {
         width={['100%', '100%', '30%']}
       >
         <Box>
-          <Typography
-            variant="h5"
-            mb={2}
-            mt={[3, 3, 0]}
-            fontWeight={900}
-            fontStyle="italic"
-          >
+          <Typography variant="h3" mb={2} mt={[3, 3, 0]}>
             DE KLASSIEKER
           </Typography>
           <ClubColors colors={colors} height={8} />

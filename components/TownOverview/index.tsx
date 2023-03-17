@@ -7,6 +7,7 @@ import { PageLayoutProduct } from '../PageLayout';
 import { TownHeader } from '../TownHeader';
 import { CityBanner } from '../CityBanner';
 import { UniqueSellingPoints } from '../UniqueSellingPoints';
+import { FAQ } from '../FAQ';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
@@ -26,6 +27,10 @@ export const TownOverview = ({ town }: { town: TownData }) => {
       </PageLayoutProduct>
       <CityBanner zipCode={town.zipCodes[0]} />
       <UniqueSellingPoints />
+      <PageLayoutProduct pb="0px">
+        <Divider />
+      </PageLayoutProduct>
+      <FAQ />
     </>
   );
 };

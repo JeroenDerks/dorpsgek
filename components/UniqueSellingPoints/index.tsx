@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid, styled, Typography } from '@mui/material';
-import Image from 'next/image';
+import { Grid, Typography } from '@mui/material';
 import { PageLayoutProduct } from '../PageLayout';
 import { Box } from '@mui/system';
 
@@ -24,26 +23,22 @@ const usps = [
 
 export const UniqueSellingPoints = () => {
   return (
-    <PageLayoutProduct>
-      <Typography
-        variant="h3"
-        fontWeight={700}
-        fontStyle="italic"
-        textAlign="center"
-        fontSize={24}
-      >
-        UIT LIEFDE VOOR MN DORP
-      </Typography>
-      <Grid container spacing={2} mt={5}>
-        {usps.map(({ title, description }) => (
-          <Grid item xs={12} sm={12} md={4}>
-            <Typography variant="h4" fontSize={20} fontWeight={700}>
-              {title}
-            </Typography>
-            <Typography variant="body1">{description}</Typography>
-          </Grid>
-        ))}
-      </Grid>
+    <PageLayoutProduct bgVariant="grey">
+      <Box p={[2, 2, 3]} sx={{ backgroundColor: 'white', borderRadius: '4px' }}>
+        <Typography variant="h3" textAlign="center" pt={3}>
+          OM TROTS OP TE ZIJN
+        </Typography>
+        <Grid container spacing={4} mt={[2, 2, 4]}>
+          {usps.map(({ title, description }) => (
+            <Grid item xs={12} sm={12} md={4}>
+              <Typography variant="h5" fontWeight={700}>
+                {title}
+              </Typography>
+              <Typography variant="body1">{description}</Typography>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
     </PageLayoutProduct>
   );
 };

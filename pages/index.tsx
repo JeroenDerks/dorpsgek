@@ -20,7 +20,7 @@ export default function IndexPage() {
 
     const getData = async () => {
       const data = await getPageData();
-      console.log(data);
+
       if (data?.errorCode === 404) {
         window.location = process.env.NEXT_PUBLIC_BASE_URL as string & Location;
       }
