@@ -1,11 +1,12 @@
 import { Box } from '@mui/system';
 
 const backgroundColors = {
-  grey: '#eaeaec'
+  grey: '#eaeaec',
+  white: '#f7f7f7'
 };
 
 export const PageLayoutProduct: React.FC<PageLayoutProps> = (props) => {
-  const backgroundColor = backgroundColors[props.bgVariant] || '#f4f4f4';
+  const backgroundColor = backgroundColors[props.bgVariant] || '#f7f7f7';
   const { pb } = props;
 
   return (
@@ -32,6 +33,6 @@ export const PageLayoutProduct: React.FC<PageLayoutProps> = (props) => {
 };
 
 type PageLayoutProps = {
-  bgVariant?: 'grey';
+  bgVariant?: 'grey' | 'white';
   pb?: string | number;
 };

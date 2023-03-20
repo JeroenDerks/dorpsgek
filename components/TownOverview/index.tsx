@@ -8,6 +8,7 @@ import { TownHeader } from '../TownHeader';
 import { CityBanner } from '../CityBanner';
 import { UniqueSellingPoints } from '../UniqueSellingPoints';
 import { FAQ } from '../FAQ';
+import { Review } from '../Review';
 
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
@@ -35,6 +36,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
         <Divider />
       </PageLayoutProduct>
       <FAQ town={town} />
+      <Review town={town} />
     </>
   );
 };
