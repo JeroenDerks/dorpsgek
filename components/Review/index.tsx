@@ -32,6 +32,7 @@ export const Review = ({ town }: { town: TownData }) => {
         </Grid>
         {reviews.map(({ review, name, stars }) => (
           <Grid
+            key={name}
             item
             container
             xs={12}

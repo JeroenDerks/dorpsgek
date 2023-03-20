@@ -5,11 +5,19 @@ import { ClubColors } from '../ClubColors';
 
 import { ProductCardDetails } from '../ProductCardDetails';
 import ProductGallery from '../ProductGallery';
+import InputLabel from '@mui/material/InputLabel';
 
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
 const sizes = ['Small', 'Medium', 'Large', 'X-Large', 'XX-Lage'];
 
 export const ProductCard = ({ colors, zipCode }: ProductCardProps) => {
-  const [size, setSize] = React.useState('');
+  const [size, setSize] = React.useState(null);
+  const [error, setError] = React.useState(null);
+
+  const handleClick = () => {
+    if (!size) setError(true);
+  };
 
   return (
     <Box display={['block', 'block', 'flex']} py={6}>
@@ -32,27 +40,33 @@ export const ProductCard = ({ colors, zipCode }: ProductCardProps) => {
           <ClubColors colors={colors} height={8} />
           <ProductCardDetails {...{ zipCode }} />
         </Box>
-        <Box mt={[2, 3, 5]} mb={[4, 4, 0]} display="flex" width={1}>
-          <Select
-            fullWidth
-            size="small"
-            placeholder="Size"
-            value={size}
-            onChange={(e) => setSize(e.target.value)}
-          >
-            {sizes.map((shirtSize) => (
-              <MenuItem value={shirtSize} key={shirtSize}>
-                {shirtSize}
-              </MenuItem>
-            ))}
-          </Select>
-          <Box ml={1}>
+        <Box mt={[2, 3, 5]} mb={[4, 4, 0]} width={1}>
+          <FormControl sx={{ width: '100%' }} error={error}>
+            <InputLabel id="size-label">Maat</InputLabel>
+            <Select
+              fullWidth
+              value={size}
+              label="Maat"
+              onChange={(e) => {
+                setError(false);
+                setSize(e.target.value);
+              }}
+            >
+              {sizes.map((shirtSize) => (
+                <MenuItem value={shirtSize} key={shirtSize}>
+                  {shirtSize}
+                </MenuItem>
+              ))}
+            </Select>
+            {error && <FormHelperText>Kies eerst je maat</FormHelperText>}
+          </FormControl>
+
+          <Box mt={2}>
             <Button
-              variant={!size ? 'outlined' : 'contained'}
-              disabled={!size}
-              sx={{ height: 40 }}
               color="success"
-              disableElevation
+              fullWidth
+              onClick={handleClick}
+              variant="outlined"
             >
               Koop
             </Button>
