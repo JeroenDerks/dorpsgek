@@ -12,11 +12,15 @@ import { FAQ } from '../FAQ';
 export const TownOverview = ({ town }: { town: TownData }) => {
   return (
     <>
-      <Head key="town">
-        <title>{town.name} Dorpsgek</title>
-        <meta name="description" content="Uit liefde voor mn dorp" />
+      <Head key={town.name}>
+        <title>
+          {town.zipCodes[0]} - Kleding voor {town.name}
+        </title>
+        <meta
+          name="description"
+          content="Uit liefde voor mn dorp. Want er is zoveel om trots op te zijn."
+        />
       </Head>
-      {/* <TownHeader2 zipCode={town.zipCodes[0]} townName={town.name} /> */}
       <PageLayoutProduct>
         <TownHeader town={town} />
         <Divider />
@@ -26,11 +30,11 @@ export const TownOverview = ({ town }: { town: TownData }) => {
         />
       </PageLayoutProduct>
       <CityBanner zipCode={town.zipCodes[0]} />
-      <UniqueSellingPoints />
+      <UniqueSellingPoints population={town.population} />
       <PageLayoutProduct pb="0px">
         <Divider />
       </PageLayoutProduct>
-      <FAQ />
+      <FAQ town={town} />
     </>
   );
 };

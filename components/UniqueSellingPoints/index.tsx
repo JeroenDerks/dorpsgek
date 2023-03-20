@@ -3,30 +3,31 @@ import { Grid, Typography } from '@mui/material';
 import { PageLayoutProduct } from '../PageLayout';
 import { Box } from '@mui/system';
 
-const usps = [
-  {
-    title: 'Your title',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-  },
-  {
-    title: 'Some heading',
-    description:
-      ' Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
-  },
-  {
-    title: 'Your title',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
-  }
-];
-
-export const UniqueSellingPoints = () => {
+export const UniqueSellingPoints = ({
+  population
+}: UniqueSellingPointProps) => {
+  const usps = [
+    {
+      title: `${population} inwoners`,
+      description:
+        'En ook nog een voetbal club die regelmatig de drie punten pakt.'
+    },
+    {
+      title: 'Ons kent ons',
+      description:
+        'Een hechte gemeenschap waar we niemand buiten de boot laten vallen.'
+    },
+    {
+      title: 'Levensgeluk',
+      description:
+        'We doen ons best, nemen het niet zo serieus, en leven langer en gelukkiger. '
+    }
+  ];
   return (
     <PageLayoutProduct bgVariant="grey">
       <Box p={[2, 2, 3]} sx={{ backgroundColor: 'white', borderRadius: '4px' }}>
         <Typography variant="h3" textAlign="center" pt={3}>
-          OM TROTS OP TE ZIJN
+          ZOVEEL OM TROTS OP TE ZIJN
         </Typography>
         <Grid container spacing={4} mt={[2, 2, 4]}>
           {usps.map(({ title, description }) => (
@@ -41,4 +42,8 @@ export const UniqueSellingPoints = () => {
       </Box>
     </PageLayoutProduct>
   );
+};
+
+type UniqueSellingPointProps = {
+  population: number;
 };
