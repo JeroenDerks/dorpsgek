@@ -2,7 +2,6 @@ import { Box } from '@mui/material';
 import { Color } from '../../types';
 
 export const ClubColors = ({ colors, height }: ClubColorsProps) => {
-  console.log(`rgb(${colors[0]})`);
   return (
     <Box display="flex" borderRadius={4} overflow="hidden">
       {colors?.map((color, i) => (

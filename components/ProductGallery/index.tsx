@@ -33,7 +33,7 @@ const Image = styled('img')(({ theme }) => ({
   }
 }));
 
-const ProductGallery = ({ zipCode }: { zipCode: string }) => {
+export const ProductGallery = ({ zipCode }: { zipCode: string }) => {
   return (
     <>
       <Swiper
@@ -71,5 +71,3 @@ const ProductGallery = ({ zipCode }: { zipCode: string }) => {
     </>
   );
 };
-
-export default ProductGallery;

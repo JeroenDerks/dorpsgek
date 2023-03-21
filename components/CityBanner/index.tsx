@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from '@mui/material';
 import Image from 'next/image';
+import { TownData } from '../../types';
 import { Section } from '../Section';
 
 const Container = styled('div')({
@@ -12,12 +13,12 @@ const Container = styled('div')({
   borderTop: '2px solid white'
 });
 
-export const CityBanner = ({ zipCode }: { zipCode }) => {
+export const CityBanner = ({ town }: { town: TownData }) => {
   return (
     <Container>
       <Section>
         <Image
-          src={`/map/${zipCode}.png`}
+          src={`/map/${town.zipCodes[0]}.png`}
           layout="fill"
           objectFit="cover"
           objectPosition="center"

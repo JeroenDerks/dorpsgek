@@ -1,31 +1,63 @@
-import { Typography, Stack, Box } from '@mui/material';
 import React from 'react';
+import { Typography, Stack, Box } from '@mui/material';
+import { styled } from '@mui/material';
+
 import { TownData } from '../../types';
-import { titleFont } from '../../theme';
+
+const Container = styled(Stack)({
+  background: '#0b0a0e',
+  position: 'relative'
+});
+
+const Line = styled('div')({
+  height: 6,
+  borderRadius: 4,
+  width: '100%',
+  position: 'relative',
+  top: 20,
+  zIndex: 1,
+  maxWidth: 1200
+});
+
+const ZipcodeTitle = styled(Typography)(({ theme }) => ({
+  fontWeight: 700,
+  fontStyle: 'italic',
+  fontSize: 24,
+  margin: '0 16px',
+  lineHeight: 1,
+  color: 'white',
+
+  [theme.breakpoints.up('sm')]: {
+    fontSize: 28
+  }
+}));
 
 export const TownHeader = ({ town }: { town: TownData }) => {
   return (
-    <Stack alignItems="center">
-      <Box display="flex" alignItems="center" mb={5}>
-        <Typography
-          variant="h1"
-          fontSize={[50, 50, 100]}
-          lineHeight={1}
-          mr={3}
+    <Container alignItems="center">
+      <Line sx={{ backgroundColor: `rgb(${town.sportClubs[0].colors})` }} />
+      <Box display="flex" alignItems="center" zIndex={2}>
+        {/* <Typography
+          variant="h2"
+          fontSize={[20, 20, 24]}
           {...titleFont}
+          color="white"
         >
-          {town.zipCodes[0]}
-        </Typography>
+          {town?.name?.toUpperCase()}
+        </Typography> */}
+        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
+        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
+        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
 
-        <Stack>
-          <Typography variant="h2" fontSize={[20, 20, 36]} {...titleFont}>
-            DORPSGEK
-          </Typography>
-          <Typography variant="h3" fontSize={[20, 20, 36]} {...titleFont}>
-            {town?.name?.toUpperCase()}
-          </Typography>
-        </Stack>
+        {/* <Typography
+          variant="h2"
+          fontSize={[20, 20, 24]}
+          {...titleFont}
+          color="white"
+        >
+          {town?.name?.toUpperCase()}
+        </Typography> */}
       </Box>
-    </Stack>
+    </Container>
   );
 };

@@ -15,7 +15,7 @@ export const Review = ({ town }: { town: TownData }) => {
         'Heb em voor mn zoontje gekocht, hij is 14 en een maatje Small is perfect voor hem.'
     },
     {
-      name: 'Mark van Heusden',
+      name: 'Mark van Leusden',
       stars: 5,
       review: `Ja lekker hoor! Toffe hoodie ${town.zipCodes[0]}!`
     }

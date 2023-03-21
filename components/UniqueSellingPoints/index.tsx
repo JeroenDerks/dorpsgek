@@ -1,14 +1,13 @@
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
 import { Section } from '../Section';
+import { TownData } from '../../types';
 import { Box } from '@mui/system';
 
-export const UniqueSellingPoints = ({
-  population
-}: UniqueSellingPointProps) => {
+export const UniqueSellingPoints = ({ town }: { town: TownData }) => {
   const usps = [
     {
-      title: `${population} inwoners`,
+      title: `${town.population} inwoners`,
       description:
         'En ook nog een voetbal club die regelmatig de drie punten pakt.'
     },
@@ -42,8 +41,4 @@ export const UniqueSellingPoints = ({
       </Box>
     </Section>
   );
-};
-
-type UniqueSellingPointProps = {
-  population: number;
 };
