@@ -10,11 +10,11 @@ const Container = styled(Stack)({
 });
 
 const Line = styled('div')({
-  height: 6,
+  height: 2,
   borderRadius: 4,
   width: '100%',
   position: 'relative',
-  top: 20,
+  top: 16,
   zIndex: 1,
   maxWidth: 1200
 });
