@@ -5,7 +5,7 @@ const backgroundColors = {
   white: '#f7f7f7'
 };
 
-export const PageLayoutProduct: React.FC<PageLayoutProps> = (props) => {
+export const Section: React.FC<PageLayoutProps> = (props) => {
   const backgroundColor = backgroundColors[props.bgVariant] || '#f7f7f7';
   const { pb } = props;
 
@@ -14,7 +14,8 @@ export const PageLayoutProduct: React.FC<PageLayoutProps> = (props) => {
       display="flex"
       height="100%"
       justifyContent="center"
-      p={[1, 2, 5]}
+      px={[1, 2, 5]}
+      py={[3, 3, 5]}
       width={1}
       sx={{ backgroundColor }}
     >

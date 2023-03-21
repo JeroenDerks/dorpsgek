@@ -1,11 +1,11 @@
 import React from 'react';
 import { styled } from '@mui/material';
 import Image from 'next/image';
-import { PageLayoutProduct } from '../PageLayout';
+import { Section } from '../Section';
 
 const Container = styled('div')({
   width: '100vw',
-  height: 220,
+  height: 240,
   overflow: 'hidden',
   zIndex: 0,
   position: 'relative',
@@ -15,14 +15,14 @@ const Container = styled('div')({
 export const CityBanner = ({ zipCode }: { zipCode }) => {
   return (
     <Container>
-      <PageLayoutProduct>
+      <Section>
         <Image
           src={`/map/${zipCode}.png`}
           layout="fill"
           objectFit="cover"
           objectPosition="center"
         />
-      </PageLayoutProduct>
+      </Section>
     </Container>
   );
 };

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { Divider } from '@mui/material';
 import { TownData } from '../../types';
 import { ProductCard } from '../ProductCard';
-import { PageLayoutProduct } from '../PageLayout';
+import { Section } from '../Section';
 import { TownHeader } from '../TownHeader';
 import { CityBanner } from '../CityBanner';
 import { UniqueSellingPoints } from '../UniqueSellingPoints';
@@ -22,19 +22,19 @@ export const TownOverview = ({ town }: { town: TownData }) => {
           content="Uit liefde voor mn dorp. Want er is zoveel om trots op te zijn."
         />
       </Head>
-      <PageLayoutProduct>
+      <Section>
         <TownHeader town={town} />
         <Divider />
         <ProductCard
           zipCode={town.zipCodes[0]}
           colors={town.sportClubs[0].colors}
         />
-      </PageLayoutProduct>
+      </Section>
       <CityBanner zipCode={town.zipCodes[0]} />
       <UniqueSellingPoints population={town.population} />
-      <PageLayoutProduct pb="0px">
-        <Divider />
-      </PageLayoutProduct>
+
+      <Divider />
+
       <FAQ town={town} />
       <Review town={town} />
     </>

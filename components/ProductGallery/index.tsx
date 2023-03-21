@@ -12,26 +12,30 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 
-const SwiperButton = styled(Button)({
-  padding: 0,
-  width: 40,
-  maxWidth: 40,
-  minWidth: 40
+const SwiperButtonLeft = styled(Button)({
+  padding: '4px 16px',
+  width: '100%',
+  justifyContent: 'flex-start',
+  display: 'flex'
 });
 
-const Image = styled('img')({
-  width: '100%',
-  minHeight: 600,
-  objectFit: 'cover'
+const SwiperButtonRight = styled(SwiperButtonLeft)({
+  justifyContent: 'flex-end'
 });
+
+const Image = styled('img')(({ theme }) => ({
+  width: '100%',
+  minHeight: 400,
+  objectFit: 'cover',
+
+  [theme.breakpoints.up('sm')]: {
+    minHeight: 600
+  }
+}));
 
 const ProductGallery = ({ zipCode }: { zipCode: string }) => {
   return (
-    <Box display="flex" height="100%">
-      <SwiperButton className={`swiper-prev`}>
-        <ChevronLeftIcon />
-      </SwiperButton>
-
+    <>
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -56,10 +60,15 @@ const ProductGallery = ({ zipCode }: { zipCode: string }) => {
         </SwiperSlide>
       </Swiper>
 
-      <SwiperButton className={`swiper-next`}>
-        <ChevronRightIcon />
-      </SwiperButton>
-    </Box>
+      <Box display="flex" width={1} justifyContent="space-between">
+        <SwiperButtonLeft className={`swiper-prev`}>
+          <ChevronLeftIcon />
+        </SwiperButtonLeft>
+        <SwiperButtonRight className={`swiper-next`}>
+          <ChevronRightIcon />
+        </SwiperButtonRight>
+      </Box>
+    </>
   );
 };
 

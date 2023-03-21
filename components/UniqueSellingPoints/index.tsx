@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
-import { PageLayoutProduct } from '../PageLayout';
+import { Section } from '../Section';
 import { Box } from '@mui/system';
 
 export const UniqueSellingPoints = ({
@@ -24,9 +24,9 @@ export const UniqueSellingPoints = ({
     }
   ];
   return (
-    <PageLayoutProduct bgVariant="grey">
+    <Section bgVariant="grey">
       <Box p={[2, 2, 3]} sx={{ backgroundColor: 'white', borderRadius: '4px' }}>
-        <Typography variant="h3" textAlign="center" pt={3}>
+        <Typography variant="h3" textAlign="center" pt={2}>
           ZOVEEL OM TROTS OP TE ZIJN
         </Typography>
         <Grid container spacing={4} mt={[2, 2, 4]}>
@@ -40,7 +40,7 @@ export const UniqueSellingPoints = ({
           ))}
         </Grid>
       </Box>
-    </PageLayoutProduct>
+    </Section>
   );
 };
 

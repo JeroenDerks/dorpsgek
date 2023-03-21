@@ -1,6 +1,6 @@
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
-import { PageLayoutProduct } from '../PageLayout';
+import { Grid, Typography, Divider } from '@mui/material';
+import { Section } from '../Section';
 import { TownData } from '../../types';
 import { Accordion, AccordionDetails, AccordionSummary } from '../Accordion';
 
@@ -43,10 +43,17 @@ export const FAQ = ({ town }: { town: TownData }) => {
   ];
 
   return (
-    <PageLayoutProduct>
-      <Grid container spacing={4}>
+    <Section>
+      <Divider />
+      <Grid container mt={['0px', '0px', 10]}>
         <Grid item xs={12} sm={12} md={3}>
-          <Typography variant="h3">VEEL GESTELDE VRAGEN</Typography>
+          <Typography
+            variant="h3"
+            textAlign={['center', 'center', 'left']}
+            my={[4, 4, '0px']}
+          >
+            VEEL GESTELDE VRAGEN
+          </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={9}>
           {usps.map(({ description, mobileTitle }) => (
@@ -63,6 +70,6 @@ export const FAQ = ({ town }: { town: TownData }) => {
           ))}
         </Grid>
       </Grid>
-    </PageLayoutProduct>
+    </Section>
   );
 };
