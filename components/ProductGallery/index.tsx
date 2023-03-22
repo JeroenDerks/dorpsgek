@@ -6,13 +6,16 @@ import { Box, styled } from '@mui/material';
 import { Button } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { TownData } from '../../types';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-import { TownData } from '../../types';
+
+import ImageBack from '../../public/product/back.jpg';
+import { getImagesPerCity } from './images';
 
 const SwiperButtonLeft = styled(Button)({
   padding: '4px 16px',
@@ -28,6 +31,7 @@ const SwiperButtonRight = styled(SwiperButtonLeft)({
 const ImageContainer = styled('div')(({ theme }) => ({
   width: '100%',
   minHeight: 400,
+  background: '#f0f0f0',
 
   [theme.breakpoints.up('sm')]: {
     minHeight: 600
@@ -35,12 +39,15 @@ const ImageContainer = styled('div')(({ theme }) => ({
 }));
 
 export const ProductGallery = ({ town }: { town: TownData }) => {
+  const currCityImages = getImagesPerCity(town.zipCodes[0]);
+
   const images = [
-    { src: `/product/${town.zipCodes[0]}_model.jpg` },
-    { src: `/product/${town.zipCodes[0]}_front.jpg` },
-    { src: '/product/back.jpg' },
-    { src: `/product/${town.zipCodes[0]}_closeup.jpg` }
+    { src: currCityImages.model },
+    { src: currCityImages.front },
+    { src: ImageBack },
+    { src: currCityImages.closeUp }
   ];
+
   return (
     <>
       <Swiper
