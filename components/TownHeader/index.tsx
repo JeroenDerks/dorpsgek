@@ -1,4 +1,5 @@
 import React from 'react';
+import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 import { Typography, Stack, Box } from '@mui/material';
 import { styled } from '@mui/material';
 
@@ -35,28 +36,11 @@ const ZipcodeTitle = styled(Typography)(({ theme }) => ({
 export const TownHeader = ({ town }: { town: TownData }) => {
   return (
     <Container alignItems="center">
-      <Line sx={{ backgroundColor: `rgb(${town.sportClubs[0].colors})` }} />
+      <Line sx={{ backgroundColor: mapZipCodeToColor(town.zipCodes[0]) }} />
       <Box display="flex" alignItems="center" zIndex={2}>
-        {/* <Typography
-          variant="h2"
-          fontSize={[20, 20, 24]}
-          {...titleFont}
-          color="white"
-        >
-          {town?.name?.toUpperCase()}
-        </Typography> */}
         <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
         <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
         <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
-
-        {/* <Typography
-          variant="h2"
-          fontSize={[20, 20, 24]}
-          {...titleFont}
-          color="white"
-        >
-          {town?.name?.toUpperCase()}
-        </Typography> */}
       </Box>
     </Container>
   );

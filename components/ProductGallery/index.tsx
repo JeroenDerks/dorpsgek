@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, Autoplay } from 'swiper';
 import { Box, styled } from '@mui/material';
@@ -11,6 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
+import { TownData } from '../../types';
 
 const SwiperButtonLeft = styled(Button)({
   padding: '4px 16px',
@@ -23,17 +25,22 @@ const SwiperButtonRight = styled(SwiperButtonLeft)({
   justifyContent: 'flex-end'
 });
 
-const Image = styled('img')(({ theme }) => ({
+const ImageContainer = styled('div')(({ theme }) => ({
   width: '100%',
   minHeight: 400,
-  objectFit: 'cover',
 
   [theme.breakpoints.up('sm')]: {
     minHeight: 600
   }
 }));
 
-export const ProductGallery = ({ zipCode }: { zipCode: string }) => {
+export const ProductGallery = ({ town }: { town: TownData }) => {
+  const images = [
+    { src: `/product/${town.zipCodes[0]}_model.jpg` },
+    { src: `/product/${town.zipCodes[0]}_front.jpg` },
+    { src: '/product/back.jpg' },
+    { src: `/product/${town.zipCodes[0]}_closeup.jpg` }
+  ];
   return (
     <>
       <Swiper
@@ -46,25 +53,20 @@ export const ProductGallery = ({ zipCode }: { zipCode: string }) => {
         }}
         loop
       >
-        <SwiperSlide>
-          <Image src={`/product/${zipCode}_model.jpg`} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={`/product/${zipCode}_front.jpg`} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="/product/back.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={`/product/${zipCode}_closeup.jpg`} />
-        </SwiperSlide>
+        {images.map(({ src }, index) => (
+          <SwiperSlide key={index}>
+            <ImageContainer>
+              <Image src={src} objectFit="cover" layout="fill" />
+            </ImageContainer>
+          </SwiperSlide>
+        ))}
       </Swiper>
 
-      <Box display="flex" width={1} justifyContent="space-between">
-        <SwiperButtonLeft className={`swiper-prev`}>
+      <Box display="flex" width={1} justifyContent="space-between" mt={1}>
+        <SwiperButtonLeft className="swiper-prev">
           <ChevronLeftIcon />
         </SwiperButtonLeft>
-        <SwiperButtonRight className={`swiper-next`}>
+        <SwiperButtonRight className="swiper-next">
           <ChevronRightIcon />
         </SwiperButtonRight>
       </Box>

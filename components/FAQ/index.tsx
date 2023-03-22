@@ -57,7 +57,7 @@ export const FAQ = ({ town }: { town: TownData }) => {
         </Grid>
         <Grid item xs={12} sm={12} md={9}>
           {usps.map(({ description, mobileTitle }) => (
-            <Accordion>
+            <Accordion key={mobileTitle}>
               <AccordionSummary aria-controls={`faq-${mobileTitle}`}>
                 <Typography variant="h5" fontWeight={700}>
                   {mobileTitle}

@@ -24,16 +24,13 @@ export const AccordionSummary = styled((props: AccordionSummaryProps) => (
     expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: '0.9rem' }} />}
     {...props}
   />
-))(({ theme }) => ({
+))({
   backgroundColor: '#eaeaec',
   flexDirection: 'row',
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     transform: 'rotate(90deg)'
-  },
-  '& .MuiAccordionSummary-content': {
-    marginLeft: theme.spacing(1)
   }
-}));
+});
 
 export const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),

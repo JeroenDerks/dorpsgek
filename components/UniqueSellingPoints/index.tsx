@@ -30,7 +30,7 @@ export const UniqueSellingPoints = ({ town }: { town: TownData }) => {
         </Typography>
         <Grid container spacing={4} mt={[2, 2, 4]}>
           {usps.map(({ title, description }) => (
-            <Grid item xs={12} sm={12} md={4}>
+            <Grid item xs={12} sm={12} md={4} key={title}>
               <Typography variant="h5" fontWeight={700}>
                 {title}
               </Typography>

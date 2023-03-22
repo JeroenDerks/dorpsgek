@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import { TownData } from '../../types';
-import { ProductCard } from '../ProductCard';
+import { Product } from '../Product';
 import { TownHeader } from '../TownHeader';
 import { CityBanner } from '../CityBanner';
 import { UniqueSellingPoints } from '../UniqueSellingPoints';
@@ -22,7 +22,7 @@ export const TownOverview = ({ town }: { town: TownData }) => {
         />
       </Head>
       <TownHeader town={town} />
-      <ProductCard town={town} />
+      <Product town={town} />
       <CityBanner town={town} />
       <UniqueSellingPoints town={town} />
       <FAQ town={town} />
