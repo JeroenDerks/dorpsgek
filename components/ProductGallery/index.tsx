@@ -56,7 +56,13 @@ export const ProductGallery = ({ town }: { town: TownData }) => {
         {images.map(({ src }, index) => (
           <SwiperSlide key={index}>
             <ImageContainer>
-              <Image src={src} objectFit="cover" layout="fill" />
+              <Image
+                src={src}
+                objectFit="cover"
+                layout="fill"
+                placeholder="blur"
+                priority={index === 0}
+              />
             </ImageContainer>
           </SwiperSlide>
         ))}
