@@ -22,6 +22,7 @@ export const CityBanner = ({ town }: { town: TownData }) => {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
+          alt={`map for ${town.name}`}
         />
       </Section>
     </Container>

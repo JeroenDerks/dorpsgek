@@ -42,10 +42,10 @@ export const ProductGallery = ({ town }: { town: TownData }) => {
   const currCityImages = getImagesPerCity(town.zipCodes[0]);
 
   const images = [
-    { src: currCityImages.model },
-    { src: currCityImages.front },
-    { src: ImageBack },
-    { src: currCityImages.closeUp }
+    { src: currCityImages.model, alt: 'model' },
+    { src: currCityImages.front, alt: 'front' },
+    { src: ImageBack, alt: 'back' },
+    { src: currCityImages.closeUp, alt: 'closeup' }
   ];
 
   return (
@@ -60,7 +60,7 @@ export const ProductGallery = ({ town }: { town: TownData }) => {
         }}
         loop
       >
-        {images.map(({ src }, index) => (
+        {images.map(({ src, alt }, index) => (
           <SwiperSlide key={index}>
             <ImageContainer>
               <Image
@@ -69,6 +69,7 @@ export const ProductGallery = ({ town }: { town: TownData }) => {
                 layout="fill"
                 placeholder="blur"
                 priority={index === 0}
+                alt={`${town.zipCodes[0]} hoodie ${alt}`}
               />
             </ImageContainer>
           </SwiperSlide>
