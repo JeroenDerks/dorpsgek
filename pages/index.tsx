@@ -1,48 +1,12 @@
-import { useEffect, useState } from 'react';
+import Head from 'next/head';
 import { Stack } from '@mui/system';
 import { Typography } from '@mui/material';
 
-import { getPageData } from '../lib/getPageData';
 import { PageLayoutHome } from '../components/PageLayout';
 import { titleFont } from '../theme';
-import { TownData } from '../types';
-import { TownOverview } from '../components/TownOverview';
 import { TownSearch } from '../components/TownSearch';
-import Spinner from '../components/spinner';
-import Head from 'next/head';
 
 export default function IndexPage() {
-  const [townData, setTownData] = useState<TownData | null>();
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setIsLoading(true);
-
-    const getData = async () => {
-      const data = await getPageData();
-
-      if (data?.errorCode === 404) {
-        window.location = process.env.NEXT_PUBLIC_BASE_URL as string & Location;
-      }
-      if (data) {
-        setTownData(data || null);
-      }
-      setIsLoading(false);
-    };
-
-    getData();
-
-    return () => {};
-  }, []);
-
-  if (isLoading) {
-    return <Spinner delay={300} />;
-  }
-
-  if (townData) {
-    return <TownOverview town={townData} />;
-  }
-
   return (
     <>
       <Head key="home">

@@ -48,9 +48,11 @@ const Banner = styled('div')<{ bg: string }>(({ bg }) => ({
 }));
 
 export const TownHeader = ({ town }: { town: TownData }) => {
+  const bg = mapZipCodeToColor(town.zipCodes[0]);
+
   return (
     <>
-      <Banner bg={mapZipCodeToColor(town.zipCodes[0])}>
+      <Banner bg={bg}>
         <Typography
           fontWeight={700}
           variant="h5"
@@ -61,7 +63,7 @@ export const TownHeader = ({ town }: { town: TownData }) => {
         </Typography>
       </Banner>
       <Container alignItems="center">
-        <Line sx={{ backgroundColor: mapZipCodeToColor(town.zipCodes[0]) }} />
+        <Line sx={{ backgroundColor: bg }} />
         <Box display="flex" alignItems="center" zIndex={2}>
           <Image src={`/graphic/${town.zipCodes[0]}_graphic_lowres.png`} />
         </Box>
