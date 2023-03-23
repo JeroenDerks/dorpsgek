@@ -40,7 +40,7 @@ export const ProductHeader = ({ town }: { town: TownData }) => {
         {town.name.toUpperCase()} HOODIE
       </Typography>
       <Typography variant="h5" component="h1" mb={3} mt={1} fontStyle="italic">
-        Nu €55,- <CrossedOutText>van €79,95</CrossedOutText>
+        Nu €54,95 <CrossedOutText>van €79,95</CrossedOutText>
       </Typography>
       <Divider />
       <List>

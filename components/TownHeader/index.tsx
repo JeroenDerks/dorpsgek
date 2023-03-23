@@ -7,7 +7,9 @@ import { TownData } from '../../types';
 
 const Container = styled(Stack)({
   background: '#0b0a0e',
-  position: 'relative'
+  position: 'relative',
+  padding: '8px 0',
+  borderBottom: '2px solid white'
 });
 
 const Line = styled('div')({
@@ -33,15 +35,37 @@ const ZipcodeTitle = styled(Typography)(({ theme }) => ({
   }
 }));
 
+const Image = styled('img')({
+  width: '100px',
+  margin: '0 16px'
+});
+
+const Banner = styled('div')<{ bg: string }>(({ bg }) => ({
+  padding: '2px 0',
+  textAlign: 'center',
+  width: '100vw',
+  backgroundColor: 'white'
+}));
+
 export const TownHeader = ({ town }: { town: TownData }) => {
   return (
-    <Container alignItems="center">
-      <Line sx={{ backgroundColor: mapZipCodeToColor(town.zipCodes[0]) }} />
-      <Box display="flex" alignItems="center" zIndex={2}>
-        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
-        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
-        <ZipcodeTitle variant="h1">{town.zipCodes[0]}</ZipcodeTitle>
-      </Box>
-    </Container>
+    <>
+      <Banner bg={mapZipCodeToColor(town.zipCodes[0])}>
+        <Typography
+          fontWeight={700}
+          variant="h5"
+          fontSize={12}
+          fontStyle="italic"
+        >
+          GRATIS VERZENDING
+        </Typography>
+      </Banner>
+      <Container alignItems="center">
+        <Line sx={{ backgroundColor: mapZipCodeToColor(town.zipCodes[0]) }} />
+        <Box display="flex" alignItems="center" zIndex={2}>
+          <Image src={`/graphic/${town.zipCodes[0]}_graphic_lowres.png`} />
+        </Box>
+      </Container>
+    </>
   );
 };
