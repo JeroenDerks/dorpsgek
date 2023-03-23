@@ -9,7 +9,7 @@ const zipCodeColors: Record<SupportedZipCodes, string> = {
   '6093': '#2a3688',
   '6655': '#097a4c',
   '7261': '#efe20f',
-  '8096': '#efe20f',
+  '8096': '#168a44',
   '9971': '#4790cd'
 };
 

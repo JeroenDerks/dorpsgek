@@ -24,6 +24,10 @@ import Image6093Model from '../../public/product/6093_model.jpg';
 import Image6093Front from '../../public/product/6093_front.jpg';
 import Image6093CloseUp from '../../public/product/6093_closeup.jpg';
 
+import Image6655Model from '../../public/product/6655_model.jpg';
+import Image6655Front from '../../public/product/6655_front.jpg';
+import Image6655CloseUp from '../../public/product/6655_closeup.jpg';
+
 import Image7261Model from '../../public/product/7261_model.jpg';
 import Image7261Front from '../../public/product/7261_front.jpg';
 import Image7261CloseUp from '../../public/product/7261_closeup.jpg';
@@ -69,6 +73,12 @@ const imagesPerCity = {
     front: Image6093Front,
     model: Image6093Model,
     closeUp: Image6093CloseUp
+  },
+
+  '6655': {
+    front: Image6655Front,
+    model: Image6655Model,
+    closeUp: Image6655CloseUp
   },
 
   '7261': {
