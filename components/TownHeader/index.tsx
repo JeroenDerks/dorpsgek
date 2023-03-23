@@ -35,11 +35,6 @@ const ZipcodeTitle = styled(Typography)(({ theme }) => ({
   }
 }));
 
-const Image = styled('img')({
-  width: '100px',
-  margin: '0 16px'
-});
-
 const Banner = styled('div')<{ bg: string }>(({ bg }) => ({
   padding: '2px 0',
   textAlign: 'center',
@@ -65,7 +60,12 @@ export const TownHeader = ({ town }: { town: TownData }) => {
       <Container alignItems="center">
         <Line sx={{ backgroundColor: bg }} />
         <Box display="flex" alignItems="center" zIndex={2}>
-          <Image src={`/graphic/${town.zipCodes[0]}_graphic_lowres.png`} />
+          <img
+            src={`/graphic/${town.zipCodes[0]}_graphic_lowres.png`}
+            width="100px"
+            height="26px"
+            alt={`${town.zipCodes[0]} logo`}
+          />
         </Box>
       </Container>
     </>

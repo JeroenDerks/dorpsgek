@@ -77,10 +77,16 @@ export const ProductGallery = ({ town }: { town: TownData }) => {
       </Swiper>
 
       <Box display="flex" width={1} justifyContent="space-between" mt={1}>
-        <SwiperButtonLeft className="swiper-prev">
+        <SwiperButtonLeft
+          className="swiper-prev"
+          aria-label="previous-image-button"
+        >
           <ChevronLeftIcon />
         </SwiperButtonLeft>
-        <SwiperButtonRight className="swiper-next">
+        <SwiperButtonRight
+          className="swiper-next"
+          aria-label="next-image-button"
+        >
           <ChevronRightIcon />
         </SwiperButtonRight>
       </Box>
