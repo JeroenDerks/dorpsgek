@@ -4,8 +4,11 @@ export const getValidSubdomain = (host?: string | null) => {
     // On client side, get the host from window
     host = window.location.host;
   }
+
+  console.log('host', host);
   if (host && host.includes('.')) {
     const candidate = host.split('.')[0];
+    console.log('candidate', candidate);
     if (
       candidate &&
       !candidate.includes('localhost') &&
