@@ -5,18 +5,11 @@ export const getValidSubdomain = (host?: string | null) => {
     host = window.location.host;
   }
 
-  console.log('host', host);
   if (host && host.includes('.')) {
     const candidate = host.split('.')[0];
-    console.log('candidate', candidate);
-    if (
-      candidate &&
-      !candidate.includes('localhost') &&
-      !candidate.includes('index') &&
-      !candidate.includes('data') &&
-      !candidate.includes('mndorp') &&
-      !candidate.includes('www')
-    ) {
+    const allowedDomains = ['localhost', 'index', 'data', 'mndorp', 'www'];
+
+    if (candidate && !allowedDomains.includes(candidate)) {
       // Valid candidate
       subdomain = candidate;
     }
