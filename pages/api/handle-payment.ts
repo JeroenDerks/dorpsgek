@@ -17,7 +17,7 @@ export default async function wehhookHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === 'POST') {
+  if (req.method === 'POST' || req.method === 'GET') {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
     const webhookSecret = process.env.STRIPE_WEBHOOK_SIGNING_SECRET;
