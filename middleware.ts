@@ -6,6 +6,7 @@ const PUBLIC_FILE = /\.(.*)$/;
 
 export async function middleware(req: NextRequest) {
   const url = req.nextUrl.clone();
+  console.log('url', url);
 
   if (PUBLIC_FILE.test(url.pathname) || url.pathname.includes('_next')) return;
 

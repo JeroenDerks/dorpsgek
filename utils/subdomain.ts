@@ -14,7 +14,8 @@ export const getValidSubdomain = (host?: string | null) => {
       !candidate.includes('localhost') &&
       !candidate.includes('index') &&
       !candidate.includes('data') &&
-      !candidate.includes('mndorp')
+      !candidate.includes('mndorp') &&
+      !candidate.includes('www')
     ) {
       // Valid candidate
       subdomain = candidate;
