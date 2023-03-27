@@ -3,7 +3,7 @@ import { buffer } from 'micro';
 import type { NextApiRequest, NextApiResponse } from 'next';
 // import { format } from 'date-fns';
 
-const mail = require('@sendgrid/mail');
+// const mail = require('@sendgrid/mail');
 
 export const config = { api: { bodyParser: false } };
 
@@ -41,13 +41,7 @@ export default async function wehhookHandler(
           customer_details
         } = event.data.object as Stripe.Checkout.Session;
 
-        const items = metadata && Object.values(metadata);
-        const orderId =
-          typeof payment_intent === 'string'
-            ? payment_intent?.replace('pi_', 'cc_')
-            : id;
-
-        console.log(
+        console.info(
           id,
           shipping_details,
           metadata,
