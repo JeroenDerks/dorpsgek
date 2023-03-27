@@ -6,7 +6,8 @@ export const getValidSubdomain = (host?: string | null) => {
   }
   if (host && host.includes('.')) {
     const candidate = host.split('.')[0];
-    if (candidate && !candidate.includes('localhost')) {
+    const defaultRoutes = ['localhost', 'index', 'data'];
+    if (candidate && !defaultRoutes.includes(candidate)) {
       // Valid candidate
       subdomain = candidate;
     }
