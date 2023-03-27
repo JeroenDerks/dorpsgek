@@ -7,7 +7,14 @@ export const getValidSubdomain = (host?: string | null) => {
 
   if (host && host.includes('.')) {
     const candidate = host.split('.')[0];
-    const allowedDomains = ['localhost', 'index', 'data', 'mndorp', 'www'];
+    const allowedDomains = [
+      'localhost',
+      'index',
+      'data',
+      'mndorp',
+      'www',
+      'api'
+    ];
 
     if (candidate && !allowedDomains.includes(candidate)) {
       // Valid candidate

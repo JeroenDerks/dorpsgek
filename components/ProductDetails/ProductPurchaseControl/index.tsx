@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Button from '@mui/material/Button';
 import { Box, MenuItem, Select, Typography } from '@mui/material';
 import FormHelperText from '@mui/material/FormHelperText';
@@ -27,16 +28,30 @@ const pointsOfTrust = [
 export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
   const [size, setSize] = React.useState('');
   const [error, setError] = React.useState(null);
+  const router = useRouter();
 
-  const handleClick = () => {
+  const handleClick = async () => {
     if (!size) setError(true);
     else {
-      console.log(
-        'buy hoodie in size: ',
+      const url = `/api/create-checkout-session`;
+
+      const body = JSON.stringify({
         size,
-        ' for city: ',
-        town.zipCodes[0]
-      );
+        zipCode: town.zipCodes[0],
+        name: town.name
+      });
+
+      const request = await fetch(url, {
+        method: 'POST',
+        body
+      });
+      console.log(request);
+      const data = await request.json();
+      console.log(data);
+
+      if (data.url) {
+        router.push(data.url);
+      }
     }
   };
 

@@ -5,10 +5,17 @@ import { getValidSubdomain } from './utils/subdomain';
 const PUBLIC_FILE = /\.(.*)$/;
 
 export async function middleware(req: NextRequest) {
+  console.log(req);
   const url = req.nextUrl.clone();
 
   if (PUBLIC_FILE.test(url.pathname) || url.pathname.includes('_next')) return;
 
+  if (
+    url.href.includes('localhost:3002/api/') ||
+    url.href.includes('mndorp.nl/api/')
+  ) {
+    return;
+  }
   const host = req.headers.get('host');
   const subdomain = getValidSubdomain(host);
 
