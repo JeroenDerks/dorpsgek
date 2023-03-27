@@ -5,6 +5,7 @@ import { Box, MenuItem, Select, Typography } from '@mui/material';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
+import LoadingButton from '@mui/lab/LoadingButton';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
@@ -28,11 +29,13 @@ const pointsOfTrust = [
 export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
   const [size, setSize] = React.useState('');
   const [error, setError] = React.useState(null);
+  const [loading, setLoading] = React.useState(false);
   const router = useRouter();
 
   const handleClick = async () => {
     if (!size) setError(true);
     else {
+      setLoading(true);
       const url = `/api/create-checkout-session`;
 
       const body = JSON.stringify({
@@ -51,6 +54,7 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
 
       if (data.url) {
         router.push(data.url);
+        setLoading(false);
       }
     }
   };
@@ -77,22 +81,23 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
         {error && <FormHelperText>Wat is je maat?</FormHelperText>}
       </FormControl>
       <Box mt={2}>
-        <Button
+        <LoadingButton
+          {...{ loading }}
+          variant="outlined"
+          onClick={handleClick}
           color="success"
           fullWidth
           size="large"
-          onClick={handleClick}
-          variant="outlined"
         >
           Koop
-        </Button>
+        </LoadingButton>
       </Box>
       <Box display="flex" justifyContent="space-between" mt={3}>
         {pointsOfTrust.map(({ label, icon }) => {
           const Icon = icon;
 
           return (
-            <Stack alignItems="center" px={2} key={label}>
+            <Stack alignItems="center" px={1} key={label} width={1 / 4}>
               <Icon sx={{ color: 'grey' }} />
               <Typography
                 mt={1}

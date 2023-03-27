@@ -16,7 +16,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         quantity: 1,
         price_data: {
           product_data: {
-            name: `${name} hoodie in maat ${size}`,
+            name: `${name} hoodie (${zipCode}) in maat ${size.toUpperCase()}`,
             images: [`https://mndorp.nl/product/${zipCode}_closeup.jpg`]
           },
           unit_amount: 54.95 * 100,
