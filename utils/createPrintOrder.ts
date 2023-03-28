@@ -42,12 +42,12 @@ export const createPrintOrder = async ({
 
   const testObject = {
     orderType: 'draft',
-    orderReferenceId: id,
-    customerReferenceId: '1611_5678',
+    orderReferenceId: zipCode + '_' + id,
+    customerReferenceId: zipCode + '_' + id,
     currency: 'EUR',
     items: [
       {
-        itemReferenceId: '1611_9999',
+        itemReferenceId: zipCode + '_' + id,
         productUid: `apparel_product_gca_hoodie_gsc_pullover_gcu_unisex_gqa_classic_gsi_${size}_gco_black_gpr_4-0`,
         files: [
           {
