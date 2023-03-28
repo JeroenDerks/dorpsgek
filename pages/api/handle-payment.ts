@@ -36,7 +36,10 @@ export default async function wehhookHandler(
       if (!event) {
         throw new Error('Stripe checkout event not available');
       }
-      if (event.type === 'checkout.session.completed') {
+      if (
+        event.type === 'checkout.session.completed' &&
+        event.data.object.payment_status === 'paid'
+      ) {
         const { id, shipping_details, metadata, customer_email } = event.data
           .object as Stripe.Checkout.Session;
 
