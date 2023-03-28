@@ -35,7 +35,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         metadata: { size, zipCode },
         mode: 'payment',
         locale: 'nl',
-        success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}&zipcode={${zipCode}}&size={${size}}`,
+        success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}&zipcode=${zipCode}&size=${size}`,
         cancel_url: `${req.headers.referer}`
       });
 

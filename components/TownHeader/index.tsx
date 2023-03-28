@@ -47,7 +47,7 @@ export const TownHeader = ({
   hideFreeShippingBanner
 }: {
   zipCode: SupportedZipCodes;
-  hideFreeShippingBanner: boolean;
+  hideFreeShippingBanner?: boolean;
 }) => {
   const bg = mapZipCodeToColor(zipCode);
 
