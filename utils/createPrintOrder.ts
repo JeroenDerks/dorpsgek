@@ -25,7 +25,7 @@ export const createPrintOrder = async ({
   size: ShirtSizes;
   zipCode: string;
 }) => {
-  const fullName = shipping_details.name;
+  const fullName = shipping_details.name.split(' ');
   const firstName = fullName[0];
   const lastName = fullName[fullName.length - 1];
 
@@ -62,9 +62,6 @@ export const createPrintOrder = async ({
     shippingAddress,
     returnAddress
   };
-
-  console.log(process.env.GELATO_API_KEY);
-
   const response = await fetch('https://order.gelatoapis.com/v4/orders', {
     method: 'POST',
     headers: {
