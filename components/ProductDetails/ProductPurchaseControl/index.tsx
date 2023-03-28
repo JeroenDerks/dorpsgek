@@ -10,10 +10,10 @@ import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
-import { TownData } from '../../../types';
+import { TownData, ShirtSizes } from '../../../types';
 import { Stack } from '@mui/system';
 
-const shirtSizes = [
+const shirtSizes: { label: string; value: ShirtSizes }[] = [
   { label: 'Small', value: 's' },
   { label: 'Medium', value: 'm' },
   { label: 'Large', value: 'l' },

@@ -1,6 +1,9 @@
 import Stripe from 'stripe';
 import { buffer } from 'micro';
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { createPrintOrder } from './../../utils/createPrintOrder';
+import { ShirtSizes } from '../../types';
+
 // import { format } from 'date-fns';
 
 // const mail = require('@sendgrid/mail');
@@ -28,26 +31,24 @@ export default async function wehhookHandler(
       if (!sig || !webhookSecret) return;
 
       event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
+      console.log(event);
 
       if (!event) {
         throw new Error('Stripe checkout event not available');
       }
       if (event.type === 'checkout.session.completed') {
-        const {
-          id,
-          shipping_details,
-          metadata,
-          payment_intent,
-          customer_details
-        } = event.data.object as Stripe.Checkout.Session;
+        const { id, shipping_details, metadata, customer_email } = event.data
+          .object as Stripe.Checkout.Session;
 
-        console.info(
+        const order = await createPrintOrder({
           id,
           shipping_details,
-          metadata,
-          payment_intent,
-          customer_details
-        );
+          zipCode: metadata.zipCode,
+          size: metadata.size as ShirtSizes,
+          customer_email
+        });
+
+        console.info('order', order);
 
         // const message = {
         //   to: customer_details?.email,

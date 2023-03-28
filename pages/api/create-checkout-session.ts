@@ -29,6 +29,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         payment_method_types: ['ideal', 'card'],
         shipping_address_collection: { allowed_countries: ['NL', 'BE', 'DE'] },
         tax_id_collection: { enabled: true },
+        metadata: { size, zipCode },
         mode: 'payment',
         locale: 'nl',
         success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,

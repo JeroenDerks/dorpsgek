@@ -28,3 +28,5 @@ export type TownData = {
   perc_between_15_25: number;
   perc_nederlands: number;
 };
+
+export type ShirtSizes = 's' | 'm' | 'l' | 'xl' | 'xxl';

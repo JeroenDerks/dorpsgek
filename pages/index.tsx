@@ -4,7 +4,6 @@ import { Typography } from '@mui/material';
 
 import { PageLayoutHome } from '../components/PageLayout';
 import { titleFont } from '../theme';
-import { TownSearch } from '../components/TownSearch';
 
 export default function IndexPage() {
   return (
@@ -32,9 +31,6 @@ export default function IndexPage() {
             >
               Uit liefde voor mn dorp
             </Typography>
-          </Stack>
-          <Stack width={320} height="calc(60vh - 60px)">
-            <TownSearch />
           </Stack>
         </Stack>
       </PageLayoutHome>
