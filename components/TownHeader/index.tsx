@@ -3,7 +3,7 @@ import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 import { Typography, Stack, Box } from '@mui/material';
 import { styled } from '@mui/material';
 
-import { TownData } from '../../types';
+import { SupportedZipCodes } from '../../types';
 
 const Container = styled(Stack)({
   background: '#0b0a0e',
@@ -42,29 +42,37 @@ const Banner = styled('div')<{ bg: string }>(({ bg }) => ({
   backgroundColor: 'white'
 }));
 
-export const TownHeader = ({ town }: { town: TownData }) => {
-  const bg = mapZipCodeToColor(town.zipCodes[0]);
+export const TownHeader = ({
+  zipCode,
+  hideFreeShippingBanner
+}: {
+  zipCode: SupportedZipCodes;
+  hideFreeShippingBanner: boolean;
+}) => {
+  const bg = mapZipCodeToColor(zipCode);
 
   return (
     <>
-      <Banner bg={bg}>
-        <Typography
-          fontWeight={700}
-          variant="h5"
-          fontSize={12}
-          fontStyle="italic"
-        >
-          GRATIS VERZENDING
-        </Typography>
-      </Banner>
+      {!hideFreeShippingBanner && (
+        <Banner bg={bg}>
+          <Typography
+            fontWeight={700}
+            variant="h5"
+            fontSize={12}
+            fontStyle="italic"
+          >
+            GRATIS VERZENDING
+          </Typography>
+        </Banner>
+      )}
       <Container alignItems="center">
         <Line sx={{ backgroundColor: bg }} />
         <Box display="flex" alignItems="center" zIndex={2}>
           <img
-            src={`/graphic/${town.zipCodes[0]}_graphic_lowres.png`}
+            src={`/graphic/${zipCode}_graphic_lowres.png`}
             width="100px"
             height="26px"
-            alt={`${town.zipCodes[0]} logo`}
+            alt={`${zipCode} logo`}
           />
         </Box>
       </Container>

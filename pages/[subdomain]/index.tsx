@@ -24,7 +24,7 @@ export default function Town({ town }: { town: TownData }) {
           content="Uit liefde voor mn dorp. Want er is zoveel om trots op te zijn."
         />
       </Head>
-      <TownHeader town={town} />
+      <TownHeader zipCode={town.zipCodes[0]} />
       <Product town={town} />
       <CityBanner town={town} />
       <UniqueSellingPoints town={town} />

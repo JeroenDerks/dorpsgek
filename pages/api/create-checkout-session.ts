@@ -17,7 +17,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         price_data: {
           product_data: {
             name: `${name} hoodie (${zipCode}) in maat ${size.toUpperCase()}`,
-            images: [`https://mndorp.nl/product/${zipCode}_closeup.jpg`]
+            images: [
+              `https://mndorp.nl/product/${zipCode}_model.jpg`,
+              `https://mndorp.nl/product/${zipCode}_closeup.jpg`
+            ]
           },
           unit_amount: 54.95 * 100,
           currency: 'eur'
@@ -32,7 +35,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         metadata: { size, zipCode },
         mode: 'payment',
         locale: 'nl',
-        success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
+        success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}&zipcode={${zipCode}}&size={${size}}`,
         cancel_url: `${req.headers.referer}`
       });
 
