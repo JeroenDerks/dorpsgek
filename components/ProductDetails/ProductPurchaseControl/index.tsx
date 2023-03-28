@@ -18,7 +18,7 @@ const shirtSizes: { label: string; value: ShirtSizes }[] = [
   { label: 'Medium', value: 'm' },
   { label: 'Large', value: 'l' },
   { label: 'X-Large', value: 'xl' },
-  { label: 'XX-Large', value: 'xxl' }
+  { label: 'XX-Large', value: '2xl' }
 ];
 
 const pointsOfTrust = [

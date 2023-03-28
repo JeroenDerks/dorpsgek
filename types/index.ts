@@ -29,4 +29,4 @@ export type TownData = {
   perc_nederlands: number;
 };
 
-export type ShirtSizes = 's' | 'm' | 'l' | 'xl' | 'xxl';
+export type ShirtSizes = 's' | 'm' | 'l' | 'xl' | '2xl';

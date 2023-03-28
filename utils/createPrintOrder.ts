@@ -58,7 +58,7 @@ export const createPrintOrder = async ({
         quantity: 1
       }
     ],
-    shipmentMethodUid: 'express',
+    shipmentMethodUid: 'tnt_parcel',
     shippingAddress,
     returnAddress
   };

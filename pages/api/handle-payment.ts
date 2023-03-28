@@ -31,7 +31,6 @@ export default async function wehhookHandler(
       if (!sig || !webhookSecret) return;
 
       event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
-      console.log(event);
 
       if (!event) {
         throw new Error('Stripe checkout event not available');
@@ -40,6 +39,7 @@ export default async function wehhookHandler(
         event.type === 'checkout.session.completed' &&
         event.data.object.payment_status === 'paid'
       ) {
+        console.log(event);
         const { id, shipping_details, metadata, customer_email } = event.data
           .object as Stripe.Checkout.Session;
 
