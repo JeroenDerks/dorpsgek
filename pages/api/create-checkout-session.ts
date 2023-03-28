@@ -30,6 +30,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         shipping_address_collection: { allowed_countries: ['NL', 'BE', 'DE'] },
         tax_id_collection: { enabled: true },
         mode: 'payment',
+        locale: 'nl',
         success_url: `${req.headers.origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${req.headers.referer}`
       });
