@@ -40,11 +40,16 @@ export default async function wehhookHandler(
         event.data.object.payment_status === 'paid'
       ) {
         console.log(event);
-        const { id, shipping_details, metadata, customer_email } = event.data
-          .object as Stripe.Checkout.Session;
+        const {
+          shipping_details,
+          metadata,
+          customer_email,
+          payment_intent,
+          id
+        } = event.data.object as Stripe.Checkout.Session;
 
         const order = await createPrintOrder({
-          id,
+          id: typeof payment_intent === 'string' ? payment_intent : id,
           shipping_details,
           zipCode: metadata.zipCode,
           size: metadata.size as ShirtSizes,
