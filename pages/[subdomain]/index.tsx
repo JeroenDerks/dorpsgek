@@ -13,11 +13,13 @@ import { chosenVillages } from '../../data/chosenVillages';
 import { townData } from '../../data/townData';
 
 export default function Town({ town }: { town: TownData }) {
+  const zipCode = town.zipCodes[0];
+
   return (
     <>
       <Head key={town.name}>
         <title>
-          {town.zipCodes[0]} - Kleding voor {town.name}
+          {zipCode} - Kleding voor {town.name}
         </title>
         <meta
           name="description"
@@ -27,26 +29,23 @@ export default function Town({ town }: { town: TownData }) {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`/favicon/${town.zipCodes[0]}/apple-touch-icon.png`}
+          href={`/favicon/${zipCode}/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={`/favicon/${town.zipCodes[0]}/favicon-32x32.png`}
+          href={`/favicon/${zipCode}/favicon-32x32.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={`/favicon/${town.zipCodes[0]}/favicon-16x16.png`}
+          href={`/favicon/${zipCode}/favicon-16x16.png`}
         />
-        <link
-          rel="manifest"
-          href={`/favicon/${town.zipCodes[0]}/site.webmanifest`}
-        />
+        <link rel="manifest" href={`/favicon/${zipCode}/site.webmanifest`} />
       </Head>
-      <TownHeader zipCode={town.zipCodes[0]} />
+      <TownHeader zipCode={zipCode} />
       <Product town={town} />
       <CityBanner town={town} />
       <UniqueSellingPoints town={town} />

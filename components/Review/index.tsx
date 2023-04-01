@@ -1,11 +1,12 @@
 import React from 'react';
+import { Stack } from '@mui/system';
 import { Box, Divider, Typography } from '@mui/material';
-import { Section } from '../Section';
-import { TownData } from '../../types';
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
-import { Stack } from '@mui/system';
+
+import { Section } from '../Section';
 import { ReviewImage } from './ReviewImage';
+import { TownData } from '../../types';
 
 export const Review = ({ town }: { town: TownData }) => {
   const reviews = [

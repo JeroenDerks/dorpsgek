@@ -1,23 +1,10 @@
 import React from 'react';
-import { mapZipCodeToColor } from '../../../utils/zipcodeToColor';
-import {
-  Box,
-  Divider,
-  List,
-  ListItem,
-  ListItemIcon,
-  Typography
-} from '@mui/material';
+import StarIcon from '@mui/icons-material/Star';
 import { styled } from '@mui/material';
+import { Box, List, ListItem, ListItemIcon, Typography } from '@mui/material';
 
+import { mapZipCodeToColor } from '../../../utils/zipcodeToColor';
 import { TownData } from '../../../types';
-
-const ClubColorBar = styled('div')<{ town: TownData }>(({ town }) => ({
-  borderRadius: 4,
-  width: '100%',
-  height: 8,
-  backgroundColor: mapZipCodeToColor(town.zipCodes[0])
-}));
 
 const CrossedOutText = styled('span')({
   textDecoration: 'line-through',
@@ -32,24 +19,32 @@ export const ProductHeader = ({ town }: { town: TownData }) => {
     'Gelimiteerde oplage'
   ];
 
+  const zipCode = town.zipCodes[0];
+  const starColor = zipCode === '4251' ? '#fff' : mapZipCodeToColor(zipCode);
+
   return (
     <Box>
-      <Divider sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} />
-      {/* <ClubColorBar {...{ town }} /> */}
-      <Typography variant="h3" component="h1" mt={3}>
+      <Typography variant="h3" component="h1">
         {town.name.toUpperCase()} HOODIE
       </Typography>
-      <Typography variant="h5" component="h1" mb={3} mt={1} fontStyle="italic">
-        Nu €54,95 <CrossedOutText>van €79,95</CrossedOutText>
+      <Box display="flex" my={1}>
+        <StarIcon sx={{ color: starColor }} />
+        <StarIcon sx={{ color: starColor }} />
+        <StarIcon sx={{ color: starColor }} />
+        <StarIcon sx={{ color: starColor }} />
+        <StarIcon sx={{ color: starColor }} />
+      </Box>
+      <Typography variant="h5" component="h1" fontStyle="italic" mb={2}>
+        €54,95 <CrossedOutText>€79,95</CrossedOutText>
       </Typography>
-      <Divider />
+
       <List>
         {USPs.map((text, index) => (
           <ListItem disableGutters dense key={index}>
             <ListItemIcon>
               <Typography fontSize={24}>•</Typography>
             </ListItemIcon>
-            <Typography>{text}</Typography>
+            <Typography fontSize={16}>{text}</Typography>
           </ListItem>
         ))}
       </List>

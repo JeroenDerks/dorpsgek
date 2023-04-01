@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
+import { styled } from '@mui/material';
 import Button from '@mui/material/Button';
 import { Box, MenuItem, Select, Typography } from '@mui/material';
 import FormHelperText from '@mui/material/FormHelperText';
@@ -26,6 +27,17 @@ const pointsOfTrust = [
   { label: 'Gemakkelijk retourneren', icon: AutorenewIcon },
   { label: 'Veilig betalen', icon: LockOutlinedIcon }
 ];
+
+const StyledLoadingButton = styled(LoadingButton)({
+  background: '#0b0a0e',
+  color: '#fff',
+  height: 42,
+
+  '&:hover': {
+    background: '#303032'
+  }
+});
+
 export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
   const [size, setSize] = React.useState('');
   const [error, setError] = React.useState(null);
@@ -62,10 +74,13 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
   return (
     <Box mt={[2, 3, 5]} mb={[4, 4, 0]} width={1}>
       <FormControl sx={{ width: '100%' }} error={error}>
-        <InputLabel id="size-label">Maat</InputLabel>
+        <InputLabel id="size-label" sx={{ top: -7 }}>
+          Maat
+        </InputLabel>
         <Select
           fullWidth
           value={size}
+          size="small"
           label="Maat"
           onChange={(e) => {
             setError(false);
@@ -81,16 +96,9 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
         {error && <FormHelperText>Wat is je maat?</FormHelperText>}
       </FormControl>
       <Box mt={2}>
-        <LoadingButton
-          {...{ loading }}
-          variant="outlined"
-          onClick={handleClick}
-          color="success"
-          fullWidth
-          size="large"
-        >
+        <StyledLoadingButton {...{ loading }} onClick={handleClick} fullWidth>
           Koop
-        </LoadingButton>
+        </StyledLoadingButton>
       </Box>
       <Box display="flex" justifyContent="space-between" mt={3}>
         {pointsOfTrust.map(({ label, icon }) => {
