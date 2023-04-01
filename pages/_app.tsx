@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
       {process?.env?.NODE_ENV !== 'development' && (
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-6154FGNHYC`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-6154FGNHYC"
           strategy="afterInteractive"
         />
       )}

@@ -15,15 +15,15 @@ const tableHeader = [
 ];
 
 const zipCodeClubColorMapping = {
+  '1611': 't_1224', // bevenkarspel, vv KGB
   '3931': 't_244', // woudenberg
   '4251': 't_41', // werkendam, kozakken boys
-  '1611': 't_1224', // bevenkarspel, vv KGB
+  '4456': 't_21', // Lewedorp
+  '5853': 't_25', // Siebengewald, Stormvoges 28
+  '6093': 't_23', // Heythuyaen
+  '6655': 't_22', // Puiflijk, VV SCP (green is different than in image)
   '7261': 't_444', // Ruurlo
   '8096': 't_22', // Oldebroek, OWIOS (green is different than in image)
-  '6093': 't_23', // Heythuyaen
-  '5853': 't_25', // Siebengewald, Stormvoges 28
-  '4456': 't_21', // Lewedorp
-  '6655': 't_22', // Puiflijk, VV SCP (green is different than in image)
   '9971': 't_243' // Ulrum, VVSV
 };
 

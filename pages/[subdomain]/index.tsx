@@ -23,6 +23,28 @@ export default function Town({ town }: { town: TownData }) {
           name="description"
           content="Uit liefde voor mn dorp. Want er is zoveel om trots op te zijn."
         />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={`/favicon/${town.zipCodes[0]}/apple-touch-icon.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={`/favicon/${town.zipCodes[0]}/favicon-32x32.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={`/favicon/${town.zipCodes[0]}/favicon-16x16.png`}
+        />
+        <link
+          rel="manifest"
+          href={`/favicon/${town.zipCodes[0]}/site.webmanifest`}
+        />
       </Head>
       <TownHeader zipCode={town.zipCodes[0]} />
       <Product town={town} />

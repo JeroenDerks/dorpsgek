@@ -22,19 +22,6 @@ const Line = styled('div')({
   maxWidth: 1200
 });
 
-const ZipcodeTitle = styled(Typography)(({ theme }) => ({
-  fontWeight: 700,
-  fontStyle: 'italic',
-  fontSize: 24,
-  margin: '0 16px',
-  lineHeight: 1,
-  color: 'white',
-
-  [theme.breakpoints.up('sm')]: {
-    fontSize: 28
-  }
-}));
-
 const Banner = styled('div')<{ bg: string }>(({ bg }) => ({
   padding: '2px 0',
   textAlign: 'center',

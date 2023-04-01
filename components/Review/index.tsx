@@ -1,10 +1,11 @@
 import React from 'react';
-import { Box, Divider, Grid, Typography } from '@mui/material';
+import { Box, Divider, Typography } from '@mui/material';
 import { Section } from '../Section';
 import { TownData } from '../../types';
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import { Stack } from '@mui/system';
+import { ReviewImage } from './ReviewImage';
 
 export const Review = ({ town }: { town: TownData }) => {
   const reviews = [
@@ -36,14 +37,7 @@ export const Review = ({ town }: { town: TownData }) => {
           display="flex"
           style={{ background: 'white', borderRadius: '8px' }}
         >
-          <Box
-            width={100}
-            height={100}
-            style={{ border: '1px solid grey' }}
-            mr={2}
-            flexShrink={0}
-          />
-
+          <ReviewImage town={town} />
           <Stack>
             <Typography variant="h5" fontWeight={700}>
               {name}
