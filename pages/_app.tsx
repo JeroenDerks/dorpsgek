@@ -30,18 +30,18 @@ export default function App({ Component, pageProps }: AppProps) {
         }
       `}</style>
 
-      {process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && (
+      {process?.env?.NODE_ENV !== 'development' && (
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=6154FGNHYC`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-6154FGNHYC`}
           strategy="afterInteractive"
         />
       )}
-      {process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && (
+      {process?.env?.NODE_ENV !== 'development' && (
         <Script id="google-analytics" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '6154FGNHYC');
+                gtag('config', 'G-6154FGNHYC');
             `}
         </Script>
       )}
