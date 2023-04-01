@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { TownData } from '../../types';
 import { Product } from '../Product';
 import { TownHeader } from '../TownHeader';
-import { CityBanner } from '../CityBanner';
+import { CityBanner } from '../UniqueSellingPoints';
 import { UniqueSellingPoints } from '../UniqueSellingPoints';
 import { FAQ } from '../FAQ';
 import { Review } from '../Review';

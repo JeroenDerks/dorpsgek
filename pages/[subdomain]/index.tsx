@@ -4,7 +4,6 @@ import Head from 'next/head';
 import { TownData } from '../../types';
 import { Product } from '../../components/Product';
 import { TownHeader } from '../../components/TownHeader';
-import { CityBanner } from '../../components/CityBanner';
 import { UniqueSellingPoints } from '../../components/UniqueSellingPoints';
 import { FAQ } from '../../components/FAQ';
 import { Review } from '../../components/Review';
@@ -47,7 +46,6 @@ export default function Town({ town }: { town: TownData }) {
       </Head>
       <TownHeader zipCode={zipCode} />
       <Product town={town} />
-      <CityBanner town={town} />
       <UniqueSellingPoints town={town} />
       <FAQ town={town} />
       <Review town={town} />
