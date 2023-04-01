@@ -35,6 +35,10 @@ const StyledLoadingButton = styled(LoadingButton)({
 
   '&:hover': {
     background: '#303032'
+  },
+
+  '& .MuiLoadingButton-loadingIndicator': {
+    color: '#f7f7f7'
   }
 });
 
@@ -66,7 +70,6 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
 
       if (data.url) {
         router.push(data.url);
-        setLoading(false);
       }
     }
   };
