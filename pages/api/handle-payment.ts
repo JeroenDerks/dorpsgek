@@ -2,15 +2,16 @@ import Stripe from 'stripe';
 import { buffer } from 'micro';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { createPrintOrder } from './../../utils/createPrintOrder';
-import { ShirtSizes } from '../../types';
+import { ShirtSizes, SupportedZipCodes } from '../../types';
 
-// import { format } from 'date-fns';
+import { format } from 'date-fns';
+import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 
-// const mail = require('@sendgrid/mail');
+const mail = require('@sendgrid/mail');
 
 export const config = { api: { bodyParser: false } };
 
-// mail.setApiKey(process.env.SENDGRID_API_KEY);
+mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const stripe =
   process.env.STRIPE_SECRET_KEY &&
@@ -48,37 +49,48 @@ export default async function wehhookHandler(
           id
         } = event.data.object as Stripe.Checkout.Session;
 
+        const name = metadata.name;
+        const zipCode = metadata.zipCode as SupportedZipCodes;
+        const size = metadata.size as ShirtSizes;
+        const _id = typeof payment_intent === 'string' ? payment_intent : id;
+
         const order = await createPrintOrder({
-          id: typeof payment_intent === 'string' ? payment_intent : id,
+          id: _id,
           shipping_details,
-          zipCode: metadata.zipCode,
-          size: metadata.size as ShirtSizes,
+          zipCode,
+          size,
           customer_email
         });
 
         console.info('order', order);
 
-        // const message = {
-        //   to: customer_details?.email,
-        //   bcc: 'info@celebratecode.com',
-        //   from: { name: 'Celebrate Code', email: 'info@celebratecode.com' },
-        //   templateId: 'd-8ed3686528954bf4bd638d37dab43893',
-        //   replyTo: 'info@celebratecode.com',
-        //   dynamicTemplateData: {
-        //     name: customer_details?.name,
-        //     orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm'),
-        //     orderId,
-        //     addressLine1: shipping_details?.address?.line1,
-        //     addressLine2: shipping_details?.address?.line2,
-        //     postalCode: shipping_details?.address?.postal_code,
-        //     city: shipping_details?.address?.city,
-        //     state: shipping_details?.address?.state,
-        //     country: shipping_details?.address?.country,
-        //     orderData: items?.map((item) => JSON.parse(item))
-        //   }
-        // };
+        const townColor =
+          zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
-        // await mail.send(message);
+        const message = {
+          to: customer_email,
+          bcc: 'info@mndorp.nl',
+          from: { name: name, email: `info@mndorp.nl` },
+          templateId: 'd-7b3ea18e8c51487fb7e83f8d58cb308d',
+          replyTo: 'info@mndorp.nl',
+          dynamicTemplateData: {
+            name: shipping_details.name,
+            orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm'),
+            orderId: _id,
+            addressLine1: shipping_details?.address?.line1,
+            addressLine2: shipping_details?.address?.line2,
+            postalCode: shipping_details?.address?.postal_code,
+            city: shipping_details?.address?.city,
+            state: shipping_details?.address?.state,
+            country: shipping_details?.address?.country,
+            townZipCode: zipCode,
+            townColor,
+            townName: name.toLowerCase(),
+            orderData: { name: name, maat: size, price: '54,95' }
+          }
+        };
+
+        await mail.send(message);
       }
     } catch (err) {
       let message;
