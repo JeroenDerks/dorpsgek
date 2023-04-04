@@ -54,6 +54,11 @@ export default async function wehhookHandler(
         const size = metadata.size as ShirtSizes;
         const _id = typeof payment_intent === 'string' ? payment_intent : id;
 
+        console.log('name', name);
+        console.log('zipCode', zipCode);
+        console.log('size', size);
+        console.log('_id', _id);
+
         const order = await createPrintOrder({
           id: _id,
           shipping_details,
@@ -90,6 +95,7 @@ export default async function wehhookHandler(
           }
         };
 
+        console.log('message', message);
         await mail.send(message);
       }
     } catch (err) {
