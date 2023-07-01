@@ -4,15 +4,14 @@ import { Resend } from 'resend';
 import { format } from 'date-fns';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import Email from '../../components/Email/order-confirmation';
 import { createPrintOrder } from './../../utils/createPrintOrder';
 import { ShirtSizes, SupportedZipCodes } from '../../types';
 import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 
-const mail = require('@sendgrid/mail');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const config = { api: { bodyParser: false } };
-
-mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const stripe =
   process.env.STRIPE_SECRET_KEY &&
@@ -22,6 +21,8 @@ export default async function wehhookHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
+  console.log('wehbook');
+  console.log(req.method);
   if (req.method === 'POST') {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
@@ -63,6 +64,14 @@ export default async function wehhookHandler(
         console.log('size', size);
         console.log('_id', _id);
 
+        const emailData = await resend.sendEmail({
+          from: 'info@mndorp.nl',
+          to: 'jeroenderks88@gmail.com',
+          subject: 'Order is received',
+          react: Email()
+        });
+        console.log(emailData);
+
         const order = await createPrintOrder({
           id: _id,
           shipping_details,
@@ -77,17 +86,6 @@ export default async function wehhookHandler(
 
         const townColor =
           zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
-
-        const resend = new Resend(process.env.RESEND_API_KEY);
-
-        const emailData = await resend.emails.send({
-          from: 'info@mndorp.nl',
-          to: 'jeroenderks88@gmail.com',
-          subject: 'Hello World',
-          html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
-        });
-
-        console.log(emailData);
 
         const message = {
           to: customer_email,
@@ -113,7 +111,6 @@ export default async function wehhookHandler(
         };
 
         console.log('message', message);
-        // await mail.send(message);
       }
     } catch (err) {
       let message;
