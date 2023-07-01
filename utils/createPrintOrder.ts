@@ -62,7 +62,7 @@ export const createPrintOrder = async ({
     shippingAddress,
     returnAddress
   };
-  const response = await fetch('https://order.gelatoapis.com/v4/orders', {
+  return await fetch('https://order.gelatoapis.com/v4/orders', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -70,9 +70,4 @@ export const createPrintOrder = async ({
     },
     body: JSON.stringify(testObject)
   });
-
-  console.log(response);
-  const data = response.json();
-
-  return data;
 };

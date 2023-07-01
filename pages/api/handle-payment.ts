@@ -1,17 +1,17 @@
 import Stripe from 'stripe';
 import { buffer } from 'micro';
+import { Resend } from 'resend';
+import { format } from 'date-fns';
 import type { NextApiRequest, NextApiResponse } from 'next';
+
+import Email from '../../components/Email/order-confirmation';
 import { createPrintOrder } from './../../utils/createPrintOrder';
 import { ShirtSizes, SupportedZipCodes } from '../../types';
-
-import { format } from 'date-fns';
 import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 
-const mail = require('@sendgrid/mail');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const config = { api: { bodyParser: false } };
-
-mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const stripe =
   process.env.STRIPE_SECRET_KEY &&
@@ -21,17 +21,22 @@ export default async function wehhookHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === 'POST' || req.method === 'GET') {
+  console.log('wehbook');
+  console.log(req.method);
+  if (req.method === 'POST') {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
     const webhookSecret = process.env.STRIPE_WEBHOOK_SIGNING_SECRET;
 
+    console.log('handle payment');
     let event;
     try {
       if (!stripe) throw new Error('Stripe not available');
-      if (!sig || !webhookSecret) return;
+      if (!sig || !webhookSecret)
+        throw new Error('No signature or no webhook secret');
 
       event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
+      console.log('event', event);
 
       if (!event) {
         throw new Error('Stripe checkout event not available');
@@ -59,6 +64,14 @@ export default async function wehhookHandler(
         console.log('size', size);
         console.log('_id', _id);
 
+        const emailData = await resend.sendEmail({
+          from: 'info@mndorp.nl',
+          to: 'jeroenderks88@gmail.com',
+          subject: 'Order is received',
+          react: Email()
+        });
+        console.log(emailData);
+
         const order = await createPrintOrder({
           id: _id,
           shipping_details,
@@ -66,6 +79,8 @@ export default async function wehhookHandler(
           size,
           customer_email
         });
+
+        if (!order) throw new Error('Error creating Gelato order');
 
         console.info('order', order);
 
@@ -96,7 +111,6 @@ export default async function wehhookHandler(
         };
 
         console.log('message', message);
-        await mail.send(message);
       }
     } catch (err) {
       let message;

@@ -3,7 +3,7 @@ import { Grid, Typography } from '@mui/material';
 import { Section } from '../Section';
 import { TownData } from '../../types';
 
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import {
   BackgroundImageContainer,
   UniqueSellingPointsContainer
