@@ -71,8 +71,7 @@ export const createPrintOrder = async ({
     body: JSON.stringify(testObject)
   });
 
-  console.log(response);
-  const data = response.json();
-
-  return data;
+  if (response.ok) {
+    return true;
+  } else return false;
 };

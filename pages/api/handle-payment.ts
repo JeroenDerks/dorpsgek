@@ -1,10 +1,11 @@
 import Stripe from 'stripe';
 import { buffer } from 'micro';
+import { Resend } from 'resend';
+import { format } from 'date-fns';
 import type { NextApiRequest, NextApiResponse } from 'next';
+
 import { createPrintOrder } from './../../utils/createPrintOrder';
 import { ShirtSizes, SupportedZipCodes } from '../../types';
-
-import { format } from 'date-fns';
 import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 
 const mail = require('@sendgrid/mail');
@@ -21,17 +22,20 @@ export default async function wehhookHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === 'POST' || req.method === 'GET') {
+  if (req.method === 'POST') {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
     const webhookSecret = process.env.STRIPE_WEBHOOK_SIGNING_SECRET;
 
+    console.log('handle payment');
     let event;
     try {
       if (!stripe) throw new Error('Stripe not available');
-      if (!sig || !webhookSecret) return;
+      if (!sig || !webhookSecret)
+        throw new Error('No signature or no webhook secret');
 
       event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
+      console.log('event', event);
 
       if (!event) {
         throw new Error('Stripe checkout event not available');
@@ -67,10 +71,23 @@ export default async function wehhookHandler(
           customer_email
         });
 
+        if (!order) throw new Error('Error creating Gelato order');
+
         console.info('order', order);
 
         const townColor =
           zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
+
+        const resend = new Resend(process.env.RESEND_API_KEY);
+
+        const emailData = await resend.emails.send({
+          from: 'info@mndorp.nl',
+          to: 'jeroenderks88@gmail.com',
+          subject: 'Hello World',
+          html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+        });
+
+        console.log(emailData);
 
         const message = {
           to: customer_email,
@@ -96,7 +113,7 @@ export default async function wehhookHandler(
         };
 
         console.log('message', message);
-        await mail.send(message);
+        // await mail.send(message);
       }
     } catch (err) {
       let message;
