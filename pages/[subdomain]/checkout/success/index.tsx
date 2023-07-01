@@ -8,7 +8,7 @@ import { SupportedZipCodes, TownData } from '../../../../types';
 import { Section } from '../../../../components/Section';
 import { TownHeader } from '../../../../components/TownHeader';
 import { townData } from '../../../../data/townData';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const ImageContainer = styled('div')({
   width: '100vw',
