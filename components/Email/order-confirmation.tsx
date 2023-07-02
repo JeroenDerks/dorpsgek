@@ -27,7 +27,7 @@ import {
 
 const baseUrl = 'https://www.mndorp.nl';
 
-export const NikeReceiptEmail = ({
+export const OrderConfirmationEmail = ({
   addressLine1,
   addressLine2,
   city,
@@ -44,7 +44,9 @@ export const NikeReceiptEmail = ({
 }: EmailOrderProps) => (
   <Html style={html}>
     <Head />
-    <Preview>Get your order summary, estimated delivery date and more</Preview>
+    <Preview>
+      Bestelling voor {townName} hoodie in maat {size}
+    </Preview>
     <Body style={main}>
       <Container style={container}>
         <Section style={top.container}>
@@ -64,7 +66,7 @@ export const NikeReceiptEmail = ({
           <Text style={adressTitle}>Bestelling voor: {customerName}</Text>
           <Text style={{ ...global.text, fontSize: 14 }}>
             {addressLine1} {addressLine2 && addressLine2 + ' '}
-            {postalCode} {city} {state && state + ' '}
+            {postalCode}, {city} {state && state + ' '}
             {country}
           </Text>
         </Section>
@@ -81,7 +83,7 @@ export const NikeReceiptEmail = ({
             </Column>
             <Column style={{ verticalAlign: 'top', paddingLeft: '12px' }}>
               <Text style={{ ...paragraph, fontWeight: '500' }}>
-                {townName} hoodie - {zipCode}
+                {townName} hoodie
               </Text>
               <Text style={global.text}>Size {size}</Text>
             </Column>
@@ -91,11 +93,15 @@ export const NikeReceiptEmail = ({
         <Section style={global.defaultPadding}>
           <Row style={{ display: 'inline-flex', marginBottom: 40 }}>
             <Column style={{ width: '170px' }}>
-              <Text style={global.paragraphWithBold}>Order nummer</Text>
+              <Text style={{ ...global.paragraphWithBold, fontWeight: 500 }}>
+                Order nummer
+              </Text>
               <Text>{orderId}</Text>
             </Column>
             <Column>
-              <Text style={global.paragraphWithBold}>Order datum</Text>
+              <Text style={{ ...global.paragraphWithBold, fontWeight: 500 }}>
+                Order datum
+              </Text>
               <Text>{orderDate}</Text>
             </Column>
           </Row>
@@ -112,7 +118,7 @@ export const NikeReceiptEmail = ({
   </Html>
 );
 
-export default NikeReceiptEmail;
+export default OrderConfirmationEmail;
 
 type EmailOrderProps = {
   addressLine1: string;

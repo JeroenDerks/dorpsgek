@@ -5,7 +5,7 @@ import { format } from 'date-fns';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import Email from '../../components/Email/order-confirmation';
-import { createPrintOrder } from './../../utils/createPrintOrder';
+import { createPrintOrder } from '../../utils/createPrintOrder';
 import { ShirtSizes, SupportedZipCodes } from '../../types';
 import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 
@@ -41,7 +41,6 @@ export default async function wehhookHandler(
         event.type === 'checkout.session.completed' &&
         event.data.object.payment_status === 'paid'
       ) {
-        console.log(event);
         const {
           shipping_details,
           metadata,
@@ -55,10 +54,6 @@ export default async function wehhookHandler(
         const size = metadata.size as ShirtSizes;
         const _id = typeof payment_intent === 'string' ? payment_intent : id;
 
-        console.log('name', name);
-        console.log('zipCode', zipCode);
-        console.log('size', size);
-        console.log('_id', _id);
         const townColor =
           zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
@@ -66,22 +61,26 @@ export default async function wehhookHandler(
           from: 'info@mndorp.nl',
           to: customer_email,
           subject: 'Je bestelling is ontvangen',
-          react: Email({
-            customerName: shipping_details.name,
-            orderId: _id,
-            addressLine1: shipping_details?.address?.line1,
-            addressLine2: shipping_details?.address?.line2,
-            postalCode: shipping_details?.address?.postal_code,
-            city: shipping_details?.address?.city,
-            state: shipping_details?.address?.state,
-            country: shipping_details?.address?.country,
-            townColor,
-            townName: name,
-            zipCode,
-            size,
-            price: '54.95',
-            orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm')
-          })
+          react: (
+            <Email
+              {...{
+                customerName: shipping_details.name,
+                orderId: _id,
+                addressLine1: shipping_details?.address?.line1,
+                addressLine2: shipping_details?.address?.line2,
+                postalCode: shipping_details?.address?.postal_code,
+                city: shipping_details?.address?.city,
+                state: shipping_details?.address?.state,
+                country: shipping_details?.address?.country,
+                townColor,
+                townName: name,
+                zipCode,
+                size,
+                price: '54.95',
+                orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm')
+              }}
+            />
+          )
         });
 
         const order = await createPrintOrder({
@@ -93,31 +92,6 @@ export default async function wehhookHandler(
         });
 
         if (!order) throw new Error('Error creating Gelato order');
-
-        const message = {
-          to: customer_email,
-          bcc: 'info@mndorp.nl',
-          from: { name: name, email: `info@mndorp.nl` },
-          templateId: 'd-7b3ea18e8c51487fb7e83f8d58cb308d',
-          replyTo: 'info@mndorp.nl',
-          dynamicTemplateData: {
-            name: shipping_details.name,
-            orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm'),
-            orderId: _id,
-            addressLine1: shipping_details?.address?.line1,
-            addressLine2: shipping_details?.address?.line2,
-            postalCode: shipping_details?.address?.postal_code,
-            city: shipping_details?.address?.city,
-            state: shipping_details?.address?.state,
-            country: shipping_details?.address?.country,
-            townZipCode: zipCode,
-            townColor,
-            townName: name.toLowerCase(),
-            orderData: { name: name, maat: size, price: '54,95' }
-          }
-        };
-
-        console.log('message', message);
       }
     } catch (err) {
       let message;
