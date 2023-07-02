@@ -44,8 +44,8 @@ export default async function wehhookHandler(
         const {
           shipping_details,
           metadata,
-          customer_email,
           payment_intent,
+          customer_details,
           id
         } = event.data.object as Stripe.Checkout.Session;
 
@@ -57,9 +57,19 @@ export default async function wehhookHandler(
         const townColor =
           zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
-        await resend.sendEmail({
+        const order = await createPrintOrder({
+          id: _id,
+          shipping_details,
+          zipCode,
+          size,
+          customer_email: customer_details.email
+        });
+
+        if (!order) throw new Error('Error creating Gelato order');
+
+        const emailData = await resend.sendEmail({
           from: 'mndorp <info@mndorp.nl>',
-          to: [customer_email],
+          to: customer_details.email,
           subject: 'Je bestelling is ontvangen',
           react: Email({
             customerName: shipping_details.name,
@@ -79,21 +89,12 @@ export default async function wehhookHandler(
           })
         });
 
-        const order = await createPrintOrder({
-          id: _id,
-          shipping_details,
-          zipCode,
-          size,
-          customer_email
-        });
-
-        if (!order) throw new Error('Error creating Gelato order');
+        if (!emailData) throw new Error('Error sending email');
       }
     } catch (err) {
       let message;
       if (err instanceof Error) message = err.message;
       else message = String(err);
-
       return res.status(500).send(`Webhook error: ${JSON.stringify(message)}`);
     }
     res.status(200).send({});
