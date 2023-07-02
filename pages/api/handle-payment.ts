@@ -58,29 +58,25 @@ export default async function wehhookHandler(
           zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
         await resend.sendEmail({
-          from: 'info@mndorp.nl',
-          to: customer_email,
+          from: 'mndorp <info@mndorp.nl>',
+          to: [customer_email],
           subject: 'Je bestelling is ontvangen',
-          react: (
-            <Email
-              {...{
-                customerName: shipping_details.name,
-                orderId: _id,
-                addressLine1: shipping_details?.address?.line1,
-                addressLine2: shipping_details?.address?.line2,
-                postalCode: shipping_details?.address?.postal_code,
-                city: shipping_details?.address?.city,
-                state: shipping_details?.address?.state,
-                country: shipping_details?.address?.country,
-                townColor,
-                townName: name,
-                zipCode,
-                size,
-                price: '54.95',
-                orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm')
-              }}
-            />
-          )
+          react: Email({
+            customerName: shipping_details.name,
+            orderId: _id,
+            addressLine1: shipping_details?.address?.line1,
+            addressLine2: shipping_details?.address?.line2,
+            postalCode: shipping_details?.address?.postal_code,
+            city: shipping_details?.address?.city,
+            state: shipping_details?.address?.state,
+            country: shipping_details?.address?.country,
+            townColor,
+            townName: name,
+            zipCode,
+            size,
+            price: '54.95',
+            orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm')
+          })
         });
 
         const order = await createPrintOrder({
