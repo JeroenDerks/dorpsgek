@@ -94,7 +94,7 @@ export default async function wehhookHandler(
       if (err instanceof Error) message = err.message;
       else message = String(err);
 
-      return res.status(500).send(`Webhook error: ${message}`);
+      return res.status(500).send(`Webhook error: ${JSON.stringify(message)}`);
     }
     res.status(200).send({});
   } else {
