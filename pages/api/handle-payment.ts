@@ -90,6 +90,8 @@ export default async function wehhookHandler(
         });
 
         if (!emailData) throw new Error('Error sending email');
+
+        res.status(200).send({});
       }
     } catch (err) {
       let message;
