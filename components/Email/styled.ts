@@ -62,7 +62,7 @@ export const container = {
   width: '600px',
   border: '1px solid #E5E5E5',
   padding: '16px',
-  background: '#ffffff'
+  backgroundColor: '#ffffff'
 };
 
 export const top = {
@@ -100,5 +100,5 @@ export const footer = {
 };
 
 export const html = {
-  background: '#ffffff'
+  backgroundColor: '#ffffff'
 };

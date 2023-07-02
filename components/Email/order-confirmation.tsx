@@ -34,8 +34,8 @@ export const OrderConfirmationEmail = ({
   country,
   customerName,
   postalCode,
-  orderDate,
-  orderId,
+  orderDate = '2 July 2023 11:12',
+  orderId = 'pi_3NPOCjHOXxf98pPw0gBFDrSa',
   size,
   state,
   townColor,
@@ -92,18 +92,13 @@ export const OrderConfirmationEmail = ({
         <Hr style={global.hr} />
         <Section style={global.defaultPadding}>
           <Row style={{ display: 'inline-flex', marginBottom: 40 }}>
-            <Column style={{ width: '170px' }}>
-              <Text style={{ ...global.paragraphWithBold, fontWeight: 500 }}>
-                Order nummer
-              </Text>
-              <Text>{orderId}</Text>
-            </Column>
-            <Column>
-              <Text style={{ ...global.paragraphWithBold, fontWeight: 500 }}>
-                Order datum
-              </Text>
-              <Text>{orderDate}</Text>
-            </Column>
+            <Text style={{ ...global.paragraphWithBold, fontWeight: '500' }}>
+              Order nummer: <span style={{ fontWeight: '300' }}>{orderId}</span>
+            </Text>
+            <Text style={{ ...global.paragraphWithBold, fontWeight: '500' }}>
+              Order datum:{' '}
+              <span style={{ fontWeight: '300' }}>{orderDate}</span>
+            </Text>
           </Row>
         </Section>
         <Hr style={{ ...global.hr, marginTop: '12px' }} />
