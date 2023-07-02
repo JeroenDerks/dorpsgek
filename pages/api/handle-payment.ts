@@ -21,14 +21,11 @@ export default async function wehhookHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  console.log('wehbook');
-  console.log(req.method);
   if (req.method === 'POST') {
     const buf = await buffer(req);
     const sig = req.headers['stripe-signature'];
     const webhookSecret = process.env.STRIPE_WEBHOOK_SIGNING_SECRET;
 
-    console.log('handle payment');
     let event;
     try {
       if (!stripe) throw new Error('Stripe not available');
@@ -36,7 +33,6 @@ export default async function wehhookHandler(
         throw new Error('No signature or no webhook secret');
 
       event = stripe.webhooks.constructEvent(buf, sig, webhookSecret);
-      console.log('event', event);
 
       if (!event) {
         throw new Error('Stripe checkout event not available');
@@ -63,14 +59,30 @@ export default async function wehhookHandler(
         console.log('zipCode', zipCode);
         console.log('size', size);
         console.log('_id', _id);
+        const townColor =
+          zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
-        const emailData = await resend.sendEmail({
+        await resend.sendEmail({
           from: 'info@mndorp.nl',
-          to: 'jeroenderks88@gmail.com',
-          subject: 'Order is received',
-          react: Email()
+          to: customer_email,
+          subject: 'Je bestelling is ontvangen',
+          react: Email({
+            customerName: shipping_details.name,
+            orderId: _id,
+            addressLine1: shipping_details?.address?.line1,
+            addressLine2: shipping_details?.address?.line2,
+            postalCode: shipping_details?.address?.postal_code,
+            city: shipping_details?.address?.city,
+            state: shipping_details?.address?.state,
+            country: shipping_details?.address?.country,
+            townColor,
+            townName: name,
+            zipCode,
+            size,
+            price: '54.95',
+            orderDate: format(event.created * 1000, 'd MMMM yyyy HH:mm')
+          })
         });
-        console.log(emailData);
 
         const order = await createPrintOrder({
           id: _id,
@@ -81,11 +93,6 @@ export default async function wehhookHandler(
         });
 
         if (!order) throw new Error('Error creating Gelato order');
-
-        console.info('order', order);
-
-        const townColor =
-          zipCode === '4251' ? '#e52424' : mapZipCodeToColor(zipCode);
 
         const message = {
           to: customer_email,
