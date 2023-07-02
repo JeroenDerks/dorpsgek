@@ -90,7 +90,8 @@ export default async function wehhookHandler(
         });
 
         if (!emailData) throw new Error('Error sending email');
-
+        res.status(200).send({});
+      } else {
         res.status(200).send({});
       }
     } catch (err) {
@@ -99,7 +100,6 @@ export default async function wehhookHandler(
       else message = String(err);
       return res.status(500).send(`Webhook error: ${JSON.stringify(message)}`);
     }
-    res.status(200).send({});
   } else {
     res.status(405).end('Method Not Allowed');
   }
