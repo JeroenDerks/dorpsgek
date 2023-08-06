@@ -1,18 +1,17 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import { styled } from '@mui/material';
-import Button from '@mui/material/Button';
+
 import { Box, MenuItem, Select, Typography } from '@mui/material';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
-import LoadingButton from '@mui/lab/LoadingButton';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 import { TownData, ShirtSizes } from '../../../types';
 import { Stack } from '@mui/system';
+import { Button } from '../../Button';
 
 const shirtSizes: { label: string; value: ShirtSizes }[] = [
   { label: 'Small', value: 's' },
@@ -27,20 +26,6 @@ const pointsOfTrust = [
   { label: 'Gemakkelijk retourneren', icon: AutorenewIcon },
   { label: 'Veilig betalen', icon: LockOutlinedIcon }
 ];
-
-const StyledLoadingButton = styled(LoadingButton)({
-  background: '#0b0a0e',
-  color: '#fff',
-  height: 42,
-
-  '&:hover': {
-    background: '#303032'
-  },
-
-  '& .MuiLoadingButton-loadingIndicator': {
-    color: '#f7f7f7'
-  }
-});
 
 export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
   const [size, setSize] = React.useState('');
@@ -99,9 +84,9 @@ export const ProductPurchaseControl = ({ town }: { town: TownData }) => {
         {error && <FormHelperText>Wat is je maat?</FormHelperText>}
       </FormControl>
       <Box mt={2}>
-        <StyledLoadingButton {...{ loading }} onClick={handleClick} fullWidth>
+        <Button {...{ loading }} onClick={handleClick} fullWidth>
           Koop
-        </StyledLoadingButton>
+        </Button>
       </Box>
       <Box display="flex" justifyContent="space-between" mt={3}>
         {pointsOfTrust.map(({ label, icon }) => {
