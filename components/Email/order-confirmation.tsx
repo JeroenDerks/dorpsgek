@@ -24,6 +24,7 @@ import {
   paragraph,
   top
 } from './styled';
+import { formatOrderId } from '../../utils/formatOrderId';
 
 const baseUrl = 'https://www.mndorp.nl';
 
@@ -85,7 +86,7 @@ export const OrderConfirmationEmail = ({
               <Text style={{ ...paragraph, fontWeight: '500' }}>
                 {townName} hoodie
               </Text>
-              <Text style={global.text}>Size {size}</Text>
+              <Text style={global.text}>Size {size.toUpperCase()}</Text>
             </Column>
           </Row>
         </Section>
@@ -93,7 +94,10 @@ export const OrderConfirmationEmail = ({
         <Section style={global.defaultPadding}>
           <Row style={{ display: 'inline-flex', marginBottom: 40 }}>
             <Text style={{ ...global.paragraphWithBold, fontWeight: '500' }}>
-              Order nummer: <span style={{ fontWeight: '300' }}>{orderId}</span>
+              Order nummer:{' '}
+              <span style={{ fontWeight: '300' }}>
+                {formatOrderId(orderId)}
+              </span>
             </Text>
             <Text style={{ ...global.paragraphWithBold, fontWeight: '500' }}>
               Order datum:{' '}

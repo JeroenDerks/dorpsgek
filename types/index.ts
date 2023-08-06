@@ -30,3 +30,4 @@ export type TownData = {
 };
 
 export type ShirtSizes = 's' | 'm' | 'l' | 'xl' | '2xl';
+export type Review = { name: string; review: string; stars: number };
