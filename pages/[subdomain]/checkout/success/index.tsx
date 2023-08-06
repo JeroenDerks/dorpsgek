@@ -89,7 +89,7 @@ export default function CheckoutSuccess() {
 
           {orderId && (
             <Typography fontSize={14}>
-              Order ID: {formatOrderId(orderId)}
+              Order nummer: {formatOrderId(orderId)}
             </Typography>
           )}
         </Box>
