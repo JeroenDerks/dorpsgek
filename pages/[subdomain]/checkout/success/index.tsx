@@ -1,14 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
-import { styled } from '@mui/material';
-import { Typography, Box } from '@mui/material';
+import { Typography, Box, styled } from '@mui/material';
+import { format } from 'date-fns';
 import { useRouter } from 'next/router';
+import Image from 'next/legacy/image';
 
-import { SupportedZipCodes, TownData } from '../../../../types';
+import { SupportedZipCodes } from '../../../../types';
 import { Section } from '../../../../components/Section';
 import { TownHeader } from '../../../../components/TownHeader';
 import { townData } from '../../../../data/townData';
-import Image from "next/legacy/image";
+import { formatOrderId } from '../../../../utils/formatOrderId';
 
 const ImageContainer = styled('div')({
   width: '100vw',
@@ -20,7 +21,7 @@ const ImageContainer = styled('div')({
   overflow: 'hidden'
 });
 
-const ProductImageContainer = styled('div')(({ theme }) => ({
+const ProductImageContainer = styled('div')({
   width: '100%',
   minHeight: 440,
   maxHeight: 440,
@@ -32,15 +33,31 @@ const ProductImageContainer = styled('div')(({ theme }) => ({
   marginBottom: -360,
   zIndex: 1,
   border: '2px solid white'
-}));
+});
 
 export default function CheckoutSuccess() {
+  const [orderId, setOrderId] = React.useState();
   const { query } = useRouter();
 
   const zipCode = query.zipcode;
   const town = townData.filter((town) => town.zipCodes[0] === zipCode)[0];
 
-  console.log(town);
+  React.useEffect(() => {
+    const getOrderId = async () => {
+      const req = await fetch(`/api/get-order-id/`, {
+        method: 'POST',
+        body: JSON.stringify({ session_id: query.session_id })
+      });
+
+      if (req.ok) {
+        const data = await req.json();
+        if (data.orderId) {
+          setOrderId(data.orderId);
+        }
+      }
+    };
+    getOrderId();
+  }, [query.session_id]);
 
   return (
     <>
@@ -53,10 +70,12 @@ export default function CheckoutSuccess() {
           content="Uit liefde voor mn dorp. Want er is zoveel om trots op te zijn."
         />
       </Head>
-      <TownHeader
-        zipCode={zipCode as SupportedZipCodes}
-        hideFreeShippingBanner
-      />
+      {zipCode && town && (
+        <TownHeader
+          zipCode={zipCode as SupportedZipCodes}
+          hideFreeShippingBanner
+        />
+      )}
       <Section>
         <Box my={10} px={3}>
           <Typography variant="h3">Gefeliciteerd met je bestelling.</Typography>
@@ -64,28 +83,41 @@ export default function CheckoutSuccess() {
             Jouw bestelling is ontvangen en je {town?.name} hoodie is zsm naar
             je onderweg
           </Typography>
+          <Typography mt={3} fontSize={14}>
+            Order datum: {format(new Date(), 'd MMMM')}
+          </Typography>
+
+          {orderId && (
+            <Typography fontSize={14}>
+              Order ID: {formatOrderId(orderId)}
+            </Typography>
+          )}
         </Box>
       </Section>
-      <Box display="flex" justifyContent="center" px={3}>
-        <ProductImageContainer>
-          <Image
-            src={`/product/${zipCode}_model.jpg`}
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            alt={`${town?.name} hoodie product `}
-          />
-        </ProductImageContainer>
-      </Box>
-      <ImageContainer>
-        <Image
-          src={`/map/${zipCode}.png`}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          alt={`map for ${town?.name}`}
-        />
-      </ImageContainer>
+      {zipCode && town.name && (
+        <>
+          <Box display="flex" justifyContent="center" px={3}>
+            <ProductImageContainer>
+              <Image
+                src={`/product/${zipCode}_model.jpg`}
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+                alt={`${town?.name} hoodie product `}
+              />
+            </ProductImageContainer>
+          </Box>
+          <ImageContainer>
+            <Image
+              src={`/map/${zipCode}.png`}
+              layout="fill"
+              objectFit="cover"
+              objectPosition="center"
+              alt={`map for ${town?.name}`}
+            />
+          </ImageContainer>
+        </>
+      )}
     </>
   );
 }
