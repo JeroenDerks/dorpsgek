@@ -40,7 +40,7 @@ export const createPrintOrder = async ({
     email: customer_email
   };
 
-  const testObject = {
+  const draftOrder = {
     orderType: 'draft',
     orderReferenceId: zipCode + '_' + id,
     customerReferenceId: zipCode + '_' + id,
@@ -68,6 +68,6 @@ export const createPrintOrder = async ({
       'Content-Type': 'application/json',
       'X-API-KEY': process.env.GELATO_API_KEY
     },
-    body: JSON.stringify(testObject)
+    body: JSON.stringify(draftOrder)
   });
 };

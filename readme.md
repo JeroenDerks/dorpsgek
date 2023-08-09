@@ -1,16 +1,20 @@
-# static.fun
+# mndorp
 
-Wildcard domains unlock the ability to build _platforms_ that scale. With zero-configuration, you're able to provide your customers with a personalized space on your host domain. If you haven't already read our [blog post](https://vercel.com/blog/wildcard-domains), then start there. This project is a fun and simple demonstration of wildcard domains where you are able to claim a page under any subdomain if its available and retain edit rights via a unique session identifier. Please feel free to raise issues, and send PRs where you may have questions or feel like bits of code can be improved!
+mndorp is een webshop voor iedereen die gek is op zn dorp. De webshop verkoopt hoodies waarbij de postcode van het dorp de graphic vormt. Daarnaast worden de kleuren van het lokale voetbal team verwerkt in het ontwerp. Elk dorp heeft zijn eigen subdomain, en voor de eerste test versie zijn de volgende 10 dorpen geselecteerd:
+
+1. [Bovenkarspel](https://bovenkarspel.mndorp.nl/)
+2. [Woudenberg](https://woudenberg.mndorp.nl/)
+3. [Werkendam](https://werkendam.mndorp.nl/)
+4. [Lewedorp](https://lewedorp.mndorp.nl/)
+5. [Siebengewald](https://siebengewald.mndorp.nl/)
+6. [Heythuysen](https://heythuysen.mndorp.nl/)
+7. [Puiflijk](https://puiflijk.mndorp.nl/)
+8. [Ruurlo](https://ruurlo.mndorp.nl/)
+9. [Oldebroek](https://oldebroek.mndorp.nl/)
+10. [Ulrum](https://ulrum.mndorp.nl/)
 
 ### Technologies:
 
-- [FaunaDB](https://fauna.com): high-performance, low-latency, and serverless persistence of page data, and session identifiers
-- [Twilio Sendgrid](https://sendgrid.com): dead simple programmatic email service for sending unique session links
-- [Pusher Channels](https://pusher.com/channels): globally distributed and managed WebSocket infrastructure for broadcasting real-time updates when saving pages
-
-### Building Scalable Multitenant Applications
-
-We recently launched the [Platforms Starter Kit](https://demo.vercel.pub/platforms-starter-kit) that's a comprehensive template for building multi-tenant applications with built-in custom domains support:
-- Read the announcement: https://demo.vercel.pub/platforms-starter-kit
-- Check out the guide: https://vercel.com/guides/nextjs-multi-tenant-application
-- Try out the repo: https://github.com/vercel/platforms
+- [Stripe](https://stripe.com/en-nl): Payments infrastructure for the internet
+- [Resend](https://resend.com/): dead simple programmatic email service for sending unique session links
+- [MUI](https://mui.com/): intuitive UI tools by Google

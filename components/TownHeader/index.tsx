@@ -1,8 +1,8 @@
 import React from 'react';
-import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 import { Typography, Stack, Box } from '@mui/material';
 import { styled } from '@mui/material';
 
+import { mapZipCodeToColor } from '../../utils/zipcodeToColor';
 import { SupportedZipCodes } from '../../types';
 
 const Container = styled(Stack)({
