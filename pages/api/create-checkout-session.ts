@@ -41,7 +41,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
       res.status(200).send({ url: session.url });
     } catch (err: unknown) {
-      console.log(err);
       if (err instanceof Error) {
         return res.status(500).json(err.message);
       } else res.status(500).json('Unknown error');

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import { zipCodesRaw } from '../../data/raw/zipCodesRaw';
+import { zipCodesRaw } from './zipCodesRaw';
 
 const AllZipCodes = () => {
   const ref = useRef(null);
@@ -36,7 +36,6 @@ const AllZipCodes = () => {
   };
 
   const handleData = async () => {
-    console.log(ref.current);
     const tableRows = ref.current.querySelectorAll('tr');
 
     const map = new Map();

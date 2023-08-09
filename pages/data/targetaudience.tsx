@@ -1,8 +1,6 @@
 import React from 'react';
 import { townData } from '../../data/townData';
-import { Color } from '../../types';
 import { chosenVillages } from '../../data/chosenVillages';
-import { colorNamesToRgb } from './../../data/colorMap';
 
 const tableHeader = [
   'Naam',
@@ -68,62 +66,53 @@ const TargetAudiencePage = () => {
     chosenVillages.includes(town.zipCodes[0])
   );
 
-  const convertRgbToText = (col: Color) => {
-    const result = Object.keys(colorNamesToRgb).filter((obj) => {
-      const currCol = colorNamesToRgb[obj];
-      if (
-        currCol[0] === col[0] &&
-        currCol[1] === col[1] &&
-        currCol[2] === col[2]
-      )
-        return obj;
-    });
-
-    return result;
-  };
-
   return (
     <div style={{ padding: '16px' }}>
       <div style={{ padding: '8px', maxWidth: 1000 }}>
         <h1>Gekozen dorpen:</h1>
         <table cellSpacing={8}>
-          <tr>
-            {tableHeader.map((title) => (
-              <td>
-                <b>{title}</b>
-              </td>
-            ))}
-            <td>
-              <b>Voetbal kleuren</b>
-            </td>
-          </tr>
-          <tr></tr>
-          {selectedTowns.map(
-            ({
-              name,
-              population,
-              perc_nederlands,
-              sportClubs,
-              ta1,
-              ta2,
-              zipCodes
-            }) => (
-              <tr>
-                <td>{name}</td>
-                <td>{zipCodes[0]}</td>
-                <td>{population.toLocaleString()}</td>
-                <td>{Math.round(ta1).toLocaleString()}</td>
-                <td>{Math.round(ta2).toLocaleString()}</td>
-                <td>{perc_nederlands}</td>
-                <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
-                <td style={{ textAlign: 'center' }}>
-                  <img
-                    src={`/tenues/${zipCodeClubColorMapping[zipCodes[0]]}.png`}
-                  />
+          <thead>
+            <tr>
+              {tableHeader.map((title) => (
+                <td key={title}>
+                  <b>{title}</b>
                 </td>
-              </tr>
-            )
-          )}
+              ))}
+              <td>
+                <b>Voetbal kleuren</b>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            {selectedTowns.map(
+              ({
+                name,
+                population,
+                perc_nederlands,
+                sportClubs,
+                ta1,
+                ta2,
+                zipCodes
+              }) => (
+                <tr key={name}>
+                  <td>{name}</td>
+                  <td>{zipCodes[0]}</td>
+                  <td>{population.toLocaleString()}</td>
+                  <td>{Math.round(ta1).toLocaleString()}</td>
+                  <td>{Math.round(ta2).toLocaleString()}</td>
+                  <td>{perc_nederlands}</td>
+                  <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
+                  <td style={{ textAlign: 'center' }}>
+                    <img
+                      src={`/tenues/${
+                        zipCodeClubColorMapping[zipCodes[0]]
+                      }.png`}
+                    />
+                  </td>
+                </tr>
+              )
+            )}
+          </tbody>
         </table>
       </div>
       <div style={{ padding: '8px', maxWidth: 880 }}>
@@ -153,46 +142,49 @@ const TargetAudiencePage = () => {
         </p>
       </div>
       <table cellSpacing={8}>
-        <tr>
-          {tableHeader.map((title) => (
+        <thead>
+          <tr>
+            {tableHeader.map((title) => (
+              <td key={title}>
+                <b>{title}</b>
+              </td>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>
-              <b>{title}</b>
+              <b>Totaal:</b>
             </td>
-          ))}
-        </tr>
-        <tr></tr>
-        <tr>
-          <td>
-            <b>Totaal:</b>
-          </td>
-          <td>...</td>
-          <td>{totaalAudience.population.toLocaleString()}</td>
-          <td>{Math.round(totaalAudience.ta1).toLocaleString()}</td>
-          <td>{Math.round(totaalAudience.ta2).toLocaleString()}</td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-        {sorted.map(
-          ({
-            name,
-            population,
-            perc_nederlands,
-            sportClubs,
-            ta1,
-            ta2,
-            zipCodes
-          }) => (
-            <tr>
-              <td>{name}</td>
-              <td>{zipCodes[0]}</td>
-              <td>{population.toLocaleString()}</td>
-              <td>{Math.round(ta1).toLocaleString()}</td>
-              <td>{Math.round(ta2).toLocaleString()}</td>
-              <td>{perc_nederlands}</td>
-              <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
-            </tr>
-          )
-        )}
+            <td>...</td>
+            <td>{totaalAudience.population.toLocaleString()}</td>
+            <td>{Math.round(totaalAudience.ta1).toLocaleString()}</td>
+            <td>{Math.round(totaalAudience.ta2).toLocaleString()}</td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          {sorted.map(
+            ({
+              name,
+              population,
+              perc_nederlands,
+              sportClubs,
+              ta1,
+              ta2,
+              zipCodes
+            }) => (
+              <tr key={name}>
+                <td>{name}</td>
+                <td>{zipCodes[0]}</td>
+                <td>{population.toLocaleString()}</td>
+                <td>{Math.round(ta1).toLocaleString()}</td>
+                <td>{Math.round(ta2).toLocaleString()}</td>
+                <td>{perc_nederlands}</td>
+                <td>{sportClubs?.map(({ name }) => name).join(' + ')}</td>
+              </tr>
+            )
+          )}
+        </tbody>
       </table>
     </div>
   );

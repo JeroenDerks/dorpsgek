@@ -1,7 +1,7 @@
 import { color } from '@mui/system';
 import React, { useRef } from 'react';
 
-import { footbalClubsRaw } from '../../data/raw/footbalClubsRaw';
+import { footbalClubsRaw } from './footbalClubsRaw';
 
 const AllClubs = () => {
   const ref = useRef(null);
@@ -41,7 +41,6 @@ const AllClubs = () => {
   };
 
   const handleData = () => {
-    console.log(ref.current);
     const tableRows = ref.current.querySelectorAll('tr');
 
     tableRows.forEach((tableRow, i) => {
