@@ -1,7 +1,7 @@
 import { color } from '@mui/system';
 import React, { useRef } from 'react';
 
-import { footbalClubsRaw } from './footbalClubsRaw';
+import { footbalClubsRaw } from '../../data/footbalClubsRaw';
 
 const AllClubs = () => {
   const ref = useRef(null);

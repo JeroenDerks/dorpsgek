@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import { zipCodesRaw } from './zipCodesRaw';
+import { zipCodesRaw } from '../../data/zipCodesRaw';
 
 const AllZipCodes = () => {
   const ref = useRef(null);
